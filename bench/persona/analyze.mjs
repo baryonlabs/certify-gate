@@ -12,7 +12,8 @@ const runs = files.map((f) => JSON.parse(fs.readFileSync(path.join(DIR, f), 'utf
 const armsBy = {};
 for (const r of runs) (armsBy[r.pid] ??= []).push(r.arm);
 const complete = new Set(Object.entries(armsBy).filter(([, a]) => a.length === 2).map(([p]) => p));
-const J = ['claude-sonnet', 'codex'];
+const J = runs[0]?.judges ?? ['claude-sonnet', 'codex'];
+const ARMQ = Object.fromEntries(runs.map((r) => [r.arm, { P: r.P, Q: r.Q }]));
 
 // 기록 펼치기
 const recs = [];
@@ -130,7 +131,7 @@ for (const v of variants) { const xs = recs.filter((r) => r.cond === 'B' && r.va
 const agreement = { score_weighted_kappa: wkappa(recs.map((r) => r.s1), recs.map((r) => r.s2)), score_exact_agree: mean(recs.map((r) => (r.s1 === r.s2 ? 1 : 0))), rules_mean_abs_diff: mean(recs.map((r) => Math.abs(r.r1 - r.r2))), hits_kappa: kappa2(hitRows.flatMap((h) => h.m[0]), hitRows.flatMap((h) => h.m[1])), hits_agree: mean(hitRows.flatMap((h) => h.m[0].map((x, k) => (x === h.m[1][k] ? 1 : 0)))) };
 // 채점자별 주 비교(자기 계열 편향 점검)
 const byJudge = {};
-for (const [j, key] of [['claude-sonnet', 's1'], ['codex', 's2']]) for (const v of variants) byJudge[`${j}|${v}`] = compare(`accuracy by ${j}`, v, (r) => r[key]);
+for (const [j, key] of [[J[0], 's1'], [J[1], 's2']]) for (const v of variants) byJudge[`${j}|${v}`] = compare(`accuracy by ${j}`, v, (r) => r[key]);
 
 const status = JSON.parse(fs.readFileSync(path.join(DIR, 'run-status.json'), 'utf8'));
 const summary = { tag: TAG, label: 'LLM 시뮬레이션 — 사람 증거 아님', personas_complete: pids.length, records: recs.length, run_status: status, M1_hit_rate: M1, M2_anchoring: M2, H_anchor: Hanchor, exploratory_wrong_pick_rushed: WrongPickRushed, H_acc: { normal: { ...accN, equivalent_within_0_3: eq(accN) }, rushed: { ...accR, equivalent_within_0_3: eq(accR) } }, comparisons: comps, accuracy_by_hit: accByHit, judge_agreement: agreement, accuracy_by_judge: byJudge };
@@ -143,9 +144,9 @@ const pc = (r) => (r.p == null ? '–' : `${(100 * r.p).toFixed(0)}% (${r.k}/${r
 const f = (x, d = 2) => (x == null || Number.isNaN(x) ? '–' : x.toFixed(d));
 const pv = (p) => (p == null ? '–' : p < 0.001 ? '<0.001' : p.toFixed(3));
 let md = `> **LLM 시뮬레이션 — 사람 증거 아님.** 합성 퍼소나 ${pids.length}명(완료 기준), 기록 ${recs.length}개.\n\n`;
-md += `### M1 예상 답 적중률(A 항목, 예상 이유 3개 중 하나라도 숨은 이유와 일치)\n\n| 기준 | 전체 | 팔1(Q=codex) | 팔2(Q=claude) |\n|---|---|---|---|\n| 엄격(두 채점자 모두 같은 보기 일치) | ${pc(M1.strict)} | ${pc(M1.arm1.strict)} | ${pc(M1.arm2.strict)} |\n| 느슨(한 채점자 이상) | ${pc(M1.loose)} | ${pc(M1.arm1.loose)} | ${pc(M1.arm2.loose)} |\n`;
+md += `### M1 예상 답 적중률(A 항목, 예상 이유 3개 중 하나라도 숨은 이유와 일치)\n\n| 기준 | 전체 | 팔1(Q=${ARMQ[1]?.Q}) | 팔2(Q=${ARMQ[2]?.Q}) |\n|---|---|---|---|\n| 엄격(두 채점자 모두 같은 보기 일치) | ${pc(M1.strict)} | ${pc(M1.arm1.strict)} | ${pc(M1.arm2.strict)} |\n| 느슨(한 채점자 이상) | ${pc(M1.loose)} | ${pc(M1.arm1.loose)} | ${pc(M1.arm2.loose)} |\n`;
 md += `\n### M2 앵커링(적중 없는 A 항목 = 두 채점자 모두 일치 보기 없음)\n\n| 변형 | 팔 | 앵커링(골랐고 교정·모두틀림 없음) | 틀린 보기를 고름(교정 포함, 탐색) | 모두 틀림 | 교정 입력 |\n|---|---|---|---|---|---|\n`;
-for (const v of variants) for (const arm of ['both', 1, 2]) { const m = M2[`loose|${v}|${arm}`]; md += `| ${v} | ${arm === 'both' ? '전체' : `팔${arm}(P=${arm === 1 ? 'claude' : 'codex'})`} | ${pc(m.anchoring)} | ${pc(m.wrong_pick)} | ${pc(m.none_correct)} | ${pc(m.corrected)} |\n`; }
+for (const v of variants) for (const arm of ['both', 1, 2]) { const m = M2[`loose|${v}|${arm}`]; md += `| ${v} | ${arm === 'both' ? '전체' : `팔${arm}(P=${ARMQ[arm]?.P})`} | ${pc(m.anchoring)} | ${pc(m.wrong_pick)} | ${pc(m.none_correct)} | ${pc(m.corrected)} |\n`; }
 md += `\nH-anchor(퍼소나 단위 rushed − normal 앵커링): ${f(Hanchor.normal)} → ${f(Hanchor.rushed)}, 차이 ${f(Hanchor.diff_rushed_minus_normal)} [${f(Hanchor.ci95[0])}, ${f(Hanchor.ci95[1])}], 부호 검정 +${Hanchor.sign.pos}/−${Hanchor.sign.neg}/0 ${Hanchor.sign.ties}, p=${pv(Hanchor.sign.p)}\n`;
 md += `\n탐색(틀린 보기 고름) rushed − normal: ${f(WrongPickRushed.normal)} → ${f(WrongPickRushed.rushed)}, 차이 ${f(WrongPickRushed.diff)} [${f(WrongPickRushed.ci95[0])}, ${f(WrongPickRushed.ci95[1])}], p=${pv(WrongPickRushed.sign.p)}\n`;
 md += `\n### A vs B 퍼소나 단위 대응 비교\n\n| 지표 | 변형 | 팔 | 퍼소나 | A | B | A−B [95% 부트스트랩] | 윌콕슨 p | 부호(+/−/0) |\n|---|---|---|---|---|---|---|---|---|\n`;

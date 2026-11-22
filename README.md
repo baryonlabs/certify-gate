@@ -41,6 +41,10 @@ node bench/pilot.mjs --n 12                           # 사람 파일럿 (docs/P
 ```
 결과·해석·한계: [docs/BENCHMARK.md](docs/BENCHMARK.md) (v1), [docs/BENCHMARK_v2.md](docs/BENCHMARK_v2.md) (v2: 정책 인증자·어려운 세트·주의 제한, 사전 등록 [docs/PREREG_v2.md](docs/PREREG_v2.md)). **LLM 시뮬레이션은 사람 행동의 대리일 뿐**이며 사람 파일럿 절차를 함께 제공합니다.
 
+
+## 합성 퍼소나 시뮬레이션
+`bench/persona/`: NVIDIA Nemotron-Personas-Korea(**CC BY 4.0**, https://huggingface.co/datasets/nvidia/Nemotron-Personas-Korea) 퍼소나를 LLM이 연기하는 셀프 설문 시뮬레이션. 결과·한계는 [docs/PERSONA_SIM.md](docs/PERSONA_SIM.md)에 있다(**LLM 시뮬레이션, 사람 증거 아님**). 퍼소나 데이터(`bench/persona/data/personas.json`)는 CC BY 4.0을 따르며 MIT 대상이 아니다.
+
 ## 구조
 ```
 src/state.js      상태 전이 규칙(순수 함수)      src/server.js   HTTP API + 정적 파일 (의존성 없음)

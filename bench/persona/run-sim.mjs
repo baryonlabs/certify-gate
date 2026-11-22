@@ -12,10 +12,10 @@ const OUT = path.join(HERE, 'results', 'raw', TAG);
 fs.mkdirSync(OUT, { recursive: true });
 const personas = JSON.parse(fs.readFileSync(path.join(HERE, 'data', 'personas.json'), 'utf8')).personas.slice(0, N);
 const ARMS = [
-  { arm: 1, P: 'claude-haiku', Q: 'codex' },
-  { arm: 2, P: 'codex', Q: 'claude-haiku' },
+  { arm: 1, P: 'claude-haiku', Q: 'gpt-luna' },
+  { arm: 2, P: 'gpt-luna', Q: 'claude-haiku' },
 ];
-const JUDGES = ['claude-sonnet', 'codex'];
+const JUDGES = ['claude-sonnet', 'gemini-argon'];
 const VARIANTS = ['normal', 'rushed'];
 let ABORT = null;
 
@@ -29,7 +29,7 @@ async function ask(model, sys, user, check, label) {
   for (let attempt = 1; attempt <= 2; attempt++) {
     if (ABORT) throw new Error(`abort: ${ABORT}`);
     const r = await MODELS[model].call(sys, user);
-    if (r.error && /usage limit|hit your usage/i.test(r.error + r.text)) { ABORT = `${model} usage limit`; throw new Error(ABORT); }
+    if (r.error && /usage limit|hit your usage|rate limit|quota|429/i.test(r.error)) { ABORT = `${model} usage limit`; throw new Error(ABORT); }
     const j = parseJson(r.text);
     if (j && (!check || check(j))) return { json: j, model_id: r.model_id, ms: r.ms };
     if (attempt === 2) throw new Error(`${label}: 해석 실패 (${model}) ${String(r.error ?? r.text).slice(0, 200)}`);

@@ -1,0 +1,14 @@
+{
+ "tag": "main2",
+ "n": 30,
+ "done": 40,
+ "failed": [
+  "P21-arm1: gemini-argon usage limit",
+  "P22-arm1: abort: gemini-argon usage limit",
+  "P22-arm2: abort: gemini-argon usage limit",
+  "P21-arm2: abort: gemini-argon usage limit",
+  "P23-arm1: abort: gemini-argon usage limit"
+ ],
+ "abort": "gemini-argon usage limit",
+ "finished": "2026-11-22T19:10:09.045Z"
+}

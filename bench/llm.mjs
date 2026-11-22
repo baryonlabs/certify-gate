@@ -24,7 +24,30 @@ export const MODELS = {
   'claude-sonnet': { family: 'anthropic', call: (sys, user) => claude('sonnet', sys, user) },
   // OpenAI 계열 (codex CLI 기본 모델)
   codex: { family: 'openai', call: (sys, user) => codex(null, sys, user) },
+  // opencode CLI (비대화 실행, stdin 닫음)
+  'gpt-luna': { family: 'openai', call: (sys, user) => opencode('opencode-go/gpt-6-luna', sys, user) },
+  'gemini-argon': { family: 'google', call: (sys, user) => opencode('opencode-go/gemini-4-argon', sys, user) },
 };
+
+function runNoStdin(cmd, args, timeoutMs, cwd) {
+  return new Promise((resolve) => {
+    const p = spawn(cmd, args, { stdio: ['ignore', 'pipe', 'pipe'], cwd });
+    let out = '', err = '';
+    const to = setTimeout(() => { p.kill('SIGKILL'); err += '\n[timeout]'; }, timeoutMs);
+    p.stdout.on('data', (d) => (out += d));
+    p.stderr.on('data', (d) => (err += d));
+    p.on('close', (code) => { clearTimeout(to); resolve({ code, out, err }); });
+  });
+}
+
+async function opencode(model, sys, user) {
+  const t0 = Date.now();
+  const prompt = `${sys}\n\n도구나 셸 명령, 파일 읽기를 하지 말고, 아래 내용만 보고 JSON으로만 답하라.\n\n${user}`;
+  const r = await runNoStdin('opencode', ['run', '-m', model, prompt], 300000, EMPTY);
+  const text = r.out.replace(/\x1b\[[0-9;]*m/g, '');
+  const limit = /rate limit|quota|usage limit|429/i.test(r.err) && !text.includes('{');
+  return { text, model_id: model, ms: Date.now() - t0, tokens: null, cost_usd: null, error: r.code !== 0 || limit ? (r.err || 'error').slice(-300) : null };
+}
 
 async function claude(model, sys, user) {
   const t0 = Date.now();
