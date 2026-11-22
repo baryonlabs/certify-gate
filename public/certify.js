@@ -114,5 +114,6 @@ document.addEventListener('click', async (ev) => {
   }
 });
 
+$('rule').textContent = `승인(인증)은 ① 모든 주장 문장의 원문 대조 체크${item.contested ? ' ② [쟁점] 검토' : ''}를 마쳐야 활성화됩니다. 보류·거부는 언제든 가능하지만 사유가 필요하며, 항목은 초안으로 돌아갑니다.`;
 renderDraft(); renderSources(null); renderContest(); renderGate();
 document.body.dataset.ready = '1';

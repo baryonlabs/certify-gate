@@ -54,6 +54,7 @@ export function createApp(opts = {}) {
   const routes = [
     ['GET', /^\/api\/me$/, (req) => actorOf(req) ?? { name: null, role: null }],
     ['GET', /^\/api\/config$/, () => ({ bench, conditions })],
+    ['GET', /^\/api\/pilot-plan$/, () => opts.pilotPlan ?? []],
     ['GET', /^\/api\/items$/, () => store.list().map((it) => ({ id: it.id, label: it.label, status: it.status, contested: isContested(it), n_sentences: it.sentences.length, round: it.round }))],
     ['GET', /^\/api\/items\/([^/]+)$/, (req, m, q) => {
       const it = store.get(decodeURIComponent(m[1]));
@@ -226,6 +227,7 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
     itemsFile: env.ITEMS_FILE,
     logFile: env.LOG_FILE,
     usersFile: env.USERS_FILE,
+    pilotPlan: env.PILOT_PLAN ? JSON.parse(fs.readFileSync(env.PILOT_PLAN, 'utf8')) : undefined,
   });
   const port = Number(env.PORT ?? 5173);
   server.listen(port, '127.0.0.1', () => console.log(`certify-gate http://127.0.0.1:${port}  (bench=${env.BENCH === '1'})`));

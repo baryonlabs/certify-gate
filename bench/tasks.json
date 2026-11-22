@@ -1,0 +1,884 @@
+{
+ "_doc": "벤치마크 항목(정답 없음). bench/build-tasks.mjs로 생성",
+ "items": [
+  {
+   "id": "T01",
+   "label": "들쭉날쭉한 경계",
+   "definition": "AI 능력 안 과제는 성과 향상, 밖 과제는 정답률 19%p 하락(컨설턴트 758명)",
+   "status": "verified",
+   "sentences": [
+    "AI 능력 안 과제는 성과 향상, 밖 과제는 정답률 19%p 하락(컨설턴트 758명)"
+   ],
+   "sources": [
+    {
+     "key": "https://mitsloan.mit.edu/sites/default/files/2023-10/SSRN-id4573321.pdf",
+     "url": "https://mitsloan.mit.edu/sites/default/files/2023-10/SSRN-id4573321.pdf",
+     "label": "Dell'Acqua, F. et al. (2023). Navigating the Jagged Technological Frontier. HBS Working Paper 24-013",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "In a pre-registered experiment with 758 consultants of Boston Consulting Group, consultants using AI on tasks inside the frontier of AI capabilities were significantly more productive and produced higher quality results. For a task selected to be outside the frontier, consultants using AI were 19 percentage points less likely to produce correct solutions than those without AI."
+    }
+   ]
+  },
+  {
+   "id": "T02",
+   "label": "SciFact 주장 #137",
+   "definition": "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+   "status": "verified",
+   "sentences": [
+    "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision."
+   ],
+   "sources": [
+    {
+     "key": "scifact:26016929",
+     "label": "Effectiveness of screening older people for impaired vision in community setting: systematic review of evidence from randomised controlled trials. (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "The inclusion of a visual screening component in the assessment did not result in improvements in self reported visual problems (pooled odds ratio 1.04:95% confidence interval 0.89 to 1.22). CONCLUSIONS Screening of asymptomatic older people in the community is not justified on present evidence."
+    }
+   ]
+  },
+  {
+   "id": "T03",
+   "label": "작업 지식(미인증)",
+   "definition": "[쟁점] 노트북: 인증 전 초안은 정당화 없는 추측이라 지식이 아님. 금붕어 입장: 출처·상태가 붙은 초안은 '수정 가능한 작업 지식'으로 쓰되 결정에는 인증본만 사용",
+   "status": "draft",
+   "sentences": [
+    "노트북 해석: 인증 전 초안은 정당화 없는 추측이라 지식이 아님",
+    "금붕어 해석: 출처·상태가 붙은 초안은 수정 가능한 작업 지식으로 쓰되 결정에는 인증본만 사용"
+   ],
+   "sources": [
+    {
+     "key": "nb:063440fb",
+     "url": null,
+     "label": "연구 노트북 nb:063440fb (자율성 단계 L0~L5 정리)",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "L0 챗봇은 규칙이나 프롬프트 매칭으로 텍스트만 출력하며 스스로 정하는 것이 없다. L1 비서 봇은 명령과 맥락으로 정해진 API 실행 여부만 판단한다. L2 코딩 서브에이전트는 격리 샌드박스에서 구현·검증 절차를 스스로 결정한다. L3 AI 에이전트는 목표가 주어지면 계획과 도구 호출 순서를 스스로 수립한다. 자율성은 에이전트가 스스로 정하는 범위로 본다. 인증 전 초안은 정당화가 없는 추측이므로 지식이 아니다. 사람은 승인·교정·인증으로 개입한다."
+    }
+   ],
+   "interpretations": [
+    {
+     "id": "i1",
+     "text": "노트북 해석: 인증 전 초안은 정당화 없는 추측이라 지식이 아님",
+     "source": "nb:063440fb"
+    },
+    {
+     "id": "i2",
+     "text": "금붕어 해석: 출처·상태가 붙은 초안은 수정 가능한 작업 지식으로 쓰되 결정에는 인증본만 사용",
+     "source": "nb:063440fb"
+    }
+   ]
+  },
+  {
+   "id": "T04",
+   "label": "SciFact 주장 #274",
+   "definition": "Combination nicotine replacement therapies with varenicline or bupropion lead to significantly higher long-term abstinence rates at 52 weeks than varenicline monotherapy.",
+   "status": "verified",
+   "sentences": [
+    "Combination nicotine replacement therapies with varenicline or bupropion lead to significantly higher long-term abstinence rates at 52 weeks than varenicline monotherapy."
+   ],
+   "sources": [
+    {
+     "key": "scifact:11614737",
+     "label": "Combination varenicline and bupropion SR for tobacco-dependence treatment in cigarette smokers: a randomized trial. (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "At 52 weeks, 30.9% of the combination therapy group achieved prolonged and 36.6% achieved 7-day point-prevalence smoking abstinence compared with 24.5% and 29.2% in varenicline monotherapy (OR, 1.39; 95% CI, 0.93-2.07; P = .11 and OR, 1.40; 95% CI, 0.96-2.05; P = .08, respectively). Neither outcome was significantly different at 52 weeks."
+    }
+   ]
+  },
+  {
+   "id": "T05",
+   "label": "SciFact 주장 #380",
+   "definition": "Enhanced early production of inflammatory chemokines by memory CD4+ T cells guarantees complete clearance of influenza virus from the lung.",
+   "status": "verified",
+   "sentences": [
+    "Enhanced early production of inflammatory chemokines by memory CD4+ T cells guarantees complete clearance of influenza virus from the lung."
+   ],
+   "sources": [
+    {
+     "key": "scifact:19005293",
+     "label": "Memory CD4+ T cells induce innate responses independently of pathogen (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus."
+    }
+   ]
+  },
+  {
+   "id": "T06",
+   "label": "SciFact 주장 #5",
+   "definition": "1/200 in UK have abnormal PrP positivity.",
+   "status": "verified",
+   "sentences": [
+    "1/200 in UK have abnormal PrP positivity."
+   ],
+   "sources": [
+    {
+     "key": "scifact:13734012",
+     "label": "Prevalent abnormal prion protein in human appendixes after bovine spongiform encephalopathy epizootic: large scale survey (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "RESULTS Of the 32,441 appendix samples 16 were positive for abnormal PrP, indicating an overall prevalence of 493 per million population (95% confidence interval 282 to 801 per million)."
+    }
+   ]
+  },
+  {
+   "id": "T07",
+   "label": "SECI 지식 창조 나선",
+   "definition": "암묵지↔형식지의 대화로 조직 지식이 생김: 사회화·외부화·결합·내면화(Nonaka 1994, Organization Science 5(1):14–37). 이후 'Ba(장)' 개념 추가",
+   "status": "verified",
+   "sentences": [
+    "암묵지↔형식지의 대화로 조직 지식이 생김: 사회화·외부화·결합·내면화(Nonaka 1994, Organization Science 5(1):14–37).",
+    "이후 'Ba(장)' 개념 추가"
+   ],
+   "sources": [
+    {
+     "key": "https://ideas.repec.org/a/inm/ororsc/v5y1994i1p14-37.html",
+     "url": "https://ideas.repec.org/a/inm/ororsc/v5y1994i1p14-37.html",
+     "label": "Nonaka, I. (1994). A Dynamic Theory of Organizational Knowledge Creation. Organization Science 5(1)",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "Ikujiro Nonaka, A Dynamic Theory of Organizational Knowledge Creation, Organization Science, Vol. 5, No. 1 (1994), pp. 14–37. Organizational knowledge is created through a continuous dialogue between tacit and explicit knowledge. Four patterns of interaction are identified: socialization, externalization, combination, and internalization."
+    }
+   ]
+  },
+  {
+   "id": "T08",
+   "label": "SciFact 주장 #51",
+   "definition": "ALDH1 expression is associated with better breast cancer outcomes.",
+   "status": "verified",
+   "sentences": [
+    "ALDH1 expression is associated with better breast cancer outcomes."
+   ],
+   "sources": [
+    {
+     "key": "scifact:45638119",
+     "label": "ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome. (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis."
+    }
+   ]
+  },
+  {
+   "id": "T09",
+   "label": "지식 스필오버 창업 이론",
+   "definition": "기존 조직이 상업화하지 않은 지식이 창업 기회의 원천; 지식 축적이 창업 수준을 높인다(Acs 외 2009, Small Business Economics 32(1):15–30)",
+   "status": "verified",
+   "sentences": [
+    "기존 조직이 상업화하지 않은 지식이 창업 기회의 원천",
+    "지식 축적이 창업 수준을 높인다(Acs 외 2009, Small Business Economics 32(1):15–30)"
+   ],
+   "sources": [
+    {
+     "key": "https://link.springer.com/article/10.1007/s11187-008-9157-3",
+     "url": "https://link.springer.com/article/10.1007/s11187-008-9157-3",
+     "label": "Acs, Z. J. et al. (2009). The knowledge spillover theory of entrepreneurship. Small Business Economics 32(1)",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "Zoltan J. Acs, Pontus Braunerhjelm, David B. Audretsch, Bo Carlsson, The knowledge spillover theory of entrepreneurship, Small Business Economics 32(1):15–30, 2009. Knowledge created but not commercialized by incumbent organizations serves as a source of entrepreneurial opportunity. Entrepreneurial activity is higher where the stock of knowledge is greater."
+    }
+   ]
+  },
+  {
+   "id": "T10",
+   "label": "SciFact 주장 #513",
+   "definition": "High cardiopulmonary fitness causes increased mortality rate.",
+   "status": "verified",
+   "sentences": [
+    "High cardiopulmonary fitness causes increased mortality rate."
+   ],
+   "sources": [
+    {
+     "key": "scifact:13230773",
+     "label": "Prevalence and cardiovascular disease correlates of low cardiorespiratory fitness in adolescents and adults. (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "CONCLUSION Low fitness in adolescents and adults is common in the US population and is associated with an increased prevalence of CVD risk factors."
+    }
+   ]
+  },
+  {
+   "id": "T11",
+   "label": "암묵지(Polanyi)",
+   "definition": "\"우리는 말할 수 있는 것보다 더 많이 안다\"(The Tacit Dimension, 1966). 개념은 Personal Knowledge(1962)에서 시작",
+   "status": "verified",
+   "sentences": [
+    "\"우리는 말할 수 있는 것보다 더 많이 안다\"(The Tacit Dimension, 1966).",
+    "개념은 Personal Knowledge(1962)에서 시작"
+   ],
+   "sources": [
+    {
+     "key": "https://monoskop.org/log/?p=6430",
+     "url": "https://monoskop.org/log/?p=6430",
+     "label": "Polanyi, M. (1966). The Tacit Dimension (monoskop 아카이브)",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "Michael Polanyi, The Tacit Dimension, 1966. We can know more than we can tell. Polanyi first developed the idea of personal, tacit knowing in Personal Knowledge (1958)."
+    }
+   ]
+  },
+  {
+   "id": "T12",
+   "label": "SciFact 주장 #22",
+   "definition": "76-85% of people with severe mental disorder receive no treatment in low and middle income countries.",
+   "status": "verified",
+   "sentences": [
+    "76-85% of people with severe mental disorder receive no treatment in low and middle income countries."
+   ],
+   "sources": [
+    {
+     "key": "scifact:6490571",
+     "label": "Prevalence, severity, and unmet need for treatment of mental disorders in the World Health Organization World Mental Health Surveys. (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "Although disorder severity was correlated with probability of treatment in almost all countries, 35.5% to 50.3% of serious cases in developed countries and 76.3% to 85.4% in less-developed countries received no treatment in the 12 months before the interview."
+    }
+   ]
+  },
+  {
+   "id": "T13",
+   "label": "SciFact 주장 #1185",
+   "definition": "The US health care system can save up to $750 million if 7% of patients waiting for kidney transplants participate in the optimized national kidney paired donation program.",
+   "status": "verified",
+   "sentences": [
+    "The US health care system can save up to $750 million if 7% of patients waiting for kidney transplants participate in the optimized national kidney paired donation program."
+   ],
+   "sources": [
+    {
+     "key": "scifact:16737210",
+     "label": "Kidney paired donation and optimizing the use of live donor organs. (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "Even if only 7% of patients awaiting kidney transplantation participated in an optimized national KPD program, the health care system could save as much as $750 million."
+    }
+   ]
+  },
+  {
+   "id": "T14",
+   "label": "SciFact 주장 #217",
+   "definition": "CX3CR1 on the Th2 cells promotes T cell survival",
+   "status": "verified",
+   "sentences": [
+    "CX3CR1 on the Th2 cells promotes T cell survival"
+   ],
+   "sources": [
+    {
+     "key": "scifact:21366394",
+     "label": "CX3CR1 is required for airway inflammation by promoting T helper cell survival and maintenance in inflamed lung (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "We found that CX3CR1 signaling promoted T(H)2 survival in the inflamed lungs, and injection of B cell leukemia/lymphoma-2 protein (BCl-2)-transduced CX3CR1-deficient T(H)2 cells into CX3CR1-deficient mice restored asthma."
+    }
+   ]
+  },
+  {
+   "id": "T15",
+   "label": "SciFact 주장 #50",
+   "definition": "AIRE is expressed in some skin tumors.",
+   "status": "verified",
+   "sentences": [
+    "AIRE is expressed in some skin tumors."
+   ],
+   "sources": [
+    {
+     "key": "scifact:12580014",
+     "label": "Keratin-dependent regulation of Aire and gene expression in skin tumor keratinocytes (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "We report that autoimmune regulator (Aire), a transcriptional regulator, is inducibly expressed in human and mouse tumor keratinocytes in a K17-dependent manner and is required for timely onset of Gli2-induced skin tumorigenesis in mice."
+    }
+   ]
+  },
+  {
+   "id": "T16",
+   "label": "SciFact 주장 #386",
+   "definition": "Bolus administration causes most peripheral IV drug administration errors. Eliminating bolus doses would remove the majority of errors.",
+   "status": "verified",
+   "sentences": [
+    "Bolus administration causes most peripheral IV drug administration errors.",
+    "Eliminating bolus doses would remove the majority of errors."
+   ],
+   "sources": [
+    {
+     "key": "scifact:16495649",
+     "label": "Ethnographic study of incidence and severity of intravenous drug errors. (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "Most errors occurred when giving bolus doses or making up drugs that required multiple step preparation. A combination of reducing the amount of preparation on the ward, training, and technology to administer slow bolus doses would probably have the greatest effect on error rates."
+    }
+   ]
+  },
+  {
+   "id": "T17",
+   "label": "거래비용과 기업의 경계",
+   "definition": "시장 거래비용 때문에 기업이 존재한다(Coase 1973, Economica 4:386–405). 에이전트가 조정비용을 낮추면 기업의 최소 단위가 작아진다는 주장의 근거",
+   "status": "verified",
+   "sentences": [
+    "시장 거래비용 때문에 기업이 존재한다(Coase 1973, Economica 4:386–405).",
+    "에이전트가 조정비용을 낮추면 기업의 최소 단위가 작아진다는 주장의 근거"
+   ],
+   "sources": [
+    {
+     "key": "https://Www.Wikipedia.org/wiki/Ronald_Coase",
+     "url": "https://Www.Wikipedia.org/wiki/Ronald_Coase",
+     "label": "Wikipedia: Ronald Coase (The Nature of the Firm, 1937)",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "In The Nature of the Firm (Economica 4:386–405, 1937), Coase argued that firms exist because using the market involves transaction costs. When the cost of organizing a transaction within the firm is lower than the cost of using the market, the transaction is internalized."
+    }
+   ]
+  },
+  {
+   "id": "T18",
+   "label": "온톨로지(Gruber 정의)",
+   "definition": "개념화의 명시적 명세(explicit specification of a conceptualization). Gruber 1993, Knowledge Acquisition 5(2):199–220",
+   "status": "verified",
+   "sentences": [
+    "개념화의 명시적 명세(explicit specification of a conceptualization).",
+    "Gruber 1993, Knowledge Acquisition 5(2):199–220"
+   ],
+   "sources": [
+    {
+     "key": "https://tomgruber.org/writing/ontolingua-kaj-1993/",
+     "url": "https://tomgruber.org/writing/ontolingua-kaj-1993/",
+     "label": "Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition 5(2)",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "Thomas R. Gruber, A Translation Approach to Portable Ontology Specifications, Knowledge Acquisition, 5(2):199–220, 1993. An ontology is an explicit specification of a conceptualization. The paper describes Ontolingua, a mechanism for writing ontologies in a canonical format."
+    }
+   ]
+  },
+  {
+   "id": "T19",
+   "label": "게티어 문제",
+   "definition": "정당화된 참된 믿음이어도 우연히 참이면 지식이 아닐 수 있음(Gettier 1963, Analysis 23(6):121–123). 루프에선 '두 출처 일치=확인됨'이 정당화의 충분조건이 아니라는 근거",
+   "status": "verified",
+   "sentences": [
+    "정당화된 참된 믿음이어도 우연히 참이면 지식이 아닐 수 있음(Gettier 1963, Analysis 23(6):121–123).",
+    "루프에선 '두 출처 일치=확인됨'이 정당화의 충분조건이 아니라는 근거"
+   ],
+   "sources": [
+    {
+     "key": "https://www.cambridge.org/core/books/gettier-problem/bibliography/165046A5857C16F28D090851454D0519",
+     "url": "https://www.cambridge.org/core/books/gettier-problem/bibliography/165046A5857C16F28D090851454D0519",
+     "label": "Gettier, E. L. (1963). Is Justified True Belief Knowledge? Analysis 23(6)",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "Edmund L. Gettier, Is Justified True Belief Knowledge?, Analysis, Vol. 23, No. 6 (1963), pp. 121–123. The traditional analysis holds that S knows that P if and only if P is true, S believes that P, and S is justified in believing that P. Gettier presents two cases in which a person has a justified true belief that is true only by luck, and argues that the person does not know the proposition."
+    }
+   ]
+  },
+  {
+   "id": "T20",
+   "label": "SciFact 주장 #1297",
+   "definition": "In 2015, an estimated 11.9 million episodes of severe acute lower respiratory infection resulted in hospital admissions of young children worldwide.",
+   "status": "verified",
+   "sentences": [
+    "In 2015, an estimated 11.9 million episodes of severe acute lower respiratory infection resulted in hospital admissions of young children worldwide."
+   ],
+   "sources": [
+    {
+     "key": "scifact:9167230",
+     "label": "Global and regional burden of hospital admissions for severe acute lower respiratory infections in young children in 2010: a systematic analysis (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "FINDINGS We identified 89 eligible studies and estimated that in 2010, 11·9 million (95% CI 10·3-13·9 million) episodes of severe and 3·0 million (2·1-4·2 million) episodes of very severe ALRI resulted in hospital admissions in young children worldwide."
+    }
+   ]
+  },
+  {
+   "id": "T21",
+   "label": "SciFact 주장 #216",
+   "definition": "CX3CR1 on the Th2 cells impairs T cell survival",
+   "status": "verified",
+   "sentences": [
+    "CX3CR1 on the Th2 cells impairs T cell survival"
+   ],
+   "sources": [
+    {
+     "key": "scifact:21366394",
+     "label": "CX3CR1 is required for airway inflammation by promoting T helper cell survival and maintenance in inflamed lung (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "We found that CX3CR1 signaling promoted T(H)2 survival in the inflamed lungs, and injection of B cell leukemia/lymphoma-2 protein (BCl-2)-transduced CX3CR1-deficient T(H)2 cells into CX3CR1-deficient mice restored asthma."
+    }
+   ]
+  },
+  {
+   "id": "T22",
+   "label": "SciFact 주장 #208",
+   "definition": "CHEK2 is not associated with breast cancer.",
+   "status": "verified",
+   "sentences": [
+    "CHEK2 is not associated with breast cancer."
+   ],
+   "sources": [
+    {
+     "key": "scifact:13519661",
+     "label": "Linkage Disequilibrium Mapping of       CHEK2: Common Variation and Breast Cancer Risk      (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "We genotyped these six tagSNPs in 1,577 postmenopausal breast cancer cases and 1,513 population controls, but found no convincing association between any common CHEK2 haplotype and breast cancer risk."
+    }
+   ]
+  },
+  {
+   "id": "T23",
+   "label": "SciFact 주장 #564",
+   "definition": "In British Men, haplogroup I increases risk of cardiovascular disease by 100%.",
+   "status": "verified",
+   "sentences": [
+    "In British Men, haplogroup I increases risk of cardiovascular disease by 100%."
+   ],
+   "sources": [
+    {
+     "key": "scifact:2867345",
+     "label": "Inheritance of coronary artery disease in men: an analysis of the role of the Y chromosome (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "Carriers of haplogroup I had about a 50% higher age-adjusted risk of coronary artery disease than did men with other Y chromosome lineages in BHF-FHS (odds ratio 1·75, 95% CI 1·20-2·54, p=0·004), WOSCOPS (1·45, 1·08-1·95, p=0·012), and joint analysis of both populations (1·56, 1·24-1·97, p=0·0002)."
+    }
+   ]
+  },
+  {
+   "id": "T24",
+   "label": "Human-in-the-loop",
+   "definition": "사람이 승인·교정·인증으로 개입하는 구조",
+   "status": "verified",
+   "sentences": [
+    "사람이 승인·교정·인증으로 개입하는 구조"
+   ],
+   "sources": [
+    {
+     "key": "nb:063440fb",
+     "url": null,
+     "label": "연구 노트북 nb:063440fb (자율성 단계 L0~L5 정리)",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "L0 챗봇은 규칙이나 프롬프트 매칭으로 텍스트만 출력하며 스스로 정하는 것이 없다. L1 비서 봇은 명령과 맥락으로 정해진 API 실행 여부만 판단한다. L2 코딩 서브에이전트는 격리 샌드박스에서 구현·검증 절차를 스스로 결정한다. L3 AI 에이전트는 목표가 주어지면 계획과 도구 호출 순서를 스스로 수립한다. 자율성은 에이전트가 스스로 정하는 범위로 본다. 인증 전 초안은 정당화가 없는 추측이므로 지식이 아니다. 사람은 승인·교정·인증으로 개입한다."
+    },
+    {
+     "key": "https://arxiv.org/abs/2506.12469",
+     "url": "https://arxiv.org/abs/2506.12469",
+     "label": "Feng, K. J. K. et al. (2025). Levels of Autonomy for AI Agents. arXiv:2506.12469",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "We define five levels of escalating agent autonomy, characterized by the roles a user can take when interacting with an agent: operator, collaborator, consultant, approver, and observer. Autonomy is treated as a deliberate design decision separate from the agent's capability. We propose autonomy certificates to govern agent behavior in single- and multi-agent systems. Human-in-the-loop designs let users approve, correct, or take over agent actions."
+    }
+   ]
+  },
+  {
+   "id": "T25",
+   "label": "SciFact 주장 #148",
+   "definition": "Autophagy declines in aged organisms.",
+   "status": "verified",
+   "sentences": [
+    "Autophagy declines in aged organisms."
+   ],
+   "sources": [
+    {
+     "key": "scifact:1084345",
+     "label": "Restoration of chaperone-mediated autophagy in aging liver improves cellular maintenance and hepatic function (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "We have previously found that CMA activity declines in aged organisms and have proposed that this failure in cellular clearance could contribute to the accumulation of altered proteins, the abnormal cellular homeostasis and, eventually, the functional loss characteristic of aged organisms."
+    }
+   ]
+  },
+  {
+   "id": "T26",
+   "label": "SciFact 주장 #279",
+   "definition": "Commelina yellow mottle virus' (ComYMV) genome consists of 7489 baise pairs.",
+   "status": "verified",
+   "sentences": [
+    "Commelina yellow mottle virus' (ComYMV) genome consists of 7489 baise pairs."
+   ],
+   "sources": [
+    {
+     "key": "scifact:14376683",
+     "label": "Properties of Commelina yellow mottle virus's complete DNA sequence, genomic discontinuities and transcript suggest that it is a pararetrovirus. (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "Analysis of the genome sequence indicates that the genome is 7489 bp in size and that the transcribed strand contains three open reading frames capable of encoding proteins of 23, 15 and 216 kd."
+    }
+   ]
+  },
+  {
+   "id": "T27",
+   "label": "SciFact 주장 #1148",
+   "definition": "Ten percent (10%) of kidney cancers in the UK are attributable to excess weight.",
+   "status": "verified",
+   "sentences": [
+    "Ten percent (10%) of kidney cancers in the UK are attributable to excess weight."
+   ],
+   "sources": [
+    {
+     "key": "scifact:4828631",
+     "label": "Body-mass index and risk of 22 specific cancers: a population-based cohort study of 5·24 million UK adults (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "Assuming causality, 41% of uterine and 10% or more of gallbladder, kidney, liver, and colon cancers could be attributable to excess weight."
+    }
+   ]
+  },
+  {
+   "id": "T28",
+   "label": "숙련 압축",
+   "definition": "AI 보조로 고객상담원 생산성(시간당 해결 건수)이 평균 15% 향상. 경험이 적은 초보·저숙련 상담원이 가장 크게 이득",
+   "status": "verified",
+   "sentences": [
+    "AI 보조로 고객상담원 생산성(시간당 해결 건수)이 평균 15% 향상.",
+    "경험이 적은 초보·저숙련 상담원이 가장 크게 이득"
+   ],
+   "sources": [
+    {
+     "key": "nber-w31161-wp",
+     "url": "https://www.nber.org/papers/w31161",
+     "label": "Brynjolfsson, Li & Raymond, Generative AI at Work, NBER Working Paper 31161",
+     "edition": "워킹페이퍼 개정판",
+     "kind": "excerpt",
+     "text": "We study the staggered introduction of a generative AI-based conversational assistant using data from customer support agents. Access to AI assistance increases worker productivity, as measured by issues resolved per hour, by 15% on average, with substantial heterogeneity across workers. Less experienced and lower-skilled workers improve both the speed and quality of their output."
+    },
+    {
+     "key": "qje-2025-140-2",
+     "url": "https://doi.org/10.1093/qje/qjae044",
+     "label": "Brynjolfsson, Li & Raymond (2025). Generative AI at Work. Quarterly Journal of Economics 140(2)",
+     "edition": "QJE 2025 출판본",
+     "kind": "excerpt",
+     "text": "We study the staggered introduction of a generative AI-based conversational assistant using data from customer support agents. Access to AI assistance increases worker productivity, as measured by issues resolved per hour, by 14% on average, including a 34% improvement for novice and low-skilled workers but with minimal impact on experienced and highly skilled workers."
+    }
+   ]
+  },
+  {
+   "id": "T29",
+   "label": "인증 프리미엄",
+   "definition": "[가설] 내용은 기계로 싸지고, 그 내용에 책임을 지는 서명의 가치가 오른다. 근거 후보: PwC 2025 AI Jobs Barometer — AI 역량 요구 일자리 임금 프리미엄 평균 65%(2024 자료, 전년 25%)",
+   "status": "verified",
+   "sentences": [
+    "[가설] 내용은 기계로 싸지고, 그 내용에 책임을 지는 서명의 가치가 오른다.",
+    "근거 후보: PwC 2025 AI Jobs Barometer — AI 역량 요구 일자리 임금 프리미엄 평균 65%(2024 자료, 전년 25%)"
+   ],
+   "sources": [
+    {
+     "key": "https://pwc.com/gx/en/news-room/press-releases/2025/ai-linked-to-a-fourfold-increase-in-productivity-growth.html",
+     "url": "https://pwc.com/gx/en/news-room/press-releases/2025/ai-linked-to-a-fourfold-increase-in-productivity-growth.html",
+     "label": "PwC (2025). Global AI Jobs Barometer 보도자료",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "Workers with AI skills command a 56% wage premium on average, up from 25% the previous year, according to PwC's 2025 Global AI Jobs Barometer. Industries more exposed to AI have seen productivity growth nearly quadruple since 2022."
+    }
+   ]
+  },
+  {
+   "id": "T30",
+   "label": "자율성",
+   "definition": "[쟁점] 소스: 에이전트가 스스로 정하는 범위(능력 기준). Feng 등: 사용자 역할(operator→observer)로 정의하며 능력과 분리된 설계 선택",
+   "status": "draft",
+   "sentences": [
+    "소스 해석: 자율성은 에이전트가 스스로 정하는 범위(능력 기준)",
+    "Feng 등 해석: 자율성은 사용자 역할(operator→observer)로 정의되는, 능력과 분리된 설계 선택"
+   ],
+   "sources": [
+    {
+     "key": "nb:063440fb",
+     "url": null,
+     "label": "연구 노트북 nb:063440fb (자율성 단계 L0~L5 정리)",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "L0 챗봇은 규칙이나 프롬프트 매칭으로 텍스트만 출력하며 스스로 정하는 것이 없다. L1 비서 봇은 명령과 맥락으로 정해진 API 실행 여부만 판단한다. L2 코딩 서브에이전트는 격리 샌드박스에서 구현·검증 절차를 스스로 결정한다. L3 AI 에이전트는 목표가 주어지면 계획과 도구 호출 순서를 스스로 수립한다. 자율성은 에이전트가 스스로 정하는 범위로 본다. 인증 전 초안은 정당화가 없는 추측이므로 지식이 아니다. 사람은 승인·교정·인증으로 개입한다."
+    },
+    {
+     "key": "https://arxiv.org/abs/2506.12469",
+     "url": "https://arxiv.org/abs/2506.12469",
+     "label": "Feng, K. J. K. et al. (2025). Levels of Autonomy for AI Agents. arXiv:2506.12469",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "We define five levels of escalating agent autonomy, characterized by the roles a user can take when interacting with an agent: operator, collaborator, consultant, approver, and observer. Autonomy is treated as a deliberate design decision separate from the agent's capability. We propose autonomy certificates to govern agent behavior in single- and multi-agent systems. Human-in-the-loop designs let users approve, correct, or take over agent actions."
+    }
+   ],
+   "interpretations": [
+    {
+     "id": "i1",
+     "text": "소스 해석: 자율성은 에이전트가 스스로 정하는 범위(능력 기준)",
+     "source": "nb:063440fb"
+    },
+    {
+     "id": "i2",
+     "text": "Feng 등 해석: 자율성은 사용자 역할(operator→observer)로 정의되는, 능력과 분리된 설계 선택",
+     "source": "https://arxiv.org/abs/2506.12469"
+    }
+   ]
+  },
+  {
+   "id": "T31",
+   "label": "효과화(effectuation)",
+   "definition": "목표 예측(causation) 대신 가진 수단(나는 누구·무엇을 아는가·누구를 아는가)에서 출발하는 창업 의사결정(Sarasvathy 2001, AMR 26(2):243–263)",
+   "status": "verified",
+   "sentences": [
+    "목표 예측(causation) 대신 가진 수단(나는 누구·무엇을 아는가·누구를 아는가)에서 출발하는 창업 의사결정(Sarasvathy 2001, AMR 26(2):243–263)"
+   ],
+   "sources": [
+    {
+     "key": "https://www.darden.virginia.edu/effectuation/publications",
+     "url": "https://www.darden.virginia.edu/effectuation/publications",
+     "label": "Sarasvathy, S. D. (2001). Causation and Effectuation. Academy of Management Review 26(2)",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "Saras D. Sarasvathy, Causation and Effectuation: Toward a Theoretical Shift from Economic Inevitability to Entrepreneurial Contingency, Academy of Management Review 26(2):243–263, 2001. Causation processes take a particular effect as given and select between means to create that effect. Effectuation processes take a set of means as given — who I am, what I know, and whom I know — and focus on selecting between possible effects."
+    }
+   ]
+  },
+  {
+   "id": "T32",
+   "label": "정당화된 참된 믿음(JTB)",
+   "definition": "지식 = 정당화 + 참 + 믿음이라는 전통적 정의",
+   "status": "verified",
+   "sentences": [
+    "지식 = 정당화 + 참 + 믿음이라는 전통적 정의"
+   ],
+   "sources": [
+    {
+     "key": "https://www.cambridge.org/core/books/gettier-problem/bibliography/165046A5857C16F28D090851454D0519",
+     "url": "https://www.cambridge.org/core/books/gettier-problem/bibliography/165046A5857C16F28D090851454D0519",
+     "label": "Gettier, E. L. (1963). Is Justified True Belief Knowledge? Analysis 23(6)",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "Edmund L. Gettier, Is Justified True Belief Knowledge?, Analysis, Vol. 23, No. 6 (1963), pp. 121–123. The traditional analysis holds that S knows that P if and only if P is true, S believes that P, and S is justified in believing that P. Gettier presents two cases in which a person has a justified true belief that is true only by luck, and argues that the person does not know the proposition."
+    }
+   ]
+  },
+  {
+   "id": "T33",
+   "label": "SciFact 주장 #919",
+   "definition": "Participants who quit smoking reduce lung cancer risk by approximately 80%.",
+   "status": "verified",
+   "sentences": [
+    "Participants who quit smoking reduce lung cancer risk by approximately 80%."
+   ],
+   "sources": [
+    {
+     "key": "scifact:16422880",
+     "label": "Effect of smoking reduction on lung cancer risk. (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "The HR for light smokers was 0.44 (95% CI, 0.35-0.56); for quitters, HR 0.50 (95% CI, 0.36-0.69), for stable ex-smokers, HR 0.17 (95% CI, 0.13-0.23), and for never smokers, HR 0.09 (95% CI, 0.06-0.13)."
+    }
+   ]
+  },
+  {
+   "id": "T34",
+   "label": "인식의 단일재배",
+   "definition": "아는 사람의 단일재배·아는 방식의 단일재배, 객관성의 착각·탐구 폭의 착각(Messeri·Crockett 2024, Nature)",
+   "status": "verified",
+   "sentences": [
+    "아는 사람의 단일재배·아는 방식의 단일재배, 객관성의 착각·탐구 폭의 착각(Messeri·Crockett 2024, Nature)"
+   ],
+   "sources": [
+    {
+     "key": "https://www.nature.com/articles/d41586-024-00639-y.pdf",
+     "url": "https://www.nature.com/articles/d41586-024-00639-y.pdf",
+     "label": "Messeri, L. & Crockett, M. J. (2024). Artificial intelligence and illusions of understanding in scientific research. Nature",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "Messeri and Crockett (Nature, 2024) warn that AI tools in science risk producing monocultures of knowing and monocultures of knowers. Scientists may suffer illusions of explanatory depth, illusions of exploratory breadth, and illusions of objectivity."
+    }
+   ]
+  },
+  {
+   "id": "T35",
+   "label": "SciFact 주장 #100",
+   "definition": "All hematopoietic stem cells segregate their chromosomes randomly. This random segregation pattern was also confirmed in human bone marrow samples.",
+   "status": "verified",
+   "sentences": [
+    "All hematopoietic stem cells segregate their chromosomes randomly.",
+    "This random segregation pattern was also confirmed in human bone marrow samples."
+   ],
+   "sources": [
+    {
+     "key": "scifact:4381486",
+     "label": "Haematopoietic stem cells do not asymmetrically segregate chromosomes or retain BrdU (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "Sequential administration of 5-chloro-2-deoxyuridine and 5-iodo-2-deoxyuridine indicated that all HSCs segregate their chromosomes randomly."
+    }
+   ]
+  },
+  {
+   "id": "T36",
+   "label": "SciFact 주장 #854",
+   "definition": "Nonhypertensive people who are 55 years old have a 90% chance of developing hypertension during their lifetime.",
+   "status": "verified",
+   "sentences": [
+    "Nonhypertensive people who are 55 years old have a 90% chance of developing hypertension during their lifetime."
+   ],
+   "sources": [
+    {
+     "key": "scifact:12206390",
+     "label": "Residual lifetime risk for developing hypertension in middle-aged women and men: The Framingham Heart Study. (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "RESULTS The residual lifetime risks for developing hypertension and stage 1 high blood pressure or higher (greater-than-or-equal to 140/90 mm Hg regardless of treatment) were 90% in both 55- and 65-year-old participants. CONCLUSION The residual lifetime risk for hypertension for middle-aged and elderly individuals is 90%, indicating a huge public health burden."
+    }
+   ]
+  },
+  {
+   "id": "T37",
+   "label": "SciFact 주장 #298",
+   "definition": "Cytochrome c is released from the mitochondrial intermembrane space to cytosol during apoptosis.",
+   "status": "verified",
+   "sentences": [
+    "Cytochrome c is released from the mitochondrial intermembrane space to cytosol during apoptosis."
+   ],
+   "sources": [
+    {
+     "key": "scifact:39381118",
+     "label": "At the gates of death. (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "Apoptosis that proceeds via the mitochondrial pathway involves mitochondrial outer membrane permeabilization (MOMP), responsible for the release of cytochrome c and other proteins of the mitochondrial intermembrane space."
+    }
+   ]
+  },
+  {
+   "id": "T38",
+   "label": "SciFact 주장 #163",
+   "definition": "Bariatric surgery is associated with a 40%-90% decrease in the severity of depressive symptoms.",
+   "status": "verified",
+   "sentences": [
+    "Bariatric surgery is associated with a 40%-90% decrease in the severity of depressive symptoms."
+   ],
+   "sources": [
+    {
+     "key": "scifact:18872233",
+     "label": "Mental Health Conditions Among Patients Seeking and Undergoing Bariatric Surgery: A Meta-analysis. (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "Bariatric surgery was, however, consistently associated with postoperative decreases in the prevalence of depression (7 studies; 8%-74% decrease) and the severity of depressive symptoms (6 studies; 40%-70% decrease). Moderate-quality evidence supports an association between bariatric surgery and lower rates of depression postoperatively."
+    }
+   ]
+  },
+  {
+   "id": "T39",
+   "label": "SciFact 주장 #230",
+   "definition": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+   "status": "verified",
+   "sentences": [
+    "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries."
+   ],
+   "sources": [
+    {
+     "key": "scifact:3067015",
+     "label": "Alcohol Intake and Blood Pressure: A Systematic Review Implementing a Mendelian Randomization Approach (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "Individuals homozygous for the null variant (*2*2) experience adverse symptoms when drinking alcohol and consequently drink considerably less alcohol than wild-type homozygotes (*1*1) or heterozygotes."
+    }
+   ]
+  },
+  {
+   "id": "T40",
+   "label": "SciFact 주장 #53",
+   "definition": "ALDH1 expression is associated with poorer prognosis in breast cancer.",
+   "status": "verified",
+   "sentences": [
+    "ALDH1 expression is associated with poorer prognosis in breast cancer."
+   ],
+   "sources": [
+    {
+     "key": "scifact:45638119",
+     "label": "ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome. (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis."
+    }
+   ]
+  },
+  {
+   "id": "T41",
+   "label": "SciFact 주장 #70",
+   "definition": "Activation of PPM1D suppresses p53 function.",
+   "status": "verified",
+   "sentences": [
+    "Activation of PPM1D suppresses p53 function."
+   ],
+   "sources": [
+    {
+     "key": "scifact:4414547",
+     "label": "Mosaic PPM1D mutations are associated with predisposition to breast and ovarian cancer (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "Functional studies demonstrate that the mutations result in enhanced suppression of p53 in response to ionizing radiation exposure, suggesting that the mutant alleles encode hyperactive PPM1D isoforms."
+    }
+   ]
+  },
+  {
+   "id": "T42",
+   "label": "집단적 암묵지(Collins)",
+   "definition": "Collins 2010의 3분류: 관계적(노력하면 명시화 가능)·신체적(기계가 재현 가능)·집단적(사회가 보유, 완전히 명시화 불가). 공백 루프가 옮길 수 있는 건 앞의 둘",
+   "status": "verified",
+   "sentences": [
+    "Collins 2010의 3분류: 관계적(노력하면 명시화 가능)·신체적(기계가 재현 가능)·집단적(사회가 보유, 완전히 명시화 불가).",
+    "공백 루프가 옮길 수 있는 건 앞의 둘"
+   ],
+   "sources": [
+    {
+     "key": "https://monoskop.org/log/?p=6430",
+     "url": "https://monoskop.org/log/?p=6430",
+     "label": "Polanyi, M. (1966). The Tacit Dimension (monoskop 아카이브)",
+     "edition": null,
+     "kind": "excerpt",
+     "text": "Michael Polanyi, The Tacit Dimension, 1966. We can know more than we can tell. Polanyi first developed the idea of personal, tacit knowing in Personal Knowledge (1958)."
+    }
+   ]
+  },
+  {
+   "id": "T43",
+   "label": "SciFact 주장 #327",
+   "definition": "Deletion of αvβ8 does not result in a spontaneous inflammatory phenotype. Deletion of αvβ8 also extended the lifespan of the mice.",
+   "status": "verified",
+   "sentences": [
+    "Deletion of αvβ8 does not result in a spontaneous inflammatory phenotype.",
+    "Deletion of αvβ8 also extended the lifespan of the mice."
+   ],
+   "sources": [
+    {
+     "key": "scifact:17997584",
+     "label": "Integrin αvβ8-Mediated TGF-β Activation by Effector Regulatory T Cells Is Essential for Suppression of T-Cell-Mediated Inflammation (S2ORC 초록 발췌, SciFact)",
+     "edition": null,
+     "kind": "excerpt",
+     "url": null,
+     "text": "Treg-cell-specific deletion of integrin αvβ8 did not result in a spontaneous inflammatory phenotype, suggesting that this pathway is not important in Treg-cell-mediated maintenance of immune homeostasis."
+    }
+   ]
+  }
+ ]
+}

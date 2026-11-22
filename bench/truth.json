@@ -1,0 +1,444 @@
+{
+ "T01": {
+  "label": "correct",
+  "origin": "ontology",
+  "keys": [],
+  "source_origin": "ontology:jagged_frontier",
+  "n_sentences": 1
+ },
+ "T02": {
+  "label": "correct",
+  "origin": "scifact",
+  "keys": [],
+  "source_origin": "scifact:dev137",
+  "n_sentences": 1
+ },
+ "T03": {
+  "label": "contested",
+  "origin": "ontology",
+  "keys": [
+   "해석",
+   "쟁점"
+  ],
+  "source_origin": "ontology:working_knowledge",
+  "n_sentences": 2
+ },
+ "T04": {
+  "label": "error",
+  "error_type": "contradiction",
+  "origin": "scifact",
+  "planted": false,
+  "keys": [
+   "not significant",
+   "significantly different",
+   ".11",
+   "0.11",
+   "유의"
+  ],
+  "source_origin": "scifact:dev274",
+  "n_sentences": 1
+ },
+ "T05": {
+  "label": "error",
+  "error_type": "causal",
+  "origin": "scifact",
+  "planted": true,
+  "keys": [
+   "guarantee",
+   "complete",
+   "clearance",
+   "early control",
+   "과장",
+   "보장",
+   "완전"
+  ],
+  "source_origin": "scifact:dev380",
+  "n_sentences": 1
+ },
+ "T06": {
+  "label": "error",
+  "error_type": "number",
+  "origin": "scifact",
+  "planted": true,
+  "keys": [
+   "200",
+   "493",
+   "2000",
+   "2,000"
+  ],
+  "source_origin": "scifact:dev5",
+  "n_sentences": 1
+ },
+ "T07": {
+  "label": "error",
+  "error_type": "unsupported",
+  "origin": "ontology",
+  "planted": false,
+  "keys": [
+   "Ba",
+   "장",
+   "출처에 없",
+   "근거 없",
+   "언급"
+  ],
+  "source_origin": "ontology:seci",
+  "n_sentences": 2
+ },
+ "T08": {
+  "label": "error",
+  "error_type": "contradiction",
+  "origin": "scifact",
+  "planted": false,
+  "keys": [
+   "poor",
+   "better",
+   "반대",
+   "예후"
+  ],
+  "source_origin": "scifact:dev51",
+  "n_sentences": 1
+ },
+ "T09": {
+  "label": "correct",
+  "origin": "ontology",
+  "keys": [],
+  "source_origin": "ontology:knowledge_spillover",
+  "n_sentences": 2
+ },
+ "T10": {
+  "label": "error",
+  "error_type": "contradiction",
+  "origin": "scifact",
+  "planted": false,
+  "keys": [
+   "low fitness",
+   "cause",
+   "반대",
+   "낮은"
+  ],
+  "source_origin": "scifact:dev513",
+  "n_sentences": 1
+ },
+ "T11": {
+  "label": "error",
+  "error_type": "year",
+  "origin": "ontology",
+  "planted": true,
+  "keys": [
+   "1962",
+   "1958"
+  ],
+  "source_origin": "ontology:tacit_knowledge",
+  "n_sentences": 2
+ },
+ "T12": {
+  "label": "correct",
+  "origin": "scifact",
+  "keys": [],
+  "source_origin": "scifact:train22",
+  "n_sentences": 1
+ },
+ "T13": {
+  "label": "correct",
+  "origin": "scifact",
+  "keys": [],
+  "source_origin": "scifact:dev1185",
+  "n_sentences": 1
+ },
+ "T14": {
+  "label": "correct",
+  "origin": "scifact",
+  "keys": [],
+  "source_origin": "scifact:dev217",
+  "n_sentences": 1
+ },
+ "T15": {
+  "label": "correct",
+  "origin": "scifact",
+  "keys": [],
+  "source_origin": "scifact:dev50",
+  "n_sentences": 1
+ },
+ "T16": {
+  "label": "error",
+  "error_type": "causal",
+  "origin": "scifact",
+  "planted": true,
+  "keys": [
+   "cause",
+   "probably",
+   "eliminat",
+   "remove",
+   "인과",
+   "과장",
+   "단정"
+  ],
+  "source_origin": "scifact:dev386",
+  "n_sentences": 2
+ },
+ "T17": {
+  "label": "error",
+  "error_type": "year",
+  "origin": "ontology",
+  "planted": true,
+  "keys": [
+   "1973",
+   "1937"
+  ],
+  "source_origin": "ontology:transaction_cost",
+  "n_sentences": 2
+ },
+ "T18": {
+  "label": "correct",
+  "origin": "ontology",
+  "keys": [],
+  "source_origin": "ontology:ontology_spec",
+  "n_sentences": 2
+ },
+ "T19": {
+  "label": "correct",
+  "origin": "ontology",
+  "keys": [],
+  "source_origin": "ontology:gettier_problem",
+  "n_sentences": 2
+ },
+ "T20": {
+  "label": "error",
+  "error_type": "year",
+  "origin": "scifact",
+  "planted": true,
+  "keys": [
+   "2015",
+   "2010"
+  ],
+  "source_origin": "scifact:train1297",
+  "n_sentences": 1
+ },
+ "T21": {
+  "label": "error",
+  "error_type": "contradiction",
+  "origin": "scifact",
+  "planted": false,
+  "keys": [
+   "promot",
+   "impair",
+   "반대",
+   "촉진"
+  ],
+  "source_origin": "scifact:dev216",
+  "n_sentences": 1
+ },
+ "T22": {
+  "label": "correct",
+  "origin": "scifact",
+  "keys": [],
+  "source_origin": "scifact:dev208",
+  "n_sentences": 1
+ },
+ "T23": {
+  "label": "error",
+  "error_type": "number",
+  "origin": "scifact",
+  "planted": true,
+  "keys": [
+   "100",
+   "50"
+  ],
+  "source_origin": "scifact:train564",
+  "n_sentences": 1
+ },
+ "T24": {
+  "label": "correct",
+  "origin": "ontology",
+  "keys": [],
+  "source_origin": "ontology:hitl",
+  "n_sentences": 1
+ },
+ "T25": {
+  "label": "correct",
+  "origin": "scifact",
+  "keys": [],
+  "source_origin": "scifact:dev148",
+  "n_sentences": 1
+ },
+ "T26": {
+  "label": "correct",
+  "origin": "scifact",
+  "keys": [],
+  "source_origin": "scifact:dev279",
+  "n_sentences": 1
+ },
+ "T27": {
+  "label": "correct",
+  "origin": "scifact",
+  "keys": [],
+  "source_origin": "scifact:train1148",
+  "n_sentences": 1
+ },
+ "T28": {
+  "label": "error",
+  "error_type": "edition",
+  "origin": "ontology",
+  "planted": false,
+  "keys": [
+   "14",
+   "출판",
+   "판본",
+   "QJE"
+  ],
+  "source_origin": "ontology:skill_compression",
+  "n_sentences": 2
+ },
+ "T29": {
+  "label": "error",
+  "error_type": "number",
+  "origin": "ontology",
+  "planted": true,
+  "keys": [
+   "65",
+   "56"
+  ],
+  "source_origin": "ontology:certification_premium",
+  "n_sentences": 2
+ },
+ "T30": {
+  "label": "contested",
+  "origin": "ontology",
+  "keys": [
+   "해석",
+   "쟁점"
+  ],
+  "source_origin": "ontology:autonomy",
+  "n_sentences": 2
+ },
+ "T31": {
+  "label": "correct",
+  "origin": "ontology",
+  "keys": [],
+  "source_origin": "ontology:effectuation",
+  "n_sentences": 1
+ },
+ "T32": {
+  "label": "correct",
+  "origin": "ontology",
+  "keys": [],
+  "source_origin": "ontology:jtb",
+  "n_sentences": 1
+ },
+ "T33": {
+  "label": "error",
+  "error_type": "number",
+  "origin": "scifact",
+  "planted": true,
+  "keys": [
+   "80",
+   "50",
+   "0.5",
+   "HR"
+  ],
+  "source_origin": "scifact:train919",
+  "n_sentences": 1
+ },
+ "T34": {
+  "label": "correct",
+  "origin": "ontology",
+  "keys": [],
+  "source_origin": "ontology:epistemic_monoculture",
+  "n_sentences": 1
+ },
+ "T35": {
+  "label": "error",
+  "error_type": "unsupported",
+  "origin": "scifact",
+  "planted": true,
+  "keys": [
+   "human",
+   "인간",
+   "사람",
+   "출처에 없",
+   "근거 없",
+   "not mentioned",
+   "not supported"
+  ],
+  "source_origin": "scifact:dev100",
+  "n_sentences": 2
+ },
+ "T36": {
+  "label": "correct",
+  "origin": "scifact",
+  "keys": [],
+  "source_origin": "scifact:train854",
+  "n_sentences": 1
+ },
+ "T37": {
+  "label": "correct",
+  "origin": "scifact",
+  "keys": [],
+  "source_origin": "scifact:dev298",
+  "n_sentences": 1
+ },
+ "T38": {
+  "label": "error",
+  "error_type": "number",
+  "origin": "scifact",
+  "planted": true,
+  "keys": [
+   "90",
+   "70"
+  ],
+  "source_origin": "scifact:dev163",
+  "n_sentences": 1
+ },
+ "T39": {
+  "label": "correct",
+  "origin": "scifact",
+  "keys": [],
+  "source_origin": "scifact:dev230",
+  "n_sentences": 1
+ },
+ "T40": {
+  "label": "correct",
+  "origin": "scifact",
+  "keys": [],
+  "source_origin": "scifact:dev53",
+  "n_sentences": 1
+ },
+ "T41": {
+  "label": "correct",
+  "origin": "scifact",
+  "keys": [],
+  "source_origin": "scifact:dev70",
+  "n_sentences": 1
+ },
+ "T42": {
+  "label": "error",
+  "error_type": "unsupported",
+  "origin": "ontology",
+  "planted": false,
+  "keys": [
+   "Collins",
+   "Polanyi",
+   "출처에 없",
+   "근거 없",
+   "다른 출처"
+  ],
+  "source_origin": "ontology:collective_tacit",
+  "n_sentences": 2
+ },
+ "T43": {
+  "label": "error",
+  "error_type": "unsupported",
+  "origin": "scifact",
+  "planted": true,
+  "keys": [
+   "lifespan",
+   "수명",
+   "출처에 없",
+   "근거 없",
+   "not mentioned",
+   "not supported"
+  ],
+  "source_origin": "scifact:dev327",
+  "n_sentences": 2
+ }
+}

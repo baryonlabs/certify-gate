@@ -1,0 +1,18 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>파일럿 대기열 — certify-gate</title><link rel="stylesheet" href="/app.css"></head>
+<body><main><div class="panel"><h2>사람 파일럿 대기열</h2>
+<p class="muted">위에서부터 순서대로 여세요. 각 화면에서 결정을 내리면 시간(화면을 연 순간 → 결정)이 자동 기록됩니다. 같은 항목을 다시 열지 마세요.
+한 항목을 연 뒤 자리를 비우면 시간이 왜곡되므로, 쉬려면 결정 직후에 쉬세요.</p>
+<table class="list"><thead><tr><th>#</th><th>항목</th><th>화면</th><th></th></tr></thead><tbody id="q"></tbody></table></div></main>
+<script type="module">
+import { api, header, esc } from '/common.js';
+await header();
+const plan = await api('GET', '/api/pilot-plan');
+const log = await api('GET', '/api/log');
+const done = new Set(log.map((r) => r.meta));
+document.getElementById('q').innerHTML = plan.map((p, i) => {
+  const url = p.cond === 'A' ? `/certify.html?id=${p.id}&meta=${encodeURIComponent(p.meta)}` : `/review.html?id=${p.id}&condition=${p.cond}&meta=${encodeURIComponent(p.meta)}`;
+  return `<tr><td>${i + 1}</td><td><code>${esc(p.id)}</code></td><td>${p.cond === 'A' ? '인증 화면(게이트)' : p.cond === 'B' ? '일반 검토 화면' : '초안만'}</td>
+    <td>${done.has(p.meta) ? '완료' : `<a href="${url}">열기 →</a>`}</td></tr>`;
+}).join('');
+</script></body></html>
