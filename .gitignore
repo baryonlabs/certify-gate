@@ -2,6 +2,7 @@ node_modules/
 work/
 test-results/
 playwright-report/
-bench/results/raw/
+bench/results/raw/*
+!bench/results/raw/main/
 .DS_Store
 .e2e-work/
