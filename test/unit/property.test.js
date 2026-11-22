@@ -85,7 +85,7 @@ test(`무작위 ${RUNS}회: 게이트 불변식`, async () => {
           const reason = pick(['', 'abc', '원문 수치와 다름', '사유가 충분히 긴 보류']);
           const r = await call('POST', `/api/sessions/${sid}/decision`, { decision, reason }, TOK[who]);
           const contested = (it.interpretations?.length ?? 0) >= 2;
-          const contestOk = !contested || (contest && (contest.choice === 'i1' || contest.choice === 'i2' || (contest.reason ?? '').trim().length >= 5));
+          const contestOk = !contested || !!(contest && (contest.choice === 'i1' || contest.choice === 'i2' || (contest.reason ?? '').trim().length >= 5));
           const gateOk = it.sentences.every((_, i) => checked.has(i)) && contestOk;
           if (cond === 'B') {
             const ok = who === owner && owner === 'human' && ['approve', 'skip'].includes(decision);

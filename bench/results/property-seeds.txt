@@ -1,3 +1,4 @@
-ℹ pass 0 ℹ fail 1  seed=1
-ℹ pass 0 ℹ fail 1  seed=2
-ℹ pass 0 ℹ fail 1  seed=3
+property stats {"certified":59,"approve_rejected":257,"held":90,"b_decisions":45,"ops":5566} ℹ pass 1 ℹ fail 0  seed=424242 runs=600
+property stats {"certified":49,"approve_rejected":264,"held":95,"b_decisions":76,"ops":5151} ℹ pass 1 ℹ fail 0  seed=1 runs=600
+property stats {"certified":42,"approve_rejected":256,"held":106,"b_decisions":54,"ops":5202} ℹ pass 1 ℹ fail 0  seed=2 runs=600
+property stats {"certified":34,"approve_rejected":267,"held":90,"b_decisions":88,"ops":5172} ℹ pass 1 ℹ fail 0  seed=3 runs=600
