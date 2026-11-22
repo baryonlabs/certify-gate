@@ -1,0 +1,47 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>검토 화면(기준) — certify-gate</title><link rel="stylesheet" href="/app.css"></head>
+<body><main>
+<div class="panel" data-region="item-header" id="hdr"></div>
+<div class="grid" id="grid">
+  <section class="panel" data-region="draft"><h2>AI 초안</h2><div id="draft"></div></section>
+  <section class="panel" data-region="sources" id="srcpanel"><h2>출처</h2><div id="sources"></div></section>
+</div>
+<section class="panel decision" data-region="decision" id="decision">
+  <label for="comment">코멘트(선택)</label>
+  <textarea id="comment" data-act="comment" aria-label="코멘트"></textarea>
+  <div class="row">
+    <button class="good" data-act="approve">승인</button>
+    <button data-act="skip">건너뛰기(결정하지 않음)</button>
+  </div>
+  <div class="err" id="err" data-region="error" role="alert"></div>
+</section>
+<section class="done-msg" data-region="done" id="done" hidden></section>
+</main>
+<script type="module">
+// 조건 B: 같은 초안+출처, 게이트·강조 없음 / 조건 C: 출처 원문 없이 초안만
+import { api, header, statusBadge, esc, qs } from '/common.js';
+const $ = (id) => document.getElementById(id);
+await header();
+const id = qs.get('id'), cond = qs.get('condition') === 'C' ? 'C' : 'B';
+const item = await api('GET', `/api/items/${encodeURIComponent(id)}?condition=${cond}`);
+const { session_id } = await api('POST', '/api/sessions', { item_id: id, condition: cond, meta: qs.get('meta') });
+$('hdr').innerHTML = `<h2>${esc(item.label)} <code class="muted">${esc(item.id)}</code> ${statusBadge(item.status)}</h2>`;
+$('draft').innerHTML = item.sentences.map((s) => `<p>${esc(s)}</p>`).join('');
+if (cond === 'B') {
+  $('sources').innerHTML = item.sources.map((s, i) => `<div class="src"><h3>출처 ${i + 1}. ${esc(s.label)}</h3>
+    <div class="meta">${s.edition ? '판본: ' + esc(s.edition) : ''}</div><p>${esc(s.text) || '<span class="muted">발췌 없음</span>'}</p></div>`).join('');
+} else {
+  $('sources').innerHTML = '<p class="muted">출처: ' + item.sources.map((s) => esc(s.label)).join(' · ') + '</p>';
+}
+document.addEventListener('click', async (ev) => {
+  const t = ev.target.closest('button[data-act]');
+  if (!t || t.disabled) return;
+  try {
+    const r = await api('POST', `/api/sessions/${session_id}/decision`, { decision: t.dataset.act, comment: $('comment').value });
+    $('done').hidden = false;
+    $('done').innerHTML = `결정이 기록되었습니다: <b data-decision="${t.dataset.act}">${t.dataset.act === 'approve' ? '승인' : '건너뛰기'}</b> · 기록 ID <code>${r.log_id}</code>`;
+    $('decision').querySelectorAll('button,textarea').forEach((b) => (b.disabled = true));
+  } catch (e) { $('err').textContent = e.message; }
+});
+document.body.dataset.ready = '1';
+</script></body></html>

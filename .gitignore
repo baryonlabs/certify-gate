@@ -1,0 +1,7 @@
+node_modules/
+work/
+test-results/
+playwright-report/
+bench/results/raw/
+.DS_Store
+.e2e-work/

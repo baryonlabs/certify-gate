@@ -1,0 +1,5 @@
+[
+  { "name": "저자", "role": "human", "token": "human-dev-token" },
+  { "name": "검토자2", "role": "human", "token": "human2-dev-token" },
+  { "name": "bot-2", "role": "agent", "token": "agent-dev-token" }
+]

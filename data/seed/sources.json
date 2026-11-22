@@ -1,0 +1,142 @@
+{
+ "_doc": "출처 키(ontology terms[].sources) → 1차 출처 발췌. kind=reconstructed는 재구성 발췌.",
+ "sources": {
+  "https://www.cambridge.org/core/books/gettier-problem/bibliography/165046A5857C16F28D090851454D0519": {
+   "label": "Gettier, E. L. (1963). Is Justified True Belief Knowledge? Analysis 23(6)",
+   "edition": null,
+   "text": "Edmund L. Gettier, Is Justified True Belief Knowledge?, Analysis, Vol. 23, No. 6 (1963), pp. 121–123. The traditional analysis holds that S knows that P if and only if P is true, S believes that P, and S is justified in believing that P. Gettier presents two cases in which a person has a justified true belief that is true only by luck, and argues that the person does not know the proposition.",
+   "kind": "reconstructed",
+   "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
+  },
+  "https://tomgruber.org/writing/ontolingua-kaj-1993/": {
+   "label": "Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition 5(2)",
+   "edition": null,
+   "text": "Thomas R. Gruber, A Translation Approach to Portable Ontology Specifications, Knowledge Acquisition, 5(2):199–220, 1993. An ontology is an explicit specification of a conceptualization. The paper describes Ontolingua, a mechanism for writing ontologies in a canonical format.",
+   "kind": "reconstructed",
+   "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
+  },
+  "https://ideas.repec.org/a/inm/ororsc/v5y1994i1p14-37.html": {
+   "label": "Nonaka, I. (1994). A Dynamic Theory of Organizational Knowledge Creation. Organization Science 5(1)",
+   "edition": null,
+   "text": "Ikujiro Nonaka, A Dynamic Theory of Organizational Knowledge Creation, Organization Science, Vol. 5, No. 1 (1994), pp. 14–37. Organizational knowledge is created through a continuous dialogue between tacit and explicit knowledge. Four patterns of interaction are identified: socialization, externalization, combination, and internalization.",
+   "kind": "reconstructed",
+   "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
+  },
+  "https://link.springer.com/article/10.1007/s11187-008-9157-3": {
+   "label": "Acs, Z. J. et al. (2009). The knowledge spillover theory of entrepreneurship. Small Business Economics 32(1)",
+   "edition": null,
+   "text": "Zoltan J. Acs, Pontus Braunerhjelm, David B. Audretsch, Bo Carlsson, The knowledge spillover theory of entrepreneurship, Small Business Economics 32(1):15–30, 2009. Knowledge created but not commercialized by incumbent organizations serves as a source of entrepreneurial opportunity. Entrepreneurial activity is higher where the stock of knowledge is greater.",
+   "kind": "reconstructed",
+   "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
+  },
+  "https://www.darden.virginia.edu/effectuation/publications": {
+   "label": "Sarasvathy, S. D. (2001). Causation and Effectuation. Academy of Management Review 26(2)",
+   "edition": null,
+   "text": "Saras D. Sarasvathy, Causation and Effectuation: Toward a Theoretical Shift from Economic Inevitability to Entrepreneurial Contingency, Academy of Management Review 26(2):243–263, 2001. Causation processes take a particular effect as given and select between means to create that effect. Effectuation processes take a set of means as given — who I am, what I know, and whom I know — and focus on selecting between possible effects.",
+   "kind": "reconstructed",
+   "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
+  },
+  "https://Www.Wikipedia.org/wiki/Ronald_Coase": {
+   "label": "Wikipedia: Ronald Coase (The Nature of the Firm, 1937)",
+   "edition": null,
+   "text": "In The Nature of the Firm (Economica 4:386–405, 1937), Coase argued that firms exist because using the market involves transaction costs. When the cost of organizing a transaction within the firm is lower than the cost of using the market, the transaction is internalized.",
+   "kind": "reconstructed",
+   "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
+  },
+  "https://monoskop.org/log/?p=6430": {
+   "label": "Polanyi, M. (1966). The Tacit Dimension (monoskop 아카이브)",
+   "edition": null,
+   "text": "Michael Polanyi, The Tacit Dimension, 1966. We can know more than we can tell. Polanyi first developed the idea of personal, tacit knowing in Personal Knowledge (1958).",
+   "kind": "reconstructed",
+   "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
+  },
+  "https://mitsloan.mit.edu/sites/default/files/2023-10/SSRN-id4573321.pdf": {
+   "label": "Dell'Acqua, F. et al. (2023). Navigating the Jagged Technological Frontier. HBS Working Paper 24-013",
+   "edition": null,
+   "text": "In a pre-registered experiment with 758 consultants of Boston Consulting Group, consultants using AI on tasks inside the frontier of AI capabilities were significantly more productive and produced higher quality results. For a task selected to be outside the frontier, consultants using AI were 19 percentage points less likely to produce correct solutions than those without AI.",
+   "kind": "reconstructed",
+   "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
+  },
+  "https://www.nature.com/articles/d41586-024-00639-y.pdf": {
+   "label": "Messeri, L. & Crockett, M. J. (2024). Artificial intelligence and illusions of understanding in scientific research. Nature",
+   "edition": null,
+   "text": "Messeri and Crockett (Nature, 2024) warn that AI tools in science risk producing monocultures of knowing and monocultures of knowers. Scientists may suffer illusions of explanatory depth, illusions of exploratory breadth, and illusions of objectivity.",
+   "kind": "reconstructed",
+   "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
+  },
+  "https://arxiv.org/abs/2506.12469": {
+   "label": "Feng, K. J. K. et al. (2025). Levels of Autonomy for AI Agents. arXiv:2506.12469",
+   "edition": null,
+   "text": "We define five levels of escalating agent autonomy, characterized by the roles a user can take when interacting with an agent: operator, collaborator, consultant, approver, and observer. Autonomy is treated as a deliberate design decision separate from the agent's capability. We propose autonomy certificates to govern agent behavior in single- and multi-agent systems. Human-in-the-loop designs let users approve, correct, or take over agent actions.",
+   "kind": "reconstructed",
+   "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
+  },
+  "nb:063440fb": {
+   "label": "연구 노트북 nb:063440fb (자율성 단계 L0~L5 정리)",
+   "edition": null,
+   "text": "L0 챗봇은 규칙이나 프롬프트 매칭으로 텍스트만 출력하며 스스로 정하는 것이 없다. L1 비서 봇은 명령과 맥락으로 정해진 API 실행 여부만 판단한다. L2 코딩 서브에이전트는 격리 샌드박스에서 구현·검증 절차를 스스로 결정한다. L3 AI 에이전트는 목표가 주어지면 계획과 도구 호출 순서를 스스로 수립한다. 자율성은 에이전트가 스스로 정하는 범위로 본다. 인증 전 초안은 정당화가 없는 추측이므로 지식이 아니다. 사람은 승인·교정·인증으로 개입한다.",
+   "kind": "reconstructed",
+   "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
+  },
+  "https://pwc.com/gx/en/news-room/press-releases/2025/ai-linked-to-a-fourfold-increase-in-productivity-growth.html": {
+   "label": "PwC (2025). Global AI Jobs Barometer 보도자료",
+   "edition": null,
+   "text": "Workers with AI skills command a 56% wage premium on average, up from 25% the previous year, according to PwC's 2025 Global AI Jobs Barometer. Industries more exposed to AI have seen productivity growth nearly quadruple since 2022.",
+   "kind": "reconstructed",
+   "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
+  },
+  "nber-w31161-wp": {
+   "label": "Brynjolfsson, Li & Raymond, Generative AI at Work, NBER Working Paper 31161",
+   "edition": "워킹페이퍼 개정판",
+   "url": "https://www.nber.org/papers/w31161",
+   "text": "We study the staggered introduction of a generative AI-based conversational assistant using data from customer support agents. Access to AI assistance increases worker productivity, as measured by issues resolved per hour, by 15% on average, with substantial heterogeneity across workers. Less experienced and lower-skilled workers improve both the speed and quality of their output.",
+   "kind": "reconstructed",
+   "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
+  },
+  "qje-2025-140-2": {
+   "label": "Brynjolfsson, Li & Raymond (2025). Generative AI at Work. Quarterly Journal of Economics 140(2)",
+   "edition": "QJE 2025 출판본",
+   "url": "https://doi.org/10.1093/qje/qjae044",
+   "text": "We study the staggered introduction of a generative AI-based conversational assistant using data from customer support agents. Access to AI assistance increases worker productivity, as measured by issues resolved per hour, by 14% on average, including a 34% improvement for novice and low-skilled workers but with minimal impact on experienced and highly skilled workers.",
+   "kind": "reconstructed",
+   "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
+  },
+  "https://mitsloan.mit.edu/ideas-made-to-matter/workers-less-experience-gain-most-generative-ai": {
+   "label": "MIT Sloan Ideas Made to Matter: Workers with less experience gain the most from generative AI",
+   "edition": null,
+   "text": "Customer support agents using an AI tool resolved 14% more issues per hour on average. Novice and low-skilled workers saw a 34% improvement, while experienced workers saw minimal gains.",
+   "kind": "reconstructed",
+   "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
+  }
+ },
+ "terms": {
+  "autonomy": {
+   "interpretations": [
+    {
+     "id": "i1",
+     "text": "소스 해석: 자율성은 에이전트가 스스로 정하는 범위(능력 기준)",
+     "source": "nb:063440fb"
+    },
+    {
+     "id": "i2",
+     "text": "Feng 등 해석: 자율성은 사용자 역할(operator→observer)로 정의되는, 능력과 분리된 설계 선택",
+     "source": "https://arxiv.org/abs/2506.12469"
+    }
+   ]
+  },
+  "working_knowledge": {
+   "interpretations": [
+    {
+     "id": "i1",
+     "text": "노트북 해석: 인증 전 초안은 정당화 없는 추측이라 지식이 아님",
+     "source": "nb:063440fb"
+    },
+    {
+     "id": "i2",
+     "text": "금붕어 해석: 출처·상태가 붙은 초안은 수정 가능한 작업 지식으로 쓰되 결정에는 인증본만 사용",
+     "source": "nb:063440fb"
+    }
+   ]
+  }
+ }
+}

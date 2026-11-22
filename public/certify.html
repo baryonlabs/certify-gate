@@ -1,0 +1,25 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>인증 화면 — certify-gate</title><link rel="stylesheet" href="/app.css"></head>
+<body><main>
+<div class="panel" data-region="item-header" id="hdr"></div>
+<div class="gatebar" data-region="gate" id="gate"></div>
+<div class="grid">
+  <section class="panel" data-region="draft"><h2><span class="ic" style="--i:url(/icons/robot.svg)"></span>AI 초안 (주장 문장)</h2><div id="draft"></div></section>
+  <section class="panel" data-region="sources"><h2><span class="ic" style="--i:url(/icons/book.svg)"></span>1차 출처 원문</h2><div id="sources"></div></section>
+</div>
+<section class="panel" data-region="contest" id="contest" hidden style="margin-top:16px"></section>
+<section class="panel decision" data-region="decision" id="decision">
+  <h2><span class="ic" style="--i:url(/icons/signature.svg)"></span>결정</h2>
+  <p class="muted">승인(인증)은 ① 모든 주장 문장의 원문 대조 체크 ② [쟁점] 검토를 마쳐야 활성화됩니다. 보류·거부는 언제든 가능하지만 사유가 필요하며, 항목은 초안으로 돌아갑니다.</p>
+  <label for="reason">사유 (보류·거부 시 필수)</label>
+  <textarea id="reason" data-act="reason" aria-label="결정 사유" placeholder="예: 출판본 원문은 14%인데 초안은 15%"></textarea>
+  <div class="row">
+    <button class="good" id="approve" data-act="approve" disabled><span class="ic" style="--i:url(/icons/signature.svg)"></span>서명하고 승인(인증)</button>
+    <button id="hold" data-act="hold"><span class="ic" style="--i:url(/icons/player-pause.svg)"></span>보류</button>
+    <button class="bad" id="reject" data-act="reject"><span class="ic" style="--i:url(/icons/x.svg)"></span>거부</button>
+  </div>
+  <div class="err" id="err" data-region="error" role="alert"></div>
+</section>
+<section class="done-msg" data-region="done" id="done" hidden></section>
+</main>
+<script type="module" src="/certify.js"></script></body></html>

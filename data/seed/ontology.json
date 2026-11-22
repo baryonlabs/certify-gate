@@ -1,0 +1,969 @@
+{
+ "updated": "2026-11-22",
+ "terms": [
+  {
+   "id": "chatbot",
+   "label": "챗봇",
+   "definition": "규칙/프롬프트 매칭으로 텍스트만 출력, 스스로 정하는 것 없음(소스 L0)",
+   "status": "draft",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "round": 1
+  },
+  {
+   "id": "assistant",
+   "label": "비서 봇",
+   "definition": "명령·맥락으로 정해진 API 실행 여부만 판단(소스 L1)",
+   "status": "draft",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "round": 1
+  },
+  {
+   "id": "coding_subagent",
+   "label": "코딩 서브에이전트",
+   "definition": "격리 샌드박스에서 구현·검증 절차를 스스로 결정(소스 L2)",
+   "status": "draft",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "round": 1
+  },
+  {
+   "id": "ai_agent",
+   "label": "AI 에이전트",
+   "definition": "목표가 주어지면 계획과 도구 호출 순서를 스스로 수립(소스 L3)",
+   "status": "draft",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "round": 1
+  },
+  {
+   "id": "always_on_agent",
+   "label": "상주형 OS 에이전트",
+   "definition": "VM·브라우저를 직접 제어하며 24시간 장기 과업 지속(소스 L4)",
+   "status": "draft",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "round": 1
+  },
+  {
+   "id": "autoresearch",
+   "label": "오토리서치",
+   "definition": "가설→학습→검증→롤백 루프 반복. 전략(program.md)·평가(prepare.py)는 인간 고정",
+   "status": "draft",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "round": 1
+  },
+  {
+   "id": "multi_agent_team",
+   "label": "멀티 에이전트 팀",
+   "definition": "공유 공간에서 역할 분담·상호 검증으로 협업(소스 L5)",
+   "status": "draft",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "round": 1
+  },
+  {
+   "id": "autonomy",
+   "label": "자율성",
+   "definition": "[쟁점] 소스: 에이전트가 스스로 정하는 범위(능력 기준). Feng 등: 사용자 역할(operator→observer)로 정의하며 능력과 분리된 설계 선택",
+   "status": "draft",
+   "sources": [
+    "nb:063440fb",
+    "https://arxiv.org/abs/2506.12469"
+   ],
+   "round": 1
+  },
+  {
+   "id": "hitl",
+   "label": "Human-in-the-loop",
+   "definition": "사람이 승인·교정·인증으로 개입하는 구조",
+   "status": "draft",
+   "sources": [
+    "nb:063440fb",
+    "https://arxiv.org/abs/2506.12469"
+   ],
+   "round": 1
+  },
+  {
+   "id": "mcp",
+   "label": "MCP",
+   "definition": "에이전트를 외부 시스템·도구에 잇는 표준 연동 프로토콜",
+   "status": "draft",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "round": 1
+  },
+  {
+   "id": "auto_ontology",
+   "label": "오토 온톨로지",
+   "definition": "메타데이터(스키마·쿼리이력·샘플)로 용어·계산식·조인 초안 자동 생성→사람 인증→읽기전용 MCP로 제공 (NVIDIA, Apache 2.0)",
+   "status": "draft",
+   "sources": [
+    "nb:063440fb",
+    "https://raw.githubusercontent.com/NVIDIA/auto-ontology/HEAD/README.md"
+   ],
+   "round": 1
+  },
+  {
+   "id": "semantic_layer",
+   "label": "시맨틱 레이어",
+   "definition": "원시 테이블 대신 비즈니스 정의로 질의하게 하는 중간 지식층",
+   "status": "draft",
+   "sources": [
+    "nb:063440fb",
+    "https://raw.githubusercontent.com/NVIDIA/auto-ontology/HEAD/README.md"
+   ],
+   "round": 1
+  },
+  {
+   "id": "certify",
+   "label": "인증(Certify)",
+   "definition": "자동 추출 지식을 담당자가 검토해 공식화하는 단계. 미인증 지식은 초안",
+   "status": "draft",
+   "sources": [
+    "nb:063440fb",
+    "https://raw.githubusercontent.com/NVIDIA/auto-ontology/HEAD/README.md"
+   ],
+   "round": 1
+  },
+  {
+   "id": "autonomy_certificate",
+   "label": "자율성 인증서",
+   "definition": "에이전트의 허용 자율 수준을 명시하는 거버넌스 장치(Feng 등 제안)",
+   "status": "draft",
+   "sources": [
+    "https://arxiv.org/abs/2506.12469"
+   ],
+   "round": 1
+  },
+  {
+   "id": "certification_premium",
+   "label": "인증 프리미엄",
+   "definition": "[가설] 내용은 기계로 싸지고, 그 내용에 책임을 지는 서명의 가치가 오른다. 근거 후보: PwC 2025 AI Jobs Barometer — AI 역량 요구 일자리 임금 프리미엄 평균 56%(2024 자료, 전년 25%)",
+   "status": "draft",
+   "sources": [
+    "https://pwc.com/gx/en/news-room/press-releases/2025/ai-linked-to-a-fourfold-increase-in-productivity-growth.html"
+   ],
+   "round": 2
+  },
+  {
+   "id": "knowledge_commoditization",
+   "label": "형식지 원자재화",
+   "definition": "공개 형식지의 요약·재구성 가치가 에이전트 비용으로 수렴",
+   "status": "draft",
+   "sources": [
+    "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine/"
+   ],
+   "round": 2
+  },
+  {
+   "id": "entry_hiring_decline",
+   "label": "신규채용 경로 축소",
+   "definition": "AI 노출 직종 22–25세 고용이 덜 노출된 동료 추세 대비 19% 낮음(ADP, 2026-08 개정). 해고보다 채용 감소가 주 경로",
+   "status": "verified",
+   "sources": [
+    "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine/"
+   ],
+   "round": 2
+  },
+  {
+   "id": "jagged_frontier",
+   "label": "들쭉날쭉한 경계",
+   "definition": "AI 능력 안 과제는 성과 향상, 밖 과제는 정답률 19%p 하락(컨설턴트 758명)",
+   "status": "verified",
+   "sources": [
+    "https://mitsloan.mit.edu/sites/default/files/2023-10/SSRN-id4573321.pdf"
+   ],
+   "round": 2
+  },
+  {
+   "id": "skill_compression",
+   "label": "숙련 압축",
+   "definition": "AI 보조로 고객상담원 생산성(시간당 해결 건수)이 평균 15% 향상. 경험이 적은 초보·저숙련 상담원이 가장 크게 이득",
+   "status": "verified",
+   "sources": [
+    "nber-w31161-wp",
+    "qje-2025-140-2"
+   ],
+   "round": 2,
+   "seed_note": "시드용 재현: 에이전트가 워킹페이퍼 판본(15%)과 일치한다며 확인됨 부여. 출판본(QJE 2025)은 14%. 원본 ontology.json에서는 이후 [쟁점]으로 바뀜"
+  },
+  {
+   "id": "semantic_layer_gain",
+   "label": "시맨틱 레이어 정확도 효과",
+   "definition": "dbt 벤치마크(11문항×20회): Sonnet 4.6 90.0%→98.2%, GPT-5.3-Codex 84.1%→100%. 벤더 자체 실험·소규모, 모델링 품질에 의존",
+   "status": "verified",
+   "sources": [
+    "https://docs.getdbt.com/blog/semantic-layer-vs-text-to-sql-2026",
+    "https://arxiv.org/pdf/2604.25149"
+   ],
+   "round": 3
+  },
+  {
+   "id": "refusal_vs_confident_error",
+   "label": "거절형 실패 vs 확신형 오답",
+   "definition": "시맨틱 레이어의 실패는 주로 '답할 수 없음'(거절), Text-to-SQL 실패는 자신 있는 틀린 숫자",
+   "status": "verified",
+   "sources": [
+    "https://arxiv.org/pdf/2604.25149"
+   ],
+   "round": 3
+  },
+  {
+   "id": "allowed_autonomy_level",
+   "label": "허용 자율 수준(AAL)",
+   "definition": "거버넌스·감독·책임 제약 아래 에이전트에게 허락된 독립성 수준. 능력 수준(ACL)과 분리",
+   "status": "draft",
+   "sources": [
+    "https://www.alphaxiv.org/abs/2607.23438"
+   ],
+   "round": 3
+  },
+  {
+   "id": "capability_level",
+   "label": "자율 능력 수준(ACL)",
+   "definition": "에이전트가 기술적으로 할 수 있는 것. 높은 ACL도 위험·가역성·조직 준비도에 따라 낮은 AAL로 묶을 수 있음",
+   "status": "draft",
+   "sources": [
+    "https://www.alphaxiv.org/abs/2607.23438"
+   ],
+   "round": 3
+  },
+  {
+   "id": "working_knowledge",
+   "label": "작업 지식(미인증)",
+   "definition": "[쟁점] 노트북: 인증 전 초안은 정당화 없는 추측이라 지식이 아님. 금붕어 입장: 출처·상태가 붙은 초안은 '수정 가능한 작업 지식'으로 쓰되 결정에는 인증본만 사용",
+   "status": "draft",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "round": 3
+  },
+  {
+   "id": "llms4ol",
+   "label": "LLMs4OL 2025 (온톨로지 자동 구축 평가)",
+   "definition": "LLM 기반 온톨로지 자동 구축 평가지표·벤치마크: ISWC 2025 챌린지, 11팀, 과제는 Text2Onto·용어 유형 분류(term typing)·분류체계 발견(taxonomy discovery)·비분류 관계 추출. 상용 LLM+도메인 임베딩+파인튜닝 하이브리드가 최고 성능",
+   "status": "verified",
+   "sources": [
+    "https://www.tib-op.org/ojs/index.php/ocp/article/view/2913"
+   ],
+   "round": 4
+  },
+  {
+   "id": "contributor_reward",
+   "label": "기여자 보상 사례",
+   "definition": "암묵지 게시자·인증자 보상 크레딧의 직접 기업 사례는 미확인. 인접 사례: Omnisend가 AI 워크플로 기여 직원에 2–4% 인상, Shutterstock Contributor Fund, Adobe Firefly 기여자 보너스, RSL 표준(크롤·참조당 보상)",
+   "status": "draft",
+   "sources": [
+    "https://fortune.com/2026/03/30/this-company-is-giving-workers-a-raise-for-using-ai-heres-what-they-have-to-do-to-earn-it/",
+    "https://arxiv.org/html/2510.24990v1"
+   ],
+   "round": 4
+  },
+  {
+   "id": "provenance",
+   "label": "계보(provenance)",
+   "definition": "누가 만들고 누가 인증했는지의 기록. 계보가 끊기면 로열티·크레딧을 기여자에게 매길 수 없음(창작자 로열티 ≈ 0 분석)",
+   "status": "draft",
+   "sources": [
+    "https://arxiv.org/pdf/2601.09966"
+   ],
+   "round": 4
+  },
+  {
+   "id": "training_deficit",
+   "label": "훈련 공백",
+   "definition": "AI가 신입 업무를 가져가 초보가 전문가로 크던 비공식 도제 경로가 끊기는 문제. 노트북 소스에는 해당 내용 없음",
+   "status": "draft",
+   "sources": [
+    "https://blogs.bath.ac.uk/iprblog/?p=2886",
+    "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/building-expertise-in-the-age-of-AI-who-trains-the-next-generation"
+   ],
+   "round": 4
+  },
+  {
+   "id": "certifier_pathway",
+   "label": "인증자 양성 경로",
+   "definition": "인증자는 어디서 길러지는가: 의도적 도제(AI 포함 견습)·순환 배치·멘토링(McKinsey, NYU), 'human first'(초안을 손으로 먼저 쓰고 AI로 다듬기, WEF), 판단·해석 중심 커리큘럼. 반론: PwC는 '시니어화된' 신입 직무가 2019년 대비 35% 증가",
+   "status": "draft",
+   "sources": [
+    "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/building-expertise-in-the-age-of-AI-who-trains-the-next-generation",
+    "https://www.weforum.org/stories/2026/06/ai-decimate-entry-level-jobs-expert-insights/",
+    "https://www.pwc.com/gx/en/services/workforce/ai-future-entry-level-work.html"
+   ],
+   "round": 4
+  },
+  {
+   "id": "auto_ontology_procedure",
+   "label": "오토 온톨로지 절차",
+   "definition": "오토 온톨로지가 사내 용어를 만드는 절차: ① DB 스키마·쿼리 이력·샘플 데이터 수집 ② LLM이 용어집·계산식·조인 초안 생성 ③ 담당자가 검토·인증 ④ 인증된 정의만 읽기전용 MCP로 에이전트에 제공",
+   "status": "verified",
+   "sources": [
+    "nb:063440fb",
+    "https://raw.githubusercontent.com/NVIDIA/auto-ontology/HEAD/README.md"
+   ],
+   "round": 4
+  },
+  {
+   "id": "tacit_knowledge",
+   "label": "암묵지(Polanyi)",
+   "definition": "\"우리는 말할 수 있는 것보다 더 많이 안다\"(The Tacit Dimension, 1966). 개념은 Personal Knowledge(1958)에서 시작",
+   "status": "verified",
+   "sources": [
+    "https://monoskop.org/log/?p=6430"
+   ],
+   "round": 6,
+   "domain": "인문"
+  },
+  {
+   "id": "question_priority",
+   "label": "질문의 우선성",
+   "definition": "Gadamer: 이해는 질문의 구조를 가진다(Wahrheit und Methode, 1960). Collingwood: 모든 진술은 어떤 질문에 대한 답(문답의 논리, An Autobiography 1939). 루프의 '다음 질문'이 온톨로지 방향을 정한다는 주장의 근거",
+   "status": "draft",
+   "sources": [
+    "고전(서지 미확인)"
+   ],
+   "round": 6,
+   "domain": "인문"
+  },
+  {
+   "id": "jtb",
+   "label": "정당화된 참된 믿음(JTB)",
+   "definition": "지식 = 정당화 + 참 + 믿음이라는 전통적 정의",
+   "status": "draft",
+   "sources": [
+    "https://www.cambridge.org/core/books/gettier-problem/bibliography/165046A5857C16F28D090851454D0519"
+   ],
+   "round": 6,
+   "domain": "철학"
+  },
+  {
+   "id": "gettier_problem",
+   "label": "게티어 문제",
+   "definition": "정당화된 참된 믿음이어도 우연히 참이면 지식이 아닐 수 있음(Gettier 1963, Analysis 23(6):121–123). 루프에선 '두 출처 일치=확인됨'이 정당화의 충분조건이 아니라는 근거",
+   "status": "verified",
+   "sources": [
+    "https://www.cambridge.org/core/books/gettier-problem/bibliography/165046A5857C16F28D090851454D0519"
+   ],
+   "round": 6,
+   "domain": "철학"
+  },
+  {
+   "id": "ontology_spec",
+   "label": "온톨로지(Gruber 정의)",
+   "definition": "개념화의 명시적 명세(explicit specification of a conceptualization). Gruber 1993, Knowledge Acquisition 5(2):199–220",
+   "status": "verified",
+   "sources": [
+    "https://tomgruber.org/writing/ontolingua-kaj-1993/"
+   ],
+   "round": 6,
+   "domain": "철학"
+  },
+  {
+   "id": "epistemic_dependence",
+   "label": "인식적 의존",
+   "definition": "[미확인] Hardwig(1985): 사람은 스스로 검증할 수 없는 지식을 전문가의 증언에 기대어 안다. 인증자 신뢰 구조의 철학적 근거 후보",
+   "status": "draft",
+   "sources": [
+    "고전(서지 미확인)"
+   ],
+   "round": 6,
+   "domain": "철학"
+  },
+  {
+   "id": "social_construction",
+   "label": "지식의 사회적 구성",
+   "definition": "제도화된 지식은 역할과 정당화 기제를 거쳐 '당연한 현실'이 된다(Berger·Luckmann 1966). 꾸러미 승인 버튼=제도화 도구",
+   "status": "draft",
+   "sources": [
+    "고전(서지 미확인)"
+   ],
+   "round": 6,
+   "domain": "사회학"
+  },
+  {
+   "id": "fact_construction",
+   "label": "사실의 구성(실험실 생활)",
+   "definition": "주장이 양태(modality)를 벗으며 사실이 된다(Latour·Woolgar 1979). 쟁점→draft→verified→certified 사다리에 대응",
+   "status": "draft",
+   "sources": [
+    "고전(서지 미확인)"
+   ],
+   "round": 6,
+   "domain": "사회학"
+  },
+  {
+   "id": "collective_tacit",
+   "label": "집단적 암묵지(Collins)",
+   "definition": "Collins 2010의 3분류: 관계적(노력하면 명시화 가능)·신체적(기계가 재현 가능)·집단적(사회가 보유, 완전히 명시화 불가). 공백 루프가 옮길 수 있는 건 앞의 둘",
+   "status": "verified",
+   "sources": [
+    "https://monoskop.org/log/?p=6430"
+   ],
+   "round": 6,
+   "domain": "사회학"
+  },
+  {
+   "id": "epistemic_monoculture",
+   "label": "인식의 단일재배",
+   "definition": "아는 사람의 단일재배·아는 방식의 단일재배, 객관성의 착각·탐구 폭의 착각(Messeri·Crockett 2024, Nature)",
+   "status": "verified",
+   "sources": [
+    "https://www.nature.com/articles/d41586-024-00639-y.pdf"
+   ],
+   "round": 6,
+   "domain": "사회학"
+  },
+  {
+   "id": "seci",
+   "label": "SECI 지식 창조 나선",
+   "definition": "암묵지↔형식지의 대화로 조직 지식이 생김: 사회화·외부화·결합·내면화(Nonaka 1994, Organization Science 5(1):14–37). 이후 'Ba(장)' 개념 추가",
+   "status": "verified",
+   "sources": [
+    "https://ideas.repec.org/a/inm/ororsc/v5y1994i1p14-37.html"
+   ],
+   "round": 6,
+   "domain": "경영"
+  },
+  {
+   "id": "knowledge_spillover",
+   "label": "지식 스필오버 창업 이론",
+   "definition": "기존 조직이 상업화하지 않은 지식이 창업 기회의 원천; 지식 축적이 창업 수준을 높인다(Acs 외 2009, Small Business Economics 32(1):15–30)",
+   "status": "verified",
+   "sources": [
+    "https://link.springer.com/article/10.1007/s11187-008-9157-3"
+   ],
+   "round": 6,
+   "domain": "창업"
+  },
+  {
+   "id": "effectuation",
+   "label": "효과화(effectuation)",
+   "definition": "목표 예측(causation) 대신 가진 수단(나는 누구·무엇을 아는가·누구를 아는가)에서 출발하는 창업 의사결정(Sarasvathy 2001, AMR 26(2):243–263)",
+   "status": "verified",
+   "sources": [
+    "https://www.darden.virginia.edu/effectuation/publications"
+   ],
+   "round": 6,
+   "domain": "창업"
+  },
+  {
+   "id": "transaction_cost",
+   "label": "거래비용과 기업의 경계",
+   "definition": "시장 거래비용 때문에 기업이 존재한다(Coase 1937, Economica 4:386–405). 에이전트가 조정비용을 낮추면 기업의 최소 단위가 작아진다는 주장의 근거",
+   "status": "verified",
+   "sources": [
+    "https://Www.Wikipedia.org/wiki/Ronald_Coase"
+   ],
+   "round": 6,
+   "domain": "창업"
+  }
+ ],
+ "relations": [
+  {
+   "s": "chatbot",
+   "p": "evolves_to",
+   "o": "assistant",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "assistant",
+   "p": "evolves_to",
+   "o": "ai_agent",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "ai_agent",
+   "p": "evolves_to",
+   "o": "always_on_agent",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "always_on_agent",
+   "p": "evolves_to",
+   "o": "multi_agent_team",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "coding_subagent",
+   "p": "is_a",
+   "o": "ai_agent",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "autoresearch",
+   "p": "is_a",
+   "o": "always_on_agent",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "always_on_agent",
+   "p": "uses",
+   "o": "mcp",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "multi_agent_team",
+   "p": "uses",
+   "o": "mcp",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "auto_ontology",
+   "p": "exposes_via",
+   "o": "mcp",
+   "sources": [
+    "https://raw.githubusercontent.com/NVIDIA/auto-ontology/HEAD/README.md"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "auto_ontology",
+   "p": "is_a",
+   "o": "semantic_layer",
+   "sources": [
+    "https://raw.githubusercontent.com/NVIDIA/auto-ontology/HEAD/README.md"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "auto_ontology",
+   "p": "requires",
+   "o": "certify",
+   "sources": [
+    "https://raw.githubusercontent.com/NVIDIA/auto-ontology/HEAD/README.md"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "certify",
+   "p": "is_a",
+   "o": "hitl",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "auto_ontology",
+   "p": "solves",
+   "o": "data_hallucination",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "autonomy",
+   "p": "contested_by",
+   "o": "autonomy_certificate",
+   "sources": [
+    "https://arxiv.org/abs/2506.12469"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "ai_agent",
+   "p": "bounded_by",
+   "o": "hitl",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "certify",
+   "p": "produces",
+   "o": "certification_premium",
+   "sources": [],
+   "status": "draft"
+  },
+  {
+   "s": "skill_compression",
+   "p": "causes",
+   "o": "entry_hiring_decline",
+   "sources": [
+    "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine/"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "jagged_frontier",
+   "p": "raises_value_of",
+   "o": "certification_premium",
+   "sources": [
+    "https://mitsloan.mit.edu/sites/default/files/2023-10/SSRN-id4573321.pdf"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "semantic_layer_gain",
+   "p": "evidence_for",
+   "o": "semantic_layer",
+   "sources": [
+    "https://docs.getdbt.com/blog/semantic-layer-vs-text-to-sql-2026",
+    "https://arxiv.org/pdf/2604.25149"
+   ],
+   "status": "verified"
+  },
+  {
+   "s": "semantic_layer",
+   "p": "fails_as",
+   "o": "refusal_vs_confident_error",
+   "sources": [
+    "https://arxiv.org/pdf/2604.25149"
+   ],
+   "status": "verified"
+  },
+  {
+   "s": "allowed_autonomy_level",
+   "p": "refines",
+   "o": "autonomy",
+   "sources": [
+    "https://www.alphaxiv.org/abs/2607.23438"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "capability_level",
+   "p": "refines",
+   "o": "autonomy",
+   "sources": [
+    "https://www.alphaxiv.org/abs/2607.23438"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "allowed_autonomy_level",
+   "p": "separated_from",
+   "o": "capability_level",
+   "sources": [
+    "https://www.alphaxiv.org/abs/2607.23438"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "working_knowledge",
+   "p": "becomes_via",
+   "o": "certify",
+   "sources": [
+    "nb:063440fb"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "provenance",
+   "p": "precondition_of",
+   "o": "contributor_reward",
+   "sources": [
+    "https://arxiv.org/pdf/2601.09966"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "training_deficit",
+   "p": "threatens",
+   "o": "certifier_pathway",
+   "sources": [
+    "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/building-expertise-in-the-age-of-AI-who-trains-the-next-generation"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "entry_hiring_decline",
+   "p": "causes",
+   "o": "training_deficit",
+   "sources": [
+    "https://blogs.bath.ac.uk/iprblog/?p=2886"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "certifier_pathway",
+   "p": "produces",
+   "o": "certify",
+   "sources": [],
+   "status": "draft"
+  },
+  {
+   "s": "llms4ol",
+   "p": "evaluates",
+   "o": "auto_ontology",
+   "sources": [
+    "https://www.tib-op.org/ojs/index.php/ocp/article/view/2913"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "auto_ontology_procedure",
+   "p": "part_of",
+   "o": "auto_ontology",
+   "sources": [],
+   "status": "draft"
+  },
+  {
+   "s": "collective_tacit",
+   "p": "refines",
+   "o": "tacit_knowledge",
+   "sources": [
+    "https://monoskop.org/log/?p=6430"
+   ],
+   "status": "verified"
+  },
+  {
+   "s": "collective_tacit",
+   "p": "limits",
+   "o": "auto_ontology",
+   "sources": [
+    "https://monoskop.org/log/?p=6430"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "seci",
+   "p": "models",
+   "o": "certify",
+   "sources": [
+    "https://ideas.repec.org/a/inm/ororsc/v5y1994i1p14-37.html"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "tacit_knowledge",
+   "p": "input_of",
+   "o": "seci",
+   "sources": [
+    "https://ideas.repec.org/a/inm/ororsc/v5y1994i1p14-37.html"
+   ],
+   "status": "verified"
+  },
+  {
+   "s": "gettier_problem",
+   "p": "challenges",
+   "o": "jtb",
+   "sources": [
+    "https://www.cambridge.org/core/books/gettier-problem/bibliography/165046A5857C16F28D090851454D0519"
+   ],
+   "status": "verified"
+  },
+  {
+   "s": "gettier_problem",
+   "p": "challenges",
+   "o": "certify",
+   "sources": [
+    "https://www.cambridge.org/core/books/gettier-problem/bibliography/165046A5857C16F28D090851454D0519"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "ontology_spec",
+   "p": "defines",
+   "o": "auto_ontology",
+   "sources": [
+    "https://tomgruber.org/writing/ontolingua-kaj-1993/"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "social_construction",
+   "p": "explains",
+   "o": "certify",
+   "sources": [],
+   "status": "draft"
+  },
+  {
+   "s": "fact_construction",
+   "p": "maps_to",
+   "o": "certify",
+   "sources": [],
+   "status": "draft"
+  },
+  {
+   "s": "epistemic_dependence",
+   "p": "grounds",
+   "o": "certify",
+   "sources": [],
+   "status": "draft"
+  },
+  {
+   "s": "question_priority",
+   "p": "grounds",
+   "o": "working_knowledge",
+   "sources": [],
+   "status": "draft"
+  },
+  {
+   "s": "epistemic_monoculture",
+   "p": "risk_of",
+   "o": "autoresearch",
+   "sources": [
+    "https://www.nature.com/articles/d41586-024-00639-y.pdf"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "knowledge_spillover",
+   "p": "explains",
+   "o": "contributor_reward",
+   "sources": [
+    "https://link.springer.com/article/10.1007/s11187-008-9157-3"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "effectuation",
+   "p": "uses",
+   "o": "semantic_layer",
+   "sources": [],
+   "status": "draft"
+  },
+  {
+   "s": "transaction_cost",
+   "p": "explains",
+   "o": "multi_agent_team",
+   "sources": [
+    "https://Www.Wikipedia.org/wiki/Ronald_Coase"
+   ],
+   "status": "draft"
+  },
+  {
+   "s": "training_deficit",
+   "p": "threatens",
+   "o": "seci",
+   "sources": [],
+   "status": "draft"
+  }
+ ],
+ "questions": [
+  {
+   "kind": "philosophical",
+   "q": "목표를 사람이 주면 자율인가?",
+   "answer": "소스: 울타리 안 실행 재량권에 불과. Feng: 자율은 능력이 아니라 사용자 역할의 설계 선택",
+   "round": 1
+  },
+  {
+   "kind": "philosophical",
+   "q": "인증되지 않은 지식은 지식인가? 진리 기준은 사람의 인증인가, 데이터·검증인가?",
+   "answer": "노트북: 아니다(정당화 결여). 금붕어: 출처·상태가 붙은 초안은 작업 지식, 결정엔 인증본 — [쟁점] working_knowledge",
+   "round": 2
+  },
+  {
+   "kind": "philosophical",
+   "q": "자율성을 '능력'으로 정의할 때와 '허락'으로 정의할 때, 어느 쪽이 책임 소재를 더 잘 설명하나?",
+   "answer": null,
+   "round": 2
+  },
+  {
+   "kind": "research",
+   "q": "Auto Ontology 도입 시 text-to-SQL 정확도 개선을 보여주는 벤치마크·사례가 있나?",
+   "answer": "오토 온톨로지 자체 수치는 없음. 시맨틱 레이어 일반: dbt 90.0→98.2%(Sonnet 4.6), 실패 양상이 거절로 바뀜",
+   "round": 2
+  },
+  {
+   "kind": "research",
+   "q": "'Separating Capability from Permission'(arXiv 2607.23438)의 5단계는 Feng 등과 무엇이 다른가?",
+   "answer": "AAL(허용)과 ACL(능력)을 분리한 2축. Feng 등은 사용자 역할 1축 5단계 — 둘 다 능력≠자율. 원문 단계 정의는 미확인",
+   "round": 2
+  },
+  {
+   "kind": "research",
+   "q": "온톨로지 자동 구축(LLM 기반 ontology learning)의 2026년 최신 방법과 평가지표는?",
+   "answer": "LLMs4OL 2025: 하이브리드 최고",
+   "round": 2
+  },
+  {
+   "kind": "philosophical",
+   "q": "초보가 쉬운 일을 하며 배우던 경로가 사라지면, 인증자는 어디서 길러지는가?",
+   "answer": "의도적 도제·human first·판단 중심 커리큘럼 vs 시니어화된 신입 35%↑ — certifier_pathway",
+   "round": 3
+  },
+  {
+   "kind": "research",
+   "q": "암묵지 게시자·인증자에게 보상·크레딧을 주는 기업 사례가 있나?",
+   "answer": "직접 사례 미확인, 인접 사례 4종 — contributor_reward",
+   "round": 3
+  },
+  {
+   "kind": "philosophical",
+   "q": "'거절형 실패'는 '확신형 오답'보다 언제나 나은가? 모르는 걸 모른다고 말하는 기계의 가치는?",
+   "answer": null,
+   "round": 4
+  },
+  {
+   "kind": "research",
+   "q": "Baryon AX처럼 lexical 검색일 때와 벡터 검색일 때 온톨로지 문서의 검색 적중률 차이는?",
+   "answer": null,
+   "round": 4
+  },
+  {
+   "kind": "philosophical",
+   "q": "'human first'(손으로 먼저 쓰기)는 숙련을 위한 의식인가, 비효율의 정당화인가?",
+   "answer": null,
+   "round": 5
+  },
+  {
+   "kind": "research",
+   "q": "AI 포함 도제 프로그램의 효과를 측정한 통제 연구가 있나?",
+   "answer": null,
+   "round": 5
+  },
+  {
+   "kind": "philosophical",
+   "q": "Collins의 집단적 암묵지는 지식 공백 루프로 끝내 옮길 수 없다면, 조직은 무엇을 사람에게 남겨야 하나?",
+   "answer": null,
+   "round": 7
+  },
+  {
+   "kind": "philosophical",
+   "q": "인증자를 믿는 것(인식적 의존)과 AI를 믿는 것은 같은 종류의 의존인가?",
+   "answer": null,
+   "round": 7
+  },
+  {
+   "kind": "research",
+   "q": "LLM이 SECI의 외부화(암묵지→형식지)를 수행할 때의 효과를 측정한 실증 연구는?",
+   "answer": null,
+   "round": 7
+  },
+  {
+   "kind": "research",
+   "q": "Hardwig(1985) 'Epistemic Dependence' 원문 서지와 핵심 논증 확인",
+   "answer": null,
+   "round": 7
+  }
+ ]
+}

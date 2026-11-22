@@ -1,0 +1,32 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>certify-gate — 지식 항목</title><link rel="stylesheet" href="/app.css"></head>
+<body><main>
+<div class="panel"><h2><span class="ic" style="--i:url(/icons/list-check.svg)"></span>지식 항목</h2>
+<p class="muted">상태: 초안 → 확인됨(에이전트가 1차 출처 일치 확인) → 인증됨(사람만). 의사결정에는 인증된 항목만 사용합니다.</p>
+<div class="row"><label>상태 <select id="f"><option value="">전체</option><option value="draft">초안</option><option value="verified">확인됨</option><option value="certified">인증됨</option></select></label>
+<a href="/api/export" download="ontology.certified.json"><button><span class="ic" style="--i:url(/icons/download.svg)"></span>ontology.json 내보내기</button></a>
+<a href="/api/decision-kb" target="_blank"><button>의사결정용(인증본만)</button></a>
+<a href="/api/log" target="_blank"><button>인증 기록(JSON)</button></a></div>
+<div class="row"><input id="imp" size="60" placeholder="가져올 ontology.json 경로(서버에서 복사본으로 작업)"><button id="impb"><span class="ic" style="--i:url(/icons/upload.svg)"></span>가져오기</button><span id="impmsg" class="muted"></span></div>
+<table class="list" id="t"><thead><tr><th>ID</th><th>용어</th><th>상태</th><th>문장</th><th></th></tr></thead><tbody></tbody></table>
+</div></main>
+<script type="module">
+import { api, header, statusBadge, esc } from '/common.js';
+await header();
+let items = [];
+async function load(){ items = await api('GET','/api/items'); render(); }
+function render(){
+  const f = document.getElementById('f').value;
+  document.querySelector('#t tbody').innerHTML = items.filter(i=>!f||i.status===f).map(i=>`<tr>
+   <td><code>${esc(i.id)}</code></td><td>${esc(i.label)} ${i.contested?'<span class="badge contested">쟁점</span>':''}</td>
+   <td>${statusBadge(i.status)}</td><td>${i.n_sentences}</td>
+   <td>${i.status==='certified'?'':`<a href="/certify.html?id=${encodeURIComponent(i.id)}">인증 화면 →</a>`}</td></tr>`).join('');
+}
+document.getElementById('f').onchange = render;
+document.getElementById('impb').onclick = async () => {
+  const m = document.getElementById('impmsg');
+  try { const r = await api('POST','/api/import',{path:document.getElementById('imp').value}); m.textContent = `${r.imported}개 항목 가져옴`; load(); }
+  catch(e){ m.textContent = '오류: '+e.message; }
+};
+load();
+</script></body></html>

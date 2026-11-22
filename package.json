@@ -1,0 +1,26 @@
+{
+  "name": "certify-gate",
+  "version": "0.1.0",
+  "description": "Human certification gate for AI-agent-generated knowledge (HCI KOREA 2027, Fig. 5)",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/unit/",
+    "test:e2e": "playwright test",
+    "bench:build": "node bench/build-tasks.mjs",
+    "bench:run": "node bench/run-bench.mjs",
+    "bench:analyze": "node bench/analyze.mjs",
+    "pilot": "node bench/pilot.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  },
+  "dependencies": {
+    "@tabler/icons": "^3.35.0"
+  }
+}
