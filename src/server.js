@@ -83,7 +83,7 @@ export function createApp(opts = {}) {
       const sid = crypto.randomUUID();
       sessions.set(sid, {
         id: sid, item_id: it.id, condition, actor, started_at: new Date().toISOString(), t0: Date.now(),
-        viewed: new Map(), checked: new Map(), contest: null, events: [], meta: body.meta ?? null,
+        viewed: new Map(), checked: new Map(), expanded: new Set(), contest: null, events: [], meta: body.meta ?? null,
       });
       return { session_id: sid };
     }],
@@ -92,7 +92,19 @@ export function createApp(opts = {}) {
       const it = store.get(s.item_id); const i = Number(body.idx);
       if (!(i >= 0 && i < it.sentences.length)) throw new TransitionError('bad_idx', '문장 번호 오류', 400);
       if (!s.viewed.has(i)) s.viewed.set(i, new Date().toISOString());
-      s.events.push({ t: Date.now() - s.t0, ev: 'view', idx: i });
+      // 원문 위치 보기는 대응 출처를 펼친다
+      const ref = analyze(it)[i]?.ref;
+      if (ref) s.expanded.add(ref.source);
+      s.events.push({ t: Date.now() - s.t0, ev: 'view', idx: i, source: ref?.source ?? null });
+      return { ok: true, ref: ref ?? null };
+    }],
+    ['POST', /^\/api\/sessions\/([^/]+)\/expand$/, (req, m, q, body) => {
+      const s = getSession(m[1]); sameActor(s, actorOf(req));
+      const it = store.get(s.item_id); const si = Number(body.source);
+      if (s.condition === 'C') throw new TransitionError('bad_condition', '초안만 화면에는 원문이 없습니다', 400);
+      if (!(si >= 0 && si < it.sources.length)) throw new TransitionError('bad_idx', '출처 번호 오류', 400);
+      s.expanded.add(si);
+      s.events.push({ t: Date.now() - s.t0, ev: 'expand', source: si });
       return { ok: true };
     }],
     ['POST', /^\/api\/sessions\/([^/]+)\/check$/, (req, m, q, body) => {
@@ -142,6 +154,7 @@ export function createApp(opts = {}) {
         from_status: it.status, to_status: toStatus,
         checked_sentences: [...s.checked.entries()].sort((a, b) => a[0] - b[0]).map(([idx, at]) => ({ idx, text: it.sentences[idx], viewed_at: s.viewed.get(idx), checked_at: at })),
         viewed_sentences: [...s.viewed.keys()].sort((a, b) => a - b),
+        expanded_sources: [...s.expanded].sort((a, b) => a - b),
         contest: isContested(it) ? { interpretations: it.interpretations ?? null, choice: s.contest?.choice ?? null, reason: s.contest?.reason ?? '' } : null,
         events: s.events, meta: s.meta,
       };

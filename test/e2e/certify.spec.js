@@ -7,6 +7,9 @@ test('쟁점 항목: 대조 전 서명 비활성 → 대조·쟁점 처리 후 �
   await expect(page.locator('body[data-ready="1"]')).toBeAttached();
   const sign = page.locator('[data-act=approve]');
   await expect(sign).toBeDisabled();
+  // 원문은 기본 접힘(요약만)
+  await expect(page.locator('[data-collapsed="1"]').first()).toBeVisible();
+  await expect(page.locator('.ss')).toHaveCount(0);
   await shot(page, '01-gate-before-check');
 
   const n = await page.locator('[data-sentence]').count();
@@ -16,6 +19,7 @@ test('쟁점 항목: 대조 전 서명 비활성 → 대조·쟁점 처리 후 �
   for (let i = 0; i < n; i++) {
     await page.click(`[data-act=view-${i}]`);
     await expect(page.locator('.ss.on')).toHaveCount(1);
+    await expect(page.locator(`[data-quote="${i}"]`)).toBeVisible();
     await page.check(`[data-act=check-${i}]`);
   }
   await expect(page.locator('[data-step=check]')).toContainText(`${n}/${n}`);
@@ -42,6 +46,7 @@ test('쟁점 항목: 대조 전 서명 비활성 → 대조·쟁점 처리 후 �
   expect(rec.contest.choice).toBe('i2');
   expect(rec.contest.interpretations).toHaveLength(2);
   expect(rec.duration_ms).toBeGreaterThan(0);
+  expect(rec.expanded_sources.length).toBeGreaterThan(0);
   const exp = await (await request.get('/api/export')).json();
   expect(exp.terms.find((t) => t.id === 'autonomy').status).toBe('certified');
 });

@@ -29,3 +29,27 @@ export async function header() {
   document.body.prepend(el);
   return me;
 }
+
+// 출처 원문: 기본 접힘(앞 약 140자 요약), '원문 펼치기'로 연다. A·B 동일.
+export const SUMMARY_CHARS = 140;
+export const SPLIT_RE = /(?<=[.!?。])\s+(?=[^\s\d)])|;\s+/;
+export function sourceSentences(s) {
+  return (s.text || '').replace(/\s+/g, ' ').split(SPLIT_RE).filter((x) => x.trim().length > 1);
+}
+export function sourceHtml(s, si, { expanded, on = null, seen = [] }) {
+  const meta = `<div class="meta">${s.edition ? `판본: <b>${esc(s.edition)}</b> · ` : ''}${s.kind === 'reconstructed' ? '재구성 발췌 · ' : ''}${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">원문 링크</a>` : esc(s.key ?? '')}</div>`;
+  const sents = sourceSentences(s);
+  let body;
+  if (!sents.length) body = '<p class="muted">발췌 없음 — 원문 링크를 열어 직접 확인</p>';
+  else if (!expanded) {
+    const flat = sents.join(' ');
+    body = `<p class="summary" data-collapsed="1">${esc(flat.slice(0, SUMMARY_CHARS))}${flat.length > SUMMARY_CHARS ? '…' : ''}</p>
+      <button data-act="expand-${si}" aria-label="출처 ${si + 1} 원문 펼치기">원문 펼치기 (${flat.length}자)</button>`;
+  } else {
+    body = `<p>${sents.map((t, j) => {
+      const cls = on && on.source === si && on.sentence === j ? 'on' : seen.some((r) => r && r.source === si && r.sentence === j) ? 'seen' : '';
+      return `<span class="ss ${cls}" id="ss-${si}-${j}">${esc(t)}</span>`;
+    }).join(' ')}</p>`;
+  }
+  return `<div class="src" data-source="${si}"><h3>출처 ${si + 1}. ${esc(s.label)}</h3>${meta}${body}</div>`;
+}

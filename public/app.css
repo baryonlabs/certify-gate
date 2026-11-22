@@ -36,3 +36,6 @@ textarea{width:100%;font:inherit;border:1px solid var(--line);border-radius:7px;
 table.list{width:100%;border-collapse:collapse;background:#fff}
 table.list td,table.list th{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left;font-size:14px}
 label.radio{display:flex;gap:8px;align-items:flex-start;margin:6px 0;cursor:pointer}
+.src p span.ss.seen{background:#fff8d0}
+.src p.summary{color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.quote{margin-top:6px;padding:6px 10px;border-left:3px solid #f5d90a;background:#fffbe6;font-size:14px}

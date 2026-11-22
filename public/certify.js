@@ -1,5 +1,5 @@
 // 인증 화면(그림 5): 초안 ↔ 1차 출처 나란히, 불일치 강조, 대조 체크·쟁점 검토 게이트
-import { api, header, statusBadge, esc, icon, qs } from '/common.js';
+import { api, header, statusBadge, esc, icon, qs, sourceHtml, sourceSentences } from '/common.js';
 
 const $ = (id) => document.getElementById(id);
 await header();
@@ -12,7 +12,9 @@ let gate = { ok: false, missing: [] };
 let contestDone = !item.contested;
 
 const FLAG_SOFT = new Set(['approx', 'causal', 'weak', 'no_source']);
-const splitRe = /(?<=[.!?。])\s+(?=[^\s\d)])|;\s+/;
+const expanded = new Set();
+let current = null;
+const quoteOf = (ref) => (ref ? sourceSentences(item.sources[ref.source])[ref.sentence] ?? '' : '');
 
 $('hdr').innerHTML = `<h2>${icon('file-text')} ${esc(item.label)} <code class="muted">${esc(item.id)}</code> ${statusBadge(item.status)}
   ${item.contested ? '<span class="badge contested">' + icon('scale') + '쟁점</span>' : ''}</h2>
@@ -32,20 +34,15 @@ function renderDraft() {
           <button data-act="view-${a.idx}" aria-label="문장 ${a.idx + 1} 원문 위치 보기">${icon('eye')} 원문 위치 보기</button>
           <label><input type="checkbox" data-act="check-${a.idx}" aria-label="문장 ${a.idx + 1} 원문 대조 완료" ${viewed.has(a.idx) ? '' : 'disabled'} ${checked.has(a.idx) ? 'checked' : ''}> 원문과 대조함</label>
           ${a.ref ? `<span class="muted">대응 위치: 출처 ${a.ref.source + 1} · 문장 ${a.ref.sentence + 1}</span>` : ''}
-        </div></div>`;
+        </div>
+        ${viewed.has(a.idx) && a.ref ? `<div class="quote" data-quote="${a.idx}">대응 원문 문장(출처 ${a.ref.source + 1}): ${esc(quoteOf(a.ref))}</div>` : ''}</div>`;
     })
     .join('');
 }
 
-function renderSources(on) {
-  $('sources').innerHTML = item.sources
-    .map((s, si) => {
-      const sents = (s.text || '').replace(/\s+/g, ' ').split(splitRe).filter((x) => x.trim().length > 1);
-      return `<div class="src" data-source="${si}"><h3>출처 ${si + 1}. ${esc(s.label)}</h3>
-        <div class="meta">${s.edition ? `판본: <b>${esc(s.edition)}</b> · ` : ''}${s.kind === 'reconstructed' ? '재구성 발췌 · ' : ''}${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">원문 링크</a>` : esc(s.key)}</div>
-        <p>${sents.length ? sents.map((t, j) => `<span class="ss ${on && on.source === si && on.sentence === j ? 'on' : ''}" id="ss-${si}-${j}">${esc(t)}</span>`).join(' ') : '<span class="muted">발췌 없음 — 원문 링크를 열어 직접 확인</span>'}</p></div>`;
-    })
-    .join('');
+function renderSources() {
+  const seen = [...viewed].map((i) => item.analysis[i].ref);
+  $('sources').innerHTML = item.sources.map((s, si) => sourceHtml(s, si, { expanded: expanded.has(si), on: current, seen })).join('');
 }
 
 function renderContest() {
@@ -84,8 +81,14 @@ document.addEventListener('click', async (ev) => {
       await api('POST', `/api/sessions/${session_id}/view`, { idx: i });
       viewed.add(i);
       const ref = item.analysis[i].ref;
-      renderDraft(); renderSources(ref);
+      if (ref) expanded.add(ref.source);
+      current = ref;
+      renderDraft(); renderSources();
       if (ref) $(`ss-${ref.source}-${ref.sentence}`)?.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    } else if (act.startsWith('expand-')) {
+      const si = Number(act.slice(7));
+      await api('POST', `/api/sessions/${session_id}/expand`, { source: si });
+      expanded.add(si); renderSources();
     } else if (act.startsWith('check-')) {
       const i = Number(act.slice(6));
       const r = await api('POST', `/api/sessions/${session_id}/check`, { idx: i, checked: t.checked });
@@ -115,5 +118,5 @@ document.addEventListener('click', async (ev) => {
 });
 
 $('rule').textContent = `승인(인증)은 ① 모든 주장 문장의 원문 대조 체크${item.contested ? ' ② [쟁점] 검토' : ''}를 마쳐야 활성화됩니다. 보류·거부는 언제든 가능하지만 사유가 필요하며, 항목은 초안으로 돌아갑니다.`;
-renderDraft(); renderSources(null); renderContest(); renderGate();
+renderDraft(); renderSources(); renderContest(); renderGate();
 document.body.dataset.ready = '1';

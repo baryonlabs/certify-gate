@@ -1,0 +1,990 @@
+{
+ "model": "claude-sonnet",
+ "samples": 2,
+ "results": [
+  {
+   "id": "H001",
+   "origin": "scifact-doc:41493639",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H002",
+   "origin": "scifact-doc:16488405",
+   "label": "error",
+   "error_type": "unit",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H003",
+   "origin": "scifact-doc:12205576",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H004",
+   "origin": "scifact-doc:30437264",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H005",
+   "origin": "scifact-doc:2032877",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H006",
+   "origin": "scifact-doc:1727042",
+   "label": "error",
+   "error_type": "edition",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H007",
+   "origin": "scifact-doc:38028419",
+   "label": "error",
+   "error_type": "unit",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H008",
+   "origin": "scifact-doc:4457160",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H009",
+   "origin": "scifact-doc:24624992",
+   "label": "error",
+   "error_type": "causal",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H010",
+   "origin": "scifact-doc:14717213",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H011",
+   "origin": "scifact-doc:35301079",
+   "label": "error",
+   "error_type": "decimal",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H012",
+   "origin": "scifact-doc:27772649",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H013",
+   "origin": "scifact-doc:13889430",
+   "label": "error",
+   "error_type": "causal",
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 0
+  },
+  {
+   "id": "H014",
+   "origin": "scifact-doc:2212067",
+   "label": "error",
+   "error_type": "unit",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H015",
+   "origin": "scifact-doc:19427410",
+   "label": "error",
+   "error_type": "digit",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H016",
+   "origin": "scifact-doc:3222187",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H017",
+   "origin": "scifact-doc:11459139",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H018",
+   "origin": "ontology:skill_compression",
+   "label": "error",
+   "error_type": "edition",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H019",
+   "origin": "scifact-doc:26702468",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H020",
+   "origin": "scifact-doc:14105446",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H021",
+   "origin": "scifact-doc:6251620",
+   "label": "error",
+   "error_type": "digit",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H022",
+   "origin": "scifact-doc:22867765",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H023",
+   "origin": "scifact-doc:24557631",
+   "label": "error",
+   "error_type": "decimal",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H024",
+   "origin": "scifact-doc:4305576",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H025",
+   "origin": "scifact-doc:14803797",
+   "label": "error",
+   "error_type": "scope",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H026",
+   "origin": "scifact-doc:10607877",
+   "label": "error",
+   "error_type": "unit",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H027",
+   "origin": "scifact-doc:1921218",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H028",
+   "origin": "scifact-doc:38808600",
+   "label": "error",
+   "error_type": "unit",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H029",
+   "origin": "scifact-doc:21369472",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H030",
+   "origin": "scifact-doc:17023584",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H031",
+   "origin": "scifact-doc:40667066",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H032",
+   "origin": "scifact-doc:39390206",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H033",
+   "origin": "scifact-doc:36211049",
+   "label": "error",
+   "error_type": "year",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H034",
+   "origin": "scifact-doc:9047718",
+   "label": "error",
+   "error_type": "edition",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H035",
+   "origin": "scifact-doc:11771811",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H036",
+   "origin": "scifact-doc:10509344",
+   "label": "error",
+   "error_type": "year",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H037",
+   "origin": "scifact-doc:21719289",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H038",
+   "origin": "scifact-doc:20460020",
+   "label": "error",
+   "error_type": "scope",
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 0
+  },
+  {
+   "id": "H039",
+   "origin": "scifact-doc:6948886",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H040",
+   "origin": "scifact-doc:9622258",
+   "label": "error",
+   "error_type": "decimal",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H041",
+   "origin": "scifact-doc:14700857",
+   "label": "error",
+   "error_type": "decimal",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H042",
+   "origin": "scifact-doc:583260",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H043",
+   "origin": "scifact-doc:42731834",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H044",
+   "origin": "scifact-doc:4469125",
+   "label": "error",
+   "error_type": "scope",
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 0
+  },
+  {
+   "id": "H045",
+   "origin": "scifact-doc:25373397",
+   "label": "error",
+   "error_type": "digit",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H046",
+   "origin": "scifact-doc:39084565",
+   "label": "error",
+   "error_type": "scope",
+   "verdicts": [
+    "error",
+    "correct"
+   ],
+   "n_correct": 1
+  },
+  {
+   "id": "H047",
+   "origin": "scifact-doc:25571386",
+   "label": "error",
+   "error_type": "causal",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H048",
+   "origin": "scifact-doc:2919030",
+   "label": "error",
+   "error_type": "digit",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H049",
+   "origin": "scifact-doc:31070360",
+   "label": "error",
+   "error_type": "causal",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H050",
+   "origin": "scifact-doc:29073751",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H051",
+   "origin": "scifact-doc:25817686",
+   "label": "error",
+   "error_type": "digit",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H052",
+   "origin": "scifact-doc:5798227",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H053",
+   "origin": "scifact-doc:40949706",
+   "label": "error",
+   "error_type": "year",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H054",
+   "origin": "scifact-doc:22705234",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H055",
+   "origin": "scifact-doc:6144969",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H056",
+   "origin": "scifact-doc:7028976",
+   "label": "error",
+   "error_type": "causal",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H057",
+   "origin": "scifact-doc:3805841",
+   "label": "error",
+   "error_type": "scope",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H058",
+   "origin": "scifact-doc:27061085",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H059",
+   "origin": "scifact-doc:198309074",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H060",
+   "origin": "scifact-doc:12669325",
+   "label": "error",
+   "error_type": "digit",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H061",
+   "origin": "scifact-doc:4421746",
+   "label": "error",
+   "error_type": "causal",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H062",
+   "origin": "scifact-doc:14726759",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H063",
+   "origin": "scifact-doc:4391685",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H064",
+   "origin": "scifact-doc:5409325",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H065",
+   "origin": "scifact-doc:7224723",
+   "label": "error",
+   "error_type": "scope",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H066",
+   "origin": "scifact-doc:40769868",
+   "label": "error",
+   "error_type": "decimal",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H067",
+   "origin": "scifact-doc:19957813",
+   "label": "error",
+   "error_type": "edition",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H068",
+   "origin": "scifact-doc:34537906",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H069",
+   "origin": "ontology:jagged_frontier",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "error",
+    "correct"
+   ],
+   "n_correct": 1
+  },
+  {
+   "id": "H070",
+   "origin": "scifact-doc:46437558",
+   "label": "error",
+   "error_type": "year",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H071",
+   "origin": "scifact-doc:13948920",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H072",
+   "origin": "scifact-doc:30221601",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H073",
+   "origin": "scifact-doc:4085204",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H074",
+   "origin": "scifact-doc:12658073",
+   "label": "error",
+   "error_type": "causal",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H075",
+   "origin": "scifact-doc:2119889",
+   "label": "error",
+   "error_type": "digit",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H076",
+   "origin": "scifact-doc:10212612",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H077",
+   "origin": "scifact-doc:6841927",
+   "label": "error",
+   "error_type": "decimal",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H078",
+   "origin": "scifact-doc:11565780",
+   "label": "error",
+   "error_type": "unit",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H079",
+   "origin": "scifact-doc:5254463",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H080",
+   "origin": "scifact-doc:52944377",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H081",
+   "origin": "scifact-doc:13578199",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H082",
+   "origin": "scifact-doc:27555165",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H083",
+   "origin": "scifact-doc:20999249",
+   "label": "error",
+   "error_type": "scope",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H084",
+   "origin": "scifact-doc:9997636",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H085",
+   "origin": "scifact-doc:5284188",
+   "label": "error",
+   "error_type": "digit",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H086",
+   "origin": "scifact-doc:15669393",
+   "label": "error",
+   "error_type": "causal",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H087",
+   "origin": "scifact-doc:21465696",
+   "label": "correct",
+   "error_type": null,
+   "verdicts": [
+    "correct",
+    "correct"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H088",
+   "origin": "scifact-doc:21932050",
+   "label": "error",
+   "error_type": "scope",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  },
+  {
+   "id": "H089",
+   "origin": "scifact-doc:70455704",
+   "label": "error",
+   "error_type": "year",
+   "verdicts": [
+    "error",
+    "error"
+   ],
+   "n_correct": 2
+  }
+ ],
+ "floor": [
+  "H013",
+  "H038",
+  "H044"
+ ]
+}

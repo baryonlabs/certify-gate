@@ -19,7 +19,7 @@
 </main>
 <script type="module">
 // 조건 B: 같은 초안+출처, 게이트·강조 없음 / 조건 C: 출처 원문 없이 초안만
-import { api, header, statusBadge, esc, qs } from '/common.js';
+import { api, header, statusBadge, esc, qs, sourceHtml } from '/common.js';
 const $ = (id) => document.getElementById(id);
 await header();
 const id = qs.get('id'), cond = qs.get('condition') === 'C' ? 'C' : 'B';
@@ -27,15 +27,21 @@ const item = await api('GET', `/api/items/${encodeURIComponent(id)}?condition=${
 const { session_id } = await api('POST', '/api/sessions', { item_id: id, condition: cond, meta: qs.get('meta') });
 $('hdr').innerHTML = `<h2>${esc(item.label)} <code class="muted">${esc(item.id)}</code> ${statusBadge(item.status)}</h2>`;
 $('draft').innerHTML = item.sentences.map((s) => `<p>${esc(s)}</p>`).join('');
+const expanded = new Set();
+const renderSources = () => { $('sources').innerHTML = item.sources.map((s, i) => sourceHtml(s, i, { expanded: expanded.has(i) })).join(''); };
 if (cond === 'B') {
-  $('sources').innerHTML = item.sources.map((s, i) => `<div class="src"><h3>출처 ${i + 1}. ${esc(s.label)}</h3>
-    <div class="meta">${s.edition ? '판본: ' + esc(s.edition) : ''}</div><p>${esc(s.text) || '<span class="muted">발췌 없음</span>'}</p></div>`).join('');
+  renderSources();
 } else {
   $('sources').innerHTML = '<p class="muted">출처: ' + item.sources.map((s) => esc(s.label)).join(' · ') + '</p>';
 }
 document.addEventListener('click', async (ev) => {
   const t = ev.target.closest('button[data-act]');
   if (!t || t.disabled) return;
+  if (t.dataset.act.startsWith('expand-')) {
+    const si = Number(t.dataset.act.slice(7));
+    try { await api('POST', `/api/sessions/${session_id}/expand`, { source: si }); expanded.add(si); renderSources(); } catch (e) { $('err').textContent = e.message; }
+    return;
+  }
   try {
     const r = await api('POST', `/api/sessions/${session_id}/decision`, { decision: t.dataset.act, comment: $('comment').value });
     $('done').hidden = false;

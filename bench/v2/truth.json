@@ -1,0 +1,1133 @@
+{
+ "H001": {
+  "label": "error",
+  "error_type": "causal",
+  "mutated_idx": 1,
+  "from": "might",
+  "to": "will",
+  "keys": [
+   "might",
+   "will",
+   "인과",
+   "caus",
+   "과장",
+   "prove",
+   "단정"
+  ],
+  "origin": "scifact-doc:24624992",
+  "n_sentences": 2,
+  "source_chars": 1404
+ },
+ "H002": {
+  "label": "error",
+  "error_type": "digit",
+  "mutated_idx": 1,
+  "from": "3",
+  "to": "7",
+  "keys": [
+   "3",
+   "7",
+   "숫자",
+   "number"
+  ],
+  "origin": "scifact-doc:19427410",
+  "n_sentences": 2,
+  "source_chars": 973
+ },
+ "H003": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:11771811",
+  "n_sentences": 2,
+  "source_chars": 1055
+ },
+ "H004": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:40667066",
+  "n_sentences": 2,
+  "source_chars": 1517
+ },
+ "H005": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:4085204",
+  "n_sentences": 3,
+  "source_chars": 1258
+ },
+ "H006": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:4391685",
+  "n_sentences": 3,
+  "source_chars": 1125
+ },
+ "H007": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": true,
+  "origin": "scifact-doc:14726759",
+  "n_sentences": 3,
+  "source_chars": 1333
+ },
+ "H008": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:9997636",
+  "n_sentences": 2,
+  "source_chars": 1133
+ },
+ "H009": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": true,
+  "origin": "scifact-doc:25571386",
+  "n_sentences": 3,
+  "source_chars": 1866
+ },
+ "H010": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:26702468",
+  "n_sentences": 2,
+  "source_chars": 936
+ },
+ "H011": {
+  "label": "error",
+  "error_type": "causal",
+  "mutated_idx": 1,
+  "from": "may",
+  "to": "will",
+  "keys": [
+   "may",
+   "will",
+   "인과",
+   "caus",
+   "과장",
+   "prove",
+   "단정"
+  ],
+  "origin": "scifact-doc:30221601",
+  "n_sentences": 2,
+  "source_chars": 925
+ },
+ "H012": {
+  "label": "error",
+  "error_type": "unit",
+  "mutated_idx": 0,
+  "from": "μg",
+  "to": "mg",
+  "keys": [
+   "μg",
+   "mg",
+   "단위",
+   "unit"
+  ],
+  "origin": "scifact-doc:14105446",
+  "n_sentences": 3,
+  "source_chars": 1578
+ },
+ "H013": {
+  "label": "error",
+  "error_type": "unit",
+  "mutated_idx": 1,
+  "from": "weeks",
+  "to": "months",
+  "keys": [
+   "weeks",
+   "months",
+   "단위",
+   "unit"
+  ],
+  "origin": "scifact-doc:5085118",
+  "n_sentences": 2,
+  "source_chars": 1488
+ },
+ "H014": {
+  "label": "error",
+  "error_type": "unit",
+  "mutated_idx": 0,
+  "from": "months",
+  "to": "years",
+  "keys": [
+   "months",
+   "years",
+   "단위",
+   "unit"
+  ],
+  "origin": "scifact-doc:6841927",
+  "n_sentences": 2,
+  "source_chars": 1614
+ },
+ "H015": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": true,
+  "origin": "scifact-doc:42731834",
+  "n_sentences": 3,
+  "source_chars": 1645
+ },
+ "H016": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:2032877",
+  "n_sentences": 2,
+  "source_chars": 3608
+ },
+ "H017": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:35987381",
+  "n_sentences": 2,
+  "source_chars": 1190
+ },
+ "H018": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:7224723",
+  "n_sentences": 2,
+  "source_chars": 1002
+ },
+ "H019": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": true,
+  "origin": "scifact-doc:583260",
+  "n_sentences": 2,
+  "source_chars": 1557
+ },
+ "H020": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": true,
+  "origin": "scifact-doc:10509344",
+  "n_sentences": 2,
+  "source_chars": 1009
+ },
+ "H021": {
+  "label": "error",
+  "error_type": "unit",
+  "mutated_idx": 0,
+  "from": "weeks",
+  "to": "months",
+  "keys": [
+   "weeks",
+   "months",
+   "단위",
+   "unit"
+  ],
+  "origin": "scifact-doc:4422868",
+  "n_sentences": 2,
+  "source_chars": 1134
+ },
+ "H022": {
+  "label": "error",
+  "error_type": "scope",
+  "mutated_idx": 1,
+  "from": "in mice",
+  "to": "(삭제)",
+  "keys": [
+   "in mice",
+   "범위",
+   "조건",
+   "대상",
+   "scope",
+   "only",
+   "일반화"
+  ],
+  "origin": "scifact-doc:14803797",
+  "n_sentences": 3,
+  "source_chars": 1477
+ },
+ "H023": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:5409325",
+  "n_sentences": 2,
+  "source_chars": 1757
+ },
+ "H024": {
+  "label": "error",
+  "error_type": "edition",
+  "mutated_idx": 1,
+  "from": "250",
+  "to": "251",
+  "keys": [
+   "250",
+   "251",
+   "출판",
+   "publish",
+   "판본",
+   "preprint"
+  ],
+  "origin": "scifact-doc:25373397",
+  "n_sentences": 2,
+  "source_chars": 3174
+ },
+ "H025": {
+  "label": "error",
+  "error_type": "digit",
+  "mutated_idx": 1,
+  "from": "72",
+  "to": "79",
+  "keys": [
+   "72",
+   "79",
+   "숫자",
+   "number"
+  ],
+  "origin": "scifact-doc:19957813",
+  "n_sentences": 3,
+  "source_chars": 1019
+ },
+ "H026": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:13578199",
+  "n_sentences": 3,
+  "source_chars": 1437
+ },
+ "H027": {
+  "label": "error",
+  "error_type": "year",
+  "mutated_idx": 0,
+  "from": "1997",
+  "to": "1994",
+  "keys": [
+   "1997",
+   "1994",
+   "연도",
+   "year"
+  ],
+  "origin": "scifact-doc:17454301",
+  "n_sentences": 2,
+  "source_chars": 1247
+ },
+ "H028": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:14717213",
+  "n_sentences": 3,
+  "source_chars": 1395
+ },
+ "H029": {
+  "label": "error",
+  "error_type": "edition",
+  "mutated_idx": 0,
+  "from": "15",
+  "to": "14",
+  "keys": [
+   "14",
+   "15",
+   "출판",
+   "QJE",
+   "판본"
+  ],
+  "real_case": true,
+  "origin": "ontology:skill_compression",
+  "n_sentences": 2,
+  "source_chars": 754
+ },
+ "H030": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:4305576",
+  "n_sentences": 3,
+  "source_chars": 954
+ },
+ "H031": {
+  "label": "error",
+  "error_type": "digit",
+  "mutated_idx": 1,
+  "from": "20",
+  "to": "28",
+  "keys": [
+   "20",
+   "28",
+   "숫자",
+   "number"
+  ],
+  "origin": "scifact-doc:34537906",
+  "n_sentences": 3,
+  "source_chars": 751
+ },
+ "H032": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": true,
+  "origin": "scifact-doc:3360428",
+  "n_sentences": 3,
+  "source_chars": 1305
+ },
+ "H033": {
+  "label": "error",
+  "error_type": "scope",
+  "mutated_idx": 1,
+  "from": "in adults",
+  "to": "(삭제)",
+  "keys": [
+   "in adults",
+   "범위",
+   "조건",
+   "대상",
+   "scope",
+   "only",
+   "일반화"
+  ],
+  "origin": "scifact-doc:12205576",
+  "n_sentences": 2,
+  "source_chars": 1784
+ },
+ "H034": {
+  "label": "error",
+  "error_type": "decimal",
+  "mutated_idx": 0,
+  "from": "1.09",
+  "to": "1.90",
+  "keys": [
+   "1.09",
+   "1.90",
+   "소수",
+   "decimal"
+  ],
+  "origin": "scifact-doc:35301079",
+  "n_sentences": 2,
+  "source_chars": 1946
+ },
+ "H035": {
+  "label": "error",
+  "error_type": "causal",
+  "mutated_idx": 1,
+  "from": "might",
+  "to": "will",
+  "keys": [
+   "might",
+   "will",
+   "인과",
+   "caus",
+   "과장",
+   "prove",
+   "단정"
+  ],
+  "origin": "scifact-doc:25817686",
+  "n_sentences": 2,
+  "source_chars": 1904
+ },
+ "H036": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:2919030",
+  "n_sentences": 2,
+  "source_chars": 1926
+ },
+ "H037": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:5798227",
+  "n_sentences": 2,
+  "source_chars": 874
+ },
+ "H038": {
+  "label": "error",
+  "error_type": "digit",
+  "mutated_idx": 1,
+  "from": "10",
+  "to": "17",
+  "keys": [
+   "10",
+   "17",
+   "숫자",
+   "number"
+  ],
+  "origin": "scifact-doc:6251620",
+  "n_sentences": 3,
+  "source_chars": 1672
+ },
+ "H039": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:6948886",
+  "n_sentences": 2,
+  "source_chars": 1314
+ },
+ "H040": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:17023584",
+  "n_sentences": 2,
+  "source_chars": 1256
+ },
+ "H041": {
+  "label": "error",
+  "error_type": "decimal",
+  "mutated_idx": 1,
+  "from": "48.4",
+  "to": "44.8",
+  "keys": [
+   "48.4",
+   "44.8",
+   "소수",
+   "decimal"
+  ],
+  "origin": "scifact-doc:24557631",
+  "n_sentences": 3,
+  "source_chars": 1950
+ },
+ "H042": {
+  "label": "error",
+  "error_type": "digit",
+  "mutated_idx": 1,
+  "from": "1000",
+  "to": "1200",
+  "keys": [
+   "1000",
+   "1200",
+   "숫자",
+   "number"
+  ],
+  "origin": "scifact-doc:31070360",
+  "n_sentences": 3,
+  "source_chars": 1234
+ },
+ "H043": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:5254463",
+  "n_sentences": 2,
+  "source_chars": 1001
+ },
+ "H044": {
+  "label": "error",
+  "error_type": "year",
+  "mutated_idx": 0,
+  "from": "1990",
+  "to": "1987",
+  "keys": [
+   "1990",
+   "1987",
+   "연도",
+   "year"
+  ],
+  "origin": "scifact-doc:46437558",
+  "n_sentences": 2,
+  "source_chars": 1685
+ },
+ "H045": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": true,
+  "origin": "scifact-doc:27061085",
+  "n_sentences": 2,
+  "source_chars": 1078
+ },
+ "H046": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:52944377",
+  "n_sentences": 3,
+  "source_chars": 960
+ },
+ "H047": {
+  "label": "error",
+  "error_type": "scope",
+  "mutated_idx": 1,
+  "from": "in mice",
+  "to": "(삭제)",
+  "keys": [
+   "in mice",
+   "범위",
+   "조건",
+   "대상",
+   "scope",
+   "only",
+   "일반화"
+  ],
+  "origin": "scifact-doc:8774475",
+  "n_sentences": 2,
+  "source_chars": 1051
+ },
+ "H048": {
+  "label": "correct",
+  "error_type": null,
+  "keys": [],
+  "origin": "ontology:jagged_frontier",
+  "n_sentences": 1,
+  "source_chars": 379
+ },
+ "H049": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:39390206",
+  "n_sentences": 2,
+  "source_chars": 1257
+ },
+ "H050": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": true,
+  "origin": "scifact-doc:41493639",
+  "n_sentences": 3,
+  "source_chars": 1194
+ },
+ "H051": {
+  "label": "error",
+  "error_type": "year",
+  "mutated_idx": 1,
+  "from": "2003",
+  "to": "2005",
+  "keys": [
+   "2003",
+   "2005",
+   "연도",
+   "year"
+  ],
+  "origin": "scifact-doc:8398627",
+  "n_sentences": 3,
+  "source_chars": 1598
+ },
+ "H052": {
+  "label": "error",
+  "error_type": "scope",
+  "mutated_idx": 0,
+  "from": "in infants",
+  "to": "(삭제)",
+  "keys": [
+   "in infants",
+   "범위",
+   "조건",
+   "대상",
+   "scope",
+   "only",
+   "일반화"
+  ],
+  "origin": "scifact-doc:21932050",
+  "n_sentences": 2,
+  "source_chars": 837
+ },
+ "H053": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:10212612",
+  "n_sentences": 3,
+  "source_chars": 1022
+ },
+ "H054": {
+  "label": "error",
+  "error_type": "scope",
+  "mutated_idx": 0,
+  "from": "in mice",
+  "to": "(삭제)",
+  "keys": [
+   "in mice",
+   "범위",
+   "조건",
+   "대상",
+   "scope",
+   "only",
+   "일반화"
+  ],
+  "origin": "scifact-doc:3619931",
+  "n_sentences": 2,
+  "source_chars": 1260
+ },
+ "H055": {
+  "label": "error",
+  "error_type": "decimal",
+  "mutated_idx": 1,
+  "from": "8.47",
+  "to": "8.74",
+  "keys": [
+   "8.47",
+   "8.74",
+   "소수",
+   "decimal"
+  ],
+  "origin": "scifact-doc:14700857",
+  "n_sentences": 3,
+  "source_chars": 1679
+ },
+ "H056": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:6144969",
+  "n_sentences": 2,
+  "source_chars": 1791
+ },
+ "H057": {
+  "label": "error",
+  "error_type": "causal",
+  "mutated_idx": 1,
+  "from": "suggesting that",
+  "to": "proving that",
+  "keys": [
+   "suggesting that",
+   "proving that",
+   "인과",
+   "caus",
+   "과장",
+   "prove",
+   "단정"
+  ],
+  "origin": "scifact-doc:7028976",
+  "n_sentences": 3,
+  "source_chars": 1188
+ },
+ "H058": {
+  "label": "error",
+  "error_type": "unit",
+  "mutated_idx": 1,
+  "from": "h",
+  "to": "min",
+  "keys": [
+   "h",
+   "min",
+   "단위",
+   "unit"
+  ],
+  "origin": "scifact-doc:16488405",
+  "n_sentences": 2,
+  "source_chars": 1023
+ },
+ "H059": {
+  "label": "error",
+  "error_type": "decimal",
+  "mutated_idx": 0,
+  "from": "5.1",
+  "to": "1.5",
+  "keys": [
+   "5.1",
+   "1.5",
+   "소수",
+   "decimal"
+  ],
+  "origin": "scifact-doc:40769868",
+  "n_sentences": 2,
+  "source_chars": 1645
+ },
+ "H060": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:12411274",
+  "n_sentences": 3,
+  "source_chars": 1301
+ },
+ "H062": {
+  "label": "error",
+  "error_type": "edition",
+  "mutated_idx": 0,
+  "from": "2",
+  "to": "6",
+  "keys": [
+   "2",
+   "6",
+   "출판",
+   "publish",
+   "판본",
+   "preprint"
+  ],
+  "origin": "scifact-doc:9047718",
+  "n_sentences": 3,
+  "source_chars": 2410
+ },
+ "H064": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": true,
+  "origin": "scifact-doc:3222187",
+  "n_sentences": 2,
+  "source_chars": 1530
+ },
+ "H065": {
+  "label": "error",
+  "error_type": "decimal",
+  "mutated_idx": 0,
+  "from": "0.7",
+  "to": "7.0",
+  "keys": [
+   "0.7",
+   "7.0",
+   "소수",
+   "decimal"
+  ],
+  "origin": "scifact-doc:40867854",
+  "n_sentences": 2,
+  "source_chars": 1869
+ },
+ "H066": {
+  "label": "error",
+  "error_type": "causal",
+  "mutated_idx": 2,
+  "from": "may",
+  "to": "will",
+  "keys": [
+   "may",
+   "will",
+   "인과",
+   "caus",
+   "과장",
+   "prove",
+   "단정"
+  ],
+  "origin": "scifact-doc:12658073",
+  "n_sentences": 3,
+  "source_chars": 1891
+ },
+ "H068": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:1727042",
+  "n_sentences": 2,
+  "source_chars": 2076
+ },
+ "H069": {
+  "label": "error",
+  "error_type": "decimal",
+  "mutated_idx": 0,
+  "from": "1.8",
+  "to": "8.1",
+  "keys": [
+   "1.8",
+   "8.1",
+   "소수",
+   "decimal"
+  ],
+  "origin": "scifact-doc:9622258",
+  "n_sentences": 2,
+  "source_chars": 1881
+ },
+ "H070": {
+  "label": "error",
+  "error_type": "causal",
+  "mutated_idx": 1,
+  "from": "may",
+  "to": "will",
+  "keys": [
+   "may",
+   "will",
+   "인과",
+   "caus",
+   "과장",
+   "prove",
+   "단정"
+  ],
+  "origin": "scifact-doc:27555165",
+  "n_sentences": 2,
+  "source_chars": 1268
+ },
+ "H071": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": true,
+  "origin": "scifact-doc:23841828",
+  "n_sentences": 3,
+  "source_chars": 1281
+ },
+ "H072": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": true,
+  "origin": "scifact-doc:13948920",
+  "n_sentences": 2,
+  "source_chars": 1445
+ },
+ "H073": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:1921218",
+  "n_sentences": 2,
+  "source_chars": 1070
+ },
+ "H074": {
+  "label": "error",
+  "error_type": "causal",
+  "mutated_idx": 1,
+  "from": "are associated with",
+  "to": "cause",
+  "keys": [
+   "are associated with",
+   "cause",
+   "인과",
+   "caus",
+   "과장",
+   "prove",
+   "단정"
+  ],
+  "origin": "scifact-doc:15669393",
+  "n_sentences": 3,
+  "source_chars": 1501
+ },
+ "H075": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": true,
+  "origin": "scifact-doc:21465696",
+  "n_sentences": 3,
+  "source_chars": 1336
+ },
+ "H076": {
+  "label": "error",
+  "error_type": "unit",
+  "mutated_idx": 1,
+  "from": "h",
+  "to": "min",
+  "keys": [
+   "h",
+   "min",
+   "단위",
+   "unit"
+  ],
+  "origin": "scifact-doc:9658390",
+  "n_sentences": 3,
+  "source_chars": 1309
+ },
+ "H077": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:22705234",
+  "n_sentences": 3,
+  "source_chars": 1287
+ },
+ "H078": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:29073751",
+  "n_sentences": 2,
+  "source_chars": 793
+ },
+ "H080": {
+  "label": "error",
+  "error_type": "causal",
+  "mutated_idx": 1,
+  "from": "may",
+  "to": "will",
+  "keys": [
+   "may",
+   "will",
+   "인과",
+   "caus",
+   "과장",
+   "prove",
+   "단정"
+  ],
+  "origin": "scifact-doc:4421746",
+  "n_sentences": 2,
+  "source_chars": 1305
+ },
+ "H081": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:4457160",
+  "n_sentences": 2,
+  "source_chars": 1149
+ },
+ "H082": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:198309074",
+  "n_sentences": 2,
+  "source_chars": 1681
+ },
+ "H083": {
+  "label": "correct",
+  "error_type": null,
+  "mutated_idx": null,
+  "keys": [],
+  "trap": false,
+  "origin": "scifact-doc:30437264",
+  "n_sentences": 3,
+  "source_chars": 1056
+ },
+ "H084": {
+  "label": "error",
+  "error_type": "year",
+  "mutated_idx": 0,
+  "from": "1990",
+  "to": "1993",
+  "keys": [
+   "1990",
+   "1993",
+   "연도",
+   "year"
+  ],
+  "origin": "scifact-doc:70455704",
+  "n_sentences": 2,
+  "source_chars": 1293
+ },
+ "H085": {
+  "label": "error",
+  "error_type": "year",
+  "mutated_idx": 0,
+  "from": "2014",
+  "to": "2017",
+  "keys": [
+   "2014",
+   "2017",
+   "연도",
+   "year"
+  ],
+  "origin": "scifact-doc:6112053",
+  "n_sentences": 2,
+  "source_chars": 1687
+ },
+ "H087": {
+  "label": "error",
+  "error_type": "digit",
+  "mutated_idx": 1,
+  "from": "998",
+  "to": "992",
+  "keys": [
+   "998",
+   "992",
+   "숫자",
+   "number"
+  ],
+  "origin": "scifact-doc:12669325",
+  "n_sentences": 3,
+  "source_chars": 1008
+ },
+ "H088": {
+  "label": "error",
+  "error_type": "edition",
+  "mutated_idx": 1,
+  "from": "6",
+  "to": "3",
+  "keys": [
+   "6",
+   "3",
+   "출판",
+   "publish",
+   "판본",
+   "preprint"
+  ],
+  "origin": "scifact-doc:21369472",
+  "n_sentences": 3,
+  "source_chars": 1878
+ },
+ "H089": {
+  "label": "error",
+  "error_type": "digit",
+  "mutated_idx": 0,
+  "from": "156",
+  "to": "166",
+  "keys": [
+   "156",
+   "166",
+   "숫자",
+   "number"
+  ],
+  "origin": "scifact-doc:5284188",
+  "n_sentences": 3,
+  "source_chars": 1258
+ }
+}
