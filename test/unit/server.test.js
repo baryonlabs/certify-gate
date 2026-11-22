@@ -7,7 +7,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { createApp } from '../../src/server.js';
 
-const ORIG = '/Users/hongmartin/.orca/bots/bot-2/ontology/ontology.json';
+const ORIG = process.env.ONTOLOGY_SOURCE || ''; // 원본 ontology.json 경로(선택): 설정 시 원본이 바뀌지 않았는지 확인
 let base, srv, dataDir, origHash;
 const H = 'human-dev-token', A = 'agent-dev-token';
 async function call(method, p, body, tok = H) {
