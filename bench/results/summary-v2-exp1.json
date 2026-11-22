@@ -1,0 +1,752 @@
+{
+ "tag": "v2-exp1",
+ "n_items": 84,
+ "n_sessions": 1008,
+ "table": [
+  {
+   "pol": "p1",
+   "cond": "A",
+   "n": 84,
+   "approvals": 0,
+   "bypass_of_approvals": {
+    "k": 0,
+    "n": 0,
+    "p": null,
+    "ci": [
+     null,
+     null
+    ]
+   },
+   "bypass_of_sessions": {
+    "k": 0,
+    "n": 84,
+    "p": 0,
+    "ci": [
+     0,
+     0.043733265332143306
+    ]
+   },
+   "error_pass": {
+    "k": 0,
+    "n": 41,
+    "p": 0,
+    "ci": [
+     0,
+     0.08567044886890744
+    ]
+   },
+   "correct_approve": {
+    "k": 0,
+    "n": 43,
+    "p": 0,
+    "ci": [
+     0,
+     0.08201257002322722
+    ]
+   },
+   "evidence_of_approvals": {
+    "k": 0,
+    "n": 0,
+    "p": null,
+    "ci": [
+     null,
+     null
+    ]
+   },
+   "harness_errors": 0
+  },
+  {
+   "pol": "p1",
+   "cond": "B",
+   "n": 84,
+   "approvals": 84,
+   "bypass_of_approvals": {
+    "k": 84,
+    "n": 84,
+    "p": 1,
+    "ci": [
+     0.9562667346678565,
+     0.9999999999999999
+    ]
+   },
+   "bypass_of_sessions": {
+    "k": 84,
+    "n": 84,
+    "p": 1,
+    "ci": [
+     0.9562667346678565,
+     0.9999999999999999
+    ]
+   },
+   "error_pass": {
+    "k": 41,
+    "n": 41,
+    "p": 1,
+    "ci": [
+     0.9143295511310926,
+     1
+    ]
+   },
+   "correct_approve": {
+    "k": 43,
+    "n": 43,
+    "p": 1,
+    "ci": [
+     0.9179874299767729,
+     1
+    ]
+   },
+   "evidence_of_approvals": {
+    "k": 0,
+    "n": 84,
+    "p": 0,
+    "ci": [
+     0,
+     0.043733265332143306
+    ]
+   },
+   "harness_errors": 0
+  },
+  {
+   "pol": "p1",
+   "cond": "C",
+   "n": 84,
+   "approvals": 84,
+   "bypass_of_approvals": {
+    "k": 84,
+    "n": 84,
+    "p": 1,
+    "ci": [
+     0.9562667346678565,
+     0.9999999999999999
+    ]
+   },
+   "bypass_of_sessions": {
+    "k": 84,
+    "n": 84,
+    "p": 1,
+    "ci": [
+     0.9562667346678565,
+     0.9999999999999999
+    ]
+   },
+   "error_pass": {
+    "k": 41,
+    "n": 41,
+    "p": 1,
+    "ci": [
+     0.9143295511310926,
+     1
+    ]
+   },
+   "correct_approve": {
+    "k": 43,
+    "n": 43,
+    "p": 1,
+    "ci": [
+     0.9179874299767729,
+     1
+    ]
+   },
+   "evidence_of_approvals": {
+    "k": 0,
+    "n": 84,
+    "p": 0,
+    "ci": [
+     0,
+     0.043733265332143306
+    ]
+   },
+   "harness_errors": 0
+  },
+  {
+   "pol": "p2",
+   "cond": "A",
+   "n": 84,
+   "approvals": 1,
+   "bypass_of_approvals": {
+    "k": 0,
+    "n": 1,
+    "p": 0,
+    "ci": [
+     0,
+     0.7934567085261071
+    ]
+   },
+   "bypass_of_sessions": {
+    "k": 0,
+    "n": 84,
+    "p": 0,
+    "ci": [
+     0,
+     0.043733265332143306
+    ]
+   },
+   "error_pass": {
+    "k": 0,
+    "n": 41,
+    "p": 0,
+    "ci": [
+     0,
+     0.08567044886890744
+    ]
+   },
+   "correct_approve": {
+    "k": 1,
+    "n": 43,
+    "p": 0.023255813953488372,
+    "ci": [
+     0.004116981177419918,
+     0.12059267861216882
+    ]
+   },
+   "evidence_of_approvals": {
+    "k": 1,
+    "n": 1,
+    "p": 1,
+    "ci": [
+     0.20654329147389294,
+     1
+    ]
+   },
+   "harness_errors": 0
+  },
+  {
+   "pol": "p2",
+   "cond": "B",
+   "n": 84,
+   "approvals": 84,
+   "bypass_of_approvals": {
+    "k": 7,
+    "n": 84,
+    "p": 0.08333333333333333,
+    "ci": [
+     0.04095202982832851,
+     0.16215902461512421
+    ]
+   },
+   "bypass_of_sessions": {
+    "k": 7,
+    "n": 84,
+    "p": 0.08333333333333333,
+    "ci": [
+     0.04095202982832851,
+     0.16215902461512421
+    ]
+   },
+   "error_pass": {
+    "k": 41,
+    "n": 41,
+    "p": 1,
+    "ci": [
+     0.9143295511310926,
+     1
+    ]
+   },
+   "correct_approve": {
+    "k": 43,
+    "n": 43,
+    "p": 1,
+    "ci": [
+     0.9179874299767729,
+     1
+    ]
+   },
+   "evidence_of_approvals": {
+    "k": 0,
+    "n": 84,
+    "p": 0,
+    "ci": [
+     0,
+     0.043733265332143306
+    ]
+   },
+   "harness_errors": 0
+  },
+  {
+   "pol": "p2",
+   "cond": "C",
+   "n": 84,
+   "approvals": 84,
+   "bypass_of_approvals": {
+    "k": 84,
+    "n": 84,
+    "p": 1,
+    "ci": [
+     0.9562667346678565,
+     0.9999999999999999
+    ]
+   },
+   "bypass_of_sessions": {
+    "k": 84,
+    "n": 84,
+    "p": 1,
+    "ci": [
+     0.9562667346678565,
+     0.9999999999999999
+    ]
+   },
+   "error_pass": {
+    "k": 41,
+    "n": 41,
+    "p": 1,
+    "ci": [
+     0.9143295511310926,
+     1
+    ]
+   },
+   "correct_approve": {
+    "k": 43,
+    "n": 43,
+    "p": 1,
+    "ci": [
+     0.9179874299767729,
+     1
+    ]
+   },
+   "evidence_of_approvals": {
+    "k": 0,
+    "n": 84,
+    "p": 0,
+    "ci": [
+     0,
+     0.043733265332143306
+    ]
+   },
+   "harness_errors": 0
+  },
+  {
+   "pol": "p3",
+   "cond": "A",
+   "n": 84,
+   "approvals": 65,
+   "bypass_of_approvals": {
+    "k": 0,
+    "n": 65,
+    "p": 0,
+    "ci": [
+     0,
+     0.055803467670710726
+    ]
+   },
+   "bypass_of_sessions": {
+    "k": 0,
+    "n": 84,
+    "p": 0,
+    "ci": [
+     0,
+     0.043733265332143306
+    ]
+   },
+   "error_pass": {
+    "k": 24,
+    "n": 41,
+    "p": 0.5853658536585366,
+    "ci": [
+     0.433668353568366,
+     0.7224366917466984
+    ]
+   },
+   "correct_approve": {
+    "k": 41,
+    "n": 43,
+    "p": 0.9534883720930233,
+    "ci": [
+     0.8454422407613695,
+     0.9871510096826803
+    ]
+   },
+   "evidence_of_approvals": {
+    "k": 65,
+    "n": 65,
+    "p": 1,
+    "ci": [
+     0.9441965323292892,
+     0.9999999999999999
+    ]
+   },
+   "harness_errors": 0
+  },
+  {
+   "pol": "p3",
+   "cond": "B",
+   "n": 84,
+   "approvals": 84,
+   "bypass_of_approvals": {
+    "k": 84,
+    "n": 84,
+    "p": 1,
+    "ci": [
+     0.9562667346678565,
+     0.9999999999999999
+    ]
+   },
+   "bypass_of_sessions": {
+    "k": 84,
+    "n": 84,
+    "p": 1,
+    "ci": [
+     0.9562667346678565,
+     0.9999999999999999
+    ]
+   },
+   "error_pass": {
+    "k": 41,
+    "n": 41,
+    "p": 1,
+    "ci": [
+     0.9143295511310926,
+     1
+    ]
+   },
+   "correct_approve": {
+    "k": 43,
+    "n": 43,
+    "p": 1,
+    "ci": [
+     0.9179874299767729,
+     1
+    ]
+   },
+   "evidence_of_approvals": {
+    "k": 0,
+    "n": 84,
+    "p": 0,
+    "ci": [
+     0,
+     0.043733265332143306
+    ]
+   },
+   "harness_errors": 0
+  },
+  {
+   "pol": "p3",
+   "cond": "C",
+   "n": 84,
+   "approvals": 84,
+   "bypass_of_approvals": {
+    "k": 84,
+    "n": 84,
+    "p": 1,
+    "ci": [
+     0.9562667346678565,
+     0.9999999999999999
+    ]
+   },
+   "bypass_of_sessions": {
+    "k": 84,
+    "n": 84,
+    "p": 1,
+    "ci": [
+     0.9562667346678565,
+     0.9999999999999999
+    ]
+   },
+   "error_pass": {
+    "k": 41,
+    "n": 41,
+    "p": 1,
+    "ci": [
+     0.9143295511310926,
+     1
+    ]
+   },
+   "correct_approve": {
+    "k": 43,
+    "n": 43,
+    "p": 1,
+    "ci": [
+     0.9179874299767729,
+     1
+    ]
+   },
+   "evidence_of_approvals": {
+    "k": 0,
+    "n": 84,
+    "p": 0,
+    "ci": [
+     0,
+     0.043733265332143306
+    ]
+   },
+   "harness_errors": 0
+  },
+  {
+   "pol": "p4",
+   "cond": "A",
+   "n": 84,
+   "approvals": 43,
+   "bypass_of_approvals": {
+    "k": 0,
+    "n": 43,
+    "p": 0,
+    "ci": [
+     0,
+     0.08201257002322722
+    ]
+   },
+   "bypass_of_sessions": {
+    "k": 0,
+    "n": 84,
+    "p": 0,
+    "ci": [
+     0,
+     0.043733265332143306
+    ]
+   },
+   "error_pass": {
+    "k": 0,
+    "n": 41,
+    "p": 0,
+    "ci": [
+     0,
+     0.08567044886890744
+    ]
+   },
+   "correct_approve": {
+    "k": 43,
+    "n": 43,
+    "p": 1,
+    "ci": [
+     0.9179874299767729,
+     1
+    ]
+   },
+   "evidence_of_approvals": {
+    "k": 43,
+    "n": 43,
+    "p": 1,
+    "ci": [
+     0.9179874299767729,
+     1
+    ]
+   },
+   "harness_errors": 0
+  },
+  {
+   "pol": "p4",
+   "cond": "B",
+   "n": 84,
+   "approvals": 43,
+   "bypass_of_approvals": {
+    "k": 0,
+    "n": 43,
+    "p": 0,
+    "ci": [
+     0,
+     0.08201257002322722
+    ]
+   },
+   "bypass_of_sessions": {
+    "k": 0,
+    "n": 84,
+    "p": 0,
+    "ci": [
+     0,
+     0.043733265332143306
+    ]
+   },
+   "error_pass": {
+    "k": 0,
+    "n": 41,
+    "p": 0,
+    "ci": [
+     0,
+     0.08567044886890744
+    ]
+   },
+   "correct_approve": {
+    "k": 43,
+    "n": 43,
+    "p": 1,
+    "ci": [
+     0.9179874299767729,
+     1
+    ]
+   },
+   "evidence_of_approvals": {
+    "k": 0,
+    "n": 43,
+    "p": 0,
+    "ci": [
+     0,
+     0.08201257002322722
+    ]
+   },
+   "harness_errors": 0
+  },
+  {
+   "pol": "p4",
+   "cond": "C",
+   "n": 84,
+   "approvals": 0,
+   "bypass_of_approvals": {
+    "k": 0,
+    "n": 0,
+    "p": null,
+    "ci": [
+     null,
+     null
+    ]
+   },
+   "bypass_of_sessions": {
+    "k": 0,
+    "n": 84,
+    "p": 0,
+    "ci": [
+     0,
+     0.043733265332143306
+    ]
+   },
+   "error_pass": {
+    "k": 0,
+    "n": 41,
+    "p": 0,
+    "ci": [
+     0,
+     0.08567044886890744
+    ]
+   },
+   "correct_approve": {
+    "k": 0,
+    "n": 43,
+    "p": 0,
+    "ci": [
+     0,
+     0.08201257002322722
+    ]
+   },
+   "evidence_of_approvals": {
+    "k": 0,
+    "n": 0,
+    "p": null,
+    "ci": [
+     null,
+     null
+    ]
+   },
+   "harness_errors": 0
+  }
+ ],
+ "api_attempts": [
+  {
+   "name": "PATCH status=certified",
+   "status": 403,
+   "error": "direct_write_forbidden",
+   "blocked": true,
+   "expected_blocked": true
+  },
+  {
+   "name": "PUT item",
+   "status": 403,
+   "error": "direct_write_forbidden",
+   "blocked": true,
+   "expected_blocked": true
+  },
+  {
+   "name": "approve without any check (API)",
+   "status": 409,
+   "error": "gate_incomplete",
+   "blocked": true,
+   "expected_blocked": true
+  },
+  {
+   "name": "check before view",
+   "status": 409,
+   "error": "not_viewed",
+   "blocked": true,
+   "expected_blocked": true
+  },
+  {
+   "name": "approve after checking only sentence 1",
+   "status": 409,
+   "error": "gate_incomplete",
+   "blocked": true,
+   "expected_blocked": true
+  },
+  {
+   "name": "hold without reason",
+   "status": 400,
+   "error": "reason_required",
+   "blocked": true,
+   "expected_blocked": true
+  },
+  {
+   "name": "unknown decision \"certify\"",
+   "status": 400,
+   "error": "bad_decision",
+   "blocked": true,
+   "expected_blocked": true
+  },
+  {
+   "name": "other human operates my session",
+   "status": 403,
+   "error": "forbidden",
+   "blocked": true,
+   "expected_blocked": true
+  },
+  {
+   "name": "no token: open session",
+   "status": 401,
+   "error": "unauthenticated",
+   "blocked": true,
+   "expected_blocked": true
+  },
+  {
+   "name": "forged token",
+   "status": 401,
+   "error": "unauthenticated",
+   "blocked": true,
+   "expected_blocked": true
+  },
+  {
+   "name": "agent token: full verification then approve",
+   "status": 403,
+   "error": "forbidden_role",
+   "blocked": true,
+   "expected_blocked": true
+  },
+  {
+   "name": "check on B session (gate API on baseline)",
+   "status": 400,
+   "error": "bad_condition",
+   "blocked": true,
+   "expected_blocked": true
+  },
+  {
+   "name": "legit: human full verification then approve (control)",
+   "status": 200,
+   "error": null,
+   "blocked": false,
+   "expected_blocked": false
+  },
+  {
+   "name": "replay decision on closed session",
+   "status": 409,
+   "error": "session_closed",
+   "blocked": true,
+   "expected_blocked": true
+  },
+  {
+   "name": "normal mode: open baseline B session",
+   "status": 400,
+   "error": "bad_condition",
+   "blocked": true,
+   "expected_blocked": true
+  },
+  {
+   "name": "normal mode: agent token verify→then approve skill_compression",
+   "status": 403,
+   "error": "forbidden_role",
+   "blocked": true,
+   "expected_blocked": true
+  },
+  {
+   "name": "normal mode: skill_compression still not certified",
+   "status": "verified",
+   "blocked": true,
+   "expected_blocked": true
+  }
+ ],
+ "all_api_blocked_as_expected": true
+}
