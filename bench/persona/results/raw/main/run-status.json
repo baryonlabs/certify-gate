@@ -1,0 +1,15 @@
+{
+ "tag": "main",
+ "n": 30,
+ "done": 6,
+ "failed": [
+  "P06-arm2: codex usage limit",
+  "P04-arm2: abort: codex usage limit",
+  "P04-arm1: codex usage limit",
+  "P06-arm1: abort: codex usage limit",
+  "P05-arm1: abort: codex usage limit",
+  "P05-arm2: codex usage limit"
+ ],
+ "abort": "codex usage limit",
+ "finished": "2026-11-22T18:34:50.122Z"
+}
