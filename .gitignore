@@ -4,5 +4,7 @@ test-results/
 playwright-report/
 bench/results/raw/*
 !bench/results/raw/main/
+!bench/results/raw/v2-exp1/
+!bench/results/raw/v2-exp3/
 .DS_Store
 .e2e-work/

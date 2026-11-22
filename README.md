@@ -39,7 +39,7 @@ node bench/run-bench.mjs --models claude-haiku,codex --variants normal,rushed --
 node bench/analyze.mjs main                           # bench/results/summary-main.json, tables-main.md
 node bench/pilot.mjs --n 12                           # 사람 파일럿 (docs/PILOT.md)
 ```
-결과·해석·한계: [docs/BENCHMARK.md](docs/BENCHMARK.md). **LLM 시뮬레이션은 사람 행동의 대리일 뿐**이며 사람 파일럿 절차를 함께 제공합니다.
+결과·해석·한계: [docs/BENCHMARK.md](docs/BENCHMARK.md) (v1), [docs/BENCHMARK_v2.md](docs/BENCHMARK_v2.md) (v2: 정책 인증자·어려운 세트·주의 제한, 사전 등록 [docs/PREREG_v2.md](docs/PREREG_v2.md)). **LLM 시뮬레이션은 사람 행동의 대리일 뿐**이며 사람 파일럿 절차를 함께 제공합니다.
 
 ## 구조
 ```
