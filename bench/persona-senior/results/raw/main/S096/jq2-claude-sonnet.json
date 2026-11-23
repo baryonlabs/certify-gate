@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J12": {
+   "key": "특정 시기 롯트(공단 인근 도매상 납품분)의 나사산 깊이가 얕은 불량, 수압시험 누수 원인 추적에 반나절 소요되어 입고 시점에 거름",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "구두 변경 후 감리가 부인해 책임이 시공자에게 돌아온 사례, 사진과 시각이 지시자·시점의 증거가 됨",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "보 깊이 60cm 이상이면 연기가 보 안쪽에 고여 감지 지연, 보 춤을 직접 재서 판단",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "현장에서 조명이 10~20cm 밀려 시공되어 조명 바로 옆 감지기가 오보, 전 구역 재시공 경험",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "영하 10도 안팎에서 완전 체결하면 봄 열팽창으로 배관이 틀어져 이음부에 응력, 기온 안정 후 완전 체결",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "용접 후 도장이 마르기 전 녹물 번짐은 내부 부식 진행 신호, 시험 전 용접부를 뜯어 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "50A 이상 분기에서 티 이음부에 모멘트 쏠려 미세 누수, 분기점 30cm 이내 추가 지지",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "도면은 천장고 기준이나 마감재 두께가 3~5cm 다르게 시공, 헤드가 반자에서 깊게 들어가면 살수 패턴이 가려져 준공 때 지적",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  }
+ }
+}

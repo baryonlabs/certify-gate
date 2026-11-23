@@ -1,0 +1,86 @@
+{
+ "judge": "claude-sonnet",
+ "model_id": "claude-sonnet-5-5",
+ "items": {
+  "J02": {
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J04": {
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "target": 2,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J09": {
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  }
+ }
+}

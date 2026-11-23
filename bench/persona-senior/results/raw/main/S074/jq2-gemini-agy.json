@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J03": {
+   "key": "베어링 마모 초기 고주파 음, 손등에 느껴지는 축 끝의 미세한 떨림(열이 오르기 전)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "새 벨트(신품)가 처음 이틀 사이 늘어남, 범위 상한 근처로 맞추고 사흘 뒤 재확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "기온 5도 아래(찬 공장)에서 그리스가 굳어 틈새 측정값이 달라짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "같은 시기에 설치된 기계는 마모 속도가 비슷해 한두 달 내 다른 라인에서도 같은 증상 발생",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J06": {
+   "key": "새로 흘러나온 그리스의 양과 색(검게 변한 그리스)으로 과급유와 실링(씰) 불량 구분",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "보관 중 습기나 충격으로 인한 새 베어링(신품) 회전 불량, 조립 후 재분해 방지",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "분진이 많은 라인이나 가동률이 높은 기계는 교체 주기의 70% 시점에도 마모 진행",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "주변 소음에 묻히지 않고 하우징에 전달된 소리로 마모 부위를 정확히 가려냄",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  }
+ }
+}

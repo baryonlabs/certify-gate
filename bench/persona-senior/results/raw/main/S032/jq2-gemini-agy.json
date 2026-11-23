@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J06": {
+   "key": "위에서 비추면 반사로 미세 크랙·핀홀이 묻히고, 비스듬히 비춰야 표면 질감 차이로 헤어라인 크랙이 드러남",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "0402 이하 소형 칩은 열용량이 작아 340℃에서도 패드가 들뜨므로 320℃ 안팎·2초 이내 접촉으로 제한",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J03": {
+   "key": "크고 열이 잘 빠지는 커넥터 핀에서 가열 부족 냉땜이 신입 불량의 절반 이상 발생",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "플럭스 얼룩 밀집 부위는 반복 재작업 흔적으로 패드 약화 및 이차 손상이 겹친 경우가 많음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "코어 전압 레일은 원래 1옴 미만이라 기판 종류별 정상값 범위를 벗어났을 때만 캐패시터 불량 의심",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "솔더볼이 모두 녹으면 부품이 살짝 떠서 미세하게 자리 잡는 움직임이 보임(온도 그래프보다 신뢰)",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "외관상 멀쩡해 보이는 냉땜도 누르면 미세하게 움직임(외관 통과 후 진동 시험 탈락 방지)",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J05": {
+   "key": "보관 한 달 이상이거나 습한 여름철 수분으로 인한 팝콘 현상 방지를 위해 120℃ 안팎 수 시간 베이킹",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  }
+ }
+}

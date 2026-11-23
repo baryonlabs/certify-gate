@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J02": {
+   "key": "지침이 0.01MPa 이상 떨리면 접속부 헐거움이나 급승압이 원인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "바람 센 날 누출 가스가 날려 0 근처로 찍힘, 바람 뒤쪽 30cm에서 재측정",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J12": {
+   "key": "산소결핍·폭발·중독 예방을 위해 진입 전 환기와 농도 측정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J03": {
+   "key": "0.5MPa대에서 나는 가늘고 높은 '쉬' 소리는 누출 초기 신호, 기계 소음 없는 점심 직후",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J05": {
+   "key": "반대 방향으로 감긴 테이프는 조일 때 밀려나 누출됨",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J06": {
+   "key": "아침 영하와 낮 5~8도 온도차로 압력이 0.02MPa 오르내려 같은 온도대에서 비교",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J10": {
+   "key": "급배기로 호스 끝이 튀는 위험, 최소 3분 이상 걸려 감압",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "기포가 바로 안 나오고 40~50초 뒤 작은 알갱이로 맺힘, 대기 시간 기준 없음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "고인 물에서 검지기 센서에 습기가 들어가 지시값이 튀고 물 기포를 누출로 착각",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  }
+ }
+}

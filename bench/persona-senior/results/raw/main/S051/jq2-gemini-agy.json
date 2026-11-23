@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J01": {
+   "key": "건물 냉각수 온도 상승으로 인한 챔버 편차(±3℃), 오전 9시 전 측정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "10분 간격 온도 상승폭 1℃ 이상 시 안정화 미달로 판단해 측정 연장",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "초기 단락으로 인한 부품(MOSFET)·패턴 소손 방지(예상 전류 1.2배 제한)",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "챔버 내 위치별 기류 차이로 인한 온도 편차(2~3℃)",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J11": {
+   "key": "넓은 접지면으로 열이 빠져 납이 안 녹음, 예열 후3초 이내 짧게 작업",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J06": {
+   "key": "DC-DC 인덕터 스위칭 노이즈로 인한 위상잡음 악화 방지(10mm 이상 이격)",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J03": {
+   "key": "동일 로트 내 다른 저항 값 혼입 경험, 5개 중 1개 임의 추출 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "100℃ 이상 고온 표면 접촉 화상 방지(전원 인가 후 5분 이내 확인)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

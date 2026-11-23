@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J05": {
+   "key": "현장 단자 위치가 도면과 달라 재배선·단자 이동 시 다시 연결할 수 있도록 한 뼘 여유",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "10년 넘은 설비는 기준치 이상이어도 1MΩ대로 떨어지거나 지난 값 대비 급감하면 추세 불량",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "비 온 뒤 습기로 절연저항이 실제의 절반 가까이 낮게 나와 오판하므로 반나절 말려 값 안정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "진동 설비는 규정 토크로 조여도 초기 1주 내에 풀림, 표시선 어긋나면 스프링 와셔 교체",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J03": {
+   "key": "탄 냄새·단자 변색 자리가 열에 일곱은 원인이라 먼저 보면 가동 정지 시간을 줄임",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "오래된 알루미늄 혼용 배선은 심선 산화로 압착이 좋아 보여도 빠질 수 있어 당겨 밀리면 재압착",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "접지선이 길면 인버터 노이즈로 PLC 오작동, 접지 위치·길이를 줄여 해결",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "거리를 두면 가까이서 못 보던 헐거운 선, 덮개 안 닫힘, 공구 흔적이 보임",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J01": {
+   "key": "공정별 위험 요인과 보호구 착용 상태를 시작 전 전원에게 확인해 사고 예방",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "말단부터 보면 우회 구간·불필요한 박스 추가가 드러나 전선 낭비(한 층 20~30m 차이) 발견",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "드레인 주위 입상이 도면상 낮게 그려지는 경우가 많고 5cm 모자라게 시공돼 태풍 때 역류한 경험",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "도면 경로가 상하부근 교차점과 겹치면 피복 부족으로 균열, 철근 3겹 겹침 구간은 우회",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J08": {
+   "key": "사무실은 징계로 받아들여 감정이 굳고, 일하던 자리에서 10분 들어주면 그날 풀림",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "습도 높은 제주에서 함수율계 수치가 기준 이내여도 모서리 하단은 늦게 마르며, 손에 서늘한 기운이 남으면 하루 연기",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "타설 때 관 안에 시멘트 풀이 스며든 경우가 있어 헝겊이 막히면 그 구간을 타설 직후 찾아 뚫음",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "층당 배선 잔량이 도면 소요량의 10% 미만이면 다음 층 시작 전 발주, 말단 회로 많은 층은 15% 확보",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "균열 폭 0.3mm 이상이거나 방수 구간 모서리와 겹치면 보수 후 진행, 이하 헤어크랙은 프라이머 처리",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

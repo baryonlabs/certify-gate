@@ -1,0 +1,55 @@
+{
+ "method": "d",
+ "model": "gemini-agy",
+ "model_id": "agy/gemini-4-argon-low",
+ "labels": {
+  "J01": {
+   "label": "gap",
+   "k": null
+  },
+  "J02": {
+   "label": "gap",
+   "k": null
+  },
+  "J03": {
+   "label": "explained",
+   "k": null
+  },
+  "J04": {
+   "label": "explained",
+   "k": null
+  },
+  "J05": {
+   "label": "explained",
+   "k": null
+  },
+  "J06": {
+   "label": "gap",
+   "k": null
+  },
+  "J07": {
+   "label": "explained",
+   "k": null
+  },
+  "J08": {
+   "label": "gap",
+   "k": null
+  },
+  "J09": {
+   "label": "gap",
+   "k": null
+  },
+  "J10": {
+   "label": "explained",
+   "k": null
+  },
+  "J11": {
+   "label": "gap",
+   "k": null
+  },
+  "J12": {
+   "label": "gap",
+   "k": null
+  }
+ }
+}

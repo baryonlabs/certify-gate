@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J07": {
+   "key": "다발째 밀면 중간 격벽 틈에서 걸림; 끈으로 걸리는 지점을 미리 파악하고 다발 묶는 위치 결정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "외기 5도 이하에서 PVC 피복이 뻣뻣해 굽히면 하얗게 일어나고 갈라짐; 차량 안 한 시간으로 유연화",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "소음 큰 공장에서 무전이 묻혀 과도하게 당겨 피복 긁힘; 전선 장력을 직접 느껴 당김·멈춤 정확",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "느슨한 단자가 절연저항 측정값을 흔들어 불량 오판정; 미리 조여 측정 오류 방지",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "대차 근처 강한 진동에서는 규정 간격이라도 피복 마모; 규정 간격의 약 3분의 2로 좁힘",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "짧은 선을 먼저 깔면 긴 선 끼울 때 꼬임; 긴 선을 아래에 두면 위의 짧은 선 교체가 쉬움",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "밴드가 덜 조이면 주행 후 다발이 처져 옆 배관에 닿음; 한 번 더 당겨 헐거우면 새것으로 교체",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J04": {
+   "key": "가는 선은 세게 당기면 멀쩡한 압착도 도체가 늘어나 손상; 선 굵기에 따라 힘을 달리함",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  }
+ }
+}

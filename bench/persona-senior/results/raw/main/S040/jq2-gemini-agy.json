@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J04": {
+   "key": "동네 마당에서의 구체적 불편 발언 유도(주민센터 침묵 대비)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "공문 선행 시 방어적 반려 방지 및 부서별 민감 쟁점 사전 조율",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "가장 어두운 사각지대 기준 충족 여부 확인(평균값 배제)",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "낙엽 후 조도 변화와 겨울철 눈부심 민원 대비(계절별 조명 각도 조정)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "지적 경계와 실제 점유 담장의 30~50cm 오차 및 주민 반발 방지",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J03": {
+   "key": "기억 차이와 주민 합의 번복에 따른 분쟁 방지용 현장 증거 확보",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "돌출물(화분·계량기함)을 제외한 실제 유효 보행 폭(1.2m 이하 시 전환)",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J08": {
+   "key": "비 온 뒤 드러나는 배수 불량과 겨울철 결빙(빙판)으로 인한 노인 낙상 위험",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

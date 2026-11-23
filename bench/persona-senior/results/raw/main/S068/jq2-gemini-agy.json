@@ -1,0 +1,88 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J05": {
+   "key": "설정압 및 봉인 상태 비정상 시 설정압 미작동(과압 보호 기능 상실)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "2시간 사이 0.3kg/cm² 이상 한쪽으로 흐르는 추세(필터 막힘·밸브 틈 열림 징후)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "둔탁한 울림(응축수 고임 신호) 및 개방 전 선제 드레인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "보온재 틈 유입수로 인한 배관 표면의 둥글게 번지는 부식 얼룩",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "닫은 밸브를 반 바퀴 더 조일 때 걸리는 느낌(헐겁게 도는 미세 누설 방지)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "해풍을 피해 풍상 쪽에서 거품이 자라는 속도로 누출 판단",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "한낮 30도 이상 및 차압 0.2 이상 상승(부하 흔들림 전 선제 청소)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "영하 3도 이하 도압관 결빙으로 계기 지시값이 멈춘 채 정상처럼 보이는 위험",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "진동이 잔떨림처럼 가늘어지는 결의 변화(베어링 윤활 불량 초기 징후)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

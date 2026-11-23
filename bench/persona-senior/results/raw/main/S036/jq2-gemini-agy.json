@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J04": {
+   "key": "맞벌이 세대 부재, 저녁 6시 반 전후 개문율 높음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "실내 음식 냄새 및 서너 집 이후 후각 둔화",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "속 녹 은폐 여부, 둔탁한 소리나 페인트 들뜸(내부 부식)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "U자 굴곡 시 표면 잔금, 설치 7년 경과 및 주방 열기 노출",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "알루미늄 테이프 주변 그을음(배기 역류 흔적), 겨울 전 이음부 하단",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "하부 이음부 부식 및 누출, 비 온 뒤 사나흘 이내",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "시공 직후 이음 조임 풀림, 난방 시작 후 열팽창",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "손 힘 부족으로 인한 라이터 점화 및 뻑뻑한 손잡이 개방 방치 위험",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

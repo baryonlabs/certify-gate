@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J05": {
+   "key": "겨울철 야간 잔수 동결로 인한 이음부 파손 방지, 저점에 고인 물이 가장 늦게 빠짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "새벽 영하에서 용접봉 흡습으로 인한 기공 방지, 오븐 온도가 올라 봉이 마른 상태",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "미세 누설은 처음 20분간 압력계에 미표시, 지연 맺히는 물방울이 종이에 번지는 젖은 자국으로 최초 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "습기 많은 날 브러싱 후 10분 경과 시 녹 재발생",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "가스켓 누설이 주로 시작되는 볼트 구멍 사이 중간 지점 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "수평 오차 1도가 두 번째 엘보 이후 끝점 20mm 이상 이탈로 증폭됨",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "밸브·레듀서 인접 구간 하중 집중, 밸브 중량이 배관 한 마디 무게의 절반 초과 시 보강",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "나사산 불량·열처리 이물로 손으로 돌릴 때 뻑뻑한 볼트는 토크값이 맞아도 실제 축력 부족",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

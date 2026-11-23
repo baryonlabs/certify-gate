@@ -1,0 +1,70 @@
+{
+ "judge": "gemini-argon",
+ "model_id": "opencode-go/gemini-4-argon",
+ "items": {
+  "J06": {
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

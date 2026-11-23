@@ -1,0 +1,88 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J04": {
+   "key": "리브 깊이 5mm 이상, 전극 모서리 R 무너짐",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J11": {
+   "key": "깊은 포켓 마무리 구간, 칩 뭉침/배출 막힘",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J01": {
+   "key": "손끝·손톱에 걸리는 0.01mm 단차",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "가공 열 식히기(약 30분), 0.005mm 열팽창 오차",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "SKD11 가공 중 '찌이' 하는 고음(날 끝 마모 신호, 5분 내 파손)",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J02": {
+   "key": "겨울 새벽 기계 냉각(0.01~0.02mm 오차), 20분 워밍업",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "날 끝 마모·치핑 확인(치수 불량·표면 거칠기 악화 방지)",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J05": {
+   "key": "오후 3시경 저혈당(손 떨림·집중 저하), 중요 세팅 오전 배치",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "냄새 변화와 표면 막 형성(부패 시작)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

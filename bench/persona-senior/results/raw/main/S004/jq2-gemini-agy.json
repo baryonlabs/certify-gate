@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J04": {
+   "key": "새벽 기온 5도 이하, 외벽 냉기 감지 시 공회전 10분(줄무늬 불량 방지)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "습도 80% 초과, 하얀 증기 20분 이상 지속 시 건조 시간 연장(기포 불량 방지)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "지시침 고착 확인, 두드려서 0.2바 이상 이동 시 계기 교체 요청",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "오래 보관된 저수분 원료로 20~30초 빠른 상승 시 상한 도달 전 감압(국부 과열 방지)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "앞 조가 남긴 손톱 크기 이상의 탄화 찌꺼기 확인 및 제거(검은 점 불량 방지)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "기억 차이로 인한 다툼, 설정 변경 주체를 기록으로 확인해 감정 진정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "뚜껑 안쪽 굳은 덩어리 혼입으로 인한 미용해 알갱이 불량 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "정기 기록 간격 사이 0.3바 이상 압력 변동(불량 로트 전조)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

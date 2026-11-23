@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J04": {
+   "key": "규격 경계 0.1%p 이내, 출하 후 클레임 예방",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J07": {
+   "key": "습도 80% 초과 시 CO2 흡수로 역가 0.003 하락",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "6장 초과 시 가운데 접시 가온 지연, 맨 위 접시 열기로 인한 건조 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "결로수 유입으로 수분값 상승 방지, 봉지 겉면 물기 소실",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "오후 난방 가동 시 온도 상승으로 저울값 흔들림, 오전 9~11시 안정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "숫자 제시 시 작업자의 방어적 태도, 실물 비교로 스스로 차이를 짚게 함",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "번짐이 접시 면적의 1/4 초과 여부",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "맨 위 칸이 3℃ 높고 문 쪽은 개폐 시 냉각되어 중간 안쪽이 설정 온도에 가장 가까움",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J06": {
+   "key": "0.5초 화면 튐, 광고 없이 정지 화면이 길게 나가는 새벽 2~4시",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "이틀째 밤(48시간) 메모리 누수성 지연 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "기준 동기 신호 유실 여부로 원인 범위를 먼저 좁힘",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "하단 팬 먼지 막힘에 따른 배기 온도(체온 이상 미지근함)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "미사용 예비 선의 장기 방치로 인한 접촉 풀림(분기별 전체 점검)",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "케이블 직경 10배 이하의 급격한 곡률(고습도 시 에러 발생)",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "4년 경과 모듈(연한보다 2년 일찍 부풀어 오름 대비)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "백업 파일 복원 시 누락되는 항목(예약 타이머, 오디오 딜레이 값)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J12": {
+   "key": "두 번 이상 재현되는 것만 논의, 단발성 결과로 인한 논쟁 시간 단축",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "스위칭 어댑터 고조파로 2.4GHz 노이즈 플로어 6~8dB 상승, 설계 간섭 오인 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "만료 한 달 전부터 중요 시험 제외, 시험 중 만료 시 전체 재측정 방지",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "전원 디커플링 오류 빈발, 용량 오삽입(100nF→10nF)으로 LNA 발진 발생",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "위상 안정도 불량 케이블의 보정 틀어짐, 0.3dB 흔들림을 설계 문제로 오인 방지",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "동시 수정 시 공진 이동 및 효과 원인 식별 불가, 변수 하나씩 변경",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "실험실 온도 1~2도 변화로 위상 틀어짐, 오픈 기준선 0.1dB 이상 이탈 시 재보정",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "예상 소비전류 15% 초과 이탈 시 납땜 불량·부품 오삽입 가능성, 원인 탐색 시간 단축",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

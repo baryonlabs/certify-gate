@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J09": {
+   "key": "저지대 배수 불량으로 웅덩이 때문에 보행자 대기 위치가 차도 쪽으로 밀려나는 동선 변화",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "컨테이너 트레일러 3대 이상 수용 여부(대기 중 직진 차로를 막는 문제 방지)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "구형 제어기의 신규 현시 조합 입력 불가 및 설계 후 교체 예산으로 막히는 문제",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "단일 최종안 제출 시 예산 이유로 즉시 반려 방지, 양자택일 유도 시 희망 안 채택률 약 70%",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "유모차·카트·자전거 동반 보행자가 2m 미만 폭에서 대기 중 차도로 밀려나는 현상(2.5m 확보)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "정지선과 연석 곡선 반경 불일치로 인한 시공 후 최다 민원 발생",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "연석에서 1m 이상 뒤에 대기하는지 여부(차량 속도·시거에 대한 심리적 위협 신호)",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "화물차 비율이 평소보다 20% 이상 상승하여 대표성이 상실되는 날 제외",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

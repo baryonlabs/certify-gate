@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J04": {
+   "key": "이음부 틈 잔류 소스 찌꺼기, 유산균 증식 방지",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J08": {
+   "key": "재가동 직후 덜 데워진 실링 바로 인한 접착 약화, 보관 3일째 팽창",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "습도 높은 아침 환기 가동 후 물방울이 마른 뒤 시작, 제품 낙수 오염 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "적재 위치에 따른 박스 중앙 온도 7℃ 초과",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "여름철 수조 물 20℃ 초과 시 60분 내 10℃ 도달 불가",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "바닥 박스 눅눅함(결로) 및 표면 점액 발생, 젖어 있을 시 중심온도 재측정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "시큼한 냄새(세제 농도 부족·잔재 신호), 익일 낙하균 증가",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J12": {
+   "key": "보관 초기(2주차) 가스 생성으로 인한 뚜껑 미세 팽창",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

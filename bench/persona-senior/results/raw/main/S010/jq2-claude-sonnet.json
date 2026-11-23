@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J01": {
+   "key": "증설 구간 접속점이 숨어 있는 기존 경로에서 누전이 자주 남",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "한낮 시험에선 안 보이고 영업 피크에 튀김기·냉동고 동시 가동 시 한 상에 전류가 몰려 생기는 발열",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "10년 넘은 차단기는 시험 버튼에 반응하지 않을 수 있어 설치 연수와 무관하게 교체",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "습기 찬 단자대는 누전 없이도 0.2MΩ대로 떨어짐; 말린 뒤 재측정해 값이 오르면 습기, 그대로면 진짜 누전",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "고열을 오래 받은 전선은 메가 값이 멀쩡해도 가스레인지 쪽 1~2m부터 피복이 부서지고 숨은 구간도 삭아 단락 위험이 있어 줄 전체를 걷어냄",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "변색된 부스바는 과거 열이 난 흔적이며 주변 단자 풀림이 함께 나옴",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "비 온 뒤 상가 누전의 절반쯤이 옥외 간판 배선 접속부 물 침입이라 그쪽부터 차단해 시간 절약",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "0.1MΩ 미만이면 그 구간에서 찾고 0.3~0.5MΩ 애매하면 습도 높은 날을 피해 다음 날 재측정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

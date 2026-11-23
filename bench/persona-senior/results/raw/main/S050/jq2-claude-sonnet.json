@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J02": {
+   "key": "비 오는 날 외부 배관의 미세 누설이 빗물에 씻겨 안 보임; 하부 바닥 알칼리 미끌거림과 pH 시험지 반응으로 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "같은 설비에서 석 달 안에 같은 소리가 반복되면 교체 주기를 앞당길 근거; 정해진 말투로 상태 표현",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "시트 면 머리카락 굵기의 방사형 줄은 수치상 허용이어도 두 달 안 내부 누설 증가 → 연마 대신 교체",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "흘러내린 자국이 말라 흰 결정으로 굳었으면 안정, 젖은 채 번지거나 소리가 갈리면 즉시 등록",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "습기 먹어 가장자리가 푸석한 가스켓은 재체결해도 샘; 박스 아래쪽 장이 불량이라 위에서 두 번째 이후 장 사용",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "영하 5℃ 아래에서 보닛 한쪽만 차가우면 그쪽 패킹 부근 증기 응축 시작, 사흘 안에 누설",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "규칙적인 소리 사이에 불규칙한 자글거림이 섞이면 윤활 부족이 아닌 외륜 손상; 2주 안 정지 → 부품 주문",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "점검표에 이상 없음이어도 마지막 확인 시각이 새벽 3~5시대인 설비를 우선 직접 확인",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

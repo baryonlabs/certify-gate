@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J05": {
+   "key": "현장 단자 위치와 도면 불일치로 인한 재배선·단자 이동 대비",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "10년 넘은 설비에서 1MΩ대 하락 및 이전 값 대비 급감 추세",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "습기로 인해 수치가 절반 가까이 낮게 나오는 정상 회로 불량 오판 방지",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "초기 1주일 사이 풀림 현상 및 표시선 어긋남 시 스프링 와셔 교체",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J03": {
+   "key": "탄 냄새·단자 변색이 주요 원인(10중 7)이며 차단기 순차 차단으로 인한 가동 중단 시간 단축",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "심선 산화로 인한 압착 불량(미세하게 밀림) 확인 및 재탈피·재압착",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "접지선이 길 때 인버터 노이즈로 인한 PLC 오작동 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "가까이서 놓친 헐거운 선, 덮개 미닫힘, 방치된 공구 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

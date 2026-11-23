@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J06": {
+   "key": "프로브 마모로 인한 치우침, 실측값과 0.003mm 이상 차이나면 교정 요청",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "장비 간 2µm 차이, 작업자와 다툼 시 설득 근거 마련",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "공차 ±5µm 부품에서 1µm 편차 시 판정이 뒤집힘",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "맨손 체온으로 프레임 가열 시 3~4µm 오차 발생",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "금형 교체 후 열이 오르며 3~5번째에 지름이 틀어짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "공구 마모 시 치수보다 표면 광택과 버 방향이 먼저 변함",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "단발성 이탈인지 연속 경향(라인 정지 필요)인지 구분",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "알코올 증발 냉각으로 인한 순간적 직경 수축",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

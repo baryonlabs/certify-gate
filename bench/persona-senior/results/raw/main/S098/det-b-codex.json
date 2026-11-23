@@ -1,0 +1,55 @@
+{
+ "method": "b",
+ "model": "codex",
+ "model_id": "gpt-6.2-sol",
+ "labels": {
+  "J01": {
+   "label": "explained",
+   "k": "K1"
+  },
+  "J02": {
+   "label": "gap",
+   "k": null
+  },
+  "J03": {
+   "label": "gap",
+   "k": null
+  },
+  "J04": {
+   "label": "gap",
+   "k": null
+  },
+  "J05": {
+   "label": "gap",
+   "k": null
+  },
+  "J06": {
+   "label": "explained",
+   "k": "K4"
+  },
+  "J07": {
+   "label": "gap",
+   "k": null
+  },
+  "J08": {
+   "label": "explained",
+   "k": "K5"
+  },
+  "J09": {
+   "label": "gap",
+   "k": null
+  },
+  "J10": {
+   "label": "gap",
+   "k": null
+  },
+  "J11": {
+   "label": "gap",
+   "k": null
+  },
+  "J12": {
+   "label": "gap",
+   "k": null
+  }
+ }
+}

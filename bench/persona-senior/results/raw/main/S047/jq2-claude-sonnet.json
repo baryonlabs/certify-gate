@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J11": {
+   "key": "가장자리 겹침 부분은 도막이 얇게 나옴; 후배가 검사에서 지적받지 않게 조용히 보완",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "백색·은색 계열 바닥에 안료가 굳어 침전; 기계 교반으로 안 풀려 색차; 덩어리가 손에 잡히면 따로 거름",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "장마철 습도 80% 초과 시 철판 표면이 얇게 습해 크레이터; 손등에 차가운 느낌이 들면 재탈지",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "막히기 전 소리가 반 음쯤 높아지는 것이 청소 적기; 계기판 수치 변화 전 신호",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J01": {
+   "key": "이음부 미세 누기로 압력이 서서히 떨어져 도막이 거칠어짐; 게이지엔 늦게 나타나 비눗물 거품으로 확인",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "40분 이상 쉬면 건 안에서 도료가 굳어 첫 분사에 덩어리가 튐; 시험분사",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "펌프 진동이 약 3분 후 일정한 리듬으로 안정; 그 뒤에도 떨림이 거칠면 내부 씰·기포 의심",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J04": {
+   "key": "기온 10도 아래에서는 분사 중 점도가 올라 범위 하단에 맞춰도 오렌지필; 하한 쪽으로 맞춤",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

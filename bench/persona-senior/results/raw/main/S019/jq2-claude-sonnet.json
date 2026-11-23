@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J05": {
+   "key": "설치 3년 초과 + 셀 간 전압 편차 0.2V 이상이면 외관 정상이어도 교체",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "접촉 불량 포트는 열이 오르는 5~10분 사이 링크가 흔들림, 그 시간대를 봐야 재방문 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "5년 넘은 접지는 열어서 확인; 분진·습기로 볼트 밑 접촉면이 안쪽부터 부식",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "나사 머리 표시선 어긋남 없고 구리선 변색 없으면 풀림 없음; 주변 플라스틱 누렇게 변하면 즉시 교체",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J02": {
+   "key": "타이를 세게 조이면 UTP·동축 속도 저하·감쇠; 손가락 하나 들어갈 정도가 적당",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "실내외 온도차 10도 넘으면 결로로 전원부 단락 위험, 기다림",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J06": {
+   "key": "공단 지하 트렌치로 올라온 케이블은 장마 후 피복 안쪽 물기로 3~4주 뒤 간헐 접촉불량",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "심선이 단자 밖으로 2mm 이상 노출되면 진동 라인에서 6개월 내 합선; 너무 짧으면 접촉 불량",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

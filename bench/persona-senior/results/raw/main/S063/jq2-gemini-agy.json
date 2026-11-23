@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J04": {
+   "key": "손 감각(±20g)과 저울값 차이가 나면 칼 무뎌짐·결 방향 이상 신호",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "누렇거나 무른 지방은 규격 안이어도 추가 제거, 촘촘한 마블링은 규격 한도까지 유지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "땀으로 장갑 속 손 헛돎·칼자루 감각 둔화, 여름 오후엔 교체 간격 단축",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "바닥 물기는 진공팩 누수 신호, 아래 팩 육색 확인",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "도마 밀림으로 인한 칼 각도 틀어짐·베임 사고 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "칼끝 파손·부러진 조각의 고기 혼입 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "여름 오후 작업대 방치 20분 경과 시 표면 끈적임·변색",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "숙성 1일 미만 냉도체는 눌렀을 때 탄력 방향으로 결 파악(거슬러 자르면 갈라짐)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

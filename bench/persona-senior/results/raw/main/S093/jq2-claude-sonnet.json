@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J01": {
+   "key": "완전히 마르면 도막이 찢겨 나오고 너무 일찍 떼면 번짐; 손톱으로 눌러 자국이 안 남을 때",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J06": {
+   "key": "새 커버의 잔털이 도막에 박힘; 흰 천장에 털이 박혀 전체 재도장",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J02": {
+   "key": "기온 30도 초과 시 빨리 말라 롤러 자국; 규정 비율 상한 안에서 2~3%만 추가",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "형광등에서는 회색이 푸르게 보이고 베이지가 햇빛에서 분홍빛으로 보여 재조색",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "붓 선이 마르면 경계에 광택 차이가 줄처럼 남음; 젖어 있을 때 롤러로 이음",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J11": {
+   "key": "오래된 통은 바닥에 안료가 굳어 가라앉음; 그냥 저으면 색이 연해지고 통마다 색이 달라짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "겨울 오후 4시 이후 하도는 속이 덜 마름; 표기 시간의 두 배 정도 둠",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "비 온 뒤 사흘 안 북측 벽의 백화; 가루가 남으면 프라이머가 먹지 않아 도막이 일어남",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

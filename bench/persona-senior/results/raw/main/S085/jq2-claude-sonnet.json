@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J02": {
+   "key": "새 롤러는 테이프로 세 번 이상 떼어내야 잔털이 안 나온다(잔털이 도막에 박힘)",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "수성은 마르면 베이지·회색 계열이 한 톤 밝아짐; 젖은 색 기준이면 연하게 나와 안료 두세 방울 추가",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "습도 80% 넘는 날은 건조가 느려 흘러내림; 희석률 하한의 절반만 희석",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "젖었을 때 떼면 선 번짐, 완전 건조 후엔 도막 뜯김; 습한 날 40분 전후가 가장 깨끗",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "직사광 받는 벽 표면 35℃ 넘으면 롤러 자국·이음매 보임; 해를 등지는 면만 따라 칠함",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "비 오는 철 씻은 롤러는 이틀 지나도 안 말라 냄새; 수성은 랩 밀봉하면 하루는 안 굳음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "사흘 뒤 끈적임이 남으면 사용 안 함(제주 습기에서 일주일 넘게 끈적임 사례)",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "북향·해안은 표기 시간이 지나도 손등에 차갑고 끈적임이 남음; 하루 묵히지 않으면 부풀음",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

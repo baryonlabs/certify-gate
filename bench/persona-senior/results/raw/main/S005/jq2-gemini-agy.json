@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J06": {
+   "key": "실내 온도 5도 이하(모르타르 덜 굳어 타일 밀림), 손톱으로 타일 가장자리 눌렀을 때 움직임 없음",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J12": {
+   "key": "두 대각선 차이 6~7mm 초과(벽 비직각), 줄눈 폭을 나눠 흡수해 끝줄 쐐기 벌어짐 방지",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "낮게 들어오는 사광에서 롤러 자국과 퍼티 단차가 가장 선명하게 드러남",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J09": {
+   "key": "문 앞 마지막 조각이 타일 반 장보다 좁으면 기준선을 반 장 옮겨 양쪽 조각을 맞춤",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J08": {
+   "key": "손바닥에 0.5mm 미세 단차(특히 퍼티 이음 자리·몰딩 옆)만 걸려도 도장 후 그대로 드러남",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "생산 로트별 미세한 색·크기 차이로 박스째 붙이면 벽에 띠처럼 보임",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J02": {
+   "key": "날카로운 새 흙손 모서리는 미장 면에 줄 자국을 남기지만 20~30개월 써 둥글어진 날은 자국 없이 면을 누름",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "박스가 줄눈·타일 중앙이 아닌 타일 모서리에 걸려 L자 절단 시 깨지고 흉해짐",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

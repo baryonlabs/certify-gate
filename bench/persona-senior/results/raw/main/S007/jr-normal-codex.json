@@ -1,0 +1,36 @@
+{
+ "judge": "codex",
+ "model_id": "gpt-6.2-sol",
+ "items": {
+  "J05-normal": {
+   "score": 1,
+   "rules": 2,
+   "novel": false
+  },
+  "J10-normal": {
+   "score": 2,
+   "rules": 2,
+   "novel": true
+  },
+  "J06-normal": {
+   "score": 1,
+   "rules": 2,
+   "novel": false
+  },
+  "J11-normal": {
+   "score": 2,
+   "rules": 2,
+   "novel": true
+  },
+  "J04-normal": {
+   "score": 2,
+   "rules": 5,
+   "novel": true
+  },
+  "J01-normal": {
+   "score": 2,
+   "rules": 3,
+   "novel": true
+  }
+ }
+}

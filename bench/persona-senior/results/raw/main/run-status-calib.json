@@ -1,0 +1,19 @@
+{
+ "tag": "main",
+ "phase": "calib",
+ "n": 10,
+ "status": {
+  "C02": "gen",
+  "C04": "gen",
+  "C03": "gen",
+  "C05": "gen",
+  "C07": "gen",
+  "C06": "gen",
+  "C08": "gen",
+  "C09": "gen",
+  "C01": "gen",
+  "C10": "gen"
+ },
+ "dead": {},
+ "finished": "2026-11-23T06:23:21.953Z"
+}

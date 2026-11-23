@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J12": {
+   "key": "1.2m에서도 지하수가 비치거나 인접 하중이 있으면 미리 지보공 요구(1.5m 문서 기준 외 조건)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "점심 뒤 인근 공장 소음 증가 시간대, 신호수 소리가 20m 밖에서 안 들리면 수신호 보조원 추가",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "상단 포장 틈 폭이 3mm를 넘으면 그날 오전 하부 작업 차단(비 온 뒤 점토질 미세 균열)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "흙이 5mm 이상 붙으면 바로 털게 함; 겨울 새벽 서리 낀 철제 발판과 진흙 신발의 결합으로 미끄러짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "하단 띠철근 결속선이 헐거워 움직이면 도면 치수가 맞아도 재결속 요구(타설 중 밀려 간격 틀어짐)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "방음망이 수평으로 서고 풍향이 자주 바뀌면 인양물이 돌아 부딪히므로 오전 양중 연기",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "문서는 교육·서명만 요구하나 말이 안 통하면 이해 부족이 많아 첫 사흘은 작업 동작 직접 확인",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J11": {
+   "key": "접속부가 물에 3시간 이상 잠기면 차단기 안 떨어져도 피복 열화; 웅덩이 곁 접속은 30cm 이상 높임",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

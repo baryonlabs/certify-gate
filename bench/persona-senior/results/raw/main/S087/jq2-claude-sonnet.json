@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J11": {
+   "key": "밸브가 쉭 하고 새는 듯한 고음, 바늘의 미세한 떨림 — 수치가 정상이어도 고착 직전 신호",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "제조 번호가 바뀌면 농도가 3~5% 달라질 수 있어 샘플 염색 결과(한 톤 차이)로 본 작업 진행 판단",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "모터음이 약간 둔해지는 것은 필터에 보풀이 쌓인 신호, 게이지보다 20분쯤 먼저 변함",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J05": {
+   "key": "세척 후 하단 이음부에 남은 끈적한 분산제 막(끈적한 감촉), 흰색 계열 노란 반점",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "급수 온도 8도 아래이면 배관 속 찬물이 섞여 초반 승온이 들쭉날쭉, 5분 순환으로 욕 온도 균일",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "70도 부근부터 겹친 부분이 열을 늦게 받아 지시 승온 속도의 절반쯤으로 줄여야 함",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "습한 날 젖은 원단이 마르며 색이 한 톤 밝아짐, 물기 마른 뒤에 비교해야 과염색 방지",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J06": {
+   "key": "100도 도달 시점에 염료가 겉에만 붙어 손에 묻어나면 소금 투입 시기를 늦춤",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  }
+ }
+}

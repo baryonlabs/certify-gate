@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J05": {
+   "key": "뒤따르는 상자 신호 간섭에 의한 오탐 방지, 상자 두 개 폭 간격",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "2시간 주기 전이라도 지방 많은 부위(서너 덩이) 연속 작업으로 기름이 껴 날이 뭉개진 느낌",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "근막이 겹쳐 엄지에 미세하게 걸리는 선, 살점 찢어짐·200g 잔육 손실 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "도마 표면이 미세하게 패어 손바닥에 걸리는 느낌, 고기 밀림·절단 방향 틀어짐 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "도장 등급 대비 누런 지방색 또는 마블링 부족(한 등급 이상 차이)",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J12": {
+   "key": "세척수가 안 닿는 접합부의 잔류 기름때, 악취로 인한 다음 날 작업 지연 방지",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J07": {
+   "key": "껍질이 위에 있을 때 지방층에서 칼이 미끄러져 쏠리는 현상 방지, 칼날 각도 안정 및 균일한 두께·수율 확보",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "굵게 맺힌 서리 결정(재동결 신호), 해동 후 육즙 유출 및 분할 수율 5% 저하 방지",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

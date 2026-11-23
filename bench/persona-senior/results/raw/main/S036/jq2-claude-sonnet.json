@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J04": {
+   "key": "맞벌이 세대는 낮에 부재, 저녁 6시 반 전후에 문을 가장 잘 열어 재방문 감소",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "집 안 음식 냄새에 코가 묻혀 현관에서 맡은 첫 냄새가 가장 정확, 서너 집 후 후각 둔화",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "두꺼운 덧칠은 속 녹을 가림, 둔탁한 소리나 페인트 들뜸은 부식 진행 신호",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "U자로 구부려 표면 잔금이 보이면 곧 갈라짐, 설치 7년 넘고 주방 열기 닿는 호스 우선",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "이음부 알루미늄 테이프 주변 검은 그을음은 배기 역류 흔적, 겨울 전 이음 아래쪽",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "1층 계량기함에 물이 고이면 하부 이음부 부식 누출, 비 온 뒤 사나흘 내 하부 연결부 먼저",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "입주 첫해 시공 직후 이음 조임이 난방 열팽창으로 처음 몇 달 사이 미세하게 풀림",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "손 힘 약한 어르신이 점화 못해 라이터 사용, 손잡이가 뻑뻑하면 열린 채 방치될 위험 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

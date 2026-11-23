@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J02": {
+   "key": "시운전 20분 뒤 손등 3초 이상 못 대는 열(정렬 불량·과잉 윤활)이면 인계 미루고 재점검",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "정지 직전 소리·냄새 단서: 타는 냄새는 벨트·모터, 딱 소리는 키·커플링으로 좁혀 분해 시간 단축",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "과다 주입은 발열과 씰 손상 유발, 규정량만 주입",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "기름이 검게 말라붙고 가루가 섞이면 오래전부터 풀린 볼트, 인접 볼트까지 전부 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "자글거리는 모래 소리는 윤활 부족, 온도 상승 전이라도 며칠 안에 교체 준비",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "진동 심한 프레스·파쇄기 볼트는 규정 토크에도 한 달 안에 풀릴 수 있어 표시로 재확인 주기 단축",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "손바닥이 주파수 변화를 먼저 느낌, 평소보다 잔떨림이면 기초 앵커·플라이휠 이상 의심",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "새벽 영하 근처로 작동유가 굳어 오일 온도가 손에 미지근해질 때까지 기다린 뒤 부하",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "은색 입자 반짝임과 비벼서 까끌한 정도로 마모 단계 판단해 열어볼지 결정",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

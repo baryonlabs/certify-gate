@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J02": {
+   "key": "10초 내 '탁탁' 소리가 온도 상승 시 사라지는지 여부(밸브 간극·인젝터 이상 구분)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J03": {
+   "key": "리브 바닥에 가는 금이 3개 이상 보이는지 여부",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J05": {
+   "key": "안쪽 편마모 및 안팎 패드 두께 차이 2mm 이상(슬라이드 핀 고착 의심)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "오일 침투로 내부가 부풀어 말랑해졌는지 여부(압력 누설·터보 출력 저하 원인)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "에어백 장착 차량에서 잔류 전하 방전을 위한 약 5분 대기",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J04": {
+   "key": "손으로 돌릴 때 저항 변화(첫 반 바퀴에 뚝 걸리면 녹 방지제 도포 후 10분 대기)",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "두꺼운 오일때를 닦은 뒤 반나절~하루 운행해 새로 생기는 누유 흔적으로 위치 구분",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "10년 이상·습기 찬 커넥터 단자의 녹색·흰색 분말(접촉저항 상승)",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

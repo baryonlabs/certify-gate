@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J02": {
+   "key": "낙엽층이 두껍거나 돌 근처면 값이 5% 이상 낮게 나옴; 경사면 위아래 차이 10% 넘으면 추가 측정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "수액이 마르고 단면 푸석하면 재선충 진행; 송진이 끈적하면 가뭄 등 다른 원인이라 시료 대상에서 제외",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "젖은 솔잎은 색이 짙어 초기 변색을 놓침; 잎이 마르는 오후 2시 이후에 확인",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "바람 부는 날 모서리부터 들떠 틈이 생김; 처리 이튿날 모서리가 먼저 헐거워짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "고사 직전 나무는 수피 아래가 말라 푸석하고 차가움; 겉이 푸르러도 몇 주 안에 변색, 위치 표시",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "젖은 낙엽 밑 숨은 바위로 미끄러짐; 낙엽 두께 한 뼘 넘으면 지반 불안정해 채취 지점 위쪽으로 이동",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "시료가 건조되면 선충 분리율이 떨어져 진단 정확도 저하",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "반사된 화면에서 숫자를 잘못 눌러 소수점이 밀림; 현장은 종이에 먼저 쓰고 태블릿은 그늘/차 안에서만",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "경사 25도 넘거나 바람 강할 때 두 번 이상 재서 0.2 이상 차이 나면 평균 사용",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J06": {
+   "key": "안쪽이 뭉친 원료로 인한 모터 전류 급등, 장마철 습한 날",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "패널 진동 불균일(덜덜 걸림)로 인한 로터 균형 이상 및 베어링 손상",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J02": {
+   "key": "낮은 웅 소리 위의 쇠 긁는 듯한 고음(그리스 무효, 수일 내 정지)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "시작은 굵고 끝은 미세한 입도 편차, 양 끝 차이에 따른 속도 조정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "공장 온도 5도 이하 시 점도 상승으로 칼날 눌어붙음, 챔버 예열로 입자 편차 감소",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "내벽 모서리에 얇게 눌린 잔류 층, 천에 색이 묻어나면 다음 로트 변색·반품",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "새 체망 첫 30분간 거친 구멍 가장자리로 굵은 입자 혼입, 손끝이 까끌하면 저속 유지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "동일 원료 대비 전류 10% 이상 상승 시 칼날 마모 및 입도 불량 신호",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

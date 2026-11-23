@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J01": {
+   "key": "여름 오후 건물 냉각수 온도 상승으로 챔버 내부 편차 ±3℃; 오전 9시 전 측정이 안정적",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "10분 간격 상승폭 1℃ 이상이면 안정화 안 된 것으로 보고 측정 연장",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "첫 전원 인가 시 단락된 시제품에서 MOSFET 소손 경험; 전류 제한을 예상 전류의 1.2배로 걸어 패턴 소손 전에 차단",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "챔버 내 위치별 기류 차이로 2~3℃ 편차; 패드 효과로 오인할 수 있어 위치를 통일",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J11": {
+   "key": "넓은 접지면은 열이 빠져 납이 안 녹음; 팁 크기를 키우고 예열 후 짧게 작업",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J06": {
+   "key": "DC-DC 인덕터 5mm 이내 발진기가 스위칭 노이즈로 위상잡음 악화; 10mm 이상 이격",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J03": {
+   "key": "같은 로트라도 저항 값 마킹이 섞여 있어 5개 중 1개꼴 임의 추출 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "PA 소자 표면 100℃ 초과를 모르고 만져 화상 경험; 켜진 지 5분 안에는 열전대로 먼저 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

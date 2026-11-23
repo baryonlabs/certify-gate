@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J07": {
+   "key": "윗면이 부풀거나 하얀 가루가 있으면 고장 원인; 한 군데만 고치면 다른 콘덴서가 터져 재방문",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "보온재가 삭아 푸석하거나 젖음 → 10년 넘은 설치, 배관 접합부 냉매 누설 의심",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J03": {
+   "key": "배수 호스 연결부 누수가 하부 커넥터 접점 녹청 부식을 일으킴; 물때 자국이 있으면 그 커넥터부터 의심",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "10년 넘은 제품은 연쇄 고장; 수리비가 새 제품 가격의 절반 초과 시 교체 먼저 권유",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "에러 코드가 일시적 노이즈일 수 있어 같은 코드가 두 번 이상 반복될 때 부품 의심",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "30년 넘은 집은 접지 끊김/없음; 접지 불량이면 고객에게 먼저 알리고 수리 순서 변경",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "쿵쿵 소리가 속도 올라갈 때만 나면 서스펜션 봉, 일정하게 갈리는 소리면 베어링; 직접 들어 구분",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "열 받아 갈변/노랗게 바랜 단자는 접촉 저항 증가로 몇 달 내 재고장 → 무조건 교체",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

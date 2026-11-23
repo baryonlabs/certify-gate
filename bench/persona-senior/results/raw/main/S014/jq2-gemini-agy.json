@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J12": {
+   "key": "중간·기말고사 전후 주에 평소 안 쓰던 기능의 집중 사용과 대응 여유 부족",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "제목 줄 병합·빈 행 여부 및 500행 초과에 따른 시간 초과",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "교사가 부르는 메뉴명과 실제 메뉴명 불일치로 인한 엉뚱한 화면 설명",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "마감 직전 월요일 오전 인덱스 미사용으로 인한 10초 이상 지연 방지 및 주말 수정 시간 확보",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "해결책 형태의 요청과 실제 막힌 지점의 괴리 및 개발팀 논의 속도 향상",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "동명이인 여부 판별을 위한 학교·담당 과목 대조 및 성적 자료 혼입 방지",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "같은 학교 동시 발생 시 교내 방화벽·프록시 문제 가능성 및 초기화 시 원인 누락",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "서버 정상 상태에서도 발생하는 출결 저장 단계 오류 및 아침 교사 발견 전 선제 조치",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

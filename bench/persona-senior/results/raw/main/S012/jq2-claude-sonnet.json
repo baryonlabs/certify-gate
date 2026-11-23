@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J01": {
+   "key": "환류 증가 후 효과가 나타나려면 15~20분 걸림; 시각을 적어 조급한 재조작(과환류) 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "계기 유량이 정상이어도 소리가 끊기듯 나면 에어가 찬 것; 발열 반응 전 에어 빼기",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "편차 0.2 bar 이내는 두되, 같은 계기가 이틀 연속 한쪽으로 쏠리면 오차 추세로 보고 담당자 호출",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "배출구 근처 결정(흰 가루) 흔적은 미세 누설의 증거; 점검 주기 기다리지 않고 즉시 보고",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "정면에서 보면 거품 층이 액면처럼 보여 높게 읽힘; 비스듬히 보면 거품과 액면 경계 구분",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J03": {
+   "key": "장마철 냉각수 온도 차이로 같은 개도에서 탑정 온도가 2~3도 낮아짐; 배관 온도로 냉각수 밸브 한 칸 줄일지 가늠",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "원료 점도 상승으로 모터가 낮게 웅웅거릴 때 투입하면 쏠려 온도 급상승; 소리가 가벼워질 때까지 대기",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "영하 5도 아래 한파에 소구경 라인에서 점도 높은 액이 굳어 막힘; 소리가 둔하면 스팀 트레이싱 먼저 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

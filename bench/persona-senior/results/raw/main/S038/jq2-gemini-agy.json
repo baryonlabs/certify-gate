@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J04": {
+   "key": "CP949와 UTF-8 인코딩 불일치로 인한 부재명 깨짐 및 물량 오류 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "로그 200MB 초과 시 오래된 기록 덮어쓰기로 인한 증상 시점 로그 유실 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "캐시 미적용으로 첫 실행이 20~30% 느림, 나머지 값 편차 10% 초과 시 재측정",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J06": {
+   "key": "5만 건 미만 시 인덱스 추가 없이 쿼리만 수정(인덱스 증가 시 저장 속도 저하)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "7시 전후 작업자 수십 명 동시 접속 부하(테스트 서버 재현 불가) 및 DB 락 대기",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "현장 잔존 2010 버전 32비트 엑셀에서 64비트 API 선언 시 매크로 강제 종료",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "백신의 해석 결과 폴더 매번 검사로 인한 파일 열기 지연(40초 소요, 코드 외 원인)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "작업자가 말한 느린 지점과 실제 지연 지점(자동 미리보기 렌더링 대기 등)의 불일치",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

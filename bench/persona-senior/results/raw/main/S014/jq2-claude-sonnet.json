@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J12": {
+   "key": "시험 기간 전후 주에는 교사들이 평소 안 쓰던 기능을 몰아 써서 문제 시 대응 여유가 없음",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "업로드 실패 원인이 제목 줄 병합·빈 행, 500행 초과 시 시간 초과로 먼저 갈라냄",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "교사가 말하는 메뉴 이름과 실제 메뉴 이름이 달라 엉뚱한 화면을 설명하는 경우, 용어를 맞춤",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "마감 직전 월요일 오전 특정 학급 목록 조회가 인덱스를 안 타 10초 넘게 걸림; 금요일에 잡아야 주말에 수정 가능",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "해결책 형태 요청은 실제 막힌 지점이 다른 경우가 많아 화면 순서로 막힌 지점을 기록",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "이름·생년월일이 같아도 학교·담당 과목이 다르면 동명이인이라 병합하지 않음",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "같은 학교 여러 명이 동시에 안 되면 방화벽·프록시 문제; 비밀번호 초기화 전에 환경 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "서버 상태가 정상이어도 출결 저장 단계에서만 오류가 난 적이 있어 저장까지 확인, 교사들이 먼저 발견하기 전에 잡음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

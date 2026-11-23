@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J01": {
+   "key": "소리가 평소보다 살짝 낮아지고 일정하지 않게 울림 = 흡입 쪽 공기 유입 초기 신호, 이후 한 시간 내 압력 흔들림",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "가동 직후 5분 안의 잔떨림이 지속되면 여과판 한쪽 덜 조임(누액 위험)",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J03": {
+   "key": "영하로 내려간 날 보온재가 차가우면 원료 점도 상승으로 초기 차압 약 2배, 예열 후 가동",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "가속 구간에서 윙 소리가 갈라지듯 두 갈래로 들리면 내용물 쏠림, 진동 정상이어도 정지 후 재투입",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "잔사가 손에 뭉치며 물이 비치면 분리 미흡, 앞 공정 여과 시간 연장",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "장마철 습기 머금은 여과포는 눌러 눅눅하면 새것으로 교체, 초기 통액 느려 차압 상승",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "주먹만 한 굳은 덩어리는 회전 중 불균형으로 시운전에서 흔들림, 투입 전 풀기",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "원료 점도 높은 날은 상한 직전부터 차압 급상승, 상한의 80%에서 미리 준비",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

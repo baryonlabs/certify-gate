@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J06": {
+   "key": "딸깍거리는 소리가 주기적으로 나면 디스크 곧 고장 신호, SSD 교체 우선",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "사람이 오가는 곳은 선에 발이 걸리므로 먼저 정리",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "전원 분리와 방전으로 정전기에 의한 메모리·메인보드 손상 방지",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "어댑터가 손등에 뜨겁게 느껴지면 곧 고장나므로 예비품으로 교체",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "레이저 프린터 인쇄 시작 때 순간 전력 급증으로 PC가 꺼짐",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J04": {
+   "key": "진료 시간에 검사를 돌리면 PC가 느려져 접수가 밀리고 항의, 점심 직후 처리",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "원장님은 왼쪽 위 작은 아이콘을 못 찾고 손이 닿는 가운데를 먼저 봄",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J12": {
+   "key": "아래쪽 포트는 청소기나 의자에 선이 걸려 빠지고 접촉 불량이 남",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "PC만 고치고 프린터 설정이 풀려 재방문한 적이 있어 직원이 직접 뽑아 이상 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

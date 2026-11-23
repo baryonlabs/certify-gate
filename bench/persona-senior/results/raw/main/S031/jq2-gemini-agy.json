@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J06": {
+   "key": "염분과 습기 제거(하얗게 올라옴 방지), 계절별 건조 기간(장마철 이틀, 겨울 하루)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "코팅에 속지 않고 뒷면 결(촘촘한 이탈리아산 vs 일정하고 미끈한 인조)로 가죽 종류 판별",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J12": {
+   "key": "손등에 찬 기운이 없고 표면이 당기지 않을 때(여름 40분, 겨울 2시간)",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J01": {
+   "key": "오래되어 늘어난 구멍 여부 확인 및 늘어난 구멍은 실을 한 번 더 돌려 감아 조임",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "결과 냄새로 무두질 방식(식물 탄닌은 묽게, 크롬은 진하게)을 구분해 얼룩 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "조명에 따른 사진 색 왜곡 방지, 실 조각을 햇빛에 대고 직접 비교",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "새 날의 과도한 날카로움으로 얇은 양가죽이 뚫리는 것 방지, 날을 무디게 길들여 두께 일정화",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "다음 날 손이 식어 실 장력과 땀 간격이 달라지는 것 방지",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  }
+ }
+}

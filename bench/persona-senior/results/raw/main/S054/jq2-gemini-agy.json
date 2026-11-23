@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J09": {
+   "key": "전날 작업의 잔여 영향이 원인의 절반 이상, 로그 먼저 보면 증상에 끌려가 시간 허비",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "자동협상 불일치로 half로 떨어진 사례 반복, late collision 카운터로 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "10G 구간에서 예전 Cat5e 구형 재사용 케이블 때문에 재발",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "분기 말·연 1회 정산용 룰 삭제로 장애 발생, 최소 13개월 히트 확인",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J07": {
+   "key": "간격 일정하면 중간 장비 타이머·정책 문제, 불규칙하면 회선 품질 문제",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "한 대역 쏠림은 특정 부서 백업·스캐너 오작동 등 내부 원인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "반대편 접속 끊김 시 되돌릴(복구할) 경로가 없는 변경 대비",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "문서 기준 내여도 -14dBm 근처부터 1~2달 내 링크 플랩 발생",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

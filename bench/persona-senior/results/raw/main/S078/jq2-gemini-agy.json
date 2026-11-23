@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J04": {
+   "key": "CRLF가 섞여 필드(우편번호) 위치가 한 칸씩 밀리는 문제 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "증상 직전의 경고가 원인임, 로그 로테이션으로 덮어쓰이기 전 확보",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "이력 테이블 내 우편국 코드 중복(두 줄씩)으로 조인 시 건수가 부푸는 현상 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "창구 PC 화면 캡처 전송의 어려움, 끝 네 자리로 로그에서 수 분 내 해당 건 조회 가능",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "접수 취소 건의 흔적이며 월말 정산 시 대사 차이를 설명하는 근거로 활용",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "밤 11시 말일 정산 배치 전 배포 후 모의 실행(4시간 소요) 시 문제 발생하면 롤백 시간 부족",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "전월 대비 행 수 증감 3% 초과 시 인코딩 깨짐 등 파일 이상으로 보고 적재 중단",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "오래된 예외 분기(1995년 원주군 통합 이전 지역코드 등)의 처리 이유가 옛 주석에만 남아 있어 코드 오삭제 방지",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  }
+ }
+}

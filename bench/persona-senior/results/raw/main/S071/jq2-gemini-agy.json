@@ -1,0 +1,97 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J03": {
+   "key": "소재별 스프링백(SUS304 2~3도, 연강 1도), 90도에서 0.5도 초과 이탈 시에만 조정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "모서리 버(burr)로 인한 베임 위험, 방검 장갑 착용 및 버 제거 후 적재",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "긴 판 끝이 빠르게 튀어 올라 타격(턱 부상) 위험, 올라오는 속도를 받침대로 완충",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "2m 이상 금형 중앙 처짐으로 눌림 약화, 판 두께·재질에 따라 중앙 0.05~0.1mm 보정",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J05": {
+   "key": "기온 5도 이하 시 저유온으로 하사점 0.1mm 흔들림, 약 10분 가동 후 램 소리가 고르게 될 때",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "흡입 필터 막힘 또는 공기 혼입, 방치 시 사흘 내 램 속도 불균일 및 각도 흔들림",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "플랜지가 V홈 반폭보다 짧으면 홈으로 빨려 들어가 각도가 풀림",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J07": {
+   "key": "알루미늄 5052 또는 6mm 이상 SS400에서 안쪽 R이 작을 때 압연 방향과 나란히 접으면 바깥면 잔금 발생",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J12": {
+   "key": "레이저 열변형으로 모서리가 0.3mm쯤 휘어 한쪽 핑거만 닿고 플랜지 길이가 0.3~0.5mm 틀어짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "안전센서 미작동 시 금형 사이 손 끼임 사고 예방을 위해 램 정지 여부 확인",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

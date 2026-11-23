@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J10": {
+   "key": "야외·비 맞은 자전거는 물이 스며 그리스가 회색으로 변함; 비 많은 해엔 반년 만에 열어 상태 확인",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J04": {
+   "key": "림 옆면이 닳아 손톱이 걸릴 만큼 오목하면 림이 터질 위험, 슈만 말고 바퀴 교체 권유",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J06": {
+   "key": "어르신은 악력이 약해 끝까지 못 쥐므로 한 마디 반 남기고 걸리게; 젊은 사람은 두 마디까지 가능",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "시장·흙길 자전거는 겉기름에 먼지가 붙어 사흘이면 검은 떡이 되어 뻑뻑해지므로 롤러 안쪽에만 기름 남김",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "안장 1cm만 달라져도 어르신이 무릎 아프다고 되돌아오므로 원래 높이로 복원",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "삐걱 소리가 페달 한 바퀴에 한 번이면 크랭크·페달, 바퀴 한 바퀴에 한 번이면 살·허브로 위치 구분",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "공사장 근처 손님 자전거의 박힌 철사 조각 때문에 새 튜브가 이틀 만에 다시 터짐; 안쪽을 만져 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "20년 넘은 바퀴는 끊긴 살 옆 살도 이미 늘어 두세 달 안에 또 끊기므로 같은 쪽 두세 개 함께 교체",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

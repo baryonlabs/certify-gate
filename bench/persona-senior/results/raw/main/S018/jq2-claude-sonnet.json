@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J12": {
+   "key": "눌렀을 때 물이 배어나오면 속 배관이 이미 부식 중; 한 뼘 이상 젖으면 구간 전체 교체",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "방학 중 소량 누수; 같은 시각 같은 값을 여러 해 기억해 작은 차이(0.2)로 누수 위치 찾기",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "끝 방이 따뜻하면 계통 문제가 아니라 그 교실 밸브/에어 문제; 헛걸음 줄임",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "가스켓이 길들며 초기 토크가 풀림; 가동 후 온도 오른 상태에서 재조임; 고무계 가스켓은 반드시 재확인",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "방학 중 방치된 배수구의 녹물·슬러지가 가동 시 한꺼번에 밀려 나와 스트레이너 막음; 색과 냄새로 미리 가늠",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "오래 쓴 몽키는 턱이 닳아 좁은 틈에서 미끄러짐 적음; 새 공구는 헛돌아 너트 모서리를 뭉갬",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "복귀 헤더 온도가 층마다 고르지 않음으로 막힌 계통 추정; 3층 동편 미지근→스트레이너 막힘",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "영하 10도 아래에서 외벽 쪽 지류 배관이 새벽에 먼저 얾; 동파 방지로 가는 물줄기를 밤새 흘림",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

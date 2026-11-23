@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J07": {
+   "key": "대형 용접기 여러 대의 기동 전류 중첩으로 인한 트립",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "전년 대비 절반 이하 하락 시 장마철 습도(날씨) 영향인지 열화인지 구분",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "강수량이 아닌 풍속 15m/s 이상 예보(옆으로 치는 비로 인한 지락 방지)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "패킹 틈으로 들어간 도료 미스트와 염분이 굳고 습한 날 하얀 결정이 피어 지락 발생",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "상 간 10도 이상 차이는 최대 부하 여부 확인, 부하 30% 이하일 때 5도 차이를 심각하게 판단",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "접지선 누락·중복 오류 빈발 및 현장 누락 사례",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "진동이 저주파('웅')에서 고주파('지직')로 바뀌는 베어링 그리스 마름 신호",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "피복 2mm 이상 남거나 구리 노출 시 선박 진동 구역에서 접촉 불량·발열",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

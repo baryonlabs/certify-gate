@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J08": {
+   "key": "아침에 수분이 찬 가지는 가위로 자르면 껍질이 터지거나 벗겨지고 갈변; 오후에 하면 깨끗하게 잘림",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "두 번 씹히면 날이 이미 무뎌진 것이라 바로 갈아야 함; 씹힌 절단면은 해풍에 갈변·고사",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J03": {
+   "key": "가까이서 자르면 한쪽을 더 치게 되어 삐뚤어짐; 손님 눈높이 로비 정면 실루엣이 기준",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "가시에 한 겹 장갑이 뚫려 찔려 곪아 일주일 쉼; 두 겹과 소매 안으로 넣기",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "8~9월 성수기에 열매가 무거워 잎이 처지고 낙과가 바닥 얼룩·민원; 그 전(7월 중순)에 따두기",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "안쪽이 막히면 태풍 뒤 깍지벌레·그을음병 발생, 두 해 안에 안쪽 마름; 통풍 확보",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "바짝 자르면 해안 습기에 줄기 상처가 썩고 너무 길면 지저분; 바닷바람 맞는 호텔은 세 마디",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "제주 화산회토는 물이 빨리 빠져 점검표 주기보다 먼저 마름; 5cm 아래가 말랐으면 주기와 무관하게 물 줌",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

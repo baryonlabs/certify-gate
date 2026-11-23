@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J05": {
+   "key": "봉인 납줄 상태가 비정상이면 설정압에서 작동 안 해 과압 보호 상실; 봉인 상태와 검사 날짜 일치",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "범위 안이어도 2시간 사이 0.3kg/cm² 이상 한쪽으로 흐르는 추세(필터 막힘, 밸브 틈)",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "둔탁한 소리는 응축수 고임 신호, 열기 전 드레인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J03": {
+   "key": "보온재 틈 스민 물로 배관 표면 얼룩, 둥글게 번지면 보고 대상, 부식 시작",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "닫은 밸브를 반 바퀴 더 조일 때 걸리는 느낌으로 끝까지 조였는지 구분, 헐거우면 미세 누설",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "해풍으로 거품이 날아가므로 풍상 쪽에서 거품이 자라는 속도로 누출 판단",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "한낮 30도 넘는 날 차압이 0.2 이상 오르면 한 시간 안에 부하 흔들림, 선제 청소",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "영하 3도 아래 새벽 도압관 동결로 지시값이 멈춘 채 정상처럼 보임",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "진동이 평소보다 잔떨림처럼 가늘어지는 결 변화가 베어링 윤활 불량 초기 신호",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J11": {
+   "key": "소자 의심 전 트라이액셜 커넥터 헐거움 배제 (히스테리시스·노이즈성 튐이 절반쯤 원인)",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "접촉저항 약 1Ω 이상이 두세 번 재접촉해도 안 떨어지면 오염이 아닌 마모라 팁 교체",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J05": {
+   "key": "설정 온도 도달 표시 후에도 척과 웨이퍼 열평형에 약 10분 더 필요, 바로 재면 문턱전압 수십 mV 흐름",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "축 범위가 달라 다른 결과처럼 보여 다툼, 같은 축으로 맞추면 실제 차이가 보임",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J01": {
+   "key": "pA 근처 자동 레인지 전환 시 곡선에 계단이 생겨 오프 전류 오독, 서브문턱 구간은 고정",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "상대습도 45% 초과 시 표면 누설 증가로 게이트 절연막 측정값 상승, 일정 연기",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "평균이 웨이퍼 가장자리 다이의 편차(에지 쏠림)를 가려 개별 곡선 겹쳐 보여줌",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "한 슬롯에 오래 두면 접촉부 자국·오염이 반복되어 같은 위치 다이만 특성이 달라짐, 슬롯 돌려가며 사용",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

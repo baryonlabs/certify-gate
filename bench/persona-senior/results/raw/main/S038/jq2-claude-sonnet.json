@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J04": {
+   "key": "구형 프로그램 CP949 출력 vs BIM 변환기 UTF-8 기대, 인코딩 불일치로 부재명 깨짐",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "로그 200MB 초과 시 오래된 것부터 덮어씀, 접수 당일 안에 복사해야 증상 시점 기록 보존",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "첫 실행은 캐시가 비어 20~30% 느림, 남은 값 편차 10% 초과 시 재측정",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J06": {
+   "key": "풀스캔 테이블 행 수 5만 건 미만이면 인덱스 추가 없이 쿼리만 수정(인덱스 늘리면 저장 속도 저하)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "7시 전후 작업자 수십 명 동시 접속 부하는 테스트 서버에서 재현 안 됨, 첫 아침 락 대기 발생",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "2010 버전 32비트 PC가 현장에 남아 있어 64비트 기준 API 선언 시 매크로 강제 종료",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "백신이 해석 결과 폴더를 매번 검사해 파일 열기 40초 지연, 느림 접수 3~4건 중 1건은 코드 문제 아님",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "작업자가 말하는 느린 지점과 실제 지연 지점이 다름(저장 느림이 실제로는 자동 미리보기 렌더링 대기)",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  }
+ }
+}

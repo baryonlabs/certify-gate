@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J09": {
+   "key": "원인의 절반 이상이 전날 작업의 잔여 영향; 로그 먼저 보면 증상에 끌려감",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "자동협상 불일치로 half duplex 전락; late collision 카운터로 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "CRC 증가 포트는 예전 Cat5e 재사용 케이블; 10G 구간 구형 케이블 재발",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "분기 말·연 1회 쓰이는 정산용 룰; 최소 13개월 히트 확인",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J07": {
+   "key": "재전송 간격 일정하면 중간 장비 타이머/정책, 불규칙하면 회선 품질",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "한 대역에 몰리면 내부 원인(백업·스캐너 오작동); 외부 공격 단정 전 내부 원인 가림",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "되돌릴 경로가 없는 변경은 별도 세션 확보; 반대편 접속 끊겨 현장 출동 경험",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "수신 -14dBm 근처부터 한두 달 내 링크 플랩; 문서 기준 범위 내여도 사전 교체 후보",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J04": {
+   "key": "주민센터에서는 어르신이 발언을 안 하지만 자기 동네 마당에서는 불편한 점을 구체적으로 말함; 실제 수정 의견이 나오는 자리",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "공문 먼저 보내면 방어적으로 반려, 통화로 쟁점을 먼저 풀어 협의 한 번에 끝냄; 부서별 가장 거슬려 하는 항목이 다름",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "기준 충족은 가장 어두운 지점에서 갈림; 평균이 아닌 가로등 간격 중간과 꺾이는 모퉁이를 측정",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "여름 잎이 가린 조도와 낙엽 후 조도가 다름; 겨울에 눈부심 민원, 계절에 따라 조명 각도를 다르게 봄",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "지적 경계와 실제 점유 담장이 30~50cm씩 어긋남; 도면대로 설계해 주민 반발로 다시 그린 경험",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "현장 수정은 말로만 오가면 몇 주 뒤 기억이 달라 분쟁; 주민이 합의를 부정한 적이 있어 바로 증거를 남김",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "실제 걸을 수 있는 폭은 돌출물을 뺀 값; 도면 1.6m라도 계량기함·화분으로 1.2m가 되면 일방 전환",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J08": {
+   "key": "비 온 뒤에야 드러나는 배수 불량; 그 자리가 겨울에 빙판이 되어 노인 낙상 발생",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  }
+ }
+}

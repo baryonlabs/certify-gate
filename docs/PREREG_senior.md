@@ -119,4 +119,21 @@ JSON 해석 실패는 1회 재시도한다. 그래도 실패하면 그 페르소
 - 세 계열만 쓸 수 있어 채점자 하나는 생성 쪽과 같은 계열이다. 채점자별로 따로 보고한다.
 
 ## 변경 기록
-(없음)
+1. **2026-11-23 15:40 KST — 모델 교체(사용량 한도)와 겨냥 채점 기준 구체화.**
+   - 이유: 15:28경 OpenCode Go 5시간 사용량 한도로 gemini-4-argon과 gpt-6-luna가 모두 응답을 거부했다(S032부터). 그때까지 gemini-argon 탐지를 끝낸 페르소나는 약 31명(방법별로 다름)이다. 또 초기 결과에서 질문 겨냥 점수의 채점자 일치가 낮았다(코디네이터 보고 κ 0.12).
+   - 변경(코디네이터 지시에 따름):
+     - 두 번째 탐지 모델 D2: gemini-argon → **claude-haiku**(Anthropic). 100명 전원에 일관 적용한다. gemini-argon 결과는 끝난 페르소나에 한해 따로 보고한다(보조). claude-haiku는 정답 생성자 P(claude-sonnet)와 같은 계열이므로 탐지 결과를 모델별로 분리 보고한다. 주 보고값은 계획대로 방법 (a) × codex다.
+     - 질문 겨냥 채점 J-q: 기준을 구체화한 **jq2**로 전원 다시 채점한다. 채점자는 claude-sonnet + claude-haiku(둘 다 질문 생성 Q=codex와 다른 계열이지만 서로 같은 계열이고 P와 같은 계열). 기준: 숨은 이유의 핵심 기준·조건(수치, 상황 조건, 예외, 신호)을 먼저 뽑고, 질문이 그 어휘·개념을 직접 물으면 2, 같은 주제이지만 일반적인 '왜'만 물으면 1, 다른 측면을 물으면 0(판정 예시 포함). 원 기준(jq) 결과는 남은 범위에서 보조로 보고한다.
+     - 응답 채점 J-r: gemini-argon + gpt-luna → **codex + claude-haiku**. codex는 P와 다른 계열이고 claude-haiku는 같은 계열이므로 채점자별로 따로 보고한다.
+     - 동시 실행 수를 모델당 최대 10으로 올린다.
+   - 가설·지표·판정 규칙은 바꾸지 않는다.
+2. **2026-11-23 15:50 KST — gemini 경로 복구(변경 1의 모델 교체 대부분을 되돌림).**
+   - 이유: Antigravity CLI(`agy`)로 같은 계열 모델 gemini-4-argon(`gemini-4-argon-low`)을 쓸 수 있게 되었다(코디네이터 안내). 원 설계(D2·J-q·J-r의 gemini-4-argon)를 경로만 바꿔 유지한다.
+   - 최종 구성: D2 = gemini-4-argon-low(agy), 보조 탐지 모델 claude-haiku 추가(세 모델 모두 같은 입력). J-q = gemini-4-argon-low(agy) + claude-sonnet, 기준은 변경 1의 jq2. J-r = gemini-4-argon-low(agy) + codex(gpt-6-luna가 한도로 막혀 codex로 교체; codex는 질문 생성 Q와 같은 모델이지만 응답 채점에서는 P와 다른 계열).
+   - 일관성: opencode 경로로 끝난 gemini-argon 결과(약 31명)는 쓰지 않고, gemini 판정·채점을 100명 전원 agy 경로로 다시 돌린다. 옛 결과는 경로 간 일치도 점검용으로만 보고한다.
+   - 가설 판정(H1–H4)의 '두 판정 모델'은 codex와 gemini-4-argon-low다. claude-haiku는 보조로 따로 보고한다.
+3. **2026-11-23 15:55 KST — agy gemini-4-argon 할당량 소진.**
+   - 이유: 15:49 agy 경로 gemini-4-argon이 개인 할당량 소진(429, 약 7일 뒤 초기화)으로 막혔다. 그 시점까지 gemini-4-argon 탐지는 89명, 겨냥 채점(jq2)은 80명 완료.
+   - 간극 탐지: H1–H4의 두 판정 모델(codex, gemini-4-argon) 분석은 두 모델이 모두 끝난 **89명**으로 한다(축소 규칙, 최소 40명 충족). codex와 보조 모델 claude-haiku는 100명 전원을 끝냈으므로, 100명 기준 결과(codex·claude-haiku)를 함께 보고한다. 다른 gemini 모델로 남은 11명을 채우지 않는다(판정 모델 혼합 방지).
+   - 질문 겨냥: 두 채점자(gemini-4-argon, claude-sonnet)가 모두 끝난 **80명**으로 분석하고, claude-sonnet 단독 100명 결과를 보조로 낸다.
+   - 응답 채점 J-r: gemini-4-argon 대신 **gemini-4-neon-low(agy, Google 계열 다른 모델)** + codex로 100명 전원에 일관 적용한다.

@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J01": {
+   "key": "시험 전날 밤늦게(새벽까지) 학생들의 시험 준비·자료 확인 접속이 남음",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J04": {
+   "key": "기존 서식 변경 시 새 툴 거부·예전 방식 회귀, 열 순서 유지 시 교육 없이 즉시 사용",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "일괄 수강 등록 등 대량 입력이 평소보다 눈에 띄게 느려지면 인덱스 제외",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J03": {
+   "key": "이름·생년월일이 같아도 동명이인·재수강 이력 차이 가능, 합친 성적 기록은 복구 곤란",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "담당자가 표시 건수를 500건 이상으로 변경한 경우가 반복, 코드 확인 없이 5분 내 해결",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "연말 수료증 출력 등 1년에 한 번(연간 주기) 실행되는 작업에서 참조되는 컬럼 확인",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J08": {
+   "key": "개강 첫 주 오전 9~10시 접속 집중으로 로그인 세션 지연 발생, 집계 쿼리는 체감 낮음",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J09": {
+   "key": "구형 브라우저 또는 오래 유지된 세션이 주원인, 코드 추적 시간 단축",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

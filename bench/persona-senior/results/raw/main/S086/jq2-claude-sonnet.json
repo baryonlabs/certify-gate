@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J10": {
+   "key": "재실행에서 통과하는 시험은 대개 타이머 경합; 과거 인퓨전 정지 사례",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "튜빙 경도·길이에 따라 같은 이득도 응답이 달라짐; 실리콘 기준 값이 다른 경도 튜빙에서 오버슈트",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "부칙 경과 규정에서 기존 허가 제품의 적용 유예가 갈려 일정·범위 결정",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "점심 직전이면 답변이 짧아지고 상대가 오후 안에 받음; 자잘한 요청이 아침 집중을 끊음",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "직전 대비 변동 0.3% 초과이면 센서 열화·지그 문제 의심해 재측정",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "금요일 오후 급히 올라온 코드는 결함 밀도 높고 피곤한 상태에선 놓침; 월요일 맑은 머리로 한 번에 검토",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "RTC 배터리 약한 장비는 로그 시각이 뒤로 가거나 건너뜀; 시계부터 의심",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "지연 3ms 이내이고 다른 빌드에서 재현 안 되는 단발 실패는 USB 허브 등 시험 장비 문제",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

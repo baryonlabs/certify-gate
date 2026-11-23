@@ -1,0 +1,88 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J01": {
+   "key": "불필요한 권한으로 인한 내부자 유출·계정 탈취 피해 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "연말정산 등 실제 시기와 맞을 때 클릭률(2배)·실제 위험 수준이 드러남",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "주말 장애 시 인력 부족으로 인한 복구 지연, 긴급 노출 서버 여부",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "클릭률 20% 초과라도 신입 위주면 교육, 동일인 2회 연속 클릭 또는 정보 입력 시 면담",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J02": {
+   "key": "인터넷 직접 노출 여부(내부 전용 vs 외부 노출 서버)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "운영 DB 복제본·계정 정보 방치 및 공용 테스트 서버를 통한 운영망 침투 전례",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "정상 대역 IP 위장 가능성, VPN 연결 시각과 근무 패턴의 불일치",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "비밀번호 미변경 상태로 방치되어 퇴직 후(2년 뒤)에도 계속 쓰이는 공용·서비스 계정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "규정 나열 시 질문 부재·한 달 뒤 재위반 vs 실제 사례 언급 시 이후 문의 증가 및 수칙 체감",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

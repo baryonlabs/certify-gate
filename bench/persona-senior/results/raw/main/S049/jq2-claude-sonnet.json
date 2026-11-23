@@ -1,0 +1,97 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J10": {
+   "key": "채취 위치·시각이 없으면 시료 대표성을 확인할 수 없어 결과 근거가 약해짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "방향족 시료가 패킹을 녹여 오염물이 섞이고 GC 유령 피크 발생, 용기 교체 후 재채취",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "용제 미량 잔류 시 다음 시료 유동 시간이 짧아져 규격 하한 근처 제품이 합격으로 보임, 냄새 없어질 때까지 건조",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "온도에 따라 값이 달라 항온조를 규정 온도로 안정시킨 뒤 측정",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "드리프트 15 µg/min 초과 시 셀 밀폐 불량, 시료를 넣어도 값이 흔들림, 실리콘 그리스 재도포",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "탱크 하부 채취분이면 침전물 영향으로 재시험해도 같은 값, 상·중·하 재채취 요청",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "머무름 시간 0.05분 이상 밀리고 겨울 아침이면 오븐 안정화 부족, 20분 더 기다린 뒤 재주입",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "바닥의 미세 입자·물방울이 니들/라이너를 막아 피크가 뭉개짐, 여과·분리 후 주입",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "끈적한(고점도) 시료는 거품이 천천히 꺼지고 뒤에 두면 장비 세척 시간이 늘어 일정이 밀림",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "여름철 냉장 보관 후 바로 열면 음압으로 결로가 들어가 수분 0.01% 상승, 실온 근접 후 개봉",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

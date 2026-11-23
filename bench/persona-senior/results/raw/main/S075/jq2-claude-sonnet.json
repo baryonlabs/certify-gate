@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J02": {
+   "key": "20년 넘은 배전반은 열 사이클로 볼트가 풀려 있기 쉬움; 계량기 발열 오인 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "상하위 차단기 동작 시간 차이 0.3초 미만이면 협조가 깨짐",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "긴 케이블은 메거 후 정전용량 잔류전하가 남아 직접 확인 후 분리",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J01": {
+   "key": "오래된 권선은 습기로 초기값이 낮다가 1분 사이 회복되면 건조 후 재사용, 그대로면 교체",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "부하 전류가 정격의 60% 미만이면 접촉 불량의 온도 차가 안 드러나 피크 부하 때 재촬영",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J11": {
+   "key": "먼지 많은 라인은 필터 막힘이 6개월 만에 와서 팬 고장으로 오인해 교체하는 실수 방지",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J06": {
+   "key": "선로 100m 안팎은 종단 불필요, 300m 초과 시 간헐 오류로 종단 필요 (길이 기준)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "반 내부 온도가 40도를 넘으면 구형 전자식 계전기 동작값이 5% 틀어져 식힌 뒤 시험",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

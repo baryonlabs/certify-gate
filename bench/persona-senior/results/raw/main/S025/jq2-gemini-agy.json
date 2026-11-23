@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J12": {
+   "key": "숫자만 전하면 시험기 탓으로 재시험 요구, 파단 시편 실물로 가황 부족 등 원인 납득 및 논쟁 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "하한 대비 3% 이내, 시트 가장자리와 중앙 간 최대 7% 산포",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J06": {
+   "key": "세 점 두께 편차 0.1mm 초과, 압연 시트 가장자리 시편 여부 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "비스듬히 끼워지면 탁하고 둔한 소리, 그립 근처 찢어짐 방지",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "계단 패턴 시 기포·이물 존재 가능성, 과거 현장 균열 클레임 이력",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "방 온도 하루 8℃ 이상 변화, 시험기 옆 설비 이동 다음 날",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "문 쪽 모서리 설정 온도보다 2~3℃ 낮음, 경도 변화가 작게 나오는 편차 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "창가 선반 시편이 실온보다 4~5℃ 낮아 신율 5% 저하, 손등에 차가우면 1시간 추가 방치",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

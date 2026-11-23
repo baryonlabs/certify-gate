@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J08": {
+   "key": "3분의 1 이하에서 멈추면 루트 지연 균열 발생, 절반 이상 쌓은 상태에서만 중단하고 서서히 냉각",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "크레이터 위 바로 재시작 시 재시작부에 잔 기공 집중",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "옆각도 조명에서만 보이는 크레이터 끝의 머리카락 같은 미세 균열 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "긴 케이블의 전압강하로 인한 전류 손실(10~15A 감소) 및 융합불량 보정",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J02": {
+   "key": "겨울 새벽·바람 부는 날 30℃ 추가 예열, 두꺼운 플랜지 쪽 초크 녹은 뒤 1~2분 더 가열",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "루트 용접 시 갭이 0.5mm 줄어드는 수축을 감안해 도면 갭보다 심선 두께만큼 더 벌려 용입 부족 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "열린 양끝 사이 배관 내부 관통풍으로 인한 루트 기공 방지",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J10": {
+   "key": "직류 용접 시 엘보·플랜지 부근 자기 쏠림(아크 쏠림) 및 언더컷 감소",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

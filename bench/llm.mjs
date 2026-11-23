@@ -27,7 +27,20 @@ export const MODELS = {
   // opencode CLI (비대화 실행, stdin 닫음)
   'gpt-luna': { family: 'openai', call: (sys, user) => opencode('opencode-go/gpt-6-luna', sys, user) },
   'gemini-argon': { family: 'google', call: (sys, user) => opencode('opencode-go/gemini-4-argon', sys, user) },
+  // Antigravity CLI(agy) 경로의 같은 계열 모델 (OpenCode Go 한도 시 대체)
+  'gemini-agy': { family: 'google', call: (sys, user) => agy('gemini-4-argon-low', sys, user) },
+  'gemini-neon-agy': { family: 'google', call: (sys, user) => agy('gemini-4-neon-low', sys, user) },
 };
+
+async function agy(model, sys, user) {
+  const t0 = Date.now();
+  const prompt = `${sys}\n\n도구나 셸 명령, 파일 읽기를 하지 말고, 아래 내용만 보고 JSON으로만 답하라.\n\n${user}`;
+  const r = await runNoStdin('agy', ['-p', prompt, '--model', model, '--output-format', 'json', '--print-timeout', '300s'], 330000, EMPTY);
+  let j = {};
+  try { j = JSON.parse(r.out); } catch { /* noop */ }
+  const ok = j.status === 'SUCCESS';
+  return { text: j.response ?? '', model_id: `agy/${model}`, ms: Date.now() - t0, tokens: j.usage ?? null, cost_usd: null, error: r.code !== 0 || !ok ? (r.err || r.out || 'error').slice(-300) : null };
+}
 
 function runNoStdin(cmd, args, timeoutMs, cwd) {
   return new Promise((resolve) => {

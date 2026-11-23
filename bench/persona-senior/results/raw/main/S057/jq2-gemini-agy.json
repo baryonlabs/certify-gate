@@ -1,0 +1,88 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J07": {
+   "key": "염수 섞인 정체수 유입 후 8~10분 경과, 변동 ±2% 이내",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "가장자리 비료·농약 쏠림·유실, 이랑 중앙 2m 이상 안쪽 채취",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "제주 현무암 토양 습기로 인한 라벨 접착 불량·지워짐, 지점 혼동 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "제주 건천 특성상 비 후 1~2일 내 물이 급히 빠져 마르기 전에 오염 흔적 확보",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "한라산 비포장 길 주행 시 병 충돌로 뚜껑 느슨해짐 및 누수·손실 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "일회성 이상값 배제, 재측정 두 값이 15% 이내 일치 시에만 통보(오보 행정 부담)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "해마다 달라지는 주변 변화(축사 신축, 공사 흔적)와 수치 변화 원인 추적",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "솟는 자리의 이끼·퇴적물 부유물 혼입 방지 및 탁도 안정화",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "채취·운반 중 오염 여부와 분석 재현성 확인(10건당 1회 공시료·이중 시료)",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

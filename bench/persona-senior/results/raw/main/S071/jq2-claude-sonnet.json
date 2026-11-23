@@ -1,0 +1,97 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J03": {
+   "key": "90도에서 0.5도 초과 벗어날 때만 하사점 조정; 소재별 스프링백(스테인리스 2~3도, 연강 1도) 과굽힘",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "절단 모서리 버로 베임 위험, 방검 장갑 착용 및 버 제거 후 적재",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J11": {
+   "key": "1.5m 이상 긴 판 끝이 빠르게 튀어 올라 턱을 맞은 사고; 받침대로 올라오는 속도 흡수",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "2m 이상 긴 금형 중앙이 처져 눌림 약함, 중앙 0.05~0.1mm 보정(두께·재질별 상이)",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J05": {
+   "key": "기온 5도 미만 유온 저하로 하사점 0.1mm 흔들림; 약 10분 후 램 소리가 고르게 될 때",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "펌프음이 낮게 웅웅거림은 흡입 필터 막힘/공기 혼입 신호; 방치 시 사흘 내 램 속도 불규칙",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "플랜지가 V홈 반폭보다 짧으면 판이 홈으로 빨려 들어가 각도가 풀림",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J07": {
+   "key": "압연 방향과 나란히 접으면 알루미늄 5052나 6mm 이상 SS400에서 안쪽 R이 작을 때 바깥면 잔금",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J12": {
+   "key": "레이저 열변형으로 모서리 0.3mm 휘어 한쪽 핑거만 닿아 플랜지 길이 0.3~0.5mm 틀어짐",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J09": {
+   "key": "안전센서 미작동 시 금형 사이 끼임 사고; 점검봉으로 램 정지 시험",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

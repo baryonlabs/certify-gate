@@ -1,0 +1,88 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J11": {
+   "key": "발자국 깊이 1cm 이내, 송이 구간은 살수 후 2회 추가 다짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "한라산→해안 오후 바람에 의한 화산토 먼지가 작업 완료 구간으로 날리는 것 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "끈이 손가락 하나 들어갈 만큼 느슨하면 바람에 덮개가 들춰져 화산토 가루가 날림",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "회색 점토층이 물을 머금으면 미끄럼면이 되어 사면 붕괴 위험, 층 두께·깊이 기록 후 구배·배수 계획 재수립",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "쐐기 타격음이 둔하면 전날 비로 지반이 무른 것으로 판단해 받침판 추가",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "순간 풍속 기준 도달 시 하물 흔들림 및 장비 전도 위험",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "무른 송이 지반에서 대형 차량 진동으로 말뚝이 1~2cm 침하해 기초 레벨 오차로 이어짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "속이 젖은 송이 지반 침하 위험, 철근 막대가 30cm 이상 쉽게 들어가면 반나절 추가 건조",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "경사 진입로 오르막 출발 시 후방 편하중으로 앞바퀴 들림·미끄러짐 방지, 앞쪽 1/3 선적재",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

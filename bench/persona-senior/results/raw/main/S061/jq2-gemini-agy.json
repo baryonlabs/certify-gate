@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J01": {
+   "key": "겨울철 난방 없는 빈집(10분 내 표면 경화), 손가락에 묻어나지 않음(오픈타임 경과)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "풀 과다 시 건조 후 벌어짐·부족 시 모서리 일어남, 계절(여름/겨울)에 따른 풀 농도 조절",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "큰 타일(600각 이상)은 2mm 초과 오차에도 모서리가 뜸(바닥 기준 3mm보다 엄격)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "틈 안쪽 잔류 수분, 겨울철 드라이기 3~4분 추가 건조",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "1990년대 빌라 벽 안쪽 결로로 인한 합판·미장 들뜸, 둔탁하게 비는 소리",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "대략 20장 절단 후 탁해짐, 절단면 미세 줄·모서리 칩핑 및 날 무뎌짐 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "두 번 훑으면 표면이 거칠어져 곰팡이 발생, 노즐을 접합부 폭보다 약간 작게 절단",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "욕실 바닥 배수 구배(경사)로 인한 배수구 쪽 타일 잘림 방지, 줄눈 간격으로 구배 흡수",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J04": {
+   "key": "리브 깊이 5mm 이상이면 전극 모서리 소모가 빨라 규정 횟수 전에도 R이 무너져 한 번 쓰고 교체",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "깊은 포켓 마무리 구간 후반부에서 칩 배출이 막혀 공구가 부러짐(두 번 사고)",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "0.01mm 영점 오차가 손끝·손톱에 걸리는 단차로 먼저 드러남",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "가공 직후 열로 0.005mm 오차, 30분쯤 식힌 뒤 재야 3차원 측정과 일치",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "SKD11 가공 중 '찌이' 하는 고음은 날 끝 마모 시작 신호, 5분 안에 날이 나감",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J02": {
+   "key": "겨울 새벽 식은 기계, 0.01~0.02mm 치수 틀어짐, 20분 정도 저속 회전하면 안정",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "마모·치핑된 공구는 치수 불량과 표면 거칠기 악화를 일으키므로 가공 전 날 상태 확인",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J05": {
+   "key": "혈당이 떨어지는 오후 3시경 손떨림·집중 저하로 정밀 측정 오류, 중요한 세팅은 오전에 처리",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "장마철 습도 높을 때 냄새 변화와 표면 막이 생기면 농도와 무관하게 부패 시작이라 바로 교환",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

@@ -1,0 +1,101 @@
+15:42:21 S004 ok 90s {}
+15:42:21 S003 ok 91s {}
+15:42:24 S005 ok 93s {}
+15:42:25 S007 ok 94s {}
+15:42:25 S002 ok 94s {}
+15:42:25 S001 ok 94s {}
+15:42:25 S006 ok 94s {}
+15:42:25 S010 ok 95s {}
+15:42:27 S009 ok 96s {}
+15:42:27 S011 ok 96s {}
+15:42:27 S012 ok 96s {}
+15:42:29 S008 ok 98s {}
+15:42:41 S014 ok 110s {}
+15:42:41 S013 ok 110s {}
+15:42:41 S015 ok 111s {}
+15:42:44 S016 ok 113s {}
+15:43:48 S018 ok 86s {}
+15:43:49 S019 ok 84s {}
+15:43:49 S017 ok 88s {}
+15:43:50 S020 ok 86s {}
+15:43:50 S021 ok 86s {}
+15:43:53 S024 ok 88s {}
+15:43:54 S022 ok 89s {}
+15:43:55 S023 ok 90s {}
+15:43:59 S025 ok 93s {}
+15:44:02 S026 ok 95s {}
+15:44:03 S027 ok 96s {}
+15:44:03 S028 ok 95s {}
+15:44:06 S029 ok 85s {}
+15:44:08 S030 ok 87s {}
+15:44:08 S032 ok 84s {}
+15:44:09 S031 ok 87s {}
+15:45:14 S034 ok 85s {}
+15:45:15 S033 ok 87s {}
+15:45:18 S035 ok 88s {}
+15:45:19 S036 ok 89s {}
+15:45:21 S037 ok 91s {}
+15:45:21 S038 ok 88s {}
+15:45:23 S039 ok 89s {}
+15:45:24 S040 ok 89s {}
+15:45:28 S041 ok 89s {}
+15:45:30 S043 ok 87s {}
+15:45:30 S042 ok 89s {}
+15:45:32 S044 ok 88s {}
+15:45:32 S045 ok 86s {}
+15:45:33 S046 ok 85s {}
+15:45:38 S048 ok 89s {}
+15:45:40 S047 ok 92s {}
+15:46:38 S049 ok 84s {}
+15:46:47 S050 ok 92s {}
+15:46:47 S053 ok 86s {}
+15:46:48 S051 ok 91s {}
+15:46:49 S052 ok 90s {}
+15:46:50 S054 ok 89s {}
+15:46:54 S056 ok 90s {}
+15:46:55 S055 ok 92s {}
+15:46:56 S057 ok 87s {}
+15:46:57 S059 ok 87s {}
+15:46:58 S061 ok 86s {}
+15:46:58 S060 ok 86s {}
+15:46:58 S058 ok 89s {}
+15:47:04 S062 ok 91s {}
+15:47:05 S063 ok 87s {}
+15:47:12 S064 ok 92s {}
+15:48:08 S065 ok 89s {}
+15:48:09 S066 ok 82s {}
+15:48:14 S067 ok 86s {}
+15:48:15 S068 ok 86s {}
+15:48:18 S072 ok 83s {}
+15:48:18 S070 ok 89s {}
+15:48:19 S069 ok 90s {}
+15:48:20 S073 ok 85s {}
+15:48:22 S071 ok 88s {}
+15:48:25 S075 ok 87s {}
+15:48:26 S076 ok 88s {}
+15:48:27 S074 ok 89s {}
+15:48:27 S078 ok 82s {}
+15:48:27 S077 ok 89s {}
+15:48:34 S079 ok 89s {}
+15:48:41 S080 ok 89s {}
+15:49:11 S088 partial (1 err: gemini-agy dead: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your ) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m32s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:14 S090 partial (4 err: gemini-agy usage limit: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrad) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m29s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:15 S089 partial (1 err: gemini-agy dead: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your ) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m28s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:17 S091 partial (4 err: gemini-agy usage limit: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrad) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m27s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:22 S092 partial (4 err: gemini-agy usage limit: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrad) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m22s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:23 S081 partial (1 err: gemini-agy usage limit: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrad) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m20s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:24 S093 partial (4 err: gemini-agy usage limit: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrad) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m18s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:24 S082 partial (1 err: gemini-agy usage limit: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrad) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m18s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:26 S084 partial (1 err: gemini-agy usage limit: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrad) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m16s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:26 S085 partial (1 err: gemini-agy usage limit: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrad) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m16s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:26 S094 partial (4 err: gemini-agy usage limit: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrad) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m16s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:27 S087 partial (1 err: gemini-agy dead: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your ) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m16s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:27 S083 partial (1 err: gemini-agy usage limit: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrad) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m15s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:29 S086 partial (1 err: gemini-agy usage limit: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrad) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m13s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:30 S095 partial (4 err: gemini-agy usage limit: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrad) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m13s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:32 S096 partial (4 err: gemini-agy usage limit: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrad) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m13s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:33 S097 partial (4 err: gemini-agy dead: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your ) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m13s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:35 S098 partial (4 err: gemini-agy dead: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your ) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m13s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:41 S099 partial (4 err: gemini-agy dead: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your ) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m13s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+15:49:42 S100 partial (4 err: gemini-agy dead: GY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your ) {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m13s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}
+done 80 / 100 dead {"gemini-agy":"GY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 167h49m13s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"error"}

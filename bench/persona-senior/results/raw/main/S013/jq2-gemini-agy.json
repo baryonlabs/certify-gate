@@ -1,0 +1,88 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J07": {
+   "key": "모르타르가 먼저 흐르고 골재가 뒤따라 끊김(재료분리/과다수분), 곰보 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "자재상 재납품 2일 소요 vs 인근 현장 잔량 당일 수령, 밀시트 사본 확보 및 동일량 상환",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "공시체 결과와 무관하게 둔탁한 소리 시 해체 1일 연기, 기온 5℃ 이하 시 2일까지 연기",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "일평균기온 4℃ 이하(초기 재령 콘크리트 동결 및 강도 저하 방지)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "붉은 가루가 짙게 묻고 비늘처럼 일어나는 녹은 반품, 얇은 갈색 막은 수령",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "약어·기호가 많은 도면에 대한 고령·외국인 작업자의 오독 및 반복 실수 방지",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "팔공산 능선이 구름에 덮이고 동풍이 불 때 오후 3시경 소나기 징후",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "자국 깊이 5mm 안팎(표면 블리딩 물이 걷힌 상태, 들뜸·끌림 방지)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "둔탁한 소리에서 맑은 소리로 바뀌는 경계(콘크리트 채움 높이), 선 아래 60cm 구간 다짐(진동기 투입)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

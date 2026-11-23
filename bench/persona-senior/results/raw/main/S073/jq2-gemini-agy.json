@@ -1,0 +1,88 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J02": {
+   "key": "지침 0.01MPa 이상 떨림, 접속부 헐거움·급승압",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "센 바람에 누출 가스가 날려 0 근처로 찍힘, 바람 뒤쪽 30cm 재측정",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J12": {
+   "key": "산소결핍·폭발·중독 예방을 위한 진입 전 농도 측정 및 환기",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "0.5MPa대 가늘고 높은 '쉬' 소리(누출 초기 신호), 소음 없는 점심 직후",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J05": {
+   "key": "반대 방향 감김 시 조일 때 밀려나 누출 발생",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J06": {
+   "key": "아침·낮 5~8도 온도차에 의한 압력 0.02MPa 변동, 동일 온도대 비교",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "급배기 시 호스 끝이 튀어 다칠 위험, 최소 3분 이상 감압",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "40~50초 뒤 작은 알갱이로 기포가 맺힘",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "검지기 센서 습기 유입으로 지시값 튐, 물 기포를 누출로 착각",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J01": {
+   "key": "환류 효과 지연(15~20분), 성급한 추가 개방으로 인한 과환류 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "계기 유량이 정상이어도 소리가 끊기듯 나면 에어 참(발열 반응 전 에어 빼기)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "0.2 bar 이내 편차라도 이틀 연속 한쪽으로 쏠리는 오차 추세",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "배출구 근처 결정 흔적은 미세 누설 신호, 점검 주기 전 즉시 보고",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "정면 관측 시 거품 층과 실제 액면의 혼동 구분",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "장마철 냉각수 온도 변화로 탑정 온도 2~3도 저하, 냉각수 밸브 조절 가늠",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "점도 상승으로 모터가 낮게 웅웅거리는 소리, 편중 투입에 의한 온도 급상승 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "영하 5도 이하에서 고점도 액 응고로 인한 막힘(둔한 소리 시 스팀 트레이싱 확인)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

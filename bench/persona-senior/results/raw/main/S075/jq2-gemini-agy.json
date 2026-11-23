@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J02": {
+   "key": "20년 넘은 배전반의 열 사이클에 의한 볼트 풀림, 이후 발열 원인이 계량기로 오인되는 것 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "상하위 차단기 동작 시간 차이 0.3초 미만 시 보호협조 깨짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "긴 케이블의 정전용량 잔류전하 미방전 확인",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J01": {
+   "key": "습기에 의한 초기값 저하와 1분 내 회복 추이(회복 시 건조 후 재사용, 미회복 시 교체)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "부하 전류가 정격의 60% 미만일 때 접촉 불량 온도 차 미발현",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "먼지 많은 라인의 6개월 주기 필터 막힘, 팬 고장 오인 및 재발 방지",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "선로 길이 기준(100m 안팎 불필요, 300m 초과 시 간헐 오류로 종단 저항 필요)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "반 내부 온도 40도 초과 시 구형 전자식 계전기 동작값 5% 오차 발생",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

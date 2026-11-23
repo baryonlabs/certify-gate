@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J01": {
+   "key": "여름 오후 공장 온도 28℃ 초과 시 주축 열변위(약 0.01mm)로 인한 공차 이탈",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "로트 간 판재 두께 편차(±0.03mm)로 인한 스프링백 및 굽힘 각도 변화",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J05": {
+   "key": "연강 기준(50만 샷)보다 빠른 30만 샷 초과 시 고장력강의 버(0.05mm 초과) 발생",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J04": {
+   "key": "20~30스트로크 경과 후 금형 온도 상승(열팽창)으로 인한 치수 변화(0.02mm)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "볼트 일괄 체결 시 플레이트 휨(0.02mm), 파팅면 벌어짐 및 가이드 편접촉",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "게이지로 안 잡히는 미세 틀어짐(0.005mm 안팎)과 가이드부시 소착 위험",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "주말 사이 식은 금형과 윤활유 점도 상승으로 인한 초반 제품 치수 불안정",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J03": {
+   "key": "공구 마모 0.1mm 초과 및 면조도 급격 악화 직전의 소리 톤 상승",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

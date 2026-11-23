@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J12": {
+   "key": "무게중심이 쏠린 팔레트는 들 때 앞바퀴가 가볍게 뜨는 느낌이 오면 포크 간격 재조정, 높이 올리지 않음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "한여름 오후 유압유가 묽어져 리프트가 처음 급하게 튀어 오름, 레버 반만 당겨 시작",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "포크 휨·균열과 체인 늘어짐을 점검표대로 확인해 고장 장비 사고 예방",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J10": {
+   "key": "선반 하단 기둥이 휘어 실제 통로 폭이 도면보다 5~10cm 좁음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "비 오면 철판 이음매와 도장 바닥 때문에 제동 거리가 평소 1.5배 늘어남, 몸으로 확인해 속도 결정",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "겨울 문을 닫으면 충전 후반 30분 냄새가 고여 두통, 외기 5도 이하여도 문 한쪽 열어 둠",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "미세 누유가 장갑에 묻어 번들거림, 이틀 연속 같은 자리가 묻으면 호스 파열 위험",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "후진 시작 후 2~3초 사이 후배가 거울만 보고 바로 뒤 사각을 놓쳐 벽·기둥에 닿는 사고",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "냉간 시동 직후 타타타 밸브 소리가 1분 안에 안 사라지면 오일 부족·점도 불일치",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

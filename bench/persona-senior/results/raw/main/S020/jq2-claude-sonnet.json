@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J03": {
+   "key": "녹과 기름때가 실링제를 밀어내 누출 발생; 연결 전 닦기",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "곡선·꺾임 지점은 흐름과 진동이 쏠려 이음부가 먼저 이완되므로 기준보다 촘촘히 고정",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "낡은 게이지 바늘이 마찰로 걸려 실제 압력 강하를 가림",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "누출 이음부 주변은 먼지가 눌리고 미세하게 끈적임; 손끝 감촉으로 찾음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "오래된 아연도 강관은 나사산 마모가 심해 더 조이면 균열; 나사산 두세 개 남은 지점이 안정적",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "절단 전 밸브 잠금과 잔류 가스 배출 후 차단 상태 확인으로 폭발·중독 방지",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "찬 날씨에 차가운 비눗물이 기포 맺히기 전에 얼거나 굳어 미세 누출을 놓침",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "벽 관통부는 건물 미세 움직임에 가장 먼저 틀어져 누출; 같은 위치에서 반복 누출",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "높이 40cm 이하 좁은 틈에서 긴 렌치가 구조물에 닿아 힘 방향이 틀어져 이음부가 비뚤어짐",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

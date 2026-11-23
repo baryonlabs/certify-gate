@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J01": {
+   "key": "소리가 낮아지며 일정하지 않게 울림, 흡입 쪽 공기 유입 초기 신호",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "가동 직후 5분 내 잔떨림 지속, 여과판 한쪽 덜 조여짐",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J03": {
+   "key": "영하 날씨로 원료 점도 상승·초기 차압 급증, 보온재가 차가우면 예열 후 가동",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "가속 구간에서 소리가 두 갈래로 갈라짐, 내용물 한쪽 쏠림",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "잔사가 뭉쳐 물이 비침, 분리 미흡으로 앞 공정 여과 시간 연장",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "장마철 습기로 초기 통액 저하·차압 상승, 눅눅하면 새것으로 교체",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "주먹만 한 굳은 덩어리, 회전 중 불균형·시운전 흔들림 방지",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "원료 점도 높은 날, 상한의 80% 도달 시 미리 준비",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

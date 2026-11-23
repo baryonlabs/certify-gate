@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J10": {
+   "key": "비 온 직후 24시간 이내 토양 수분으로 인한 30% 이상 저항 감소, 설계 기준을 겨우 통과하는 현장",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J06": {
+   "key": "타설 중 레미콘 호스·작업자 하중에 의한 들뜬 관 찌그러짐·이탈(곡부·박스 연결부 우선 이탈)",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "상하위 정격 비 부족(상위가 하위의 1.6배 미만) 시 동시 트립 발생",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "포장 밑 자갈층의 보조극 접촉 불량으로 인한 측정값 편차",
+   "target": 0,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "다른 층 사진 제출 사례, 수정 부위 주변 배경 일치 여부 확인",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J07": {
+   "key": "포설 시 당김 방향 어긋남 신호, 숨은 외피 손상 전수 확인",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "전 상 소수점까지 동일 시 복사 값 의심, 습기 먹은 부스바 누락 방지",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J05": {
+   "key": "회로명 식별 및 동일 회로 사진 중복 제출 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

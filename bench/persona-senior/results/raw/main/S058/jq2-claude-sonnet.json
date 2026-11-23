@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J01": {
+   "key": "얇은 기모 원단은 보푸라기가 반나절에도 북집에 뭉쳐 실 걸림 발생, 교대 종료 전 한 번 더 털기",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "미끌거리는 안감은 속도를 올리면 윗겹만 밀려 4~5cm마다 어긋남, 페달 절반만 밟고 손으로 겹 맞춤",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J10": {
+   "key": "안쪽 올이 삭은 범위가 2cm 넘으면 보강천을 덧댐, 새 박음줄 옆이 다시 찢어짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "겨울 아침 기계가 식어 첫 10분간 바늘대 움직임이 둔해 박음질이 헛돎, 높이 조정으로 워밍업 동안 땀 고르게",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "끝이 무딘 바늘은 올 풀림과 건너뜀 박음질을 일으키므로 손톱에 걸리면 즉시 교체",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "밑단 교차 솔기처럼 원단이 4겹 넘게 겹치는 지점에서 지정 번수 바늘이 휘거나 부러짐",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J12": {
+   "key": "습기 먹은 실은 감은 지 하루만 지나도 탄력이 풀려 장력이 들쭉날쭉, 그날 감은 것만 사용",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "방수 원단은 구멍이 되돌릴 수 없어 땀 간격을 3mm 이상으로 늘려야 구멍이 덜 보이고 물이 덜 스밈",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "세탁 반복하는 등산복 손목은 되돌아박기 3땀이면 풀리고 5땀이면 한 철을 넘김",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

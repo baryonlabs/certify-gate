@@ -1,0 +1,97 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J03": {
+   "key": "클릭음이 둔해지거나 바닥에 떨어뜨린 렌치; 같은 볼트를 두 렌치로 쳐서 각도 차이 5도 초과",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "가공음이 평소보다 날카로움(높아짐); 경도가 로트마다 달라 공구 마모, 20개 안에 치수 흐름",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J12": {
+   "key": "측정값이 같은 방향으로 계속 쏠림(약 5μm); 팁에 절삭유 막/쇳가루 부착",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J07": {
+   "key": "한계 안에서 연속 7점 치우침은 홀더 클램프가 느슨해지는 신호; 무시하면 치수 튐으로 재작업",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "측정기 편차 2μm 초과 시 양불 오차; 교대 시작과 충격 후 영점 확인",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "가동 직후 약 40분 주축 열팽창으로 내경 3~4μm 변동; 겨울 월요일 아침 냉각 상태",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J01": {
+   "key": "계절별 평형 시간 차이(여름 40분, 겨울 3시간 이상); 손으로 만져 차가운 기운 없고 측정대와 같은 느낌일 때 측정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "공차 불량의 상당수가 지그 접촉면에 낀 칩/기름; 닦고 재측정하면 해결",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J10": {
+   "key": "스냅링이 완전히 안착하지 않으면 가동 중 이탈; 삽입 후 안착 확인",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J11": {
+   "key": "욕조 90℃여도 표면은 더 뜨겁고 핀이 걸리면 보어 긁힘; 3~4초 두어 광택이 살짝 가라앉을 때 삽입",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

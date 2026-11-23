@@ -1,0 +1,88 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J03": {
+   "key": "녹과 기름때가 실링제를 밀어내 누출 유발",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "곡선 구간 가스 흐름과 진동 쏠림으로 이음부 이완",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "게이지 바늘이 마찰로 걸려 압력 강하(누출) 은폐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "가스 누출 이음부 주변 먼지 눌림과 미세한 끈적임",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "오래된 아연도 강관 나사산 마모 및 과조임 시 균열 위험",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "잔류 가스 배출 및 차단 상태 확인으로 폭발·중독 예방",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "영하 가까운 추위에 비눗물이 얼거나 굳어 미세 기포(누출) 누락",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "건물 미세 움직임으로 벽 관통부 이음이 가장 먼저 틀어짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "높이 40cm 이하 틈에서 긴 렌치가 구조물에 닿아 힘 방향과 이음부가 틀어짐",
+   "target": 0,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J12": {
+   "key": "규정 농도 안이어도 시큼한 냄새(부패)가 나면 즉시 교체, 여름 장마철 점검 빈도 증가",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "스테인리스 소재(수량 70%에서 마모), 칩 색이 푸른빛으로 변하면 즉시 교체",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "냉각 창고에서 꺼낸 소재와 작업장 온도 차(겨울철 0.01mm 수축)로 인한 열팽창/치수 안정화",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "점심시간 기계 냉각에 따른 열변형으로 첫 몇 개 치수가 0.01~0.02mm 흐르는 현상",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "칩을 치우려다 회전체 가까이 손을 뻗는 동작(정지 직전 말림 위험)",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J04": {
+   "key": "채터(떨림) 시작 신호(3~4개 내 물결무늬 발생), 이송 10% 감속",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J01": {
+   "key": "지그 면에 칩이 끼어 들뜸(0.05mm)으로 인해 나는 둔탁한 소리(맑은 소리가 나야 정상 안착)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "겨울 아침 오일 굳음(3~4분) 이후 5분이 지나도 잔떨림이 남으면 베어링 손상",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

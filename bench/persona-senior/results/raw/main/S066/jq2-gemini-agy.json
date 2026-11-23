@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J07": {
+   "key": "물자국 바닥 3cm 이상 시 방수형 커넥터 교체, 하부 센서·커넥터 부식 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "평소 소리 인지를 통한 이상 시 조기 연락 유도(고장 규모 축소)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "색만 어두울 땐 유지, 금속 가루 발견 시 즉시 교환 및 펌프 확인",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J05": {
+   "key": "150kg 초과 전동휠체어에 맞춘 정격 여유 및 경사 진입 각도 세팅",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "오래돼 기울어진 바닥에서 승강 출입구 단차 5mm 이내 우선 확보",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "하강 끝 진동으로 실린더 내부 실 마모 및 3개월 내 누유 전조 감지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "5도 이하 저온 시 작동유 점도 상승·밸브 튐 방지를 위한 예열 후 이상 판단",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "흔들림·소음 체화(몸으로 기억)를 통한 이상 소리 조기 구분 학습",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

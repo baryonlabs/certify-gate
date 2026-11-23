@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J06": {
+   "key": "모서리가 푸석함(다짐 때 공기 갇힘), 평균보다 2~3MPa 낮은 강도",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J03": {
+   "key": "허용 편차 안이어도 3회 연속 같은 방향 치우침, 가압판·로드셀 이상 초기 징후",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J10": {
+   "key": "포대 아래쪽 모래가 손에서 살짝 뭉침(수분 1% 안팎), 배합 흐름 변화",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J01": {
+   "key": "실리카겔 분홍빛 변색 시작, 식히는 동안 습기 재흡수로 칭량값 0.3mg 상승",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "시험실 온도 27℃ 초과, 모르타르 조기 응결 방지를 위해 재료 온도 20℃ 근처 유지",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "특정 몰드 번호에서 낮은 값 반복, 몰드 바닥 이음새 벌어짐으로 인한 누수",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J12": {
+   "key": "원뿔형이 아닌 한쪽으로 기울어진 파단 모양(가압면 불평행 신호), 수치와 무관한 재시험 판단 기준",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "장마철 습도에서 개봉 횟수(10회 안팎) 증가에 따른 강열감량 상승 및 강도 저하",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

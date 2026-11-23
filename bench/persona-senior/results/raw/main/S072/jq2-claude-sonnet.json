@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J09": {
+   "key": "저지대 배수 불량으로 물웅덩이가 보행자 대기 위치를 바꿔 차도 쪽으로 밀려남; 맑은 날 조사로는 놓침",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "컨테이너 트레일러 3대 이상이 대기차로에 들어가는지 실측해 직진 차로 막힘 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "구형 제어기는 신규 현시 조합을 입력 못해 설계 후 교체 예산 문제로 막힘; 설계 전 파악",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "최종안 하나만 내면 예산 이유로 반려되어 둘 중 고르게 하면 채택률 약 70%",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "보행섬 2m 미만이면 유모차·카트·자전거 보행자가 대기하다 차도로 튀어나옴; 2.5m 정도면 안정",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "정지선과 연석 곡선 반경 불일치가 시공 후 민원으로 가장 많이 돌아옴",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "대기 보행자가 연석에서 1m 이상 뒤에 서면 차량 속도·시거에 위협을 느끼는 신호; 연석 확장이나 방호울타리",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "화물차 비율이 평소보다 20% 이상 오르는 날은 대표성이 없어 제외",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

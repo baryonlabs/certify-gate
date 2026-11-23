@@ -1,0 +1,88 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J01": {
+   "key": "얇은 기모 원단 보푸라기가 반나절 만에 뭉쳐 실 걸림 발생",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "미끌거리는 안감은 속도 올리면 윗겹이 밀려 4~5cm마다 어긋남, 페달 절반 유지",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J10": {
+   "key": "안쪽 올이 삭은 범위 2cm 초과 시 새로 박은 줄 옆이 찢어져 보강천 덧댐",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "겨울 아침 식은 기계 첫 10분 워밍업 동안 바늘대 둔화로 박음질 헛돎",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "끝이 무딘 바늘은 올 풀림과 건너뜀 박음질 유발",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J04": {
+   "key": "밑단 교차 솔기 등 원단이 4겹 넘게 겹치는 지점에서 바늘 휨·부러짐",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J12": {
+   "key": "습기 먹은 실은 감은 지 하루 지나면 탄력 저하·장력 불균일, 당일 감은 보빈만 사용",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "방수 원단은 구멍 복구 불가, 땀 간격 3mm 이상이어야 구멍·누수 감소",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "반복 세탁하는 등산복 손목은 3땀이면 풀려 5땀으로 되돌아박기",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

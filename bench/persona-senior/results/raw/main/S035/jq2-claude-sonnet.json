@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J07": {
+   "key": "여러 대형 용접기 기동 전류가 겹쳐 트립하는 경우를 먼저 걸러냄",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "전년 대비 절반 이하 하락 시 장마철 습도 vs 열화를 날씨로 따져 재측정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "강수량이 아닌 풍속 15m/s 이상 예보, 옆으로 치는 비바람이 인입구로 스며 지락",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J03": {
+   "key": "도료 미스트와 염분이 패킹 틈에 굳어 습한 날 단자대 결정·지락, 눈에 안 띄는 안쪽",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "오후 최대 부하 여부, 부하 30% 이하에서의 5도 차는 오히려 심각, 10도 차이 기준",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "접지선 누락·중복이 나중에 터지고 도면상 이상 없어도 현장에서 빠진 경험",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "온도 정상이어도 진동이 저주파 '웅'에서 고주파 '지직'으로 바뀌면 베어링 그리스 마름 신호",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "피복이 2mm 이상 남거나 구리가 보이면 진동 구역에서 접촉 불량·발열",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

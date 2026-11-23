@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J05": {
+   "key": "상자 두 개 폭 정도 띄움; 간격 좁으면 뒤따르는 상자 신호까지 잡혀 오탐",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "정해진 2시간 주기와 무관하게, 지방 많은 부위를 연달아 썰어 날이 뭉개졌다고 느낄 때 (서너 덩이)",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "근막이 겹치는 자리가 엄지 아래에서 미세하게 걸리는 느낌; 그 선을 따라 넣어야 살점이 안 찢기고 200g 잔육 방지",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "도마 표면이 미세하게 패어 고기가 밀리는 느낌이 손바닥에 걸림; 절단 방향 틀어져 손실",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "도장은 맞아도 지방이 누렇거나 마블링이 도장 등급에 못 미침; 한 등급 차이",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J12": {
+   "key": "모서리 접합부는 세척수가 안 닿아 기름때 남음; 예전에 냄새로 다음 날 작업 지연",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "껍질이 위면 칼이 지방층에서 미끄러져 쏠림; 아래로 두면 칼날 각도 안정되어 두께 균일, 수율",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "서리가 굵게 맺힘 = 운송 중 한 번 녹았다 재냉동; 해동 후 육즙 손실로 수율 5% 하락",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

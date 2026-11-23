@@ -1,0 +1,78 @@
+{
+ "judge": "claude-sonnet",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J07": {
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J08": {
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

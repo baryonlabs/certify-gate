@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J02": {
+   "key": "시동 후 10초 내 탁탁 소리가 온도 상승에 따라 사라지면 인젝터 정상, 계속되면 밸브 간극/인젝터 의심",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J03": {
+   "key": "비틀었을 때 리브 바닥에 가는 금이 3개 이상이면 교환 권유",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J05": {
+   "key": "안팎 패드 두께 차이 2mm 이상이면 슬라이드 핀 고착 의심해 분해 점검",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "고무가 속에서 부풀어 말랑한 호스는 오일 침투로 내부 갈라짐, 터보 압력 누설 원인",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "에어백 차량은 단자 분리 후 약 5분 대기해 잔류 전하 방전",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "첫 반 바퀴에 뚝 걸리는 저항 변화면 부러질 위험, 녹 방지제 뿌려 10분 뒤 재시도",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "오일때가 두껍게 쌓여 누유 지점이 안 보이면 닦고 반나절~하루 운행 후 새 흔적으로 밸브커버/오일팬 구분",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "녹색·흰색 분말이 낀 단자는 접촉저항 상승으로 간헐 고장",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

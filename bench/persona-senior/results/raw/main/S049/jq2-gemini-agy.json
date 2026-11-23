@@ -1,0 +1,97 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J10": {
+   "key": "시료의 대표성 확인 및 결과 근거 확보",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "방향족 시료의 패킹 용해로 인한 오염 및 GC 유령 피크, 용기 교체 후 재채취",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "미량 잔류 용제로 인한 유동 시간 단축(규격 하한 근처 합격 오판), 냄새가 없어질 때까지 건조",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "온도에 따른 측정값 변화, 규정 온도 안정화 후 측정",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "드리프트 15 µg/min 초과 시 셀 밀폐 불량(실리콘 그리스 재도포)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "탱크 하부 채취 시 침전물 영향, 상·중·하 재채취 요청",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "머무름 시간 0.05분 이상 지연 및 겨울 아침 오븐 안정화 부족(20분 대기 후 재주입)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "바닥 미세 입자·물방울로 인한 니들·라이너 막힘 및 피크 뭉개짐, 주입 전 여과·분리",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "거품이 천천히 꺼지는 고점도 시료를 뒤에 둘 때 세척 시간 증가로 전체 일정 지연",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "여름철 냉장 보관 후 즉시 개봉 시 음압·결로 유입으로 수분(0.01% 수준) 상승, 실온 도달 후 개봉",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J10": {
+   "key": "누출 발견 시 이송 중지 후 보고로 초기 대응을 빠르게 해 피해 확대 방지",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "시간당 약 0.1씩 지속 상승하는 기울기는 냉각수 문제 신호, 숫자보다 기울기를 보고 냉각수 밸브 확인",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "문서엔 없지만 하류 갇힌 잔압이 0.2 이상 남은 적 있어 직접 빼서 0이 될 때까지 대기",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "설정압 90% 넘기 전 시트의 미세한 떨림을 놓친 적이 있어 손으로 먼저 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "외기 영하 5도 이하로 외벽이 차 온도 편차가 클 때 유지 시간을 2~3분 늘려 고르게 데워지길 기다림",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "오후 초 탱크 이송이 몰려 대기가 길어져 야근이 생긴 경험, 세척을 앞당겨 모두 30분 일찍 끝냄",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "방울 맺히기 전 바닥의 옅은 하얀 자국과 단내가 개스킷 누출의 초기 신호",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "필터 막힘 초기에는 압력차 경보 전에 소리가 먼저 변하므로 이때 청소해 라인 정지 회피",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "주머니 속 껍질이 배수구 근처에 떨어져 배수가 막힌 적이 있어 나가기 전 주머니가 빈 상태 확인",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

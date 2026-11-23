@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J11": {
+   "key": "0.001 정도의 미세한 틈으로 인한 해칭 누락 및 면적 수치 오차",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "인접 측점 평균단면법 계산으로 인한 앞뒤 구간 토공량 변동",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "오래된 준공도 맨홀 위치의 2~3m 오차와 굴착 시 관로 불일치",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "오후 4시 이후 작업분의 치수 오기·문자 겹침을 아침에 재검토해 발견",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "현장 PC와의 폴더 구조 차이(절대경로)로 인한 배경 지형 출력 누락",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "구배 5% 초과 시 지반고 입력 오타(자릿수 바뀜) 의심",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "구두 전달 시 구간(측점 번호) 착오 방지",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J10": {
+   "key": "성과표 거리와 5mm 이상 차이 시 좌표계·축척 계수 오류 의심",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

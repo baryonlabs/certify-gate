@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J04": {
+   "key": "도장 전 용접·배관 압력시험 등 필수 공정 누락 확인",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "판 두께 40mm 초과 시 냉각 지연 및 지연 균열 발생",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J10": {
+   "key": "3D 모델 중심선 표기로 인한 실제 곡률 반경(300mm 미만)에서의 폭 증가 및 배관 간섭",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "고온 유체 펌프의 운전 중 열팽창으로 인한 정렬값 변화",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "도면에 누락된 보온재 두께(40mm)로 인한 핸들 회전 반경 간섭",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "도면의 좌우와 실제 선체 방향(선수·선미, 좌현·우현) 불일치로 인한 반전 시공 방지",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J01": {
+   "key": "반올림 치수 4~5개 누적 시 1mm 이상 오차 발생",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "한쪽 연속 용접 시 열변형(기초 휨) 방지 목적의 양쪽 교차 용접",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  }
+ }
+}

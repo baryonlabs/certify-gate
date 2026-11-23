@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J10": {
+   "key": "형광등을 끄면 50Hz 수 mV 잡음이 줄어드는지로 조명 원인 판단, 차폐 보강",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "송풍구 바람 닿는 벤치에서 열전대 접점 온도가 0.5도씩 변동해 마이크로볼트 측정이 틀어짐",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J06": {
+   "key": "케이블 흔들면 마찰전기 노이즈로 nA 이하 측정에서 수십 pA 튐, 값이 움직이면 교체/고정",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "만료 한 달 이내 장비는 2주 넘는 시험에 배정 안 함, 시험이 만료 이후로 밀리면 데이터 전체 무효",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "신규 기판 단락 빈번, 10Ω 양단 전압 0.5V 초과 시 전원 내리고 육안 점검",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "고저항 먼저, 저저항 나중 순서에서 잔류 대전으로 첫 값이 밀림",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "장비 분해능보다 한 자리 더 쓴 값이 섞여 정밀도 과대평가, 표 안 자릿수 불일치 탐지",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "정전기 방전이 CMOS 소자에 잠재 불량, 접지가 확실히 연결된 상태에서만 취급",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "대역폭 100MHz 이상 또는 상승시간 3ns 안팎, 접지 클립 선 오버슈트 10% 초과 시 스프링 사용",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

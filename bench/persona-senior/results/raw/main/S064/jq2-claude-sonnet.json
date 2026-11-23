@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J06": {
+   "key": "절체 시 0.5초 화면 튐; 광고 없이 정지 화면이 길게 나가는 새벽 2~4시",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "이틀째 밤 메모리 누수성 지연; 48시간 병행 운전 기준",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J01": {
+   "key": "기준 동기 신호 유실이 장애의 절반; 동기가 살아 있으면 다음 경로로 내려감",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "실내 온도계 정상이어도 하단 서버 팬 먼지로 배기가 체온 이상으로 미지근함",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "쓰지 않는 예비 선은 몇 달 사이 접촉이 풀려 긴급 투입 때 신호 안 나옴; 분기마다 확인",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J09": {
+   "key": "케이블 직경의 10배보다 더 꺾인 곳; 한여름 습도 높은 날 에러",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "전압 정상이어도 4년 넘은 모듈은 교체 후보; 연한보다 2년 일찍 부풀어 오른 전례",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "파일 복원 시 빠지는 항목(예약 타이머, 일부 오디오 딜레이 값)을 화면 사진으로 보완",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

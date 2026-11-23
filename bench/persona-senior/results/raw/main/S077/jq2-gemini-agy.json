@@ -1,0 +1,97 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J05": {
+   "key": "인버트 몰탈 작업 시 청소 장비 호스가 관 끝에 걸려 막힘 발생",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "오래된 게이트밸브 디스크가 이물에 물려 안 열림, 저항이 갑자기 커지는 지점에서 반 바퀴 되돌림",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J08": {
+   "key": "매설(흙 덮기) 전 이음부 불량 발견으로 재굴착 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "겨울 영하 근처 용제 증발 속도와 끈적임(손등에 묻는 정도)으로 즉시 삽입·가열 여부 결정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "콘크리트 타설 시 슬리브 눌림·모르타르 유입으로 관 막힘 및 재천공(코어) 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "구석 맨홀 쪽 공기 정체·가스 고임 확인, 불꽃이 한쪽으로 기울어야 작업 시작",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J10": {
+   "key": "마사토 층이 비 온 뒤 하루 지나 속부터 무르게 풀려 벽이 밀림",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "소구경 짧은 구간(15m 이하)은 오차 1mm 이내, 15m 초과 시 레벨기 사용",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "1990년대 이전 구간 미기재 주철관, 둔한 소리로 속이 찬 관 판단",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "비상 시 즉시 발견·차단 및 유지보수 가능한 위치",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  }
+ }
+}

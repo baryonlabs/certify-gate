@@ -1,0 +1,88 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J06": {
+   "key": "주기적인 딸깍거리는 소리(디스크 고장 임박 신호) 시 SSD 교체 우선, 소리 없으면 시작프로그램 정리",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "환자와 직원이 오가는 곳에서 선이 발에 걸리는 위험",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "정전기로 인한 내부 부품(메모리, 메인보드) 손상 방지를 위한 전원 분리 및 방전",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "어댑터가 손등에 뜨겁게 느껴지면 곧 고장난다는 신호이므로 예비품으로 즉시 교체",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "레이저 프린터 인쇄 시작 시 순간 전력 상승으로 PC가 꺼지는 현상 방지",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J04": {
+   "key": "진료 중 설치·검사 시 PC 속도 저하로 접수 지연 및 항의 발생 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "고령 원장님이 왼쪽 위 작은 아이콘을 못 찾고 시선이 먼저 가는 화면 가운데를 봄",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J12": {
+   "key": "아래쪽 포트는 청소기나 의자에 선이 걸려 빠지고 접촉 불량이 발생함",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "PC 수리 후 프린터 설정이 풀려 재방문하는 일을 막기 위해 직원이 직접 이상 여부 확인",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  }
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "method": "b",
+ "model": "gemini-argon",
+ "model_id": "opencode-go/gemini-4-argon",
+ "labels": {
+  "J01": {
+   "label": "gap",
+   "k": null
+  },
+  "J02": {
+   "label": "gap",
+   "k": null
+  },
+  "J03": {
+   "label": "gap",
+   "k": null
+  },
+  "J04": {
+   "label": "explained",
+   "k": "K1"
+  },
+  "J05": {
+   "label": "explained",
+   "k": "K7"
+  },
+  "J06": {
+   "label": "gap",
+   "k": null
+  },
+  "J07": {
+   "label": "gap",
+   "k": null
+  },
+  "J08": {
+   "label": "explained",
+   "k": "K5"
+  },
+  "J09": {
+   "label": "gap",
+   "k": null
+  },
+  "J10": {
+   "label": "gap",
+   "k": null
+  },
+  "J11": {
+   "label": "explained",
+   "k": "K2"
+  },
+  "J12": {
+   "label": "gap",
+   "k": null
+  }
+ }
+}

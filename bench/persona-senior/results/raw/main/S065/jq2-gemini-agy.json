@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J09": {
+   "key": "두께 차이 3mm 초과 시 형상 반사를 결함으로 오인, 반대쪽 스캔 시 지시가 사라지면 형상 에코로 판정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "저녁 무렵 눈 피로와 집중력 저하로 인한 애매한 지시 판정 실수 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "탐촉자가 걸리지 않고 매끄럽게 움직이는 감각(표면 거칠기 Ra 6.3 이하)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "손을 3초 이상 못 대면 60℃ 이상으로 가늠하여 고온용 매질로 교체",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "케이블을 흔들 때 간헐적으로 튀거나 변하는 신호를 보고 결함과 접촉 불량을 구분",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J02": {
+   "key": "비드 틈의 잔류 습기·염분(해풍 영향)이 매질과 섞여 신호 흔들림 및 가짜 지시 유발",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "소수점이 없는 정수 기록은 실측이 아닌 눈대중 기록으로 의심(판정 경계선에서 합불 영향)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "가장자리 흐림은 필름·증감지 밀착 불량 전조이며 용접 끝단 융합불량을 가림",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

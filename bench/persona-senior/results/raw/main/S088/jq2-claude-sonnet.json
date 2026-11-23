@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J08": {
+   "key": "오후 늦게는 피로로 보행 반응이 둔해져 데이터 흔들림; 오전 10시 전후 재현성 최고",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "기준 하중 대비 오차 2% 초과 또는 같은 하중에서 값이 두 번 연속 다름 → 센서/접착 의심",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "외피 한쪽만 국소적으로 따뜻함 → 기구 간섭/베어링 문제 의심",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "손가락 관절이 굽은 분은 정상 파지 힘에서도 손잡이를 놓침; 손 모양 관찰",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "지정 충전기 사용과 적정 충전 상태(절반 남짓) 유지로 열화·과열 사고 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "키 기준이면 어깨 으쓱임으로 팔 떨림; 팔꿈치 약 20도 굽힘에서 자세 안정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "납땜 약한 커넥터가 진동에서 순간 접촉 불량; 이동 후 간헐 오작동 경험",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J06": {
+   "key": "관절 굽힘부 케이블 반복 굴곡에서 3개월 내 단선; 곡률 반경이 작으면 수정 요청",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "작동 시간이 길었거나 표면 온도가 이전 기록보다 5도 이상 상승하면 한 달 안 재측정",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

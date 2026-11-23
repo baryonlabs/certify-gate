@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J06": {
+   "key": "장마철 이틀·겨울 하루 건조; 염분·습기 빠진 뒤 약품 (안 그러면 하얗게 올라옴)",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J07": {
+   "key": "눈은 코팅에 속지만 뒷면 결은 속일 수 없음; 이탈리아산 촘촘, 인조는 일정·미끈",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J12": {
+   "key": "손등에 찬 기운 없고 표면이 당기지 않을 때; 여름 40분, 겨울 두 시간",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J01": {
+   "key": "오래된 구멍은 늘어나 실이 헐거움; 늘어난 구멍은 실을 한 번 더 돌려 감아 조임",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "냄새로 무두질 방식 판단; 식물 탄닌은 보습제 묽게, 크롬은 진하게",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "사진은 조명에 따라 색이 달라 신뢰 불가; 실 조각을 햇빛에 대고 비교",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "새 날이 너무 날카로우면 얇은 양가죽이 첫 번에 뚫림; 무디게 길들여야 두께 일정",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J09": {
+   "key": "하룻밤 지나 손이 식어 장력이 달라져 앞뒤 땀 간격이 눈에 띄게 달라짐",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  }
+ }
+}

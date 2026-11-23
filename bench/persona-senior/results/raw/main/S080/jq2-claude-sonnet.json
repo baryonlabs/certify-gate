@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J04": {
+   "key": "변경이 닿는 앞뒤 두 공정까지 적어 도장 전 용접·배관 압력시험 같은 빠진 작업을 바로 확인",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "판 두께 40mm 초과 시 냉각이 느려 균열이 늦게 나타나 24시간으로 부족",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J10": {
+   "key": "곡선부 실제 곡률 반경에서 트레이 폭이 커져 배관과 간섭, 곡률 반경 300mm 미만 구간은 단면 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "고온 유체 펌프의 열팽창으로 정렬값이 변해 열 상태(운전 온도 안정 후)에서 재확인",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "보온재 두께(40mm)가 도면에 빠져 핸들 회전 반경이 막힘, 보온 시공 후 두께를 더해 계산",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "도면 좌우와 선수·선미 기준 방향이 달라 좌현·우현이 뒤집혀 시공된 전례, 위치부터 맞춤",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J01": {
+   "key": "반올림 치수가 4~5개 누적되면 대형 베드플레이트에서 1mm 이상 어긋나 구멍 재가공",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "대칭 구간을 한쪽부터 연속 용접하면 기초가 휘어 레벨 조정 지연, 양쪽 교차 순서",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J11": {
+   "key": "가장자리 겹침부의 얇은 도막, 후배가 라인 앞에서 지적받는 것 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "백색·은색 계열 바닥 안료 침전으로 인한 색차, 손에 잡히는 덩어리",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J12": {
+   "key": "장마철 습도 80% 초과, 손등에 차가운 느낌이 들면 재탈지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "완전히 막히기 전 소리가 반 음 높아짐(계기판 수치 변화 전)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "게이지로 늦게 보이는 미세 누기를 비눗물 거품으로 즉시 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "40분 이상 휴식 시 건 내부 도료가 굳어 첫 분사에 덩어리 튐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "3분 후에도 진동이 일정한 리듬으로 안정되지 않고 거칠면 씰·기포 의심(겨울철 빈발)",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J04": {
+   "key": "기온 10도 이하, 분사 중 점도 상승으로 인한 오렌지필 방지를 위해 범위 하한 맞춤",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

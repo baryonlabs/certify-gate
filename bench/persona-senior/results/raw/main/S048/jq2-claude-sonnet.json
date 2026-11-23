@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J04": {
+   "key": "이음부 틈에 낀 소스 찌꺼기가 소독 후에도 남아 유산균 증식으로 이어짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "재가동 직후 실링 바가 덜 데워져 접착이 약한 포장, 겉은 멀쩡해도 3일째 팽창",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "냉각 구간 위 천장 응축수가 제품 위로 떨어져 오염, 습도 높은 아침엔 환기 후 물방울이 마르면 시작",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "차량 표시 5℃ 이하여도 적재 위치 때문에 중앙 제품은 7℃ 넘을 수 있음",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J02": {
+   "key": "수조 물이 20℃를 넘기 시작하면 60분 안에 10℃ 도달 불가(여름철)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "겨울·장마철 결로로 바닥 박스가 눅눅하거나 젖어 있으면 중심온도 재측정",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "배수구 트랩의 시큼한 냄새는 세제 농도 낮음·잔재 신호, 다음날 낙하균 상승",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "가스 생성은 초기에 나타나므로 2주차 뚜껑이 미세하게 부푸는 변화를 중간에 확인",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

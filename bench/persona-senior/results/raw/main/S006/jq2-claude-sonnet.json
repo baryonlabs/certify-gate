@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J01": {
+   "key": "시험 전날은 밤늦게도 학생 접속이 많아 새벽까지 사용자가 남음",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J04": {
+   "key": "기존 엑셀 서식을 바꾸라 하면 새 툴을 안 쓰고 예전 방식으로 돌아감; 열 순서 맞추면 교육 없이 첫날부터 사용",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "일괄 수강 등록 같은 대량 입력이 평소보다 눈에 띄게 느려지면 그 인덱스를 뺀다",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J03": {
+   "key": "이름·생년월일이 같아도 동명이인이거나 재수강 이력이 달라 합친 성적 기록은 되돌리기 어려움",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "담당자가 표시 건수를 500건 이상으로 바꿔 둔 것이 느린 원인인 경우가 반복됨; 코드 안 열고 5분 내 해결",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "연말 수료증 출력 때만 쓰는 컬럼이 있어 1년치 로그를 봐야 연간 주기 작업까지 잡힘",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J08": {
+   "key": "개강 첫 주 오전 9~10시 접속 몰려 로그인 세션 테이블에서 먼저 지연; 집계 쿼리는 사용자가 체감 못해 후순위",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J09": {
+   "key": "재현 안 되는 오류는 대부분 구형 브라우저나 오래 유지된 세션 때문",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

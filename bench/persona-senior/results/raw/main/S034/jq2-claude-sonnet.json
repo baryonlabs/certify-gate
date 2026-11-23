@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J09": {
+   "key": "교체 후 전류가 교체 전보다 5% 넘게 내려가야 함; 안 내려가면 장착 불량/바이패스/다른 막힘",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "모터가 충분히 데워진 뒤(오전 10시 무렵)에야 떨림이 드러남; 기동 직후엔 정상처럼 보임",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "장마철 습도로 벨트가 늘어남; 처짐이 규정 범위 안이어도 2주마다 재점검",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "물이 3~4초 안에 빠지지 않으면 슬라임 시작; 장마·습한 주에는 느려지면 바로 청소",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "귀로 들리기 전 케이싱에 느껴지는 잔 떨림; 평소 느낌과 다르면 같은 주에 베어링 그리스 확인",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "핀 사이 먼지로 빛이 번지듯 뭉쳐 보임 + 냉수 밸브 개도가 평소보다 10% 이상 더 열림이면 세정 당김",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "덕트 접속부 틈에서 나는 휘파람 같은 고음; 풍량이 맞아도 접속부를 열어 확인",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J06": {
+   "key": "영하 다음 날 루버 하단 성에로 도입 풍량 감소; 성에가 손가락 한 마디 두께 넘으면 예열 코일 앞당김",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J05": {
+   "key": "온도 상승 기울기가 분당 2도를 넘으면 지시서 속도라도 줄이고 안정 후 올림",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "수분 소량에도 거품·수율 저하, 장마철 배치 폐기 경험 때문에 표면 물기까지 닦음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "샘플링 포트 배관에 남은 이전 배치 잔액이 첫 흐름에 섞임",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "규칙적 바늘 떨림은 반응 이상이 아니라 펌프 맥동·밸브 채터링일 가능성, 구분해 불필요한 공정 중단 회피",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "출구-입구 온도차가 평소보다 약 3도 이상 벌어지면 스케일·유량 저하 징후",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "영하 날씨에 보온 구간 끝부분이 먼저 식어 원료가 굳기 시작, 손끝 온도차로 투입 전 막힘 예측",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "점도 상승 시 모터 소리가 전류보다 먼저 무거워짐, 과거 점도 급상승으로 교반 정지 경험",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "반응 종료 무렵 배출 배관 온도가 먼저 내려감, 미지근해지면 샘플을 앞당겨 채취해 대기시간 단축",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J02": {
+   "key": "게이지 0이어도 라인·어큐뮬레이터 잔압을 완전히 해제해야 고압 작동유 분출 부상 방지",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "작동유 오염이 서보밸브·펌프 마모를 촉진하므로 주기적 측정으로 청정도 관리",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "도면상 맞아도 장갑 낀 손으로 핸들·필터 엘리먼트 조작 가능한 최소 한 팔 길이 여유",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "신설 바닥 콘크리트 기초가 덜 굳어 하루 사이 0.05mm/m 정도 틀어질 수 있어 이튿날 재측정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "캐비테이션 침식은 흡입측 문제, 줄무늬 긁힘은 오염 유입을 가리켜 원인별 후속 조치로 재발 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "베어링 마모의 고주파 사각사각 소리, 같은 라인 정상 펌프와 비교하고 한 달 전보다 거칠면 분해 일정",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "맑아도 수분 혼입 시 비빌 때 끈적임 없이 미끌거리고 뿌연 기포가 빨리 꺼지면 수분 검사 요청",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "유온이 낮으면 점도가 높아 차압이 일시적으로 상승, 40℃ 이상 데운 뒤 다시 읽고 판단",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "기동 직후에만 나는지 부하 때 나는지에 따라 의심 부위가 갈림(부하 때 소음은 커플링 정렬 불량 사례)",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "토크대로 조여도 가동 열이 오른 뒤 새는 경우가 많아 이튿날 휴지 번진 자국 보이면 재체결",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  }
+ }
+}

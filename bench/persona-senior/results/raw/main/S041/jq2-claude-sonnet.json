@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J06": {
+   "key": "모서리가 푸석함(공기 갇힘) → 평균보다 2~3MPa 낮은 강도",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J03": {
+   "key": "허용 편차 안이어도 세 번 연속 같은 방향 치우침 → 가압판/로드셀 이상 초기 징후",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "손에서 살짝 뭉치면 수분 1% 안팎 → 흐름 달라짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "겔이 분홍빛으로 변하기 시작하면 습기 재흡수로 칭량값 0.3mg 상승, 변색 전 교체",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "시험실 27℃ 초과 시 모르타르 빨리 굳음, 재료 온도 20℃ 근처로 맞춤",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J07": {
+   "key": "특정 몰드 번호에서 낮은 값 반복, 바닥 이음새 벌어져 물이 샘",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "한쪽이 기울어 깨지면 가압면 평행 불량 신호, 재시험 판단",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "장마철 습도에서 개봉 횟수(열 번 안팎) 증가 시 강열감량 상승, 강도 저하",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

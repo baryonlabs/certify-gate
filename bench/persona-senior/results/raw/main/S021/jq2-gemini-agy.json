@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J01": {
+   "key": "북향·그늘진 면에서 비닐 안쪽에 물방울이 맺힘(함수율계 수치와 무관)",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J10": {
+   "key": "직선 짧은 균열 10cm, 이어지거나 신축 줄눈 방향 균열 20cm 이상",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "경화제 비율 오차로 인한 미세한 색 농도 차이(옅거나 진함) 및 미경화 끈적임",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "직각 모서리의 도막 얇아짐과 겨울 일교차에 의한 갈라짐 방지",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "가을 저녁 표면이 따뜻할 때 덮으면 내부 습기·백화 발생, 식은 뒤 1시간 후 덮음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "습한 날 속이 무른 상태에서 손톱 자국이 남는지 여부",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J11": {
+   "key": "여름 오후 점도 상승으로 끊어지듯 떨어짐 vs 15cm쯤 이어져 흐름",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J04": {
+   "key": "모르타르 들뜸으로 발소리가 텅 하고 빈 소리가 남(선제 철거 대상)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J03": {
+   "key": "읽다가 걸리는 문장(특정이 모호하거나 주어가 빠진 곳), 직접 쓴 사람은 알아채지 못함",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "가족 동거 여부(별거 중이거나 부양가족이 없으면 도망 우려로 영장 청구)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "평상시 말투·말 속도를 기준선으로 삼아 이후 속도가 빨라지거나 끊기는 허점 포착",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "날짜·요일 표현 방식이 바뀌는 대목은 나중에 기억을 덧씌운 부분(번복 다발 지점)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "지병 고령자의 구금 중 응급 상황 발생 시 수사 차질, 진단서 유무에 따른 불구속 의견",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "진술거부권 고지 누락 시 진술의 증거능력 부정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "이해 못 해도 끄덕이는 고령자(70세 이상)·긴장한 사람(땀을 흘리며 시선 회피)",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "세 번 반복 시 방어가 굳은 신호, 더 몰아붙이면 단답만 남아 진술이 끝까지 굳음",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J10": {
+   "key": "통화와 달리 잘 지워지지 않는 새벽 1~4시 앱 사용 패턴, 알리바이 진술과의 모순 확인",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

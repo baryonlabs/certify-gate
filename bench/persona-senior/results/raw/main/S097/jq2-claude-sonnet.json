@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J08": {
+   "key": "기포 유입 시 압력 변동·기선 불안정; 여과 후 탈기",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "설정 온도에서 3도 이상 벗어난 구간이 2시간 넘게 지속되면 분석 전 책임자와 상의",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "습도 65% 초과 시 흡습성 시료 값이 계속 올라 안정값 안 잡힘; 병째 데시케이터에서 꺼내 바로 칭량",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "고농도 검출기 포화로 피크 꼭대기가 깎여(납작) R² 높아도 시료 값이 낮게 나옴; 피크 모양으로 포화 판단",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J01": {
+   "key": "3초 내 미안정 또는 직전 기록과 0.2mg 초과 차이 시 진동·기류 의심",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "온도 도달 직후 컬럼 내부 미평형으로 첫 피크 머무름 시간이 0.1분 밀림; 20분 더 두면 안정",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "주입 시각과 기록지 시각 2분 어긋나 재검증 요청받은 경험; 장비 시계로 통일",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "격막이 두 번 이상 뚫려 탄력 없으면 용매 증발로 농도 상승; 하룻밤 오토샘플러 시료에서 잦음",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J11": {
+   "key": "감사에서 지운 숫자가 안 보인다는 지적; 원래 숫자가 읽히는 굵기의 선으로 정정",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  }
+ }
+}

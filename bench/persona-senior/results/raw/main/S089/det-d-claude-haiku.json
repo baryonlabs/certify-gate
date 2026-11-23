@@ -1,0 +1,55 @@
+{
+ "method": "d",
+ "model": "claude-haiku",
+ "model_id": "claude-haiku-5-5",
+ "labels": {
+  "J01": {
+   "label": "explained",
+   "k": null
+  },
+  "J02": {
+   "label": "explained",
+   "k": null
+  },
+  "J03": {
+   "label": "explained",
+   "k": null
+  },
+  "J04": {
+   "label": "gap",
+   "k": null
+  },
+  "J05": {
+   "label": "explained",
+   "k": null
+  },
+  "J06": {
+   "label": "gap",
+   "k": null
+  },
+  "J07": {
+   "label": "explained",
+   "k": null
+  },
+  "J08": {
+   "label": "explained",
+   "k": null
+  },
+  "J09": {
+   "label": "explained",
+   "k": null
+  },
+  "J10": {
+   "label": "gap",
+   "k": null
+  },
+  "J11": {
+   "label": "gap",
+   "k": null
+  },
+  "J12": {
+   "label": "explained",
+   "k": null
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J04": {
+   "key": "손 감각과 저울값이 ±20g 넘게 벌어지면 칼이 무뎌졌거나 결을 잘못 잘린 것이므로 칼부터 다시 점검",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J10": {
+   "key": "지방이 누렇거나 손에 무르게 묻으면 규격 안이어도 더 걷고, 마블링이 촘촘하면 규격 한도까지 남김",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "땀이 차 손이 헛돌면 감각이 무뎌지므로 여름 오후처럼 손이 먼저 둔해지는 때는 교체 간격을 줄임",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "바닥에 물이 고여 있으면 진공팩이 새는 신호이므로 아래 팩 육색부터 확인",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "물 묻은 도마는 행주 한 장으로 고정되어 밀리지 않아야 하며, 밀리면 칼 각도가 틀어져 장갑 끝을 벤 사고가 있었음",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J01": {
+   "key": "칼끝으로 뼈를 긁으면 이가 빠지거나 끝이 부러져 조각이 고기에 박힐 수 있어 뼈 근처에선 칼 배를 씀",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "여름 오후엔 작업대에서 20분만 지나도 표면이 끈적해지고 색이 변하므로 두 덩이 이상 꺼내지 않음",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "숙성 하루 안 된 냉도체는 근막이 물러 눌렀을 때 탄력이 도는 쪽으로 결을 읽고 거슬러 자르지 않음",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  }
+ }
+}

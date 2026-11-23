@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J02": {
+   "key": "갈색 기운의 부유물 = 양극 슬러지 신호, 양극 포대 점검",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "바늘이 가늘게 떨림 = 랙 접점/부스바 체결부 헐거움",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "습도 80% 넘는 날 물기가 덜 날아가 물얼룩 발생",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "접점의 얇은 막이 손톱에 걸리면 한 번 더 담금",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J04": {
+   "key": "조 위아래 온도차 5도 이상, 바닥 액이 차가움, 충분히 순환시킨 뒤 시작",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "표준 시편 값이 어긋나면 그날 측정값 불신하고 보정, 오후 열로 0.2미크론 편차",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "액 색이 평소보다 탁하거나 연두빛이면 농도 이상 의심, 예정일 전에도 분석",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J10": {
+   "key": "흔들림이 손끝에 느껴지는 느슨한 물림, 물림 스프링 교체",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  }
+ }
+}

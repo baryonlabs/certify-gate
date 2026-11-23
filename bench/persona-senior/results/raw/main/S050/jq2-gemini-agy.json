@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J02": {
+   "key": "빗물에 누설이 씻겨 안 보임, 하부 바닥의 알칼리 미끌거림 및 pH 시험지 반응",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "석 달 안에 같은 소리 반복 시 교체 주기 단축, 정해진 말투로 상태 표현",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "머리카락 굵기의 방사형 줄(두 달 내 내부 누설 확대 징후, 연마 대신 교체)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "흘러내린 자국이 말라 흰 결정으로 굳어 있는지(젖은 채 번지거나 소리가 갈리면 등록)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "습기로 가장자리가 푸석한지, 박스 위에서 두 번째 이후 장 사용(아래쪽 불량 빈발)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "영하 5℃ 아래에서 보닛 한쪽만 차갑게 식어 있는지(패킹 부근 증기 응축, 사흘 내 누설)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "규칙적 소리 사이의 불규칙한 자글거림(외륜 손상, 2주 내 정지 위험으로 부품 주문)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "점검표상 마지막 확인 시각이 새벽 3~5시대인 설비 우선 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

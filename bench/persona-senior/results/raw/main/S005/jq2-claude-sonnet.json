@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J06": {
+   "key": "실내 온도 5도 아래면 모르타르가 덜 굳음; 손톱으로 타일 가장자리를 눌러 움직임 없을 때 시작",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "두 대각선 차이 6~7mm 넘으면 벽이 직각 아님; 줄눈 폭으로 흡수할 자리를 미리 정함",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "해가 낮게 드는 시간대 사광에서 롤러 자국과 퍼티 단차가 가장 선명; 정면 조명에선 안 보임",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "문 앞 마지막 조각이 타일 반 장보다 좁으면 눈에 띄어 기준선을 반 장 옮김",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "손바닥에 0.5mm만 걸려도 도장 후 드러남; 퍼티 이음 자리와 몰딩 옆 확인",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "생산 로트가 다르면 색과 크기가 미세하게 달라 박스째 붙이면 띠처럼 보임",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "새 흙손은 모서리가 날카로워 줄 자국을 남김; 20~30개월 쓴 둥근 날은 자국 없이 면이 눌림",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "박스가 타일 모서리에 걸리면 L자로 따야 해서 깨지고 흉함; 줄눈 중앙이나 타일 정중앙에 오게 함",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

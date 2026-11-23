@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J01": {
+   "key": "증축·증설로 인한 꺾임, 숨은 접속점 누전",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "튀김기·냉동고 동시 가동 시 한 상에 전류 집중으로 인한 발열",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "10년 이상 된 차단기의 시험 버튼 미작동 및 즉시 교체",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "습기로 인해 0.2MΩ대로 떨어지는 현상, 건조 후 재측정 수치 변화로 습기/진성 누전 구분",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "20년 이상 주방 열기 노출, 메가 값 정상이어도 가스레인지 쪽 1~2m 구간 피복 열화 및 단락 위험",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "변색은 과거 발열 흔적, 두세 번째 칸 집중 및 주변 단자 풀림 동반",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "비 온 뒤 옥외 간판 배선 접속부 물 침입이 원인의 절반",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "0.1MΩ 미만 즉시 탐색, 0.3~0.5MΩ은 고습도 피해 익일 재측정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

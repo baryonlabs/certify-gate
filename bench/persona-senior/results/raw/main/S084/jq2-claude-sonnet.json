@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J03": {
+   "key": "보온재 틈으로 스며든 물이 배관 부식(CUI)을 만듦; 이음부 아래 녹물 자국이면 주변 두께 측정 요청",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "검사 후 시트 미안착으로 인한 미세 누설; 출구 배관이 주변보다 3~5도 이상 따뜻하면 재점검 요청",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "새벽 외기 온도 하락으로 공기 밀도 상승, 불꽃이 짧고 노랗게 변함; 방치 시 연소 불량으로 CO 상승",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "장마철 높은 습도로 계기 공기 수분 증가, 제어밸브 응답 지연으로 압력 흔들림",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J05": {
+   "key": "계기가 정상이어도 배관 진동이 평소와 다르면 캐비테이션 초기; 계기에 드러나지 않은 이상을 손으로 먼저 감지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "전송기 고장과 실제 공정 이상을 구분; 전송기 오지시를 실제 이상으로 오인해 정지시킨 손실 경험",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "150도 부근에서 열팽창으로 플랜지가 풀려 누설이 가장 많이 발생; 미세한 쉭 소리면 승온 중지 후 볼트 재조임",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "관리 범위 이탈 전이라도 30분에 0.02MPa 이상 같은 방향으로 오르면 이상 징후로 봄",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

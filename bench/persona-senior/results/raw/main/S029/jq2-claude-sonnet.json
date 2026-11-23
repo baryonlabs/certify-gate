@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J11": {
+   "key": "발자국 1cm 이내로 얕아야 함; 송이 구간은 물 뿌려 두 번 더 다짐",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "한라산에서 해안으로 부는 오후 바람이 마른 화산토 먼지를 일으킴; 바람 반대편부터 파면 완료 구간으로 먼지가 덜 날림",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "끈이 손가락 하나 들어갈 만큼 느슨하면 바람에 덮개가 들춰짐; 화산토 가루 날림 민원",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "회색 점토층은 물 머금으면 미끄럼면이 되어 사면 붕괴 선례; 층 두께와 깊이를 기록해 구배·배수 계획 재수립",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "쐐기 소리가 맑지 않고 둔하면 전날 비로 지반이 무른 것으로 보고 받침판 추가",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "순간 풍속이 기준(14m/s)에 이르면 하물 흔들림과 장비 전도 위험이 커져 중지하고 붐을 안전 위치로",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "무른 송이 지반에서 대형 차량 진동으로 말뚝이 1~2cm 내려앉은 경험; 오차가 기초 레벨에 전달",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "막대가 30cm 이상 쉽게 들어가면 속이 젖은 것이므로 반나절 더 말리고 투입",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "경사 진입로에서 뒤쪽이 무거우면 오르막 출발 때 앞바퀴가 들려 미끄러짐; 앞쪽 3분의 1 먼저 채움",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

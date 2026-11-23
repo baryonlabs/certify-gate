@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J12": {
+   "key": "규정 농도 범위 안이어도 시큼한 냄새면 부패 시작이라 즉시 교체; 장마철엔 주 1회보다 자주 점검",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "스테인리스는 수량 기준 70%만 가공해도 급격히 무뎌짐; 칩 색이 푸른빛이면 수량 무관 즉시 교체",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "냉각 창고에서 꺼낸 소재는 작업장 온도와 달라 측정값 변함; 겨울엔 0.01mm 줄어 20분 두어야 안정",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "점심 후 식은 기계 열변형으로 첫 몇 개 치수가 0.01~0.02mm 흐름; 놓쳐 오후 로트 40개 폐기",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "신입이 칩을 치우려다 회전체 가까이 손을 뻗는 순간 개입; 정지 직전 습관으로 동료가 다친 적 있음",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J04": {
+   "key": "쇳소리는 채터 시작 신호; 방치하면 3~4개 안에 물결무늬; 이송 10% 감소로 잡힘",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "토크가 맞아도 지그 면에 칩이 끼면 둔탁한 소리; 맑은 소리여야 제대로 앉음; 칩으로 0.05mm 들린 적",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "겨울 아침 오일 굳어 처음 3~4분 떨림은 정상, 5분 지나도 잔떨림이 남으면 베어링 손상",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

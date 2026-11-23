@@ -1,0 +1,97 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J03": {
+   "key": "클릭음이 둔해지거나 바닥에 떨어뜨림, 두 렌치 체결 각도 차이 5도 초과",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "로트별 경도 차이로 가공음이 평소보다 높고 날카로움(20개 안에 치수 흘러감)",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J12": {
+   "key": "팁에 절삭유 막·쇳가루 부착으로 5μm쯤 한쪽으로 쏠림",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "홀더 클램프가 느슨해지는 신호(2시간 뒤 치수 튐 경험)",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "측정기 편차 2μm 초과 시 판정 오차, 교대 시작 및 충격 후 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "가동 직후 40분간 주축 열팽창으로 내경 3~4μm 변동(겨울 월요일 아침 불량 오판 경험)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "계절별 온도 평형 시간 차이(여름 40분, 겨울 3시간 이상), 손으로 만져 차가운 기운 없이 측정대와 온도가 같음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "불량 호소의 상당수가 지그 접촉면에 낀 칩·기름 때문",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "스냅링 미안착 시 가동 중 이탈 위험",
+   "target": 0,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "표면 과열로 핀 걸림·보어 긁힘 방지, 3~4초 두어 표면 광택이 살짝 가라앉는 신호",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

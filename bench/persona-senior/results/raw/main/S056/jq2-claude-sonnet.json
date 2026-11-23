@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J08": {
+   "key": "열처리 전 가공 공정의 연삭 여유 오류가 대부분, 앞 공정 담당자 말로 원인 범위 좁힘",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "두께 차 3배 이상이면 얇은 쪽이 먼저 식어 휨 발생, 로트 분리",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "하한 +1HRC 이내면 표면 탈탄 의심, 최소 3개 추가 및 단면 연삭면 재측정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "지시값과 기록계 값이 8℃ 이상 벌어지면 교정 전이어도 열전대 열화로 보고 교체·비교",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "도어 소리가 둔하면 실이 눌려 외기 유입, 도어 쪽 온도 20℃ 저하, 실부터 확인",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "새 열 번호는 성분 편차로 경화능이 달라 심부 경도 부족 우려, 선행 시험편으로 확인",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J11": {
+   "key": "길이 500mm 이상 축은 눕히면 휨 0.3mm 초과, 세워 일정 속도로 담금",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "습도 80% 넘는 날 표면 물기가 유조에서 튀어 얼룩 불량, 물기 있으면 건조 후 장입",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J12": {
+   "key": "눌렀을 때 물이 배어나옴(속 배관 부식), 한 뼘 이상 젖음",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J02": {
+   "key": "방학 중 소량 누수, 몇 해 기억해 둔 같은 시각 같은 값과의 작은 차이",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "끝 방 온도로 전체 계통 문제와 개별 교실(밸브·에어) 문제 구분",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "새(고무계) 가스켓 길들음으로 인한 토크 풀림, 가동 후 온도가 오른 상태",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J11": {
+   "key": "방학 중 굳은 녹물·슬러지로 인한 스트레이너 막힘, 가동 전 색과 냄새 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "오래 써 턱이 닳은 몽키의 미끄러짐 감소 및 익숙한 감각, 새 공구의 너트 모서리 마모 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "층별 복귀 헤더 온도 불균일(미지근함)로 계통·스트레이너 막힘 파악",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "영하 10도 이하, 새벽 외벽 쪽 지류 배관 결빙 및 동파 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

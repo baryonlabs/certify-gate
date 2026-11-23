@@ -1,0 +1,97 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J05": {
+   "key": "관 끝이 벽면에서 한 뼘 이상 내밀면 인버트 몰탈 작업 시 청소 장비 호스가 걸려 막힘 발생",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "오래된 게이트밸브는 끝까지 조이면 디스크가 이물에 물려 안 열림; 저항이 갑자기 커지는 지점에서 반 바퀴 되돌림",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J08": {
+   "key": "매설 전에 이음부 불량을 찾아 흙 덮은 뒤 재굴착을 막음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "겨울 영하 근처에서 용제 증발 속도가 달라 끈적임이 덜하면 접합이 약해짐; 손등 묻어남으로 바로 삽입할지 헤어드라이어로 데울지 판단",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "타설 때 슬리브가 눌리거나 모르타르가 흘러들어 막히는 경우가 잦아 끼우다 막히면 코어 재천공",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "팬 방향이 맞아도 구석 맨홀 쪽은 공기가 안 돌아 가스가 고임; 불꽃이 한쪽으로 기울어야 시작",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J10": {
+   "key": "대전 서구 마사토 층은 비 뒤 하루 지나면 속부터 무르게 풀려 겉이 말라 보여도 하루 이틀 벽이 밀림; 흙색 짙은 곳 표시",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "소구경 짧은 구간은 호스 오차 1mm 이내로 충분, 15m 넘으면 레벨기 사용",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "1990년대 이전 공사 구간은 도면에 없는 주철관이 많고 소리가 둔하면 속 찬 관으로 판단",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "비상 시 바로 찾아 차단할 수 있도록 유지보수가 가능한 위치에 박스와 표지를 둠",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  }
+ }
+}

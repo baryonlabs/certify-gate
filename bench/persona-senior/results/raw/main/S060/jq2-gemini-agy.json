@@ -1,0 +1,88 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J01": {
+   "key": "소화전·제수밸브의 관 직접 전달성, 소리가 가장 커지는 밸브 방향으로 누수점 범위 축소",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "가정집 내부 누수·변기 물 새는 소리가 관로 소리에 섞여 오판(허탕 굴착) 유발",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "맑아지는 시간 기준(1~2분 내면 내부 배관, 5분 초과면 본관 쪽 녹물)으로 원인 구분",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "상류가 이미 탁하거나 냄새가 나면 해당 방류구가 원인이 아님(엉뚱한 업체 의심 방지)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "초반 질문 시 흥분 가중, 20분 안팎 쏟아내어 목소리가 낮아진 뒤 물어야 순순히 응답",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "안내문 미확인 빈번, 물이 곧 영업인 업종은 직접 단수 시간 확인을 받아야 당일 항의 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "밀폐공간 산소 및 유해가스 농도 측정·환기를 통한 산소 결핍과 중독 사고 예방",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "되메움 모래층을 타고 낮은 쪽으로 5~10m 번지므로 번짐이 넓어지는 반대쪽으로 역추적",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "비 온 뒤·젖은 지반은 소리가 퍼져 위치가 어긋나므로 맑고 이틀쯤 지난 아침 동일 위치 재확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

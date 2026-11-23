@@ -17,14 +17,21 @@ const OUT = path.join(HERE, 'results', 'raw', TAG);
 const data = JSON.parse(fs.readFileSync(path.join(HERE, 'data', 'personas.json'), 'utf8'));
 const personas = PHASE === 'calib' ? data.calibration : data.personas.slice(FROM, N);
 
-export const ROLES = {
-  P: 'claude-sonnet',
-  Q: 'codex',
-  DETECT: ['codex', 'gemini-argon'],
-  JQ: ['gemini-argon', 'claude-sonnet'],
-  JR: ['gemini-argon', 'gpt-luna'],
+// v1: 분석 계획 원안. v2(2026-11-23 15:40 변경): OpenCode Go 5시간 한도로 gemini-argon·gpt-luna를 쓸 수 없어
+// 두 번째 탐지 모델 = claude-haiku, 겨냥 채점 = 구체화한 기준(jq2)으로 claude-sonnet + claude-haiku, 응답 채점 = codex + claude-haiku.
+// v3(15:50): agy(Antigravity CLI) 경로로 gemini-4-argon(-low)을 다시 쓸 수 있어 원 설계 계열을 복구한다.
+// v4(15:55): agy gemini-4-argon 할당량 소진(7일 뒤 초기화). 응답 채점(phase 2)의 Google 계열 채점자를 gemini-4-neon-low(agy)로.
+const ROLESET = arg('roles', 'v4');
+export const ROLES = ROLESET === 'v4' ? {
+  P: 'claude-sonnet', Q: 'codex', DETECT: ['codex', 'gemini-agy', 'claude-haiku'], JQ: ['gemini-agy', 'claude-sonnet'], JQ_STAGE: 'jq2', JR: ['gemini-neon-agy', 'codex'],
+} : ROLESET === 'v3' ? {
+  P: 'claude-sonnet', Q: 'codex', DETECT: ['codex', 'gemini-agy', 'claude-haiku'], JQ: ['gemini-agy', 'claude-sonnet'], JQ_STAGE: 'jq2', JR: ['gemini-agy', 'codex'],
+} : ROLESET === 'v1' ? {
+  P: 'claude-sonnet', Q: 'codex', DETECT: ['codex', 'gemini-argon'], JQ: ['gemini-argon', 'claude-sonnet'], JQ_STAGE: 'jq', JR: ['gemini-argon', 'gpt-luna'],
+} : {
+  P: 'claude-sonnet', Q: 'codex', DETECT: ['codex', 'claude-haiku'], JQ: ['claude-sonnet', 'claude-haiku'], JQ_STAGE: 'jq2', JR: ['codex', 'claude-haiku'],
 };
-const LIMIT = { 'claude-sonnet': 8, codex: 6, 'gemini-argon': 6, 'gpt-luna': 5 };
+const LIMIT = { 'claude-sonnet': 10, 'claude-haiku': 10, codex: 10, 'gemini-agy': 12, 'gemini-neon-agy': 12, 'gemini-argon': 6, 'gpt-luna': 5 };
 const DEAD = {};
 
 // 모델별 동시 실행 제한
@@ -182,15 +189,24 @@ const tPrompt = (g, q, ids) => `각 기록에 사람의 '행동', 그 행동의 
 - match: 예상 답 3개 각각이 숨은 이유의 핵심 기준과 같은 내용인가(표현이 달라도 기준이 같으면 true, 일반론으로 일부만 겹치면 false).
 ${ids.map((id) => `[${id}] 행동: ${g.items.find((x) => x.id === id).behavior}\n  숨은 이유: ${g.gold[id].reason}\n  질문: ${q.qs[id].question}\n  0) ${q.qs[id].options[0]}\n  1) ${q.qs[id].options[1]}\n  2) ${q.qs[id].options[2]}`).join('\n')}
 출력: {"items":[{"id":"J01","target":0,"match":[false,false,false]}]}`;
+// jq2: 구체화한 겨냥 기준(코디네이터 지시, κ 0.12 대응)
+const tPrompt2 = (g, q, ids) => `각 기록에 사람의 '행동', 그 행동의 '숨은 이유'(실제 판단 기준), AI가 만든 '질문'과 '예상 답' 3개가 있다.
+먼저 숨은 이유에서 **핵심 기준·조건**(판단을 가르는 수치, 상황 조건, 예외, 신호 — 예: "0.003mm 이상", "장마철 습도", "충격 받은 장비")을 한두 개 뽑아 key에 적어라. 그다음 질문만 보고 target을 정한다(예상 답은 target에 반영하지 않는다).
+- target 2: 질문이 그 핵심 기준·조건의 어휘나 개념을 **직접** 묻는다(예: 핵심이 "충격 받은 장비는 주기와 무관하게 확인"일 때 "떨어뜨린 게이지를 교정 주기 전에 따로 확인하는 기준은?").
+- target 1: 행동과 같은 주제이지만 일반적인 '왜/어떤 기준으로'만 묻고 핵심 기준·조건의 어휘나 개념은 질문에 없다(예: "그 게이지를 따로 확인하는 이유는?").
+- target 0: 숨은 이유와 다른 측면을 묻는다(예: 핵심이 장비 충격인데 "확인 결과를 어디에 기록하나요?").
+- match: 예상 답 3개 각각이 숨은 이유의 핵심 기준과 같은 내용인가(표현이 달라도 기준이 같으면 true, 일반론으로 일부만 겹치면 false).
+${ids.map((id) => `[${id}] 행동: ${g.items.find((x) => x.id === id).behavior}\n  숨은 이유: ${g.gold[id].reason}\n  질문: ${q.qs[id].question}\n  0) ${q.qs[id].options[0]}\n  1) ${q.qs[id].options[1]}\n  2) ${q.qs[id].options[2]}`).join('\n')}
+출력: {"items":[{"id":"J01","key":"...","target":0,"match":[false,false,false]}]}`;
 const validT = (ids) => (j) => Array.isArray(j.items) && ids.every((id) => { const y = j.items.find((z) => z.id === id); return y && [0, 1, 2].includes(Number(y.target)) && Array.isArray(y.match) && y.match.length >= 3; });
 async function targetJudge(p, g, q) {
   const out = {};
   await Promise.all(ROLES.JQ.map(async (J) => {
     try {
-      out[J] = await stage(p.pid, `jq-${J}`, async () => {
+      out[J] = await stage(p.pid, `${ROLES.JQ_STAGE}-${J}`, async () => {
         const ids = shuffle(q.ids, rng(`${p.pid}-jq`));
-        const r = await ask(J, J_SYS, tPrompt(g, q, ids), validT(ids), `${p.pid} jq ${J}`);
-        return { judge: J, model_id: r.model_id, items: Object.fromEntries(ids.map((id) => { const y = r.json.items.find((z) => z.id === id); return [id, { target: Number(y.target), match: y.match.slice(0, 3).map((v) => v === true || v === 'true') }]; })) };
+        const r = await ask(J, J_SYS, (ROLES.JQ_STAGE === 'jq2' ? tPrompt2 : tPrompt)(g, q, ids), validT(ids), `${p.pid} ${ROLES.JQ_STAGE} ${J}`);
+        return { judge: J, rubric: ROLES.JQ_STAGE, model_id: r.model_id, items: Object.fromEntries(ids.map((id) => { const y = r.json.items.find((z) => z.id === id); return [id, { key: y.key ?? null, target: Number(y.target), match: y.match.slice(0, 3).map((v) => v === true || v === 'true') }]; })) };
       });
     } catch (e) { out[J] = { error: e.message }; }
   }));

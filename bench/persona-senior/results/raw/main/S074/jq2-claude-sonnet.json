@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J03": {
+   "key": "베어링 마모 초기에는 소음보다 먼저 고주파 음이 섞이고 축 끝이 미세하게 떨림; 일주일 내 열 상승",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "새 벨트는 첫 이틀 늘어나므로 하한에 맞추면 곧 미끄러짐; 신품은 상한 근처로 맞추고 사흘 뒤 재확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "기온 5도 아래 찬 공장에서 그리스가 굳어 측정값이 실제와 다름; 데운 뒤 측정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "같은 시기 설치된 같은 모델은 비슷하게 닳아 한두 달 안에 같은 증상이 다른 라인에도 나타남",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "새로 흘러나온 그리스의 양과 색으로 과급유 vs 실링 불량 구분; 검게 변한 그리스는 씰 문제",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "새 베어링도 보관 중 습기나 충격으로 회전이 거칠어진 불량이 있음; 신품을 그대로 조립했다 이틀 만에 재분해",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "교체 주기는 평균일 뿐; 분진 많은 라인이나 가동률 높은 기계는 주기의 70%쯤에 이미 마모 진행",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "하우징에 전달된 소리는 주변 소음에 묻히지 않아 마모 부위를 정확히 가려냄",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J10": {
+   "key": "영하 날씨에 서리가 남아 박리제가 겉돌고 콘크리트 표면 얼룩·재시공 발생",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "틈이 손톱 두께보다 넓으면 시멘트 페이스트가 새고 줄무늬 자국이 남아 실리콘·테이프로 막음",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J02": {
+   "key": "초속 8m 이상 바람 시 합판 날림 방지를 위해 1m 이하로 낮추고 묶음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "헐거우면 타설 중 철근이 내려앉아 피복 두께 부족, 흔들리는 간격재는 철사로 재결속",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "바닥이 약해 부스러지면 하부 쐐기가 파고들어 기울어지므로 철판·합판 깔판을 먼저 깖",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "비 맞은 되메움 지반이 하중 시 1~2cm 가라앉아 보 레벨이 틀어지므로 받침목 면적을 넓힘",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J03": {
+   "key": "덮개·날 결함 시 절단 사고 위험으로 사용 전 점검 후 결함 시 사용 중지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "15mm 합판 기준 가장자리에서 3cm 이상 띄워야 합판 층 쪼개짐 없이 3~4회 전용 가능",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "타설 중 측압에 의한 거푸집 변형·이탈 감시 및 이상 시 중단 요청",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "±5mm 허용 범위 내라도 긴 보는 처짐이 누적돼 3mm 낮으면 타설 후 6~8mm로 벌어짐",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

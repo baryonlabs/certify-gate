@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J01": {
+   "key": "함수율계 수치가 기준 안이어도 비닐 안쪽에 물방울이 맺히면 바르지 않음(북향·그늘면, 계측기만 믿지 않음)",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J10": {
+   "key": "직선 짧은 균열은 10cm, 이어지거나 신축 줄눈 방향(움직이는) 균열은 20cm 이상 넓게",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J08": {
+   "key": "경화제 비율 오류로 색이 미세하게 옅거나 진함; 색이 다른 통은 끈적임 남아 눈으로 먼저 거름",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "직각 모서리는 도막이 얇아지고 겨울 일교차에 갈라져 약간 둥글리고 바름",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "저녁 이슬 내리는 가을, 표면이 따뜻할 때 덮으면 안쪽 습기로 흐려짐; 식은 뒤 한 시간 후 덮음",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "습한 날엔 표면만 마르고 속이 무름; 손톱 자국이 남으면 기다림",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J11": {
+   "key": "여름 오후 점도 상승; 헤라에서 끊어지듯 떨어지면 늦고 15cm쯤 이어져 흘러야 롤러가 밀리지 않음",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J04": {
+   "key": "모르타르 들뜸; 발소리가 텅 하고 빈 소리 나면 그 위에 바르면 부풀어 걷어냄",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

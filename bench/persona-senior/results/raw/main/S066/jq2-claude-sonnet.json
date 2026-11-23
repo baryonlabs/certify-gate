@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J07": {
+   "key": "침수 이력 피트에서 물자국이 바닥 3cm 이상이면 커넥터를 방수형으로 교체",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "담당자가 평소 소리를 알아야 이상 시 일찍 연락하고 일찍 올수록 고장 규모가 작음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "색만 어두운 것은 교환 안 함, 천에 금속 가루가 보이면 즉시 교환하고 펌프 확인",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "전동휠체어는 150kg 넘는 경우가 많아 정격 여유와 경사 진입 각도를 다르게 봄",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "바닥이 기울어진 곳은 수평만 맞추면 단차가 틀어지므로 출입구 단차 5mm 이내를 먼저 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "하강 끝 구간 진동은 실린더 내부 실 마모의 신호로 석 달 안에 누유가 시작되는 경우가 많음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "기온 5도 이하에서 작동유 점도가 올라 첫 상승 때 밸브가 튐, 예열 왕복 후에야 정확히 판단",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "직접 타서 흔들림과 소음을 몸으로 기억하면 이상 소리를 빨리 구분함",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

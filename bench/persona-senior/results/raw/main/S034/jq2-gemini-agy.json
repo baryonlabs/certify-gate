@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J09": {
+   "key": "교체 후 전류가 교체 전보다 5% 넘게 내려가지 않음, 필터 장착 불량/바이패스 판별",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "모터가 충분히 데워진 뒤(오전 10시 무렵) 드러나는 떨림",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "습도 높은 장마철 벨트 늘어남, 처짐이 규정 범위 안이어도 2주 주기로 점검",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "물이 3~4초 안에 빠지지 않으면 슬라임 누적 판단 및 청소",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "귀로 들리기 전 케이싱에 느껴지는 베어링 이상 잔 떨림",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "핀 사이 먼지로 빛이 뭉쳐 보이고 냉수 밸브 개도가 평소보다 10% 이상 더 열림",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "덕트 접속부 틈으로 인한 휘파람 같은 고음",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J06": {
+   "key": "영하 다음 날 루버 하단 성에(손가락 한 마디 두께 초과 시 예열 코일 조기 가동)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

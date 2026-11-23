@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J07": {
+   "key": "모르타르가 먼저 흐르고 골재가 뒤따라 끊기면 물 많은 차(곰보 위험)",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J08": {
+   "key": "자재상 재납품은 이틀, 이웃 현장 잔량은 당일; 밀시트 사본 수령 후 같은 양 반납",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "공시체 결과가 나와도 소리가 둔탁하면 하루 더, 기온 5℃ 이하면 이틀까지 연장",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "일평균기온 4℃ 이하에서 초기 재령 콘크리트 동결로 강도 저하",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J02": {
+   "key": "붉은 가루가 짙게 묻고 비늘처럼 일어나는 녹은 반품, 얇은 갈색 막은 수용",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "약어·기호 많은 도면은 고령·외국인 작업자가 다르게 읽어 반복 실수",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "팔공산 능선이 구름에 덮이고 동쪽 바람이면 오후 3시 전후 소나기",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "신발 자국 약 5mm로 얕아지면 올라오던 물이 걷힌 시점; 이르면 들뜸, 늦으면 끌림",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "둔탁한 소리에서 맑은 소리로 바뀌는 경계가 콘크리트 높이; 그 아래 60cm 진동기 투입",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

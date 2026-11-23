@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J05": {
+   "key": "시험 직전 접속이 한 문제집 화면에 쏠려 작은 지연(1초)도 이탈·문의로 이어짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "RAM 2GB 이하 저사양 기종 하나가 수치를 부풀림; 기종별로 묶어 실제 서로 다른 사용자 수 확인",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "개강 첫날 오전 8시 동시접속 시 배너 이미지 요청이 전체의 절반 가까이; 눈에 안 띄는 요청부터 줄여 핵심 학습 화면 보호",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "CPU가 평소 대비 60% 초과하고 오르막 기울기가 가파르면 임계치 전에 증설; 기동에 몇 분 걸려 지연 누적",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "인증·결제 경로는 문서에 없는 기준으로 한 번 더 걸러야 함; 후배 코드의 예외 처리 누락이 가장 많던 곳",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "두드리는 곳은 눌러도 반응 없는 자리; 완료율에 안 잡히는 버튼처럼 보이는 비버튼 요소 신호",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "수업 중 학교 와이파이 끊김으로 진도가 날아가 문제를 처음부터 다시 푸는 일 방지; 저장 실패를 학생에게 노출하지 않음",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "금요일 제출 시 주말 오류의 핫픽스가 심사 대기로 월요일까지 못 나감",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

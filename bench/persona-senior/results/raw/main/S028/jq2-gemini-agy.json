@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J05": {
+   "key": "분당 2도 초과 온도 상승",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "수분 유입 시 초기 거품 및 수율 저하(배치 폐기 경험)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "포트 배관 내 이전 배치 잔액 혼입으로 인한 분석값 이상",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "반응 이상과 펌프 맥동·밸브 채터링 구분(불필요한 중단 방지)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "입출구 온도차 평소 대비 약 3도 이상(스케일·유량 저하 징후)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "영하 날씨 보온 끝부분 냉각으로 인한 원료 응고·막힘 예측",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "내용물 점도 상승 시 전류값보다 모터 소리가 먼저 무거워짐(교반 정지 예방)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "반응 종료 시 배출 배관 온도 선행 하락(샘플 조기 채취로 대기시간 단축)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

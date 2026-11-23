@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J04": {
+   "key": "규격 경계 0.1%p 이내(13.9 vs 14.0)는 재시험에서 규격 초과로 뒤집힐 수 있어 한 번 더 확인",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J07": {
+   "key": "습도 80% 초과 시기 CO2 흡수로 한 달 내 역가 0.003 하락, 월 1회 표정 부족",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "6장 넘게 쌓으면 가운데 접시가 늦게 데워져 집락이 작아짐; 맨 위 접시는 열기로 마르기 쉬워 빈 접시로 막음",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "결로수가 시료에 스며 수분값 0.3%p 상승; 봉지 겉면 물기가 사라질 때까지 대기",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "오후 난방으로 실험실 온도 상승, 저울 표시값 흔들림; 오전 9~11시가 안정적",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "숫자를 내밀면 작업자가 자기 탓으로 듣고 방어적이 됨; 실물 비교 시 본인이 차이를 먼저 짚어 설득이 빠름",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "번짐이 접시 면적의 1/4 초과면 계수 불가, 미만이면 번진 부분만 빼고 계수",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "맨 위 칸이 중간보다 약 3℃ 높고 문 쪽은 개폐로 식어, 중간 칸 안쪽이 설정 온도에 가장 가까움",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  }
+ }
+}

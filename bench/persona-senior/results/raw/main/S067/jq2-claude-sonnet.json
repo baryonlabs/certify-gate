@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J11": {
+   "key": "로트 변경 시 핀 치수 미세 차이로 꽉 끼거나 헐렁함; 삽입 저항이 평소와 다르면 입고 검사에 알리고 작업 중단",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "식후 손끝이 둔해져 길이 오차가 0.3mm 이상 흔들림; 점심 직후 정밀 스트립 대신 조립·정리 공정",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J10": {
+   "key": "넓은 동박 패드는 열이 빠져 3초 안에 녹지 않음; 예열 후 4~5초까지 허용, 주변 부품 거리 확인",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "너무 세게 묶으면 피복이 눌려 절연 약화; 눌렀을 때 약간 여유가 느껴지는 정도가 적정",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "장마철 습기 밴 솔더 앞부분은 튀고 플럭스가 끓어 기포 발생; 습한 날 방치한 릴에서 불량",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "냉땜은 정면에선 멀쩡해 보여도 비스듬히 보면 뿌옇고 주름짐; 약 30도 각도에서 가장 잘 드러남",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "가닥이 눈에 안 보이게 일부 끊긴 선은 확대경으로 놓침; 당길 때 한쪽 가닥만 튀어나오는 느낌으로 감지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "겨울철 오래 쓴 나사나 얇은 와셔가 낀 단자는 딸깍해도 풀릴 수 있어 흔들림까지 확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

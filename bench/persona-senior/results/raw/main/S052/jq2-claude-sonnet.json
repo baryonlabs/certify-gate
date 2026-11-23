@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J05": {
+   "key": "저점에 고인 물이 가장 늦게 빠져 동결 파손 방지 위해 개방",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "새벽 영하에서 봉이 습기를 먹음; 오븐 온도 올라 봉이 마른 뒤 사용",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "미세 누설은 처음 20분 압력계에 안 나타나고 물방울 맺히는 데 시간이 걸려 종이 젖은 자국이 먼저 알림",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "습기 많은 날 닦고 십 분 지나면 녹이 올라와 십 분 넘으면 다시 닦음",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "가스켓 누설은 볼트 구멍 사이 중간 지점에서 시작; 볼트 옆만 보면 놓침",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "수평 오차 1도가 두 번째 엘보 후 끝점 20mm 이상 벗어남; 맞춤 상태에서 눈으로 걸러냄",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "밸브/레듀서 옆 구간 무게 쏠림; 밸브 중량이 배관 한 마디 무게의 절반 초과 시 보강",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "산 상태 나쁜 볼트는 토크 맞아도 축력 부족; 손으로 돌릴 때 뻑뻑한 볼트는 이물 낀 경우라 빼 둠",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  }
+ }
+}

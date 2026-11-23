@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J01": {
+   "key": "소화전·제수밸브는 관과 직접 닿아 소리 전달이 좋음; 소리가 가장 큰 밸브 방향으로 누수점 범위를 좁힘",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "계량기 파이롯트가 도는 집은 내부 누수·변기 새는 소리가 관로 소리로 섞여 오판(허탕 굴착)",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "맑아지는 시간 1~2분 이내면 내부 배관, 5분 초과면 본관 녹물 → 관 책임 구분",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "상류가 이미 탁하거나 냄새가 나면 해당 방류구가 원인이 아님; 의심 대상 선정 전 상류 상태 확인",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "처음부터 캐물으면 더 흥분; 20분쯤 쏟아내면 목소리가 낮아진 뒤 연락처를 물음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "문자·안내문은 관리자가 못 봄; 물이 곧 영업인 시설은 직접 방문해 단수 시간 확인받아야 당일 항의 방지",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "산소·유해가스 농도 측정 후 환기해 수치가 안정된 뒤 진입(산소결핍·중독 예방)",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "물이 되메움 모래층을 타고 낮은 쪽으로 번져 젖은 자리가 실제 누수점보다 5~10m 떨어짐; 번짐 반대쪽으로 거슬러 올라감",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "비 온 다음 날·지반 젖은 날은 소리가 퍼져 위치 어긋남; 맑고 이틀쯤 지난 아침 재확인",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

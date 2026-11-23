@@ -1,0 +1,97 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J10": {
+   "key": "영하 날씨에 합판에 서리가 남아 있으면 박리제가 겉돌고 표면이 얼룩짐",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "틈이 손톱 두께보다 넓으면 시멘트 페이스트가 샘",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J02": {
+   "key": "초속 8m 이상 바람이면 1m 이하로 낮추고 묶음",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "간격재가 헐거워 흔들리면 타설 중 철근이 내려앉아 피복 두께 부족, 철사로 재결속",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J05": {
+   "key": "바닥 모르타르가 부스러지면 하부 쐐기가 파고들어 기울어짐, 깔판을 먼저 깔아야 함",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J11": {
+   "key": "비 맞은 되메움 지반은 겉은 단단해도 하중이 걸리면 1~2cm 가라앉음, 받침목 면적 확대",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J03": {
+   "key": "덮개나 날 결함이 있으면 절단 사고, 사용 전 점검하고 결함 시 쓰지 않음",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J12": {
+   "key": "15mm 합판 기준 가장자리에서 3cm 이상 띄워야 층 쪼개짐 없이 3~4회 전용 가능",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "타설 중 측압으로 거푸집이 변형·이탈될 수 있어 상시 감시하고 이상 시 중단 요청",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "보가 길어 처짐이 누적되는 구간은 3mm 낮아도 타설 후 6~8mm로 벌어져 미리 올려 잡음",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

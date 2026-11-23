@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J01": {
+   "key": "겨울 빈집에서 10분 내 표면이 굳어 오픈타임 경과; 손가락에 안 묻어나면 오픈타임 지난 것",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "여름엔 풀 묽게, 겨울엔 되직하게 해서 마르는 속도 맞춤; 풀 과다 시 벌어지고 부족하면 모서리 일어남",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "큰 타일(600각 이상)은 2mm만 넘어도 모서리가 뜸, 바닥 기준 3mm보다 엄격",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "겉이 말라도 틈 안쪽에 물이 남음; 겨울엔 드라이기로 3~4분 더 말려야 함",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "결로로 합판/미장이 들뜬 곳은 둔탁하게 비는 소리가 남(1990년대 빌라)",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "약 20장 자르면 물이 탁해지고 이때 갈아야 모서리 칩핑이 적음",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "두 번 훑으면 표면이 거칠어져 곰팡이가 끼기 쉬움; 노즐을 틈 폭보다 약간 작게 잘라 한 번에 훑어 얇고 매끈하게",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J04": {
+   "key": "배수 구배로 한쪽이 낮아 수평 레이저만 쓰면 배수구 쪽 타일이 잘려 나감; 구배를 줄눈으로 흡수",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  }
+ }
+}

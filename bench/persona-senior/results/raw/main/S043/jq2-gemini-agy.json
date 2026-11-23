@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J11": {
+   "key": "히스테리시스나 노이즈성 튐, 트라이액셜 커넥터 헐거움 배제",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J08": {
+   "key": "접촉저항 1Ω 이상, 두세 번 재접촉해도 안 떨어지면 팁 마모로 판단",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J05": {
+   "key": "척 표면과 웨이퍼 사이 열평형에 약 10분 소요(문턱전압 드리프트 방지)",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J03": {
+   "key": "축 범위 차이로 인한 착시 방지 및 실제 차이 확인으로 합의 도출",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J01": {
+   "key": "pA 근처(서브문턱 구간) 레인지 전환 시 곡선 계단 현상 및 오프 전류 오독 방지",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J09": {
+   "key": "상대습도 45% 초과 시 표면 누설 증가로 게이트 절연막 측정값 상승",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "웨이퍼 가장자리(에지) 다이의 편차와 쏠림이 평균에 가려지는 것 방지",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "동일 슬롯 장기 보관 시 접촉부 자국·오염 반복으로 특정 위치 다이 특성 변화",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J01": {
+   "key": "여름 오후 공장 온도 28℃ 초과 시 주축 열변위가 0.01mm에 가까워 공차 이탈",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "코일 로트마다 두께가 ±0.03mm 달라 스프링백이 변하므로 로트 교체 시 두께 실측",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J05": {
+   "key": "590MPa 고장력강은 50만 샷 기준(연강 중심)보다 일찍 30만 샷만 넘겨도 버가 0.05mm 초과",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J04": {
+   "key": "20~30스트로크 지나 금형이 데워지면 치수가 0.02mm 정도 이동하므로 그 시점 샘플 측정",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "M16 볼트를 한 번에 조이면 플레이트가 0.02mm 휘어 파팅면이 벌어지고 가이드 접촉이 한쪽으로 쏠림",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "0.005mm 안팎 틀어짐은 게이지로 안 잡히지만 내려올 때 미세하게 스치는 소리로 감지, 넘기면 가이드부시 소착",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "주말 동안 식은 금형과 윤활유의 높은 점도로 첫 제품 치수가 흔들림(겨울 월요일)",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J03": {
+   "key": "공구 마모 0.1mm 초과 직전에 소리 톤이 올라가 면조도 급격히 악화, 캐비티 면 손상 방지",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  }
+ }
+}

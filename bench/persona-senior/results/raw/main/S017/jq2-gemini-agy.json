@@ -1,0 +1,88 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J02": {
+   "key": "낙엽층이 두껍거나 돌 근처이면 측정값 5% 이상 저하, 경사면 상하 지점 차이 10% 초과 시 추가 측정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "수액이 마르고 단면이 푸석하면 재선충 감염, 송진이 손끝에 끈적하게 묻으면 가뭄 등 다른 원인으로 시료 채취 제외",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "젖은 솔잎은 색이 짙어 초기 변색 누락 위험, 잎이 마르는 오후 2시 이후 갈변 확인",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J03": {
+   "key": "약제 가스로 부풀고 바람 부는 날이나 처리 이튿날 모서리부터 헐거워져 들뜸",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "고사 직전 나무는 수피 아래가 말라 푸석하고 차가움, 겉이 푸르러도 몇 주 내 변색되므로 위치 표시",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "젖은 참나무 낙엽 밑 숨은 바위로 미끄러짐 위험, 낙엽 두께 한 뼘 초과 시 지반 불안정으로 채취 지점 상향 이동",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "시료 건조 시 선충 분리율 저하로 진단 정확도 하락",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "빛 반사로 소수점 오입력 경험, 현장에선 종이에 먼저 적고 태블릿은 그늘이나 차 안에서만 사용",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "경사 25도 초과 또는 강풍 시 2회 이상 측정, 측정값 차이 0.2 이상이면 평균값 사용",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

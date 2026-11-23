@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J04": {
+   "key": "공사 크레인이 위성 방향을 가리는 시간대, PDOP 3 이상 시 20~30분 대기",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "등록 값과 차이 10mm 근접 시 기준점 재확인, 3~4mm 이내까지 반복",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "렌즈 미세 결로·온도 차 굴절 방지, 외기 온도 적응 후 기준 거리 측정",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J09": {
+   "key": "저녁 역광으로 반사 신호 약화 및 거리값 2~3mm 튐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "담장 기초 경계 침범 관련 사후 다툼 대비, 입회 전 현황 촬영으로 설명 용이",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "매설 배관·콘크리트 잔재로 말뚝 휨(1~2mm 틀어짐) 방지 및 오프셋 기록",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "비 온 뒤 연약해진 갓길 아스팔트에서 삼각대 0.5~1mm 침하 방지",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J03": {
+   "key": "공사로 지형 변경 시 재탐색 대비, 전봇대·맨홀 기준 거리 기록",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  }
+ }
+}

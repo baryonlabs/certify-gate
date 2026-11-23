@@ -1,0 +1,97 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J02": {
+   "key": "분해 전 잔압 완전 해제, 고압 작동유 분출로 인한 부상 방지",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "서보밸브·펌프 마모 방지, 주기적 측정으로 청정도 관리",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "장갑 낀 손으로 핸들·필터 엘리먼트 탈거 여유, 최소 한 팔 길이 여유",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J04": {
+   "key": "덜 굳은 신설 콘크리트 기초, 하루 사이 0.05mm/m 틀어짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "캐비테이션 침식(흡입측 문제)과 줄무늬 긁힘(오염 유입) 구분으로 원인별 후속 조치",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "베어링 마모 고주파 '사각사각' 소리, 정상 펌프·한 달 전보다 거칠면 분해",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "수분 혼입 시 끈적임 없이 미끌거리는 감촉과 빨리 꺼지는 뿌연 기포",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "낮은 유온·높은 점도로 인한 일시적 차압 상승, 40℃ 이상 가온 후 재판단",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    true
+   ]
+  },
+  "J09": {
+   "key": "기동 직후 vs 부하 시 소음 발생 시점에 따른 의심 부위(펌프 vs 커플링 정렬) 구분",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "가동 열 상승 후 누유 발생, 이튿날 휴지에 번진 자국 시 재체결",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

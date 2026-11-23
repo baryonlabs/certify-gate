@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J10": {
+   "key": "비 온 직후 24시간 이내 토양이 젖어 값이 30% 이상 낮게 나옴; 기준을 겨우 통과하는 현장은 건조 시 재측정",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "타설 중 호스·작업자 하중에 들뜬 관이 눌려 찌그러지거나 이탈; 곡부와 박스 연결부가 먼저 이탈",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "상위 차단기가 하위의 약 1.6배 미만이면 재검토; 정격 비가 낮으면 같은 정정값에서도 동시 트립",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "포장 밑 자갈층에서 보조극 접촉 불량으로 값이 들쭉날쭉; 흙 구간 재측정 시 오차 감소",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "사진만 믿고 종결했다가 다른 층 사진을 받은 적; 수정 부위 주변 배경이 같은지 확인",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J07": {
+   "key": "곡부 쏠림은 포설 시 당김 방향 어긋남 신호; 숨은 외피 손상을 전수로 풀어 확인",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "전 상이 소수점까지 동일하면 한 번 재고 복사한 값; 복사 기록 때문에 습기 먹은 부스바를 놓친 전례",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J05": {
+   "key": "라벨이 보여야 어느 회로인지 확인; 같은 회로로 중복 제출된 적이 있어 회로명 식별 사진만 인정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

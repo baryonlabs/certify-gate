@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J12": {
+   "key": "1.2m에서도 지하수 비침이나 인접 하중 시 미리 지보공 요구",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "인근 해안 공장 소음 시간대, 20m 밖에서 신호수 소리 안 들리면 수신호 보조원 추가",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "포항 점토질 토양, 상단 포장 틈 미세 균열 폭 3mm 초과 시 오전 하부 작업 중단",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "겨울 새벽 서리 낀 철제 발판, 신발 바닥 흙 5mm 이상 시 즉시 제거",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "하단 띠철근 결속선 헐거워 타설 중 밀림, 결속 풀려 움직이면 재결속 요구",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J06": {
+   "key": "영일만 바람 급변, 방음망이 수평으로 서고 방향이 자주 바뀌면 오전 양중 연기",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "의사소통이 어려운 작업자는 서명 후에도 이해 부족 많아 첫 사흘간 직접 동작 확인",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "장마철 접속부 3시간 이상 침수 시 피복 열화, 웅덩이 곁 접속부 30cm 이상 띄움",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

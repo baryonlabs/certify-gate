@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J07": {
+   "key": "처음 8~10분 염수 정체수 후 전기전도도 변동 ±2% 이내일 때 채수",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J06": {
+   "key": "가장자리는 비료·농약이 몰려 치우치므로 이랑 중앙 최소 2m 안쪽에서 채취해 대표값 확보",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "제주 현무암 토양의 습기 때문에 겉을 먼저 닦아야 라벨 접착이 유지되어 이동 중 지워지지 않음",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "제주 건천은 비 후 하루 이틀 내 물이 급히 빠져 오염 흔적 있는 하류부터 마르기 전 확보",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J02": {
+   "key": "비포장 길 진동으로 병이 부딪혀 뚜껑 느슨해짐, 고정해 누수·손실 방지",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J01": {
+   "key": "일회성 이상값 많아 같은 지점 재측정 두 값이 15% 이내 일치할 때만 통보",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "사진과 날짜로 해마다 달라지는 주변 변화(축사 신축, 공사)를 추적해 수치 변화 원인 파악",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "솟는 자리의 이끼·퇴적물 부유물을 피해 약간 아래 흐름에서 떠야 탁도 안정",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "10건당 1회 공시료·이중시료로 채취·운반 중 오염과 분석 재현성 확인",
+   "target": 0,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

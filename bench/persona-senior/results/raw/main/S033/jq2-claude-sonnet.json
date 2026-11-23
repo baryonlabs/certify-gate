@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J03": {
+   "key": "직접 쓴 사람은 못 알아채는 특정 모호·주어 누락 문장을 제3자 낭독으로 발견",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "가족이 같이 안 살거나 별거·부양가족 없으면 도망 우려 판단이 청구 쪽으로 기울어짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "사건 무관 대화에서 말투·말 속도 기준선을 잡아 이후 속도 급변·끊김 지점을 허점으로 포착",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "날짜·요일 표현 방식이 바뀌는 대목은 기억을 덧씌운 부분으로 번복이 많이 나옴",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J06": {
+   "key": "지병 있는 고령자의 구금 중 응급 상황 위험으로 수사 흔들림, 진단서 유무에 따라 불구속 의견",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "진술거부권 고지 누락 시 증거능력 부정, 반드시 고지하고 조서에 기재",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "70세 이상이거나 땀 흘리며 시선 피하면 이해 못 해도 끄덕이므로 문단 단위 재확인",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J05": {
+   "key": "같은 답 세 번 반복은 방어가 굳은 신호, 더 몰아붙이면 단답만 남아 이후 진술이 굳음",
+   "target": 2,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J10": {
+   "key": "통화는 지울 수 있으나 새벽 1~4시 앱 사용 패턴은 안 지워져 알리바이 진술과 어긋남",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  }
+ }
+}

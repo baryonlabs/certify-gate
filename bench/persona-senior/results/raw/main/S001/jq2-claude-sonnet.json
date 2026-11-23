@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J06": {
+   "key": "직접 잰 값과 0.003mm 이상 벌어지면 설비 교정 요청; 프로브 마모로 인한 편향 판정",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "경계값은 장비마다 2µm 차이; 작업자와 다툼 시 두 대 수치로 설득",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J12": {
+   "key": "공차 ±5µm 부품은 영점 편차 1µm만 넘어도 판정이 뒤집힘",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J11": {
+   "key": "맨손으로 5분 쥐면 프레임이 데워져 3~4µm 오차; 열 전달 방지",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "금형 교체 후 첫 샷은 온도가 덜 올라 정상, 3~5번째에 열이 올라 지름이 틀어짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J05": {
+   "key": "공구 마모 시 치수보다 먼저 표면 광택과 버 방향이 변함; 치수 이탈 전에 선제 발견",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "이탈이 한 개 문제인지 공구 마모 같은 경향인지 구분; 경향이면 라인 정지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "알코올이 덜 마르면 증발 냉각으로 직경이 순간적으로 작게 읽힘",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

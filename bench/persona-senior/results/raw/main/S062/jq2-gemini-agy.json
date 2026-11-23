@@ -1,0 +1,88 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J04": {
+   "key": "실무자와 부서장의 답이 갈리면 실제 우선순위가 바뀔 때가 많아 설계서에 둘 다 남김",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "화면 설명과 실제 작업 순서 불일치, 시스템 밖에서 몰래 보정하는 엑셀 작업 누락 방지",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "경리 담당 1인 기업이 많아 마감 주간에는 검수 인력 부재로 인수 테스트가 형식적으로 끝남",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J12": {
+   "key": "한쪽 형식이 5% 넘게 섞이면 중복 고객이 생겨 이행 후 수백 건의 병합 작업 발생",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "시간 창 절반 경과 시점까지 검증 단계 미진입 시 이후 복구 시간 부족으로 무조건 롤백 결정",
+   "target": 1,
+   "match": [
+    true,
+    true,
+    false
+   ]
+  },
+  "J03": {
+   "key": "구두 전달 시 데이터 불일치 발생 방지를 위해 문서 기록 및 개발자 공동 검수",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "외래키 없는 연결선이 10개를 넘으면 이행 순서가 꼬여 리허설에서 고아 데이터 발생",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "휴가 시 대리자가 쓰는 취소·재발행 화면에서 전환 후 오류가 가장 늦게 발견됨",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "반올림 처리·통화 컬럼 자릿수 차이로 인한 금액 불일치, 1원이라도 차이 나면 통과 불가",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  }
+ }
+}

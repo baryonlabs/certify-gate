@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J11": {
+   "key": "0.001 정도의 미세한 틈 때문에 해칭·면적이 어긋남; 눈으로 닫혀 보여도 확대하면 열림",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J01": {
+   "key": "인접 측점 평균단면법이라 한 측점 수정이 앞뒤 구간 물량에 영향",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J03": {
+   "key": "준공도 맨홀이 실제와 2~3m 어긋남; 도면만 믿으면 굴착 때 불일치",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "오후 4시 이후 작업분에서 치수 오기·문자 겹침 반복; 아침에 눈이 맑을 때 잡힘",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "현장 PC 폴더 구조가 달라 절대경로 배경 지형이 빠진 채 출력; 상대경로로 바꾼 뒤에도 직접 열어 확인",
+   "target": 1,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J08": {
+   "key": "구배 5% 초과 시 입력 오타 의심; 123.45를 132.45로 친 사례",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J09": {
+   "key": "구두 50cm 상향이 다른 구간이었음; 측점 번호가 적힌 글로 받아야 함",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J10": {
+   "key": "성과표 거리와 5mm 이상 차이면 좌표계·축척 계수 오적용, 측량팀에 재요청",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J04": {
+   "key": "실무자와 부서장 답이 갈리는 항목은 우선순위가 바뀌므로 설계서에 둘 다 기록",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "화면 설명과 실제 손 순서 차이, 시스템 밖 몰래 하는 엑셀 보정 작업이 요건에서 누락",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J07": {
+   "key": "경리 담당 한 명이라 마감 주간엔 검수 인원 없어 인수 테스트가 형식적이 됨",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J12": {
+   "key": "한쪽 형식이 5% 넘게 섞이면 중복 고객 발생, 이행 후 병합 수백 건",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "시간 창 절반 경과 시 검증 단계 미진입이면 복구 시간 부족하므로 무조건 롤백 결정",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J03": {
+   "key": "구두 전달된 변환 기준은 불일치를 만들므로 정의서에 기록하고 개발자와 검수",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J08": {
+   "key": "외래키 없는 연결선이 열 개 넘으면 이행 순서가 꼬여 리허설에서 고아 데이터 발생",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J11": {
+   "key": "대리자가 쓰는 취소·재발행 예외 화면에서 오류가 가장 늦게 발견되고 평소 흐름만 보면 서명이 쉽게 남",
+   "target": 2,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J10": {
+   "key": "반올림 처리와 통화 컬럼 자릿수 차이로 건수는 같고 금액이 틀림, 1원 차이도 통과 불가",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  }
+ }
+}

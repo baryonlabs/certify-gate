@@ -1,0 +1,79 @@
+{
+ "judge": "claude-sonnet",
+ "rubric": "jq2",
+ "model_id": "claude-haiku-5-5",
+ "items": {
+  "J06": {
+   "key": "안쪽이 뭉친 원료(겉은 마른 듯), 장마철 습한 날, 모터 전류 급상승",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J07": {
+   "key": "예열 때 패널 진동이 고르지 않고 손바닥에 덜덜 걸리면 로터 균형 이상",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J02": {
+   "key": "평소 낮은 웅 소리에 쇠 긁는 고음이 섞이면 가동시간이 남아도 정비 호출",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "한 로트 내 시작은 굵고 끝은 미세한 경향, 중간 시료만 보면 규격 안으로 나옴",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "공장 5도 아래 겨울, 원료 점도 상승으로 칼날에 눌어붙음, 챔버를 데워 첫 배치 입자 편차 감소",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J05": {
+   "key": "눈으로 깨끗해도 내벽 모서리에 얇게 눌린 층이 남음, 천에 색이 묻어나면 다음 로트 색 틀어짐",
+   "target": 2,
+   "match": [
+    true,
+    false,
+    true
+   ]
+  },
+  "J10": {
+   "key": "새 체망 구멍 가장자리가 거칠어 첫 30분 굵은 입자 혼입, 손끝에 까끌하면 속도 올리지 않고 더 돌림",
+   "target": 2,
+   "match": [
+    false,
+    true,
+    true
+   ]
+  },
+  "J04": {
+   "key": "같은 원료에서 전류가 평소보다 10% 이상 높으면 칼날 무뎌짐 신호, 입도 틀어짐",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

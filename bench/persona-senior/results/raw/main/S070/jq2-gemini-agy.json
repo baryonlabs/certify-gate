@@ -1,0 +1,79 @@
+{
+ "judge": "gemini-agy",
+ "rubric": "jq2",
+ "model_id": "agy/gemini-4-argon-low",
+ "items": {
+  "J07": {
+   "key": "요청의 실제 작업 범위가 숨어 있음(전체 체계 개편 등)",
+   "target": 1,
+   "match": [
+    false,
+    true,
+    false
+   ]
+  },
+  "J08": {
+   "key": "낯선 티를 내기 싫어 즉답하는 실수 방지, 이틀간 사례 확인으로 판단 안정",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J06": {
+   "key": "위첨자와 일반 숫자 서식 혼용 시 변환기가 연결 절반을 놓침",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    true
+   ]
+  },
+  "J12": {
+   "key": "수동 글자 크기 변경 문단이 20%를 넘으면 자동 변환이 어긋나 원고 정리 선요청",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J04": {
+   "key": "완성된 화면은 세부 문구만 지적하고 구조·흐름을 놓침",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J09": {
+   "key": "마감 직후 이틀간 정신이 없어 건성 검증하므로 월요일·마감 주 피하고 화·수 오후 2시 이후 배치",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J01": {
+   "key": "외국인 저자·필명 도서의 마스터 데이터·표지·판권면 표기 불일치로 인한 반려",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  },
+  "J02": {
+   "key": "모르는 용어를 그냥 넘어가면 추후 요구가 뒤집힘, 2회 이상 등장 시 용어집 등재",
+   "target": 1,
+   "match": [
+    false,
+    false,
+    false
+   ]
+  }
+ }
+}

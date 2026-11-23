@@ -1,0 +1,239 @@
+15:23:39 S006 ok 88s {}
+15:23:50 S002 ok 99s {}
+15:23:51 S004 ok 100s {}
+15:24:17 S001 ok 126s {}
+15:24:23 S003 ok 132s {}
+15:24:31 S007 ok 140s {}
+15:24:33 S010 ok 142s {}
+15:24:34 S008 ok 143s {}
+15:24:53 S009 ok 162s {}
+15:24:54 S012 ok 163s {}
+15:24:57 S005 ok 166s {}
+15:25:29 S011 ok 198s {}
+15:25:34 S014 ok 104s {}
+15:25:37 S015 ok 106s {}
+15:25:58 S017 ok 95s {}
+15:26:09 S018 ok 99s {}
+15:26:17 S016 ok 120s {}
+15:26:30 S019 ok 117s {}
+15:26:36 S021 ok 103s {}
+15:26:38 S013 ok 179s {}
+15:26:40 S022 ok 106s {}
+15:26:56 S020 ok 142s {}
+15:27:22 S023 ok 145s {}
+15:27:35 S026 ok 118s {}
+15:27:41 S025 ok 126s {}
+15:27:52 S027 ok 114s {}
+15:27:54 S028 ok 105s {}
+15:27:57 S024 ok 148s {}
+15:28:21 S029 ok 124s {}
+15:28:27 S030 ok 117s {}
+15:28:28 S032 partial (1 err: gemini-argon usage limit: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Swit) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:28:31 S033 partial (1 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:28:43 S031 ok 127s {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:28:50 S034 partial (1 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:29:20 S035 partial (1 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:29:33 S040 partial (2 err: gemini-argon usage limit: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Swit) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:29:35 S037 partial (1 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:29:37 S039 partial (1 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:29:50 S036 partial (1 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:30:14 S038 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:30:17 S041 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:30:20 S043 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:30:33 S044 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:30:40 S042 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:30:43 S045 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:30:55 S046 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:31:14 S047 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:31:28 S048 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:31:33 S050 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:31:41 S049 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:31:54 S051 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:32:13 S052 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:32:21 S055 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:32:23 S054 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:32:30 S053 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:32:48 S058 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:32:55 S056 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:33:05 S057 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:33:16 S061 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:33:17 S060 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:33:29 S059 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:33:51 S062 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:34:15 S064 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:34:15 S065 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:34:21 S063 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:34:29 S066 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:34:37 S068 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:34:42 S067 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:34:59 S069 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:35:03 S070 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:35:19 S072 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:35:34 S073 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:35:49 S071 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:36:04 S074 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:36:14 S075 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:36:15 S076 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:36:21 S078 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:36:25 S079 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:36:26 S077 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:36:54 S080 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:37:00 S082 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:37:06 S081 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:37:11 S083 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:37:25 S084 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:37:57 S086 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:37:58 S085 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:38:02 S088 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:38:03 S087 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:38:20 S089 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:38:29 S090 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:38:33 S091 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:38:55 S092 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:39:03 S094 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:39:05 S095 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:39:33 S096 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:39:39 S093 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:39:40 S097 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:39:49 S100 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:39:52 S098 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+15:39:55 S099 partial (4 err: gemini-argon dead: [0m
+> build · gemini-4-argon
+[91m[1mError: [0mOpenCode Go 5 hour usage limit reached. Switch to a) {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
+done 31 / 100 dead {"gemini-argon":"\u001b[0m\n> build · gemini-4-argon\n\u001b[91m\u001b[1mError: \u001b[0mOpenCode Go 5 hour usage limit reached. Switch to a free model, or turn on Extra Usage on the Go page in OpenCode Console to keep going.\n"}
