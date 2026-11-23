@@ -1,0 +1,562 @@
+[
+ {
+  "blind_id": "A013",
+  "question": "Stephany와 Teutloff의 'What is the Price of a Skill? The Value of Complementarity' 연구는 AI 스킬이 임금을 평균 몇 % 올린다고 추정했고, 스킬의 가치를 무엇으로 설명했나?",
+  "reference_answer": "AI 스킬이 근로자 임금을 평균 약 21% 올린다고 추정했습니다. 스킬의 가치는 상보성(complementarity), 즉 다른 고가치 스킬과 얼마나 다양하게 결합될 수 있는지로 설명했습니다.",
+  "key_facts": [
+   "21%",
+   "상보성(complementarity)"
+  ],
+  "answer": "제공된 문서와 검색 근거에서 Stephany와 Teutloff의 'What is the Price of a Skill? The Value of Complementarity' 연구에 대한 구체적인 수치(임금 상승률)나 스킬 가치 설명 내용은 찾을 수 없습니다.\n\n제공된 근거에는 PwC 2025 AI Jobs Barometer에 따르면 AI 역량 요구 일자리의 임금 프리미엄이 평균 56%로 상승했다는 정보와, Omnisend 등 일부 기업의 기여자 보상 사례는 포함되어 있지만, 요청하신 특정 연구의 결과는 포함되어 있지 않습니다.\n\n해당 정보를 제공하기 위해서는 관련 연구 문서를 추가해 주시면 답변을 도와드릴 수 있습니다."
+ },
+ {
+  "blind_id": "A009",
+  "question": "Si, Yang, Hashimoto의 대규모 인간 평가 연구('Can LLMs Generate Novel Research Ideas?')에서 LLM이 만든 연구 아이디어는 인간 전문가 아이디어와 비교해 어떻게 평가되었나?",
+  "reference_answer": "NLP 연구자 100명 이상이 평가한 결과, LLM 아이디어가 인간 전문가 아이디어보다 더 참신하다고 평가되었습니다(p<0.05). 대신 실현 가능성은 약간 낮았고, LLM의 자기평가 실패와 아이디어 다양성 부족도 한계로 지적되었습니다.",
+  "key_facts": [
+   "더 참신함(p<0.05)",
+   "실현 가능성은 약간 낮음",
+   "100명 이상의 NLP 연구자"
+  ],
+  "answer": "제공된 문서에서 해당 정보를 찾지 못했습니다. 질문하신 Si, Yang, Hashimoto의 연구('Can LLMs Generate Novel Research Ideas?')에 대한 내용은 현재 검색 근거에 포함되어 있지 않습니다. 관련 문서가 있다면 공유해 주시면 답변해 드리겠습니다."
+ },
+ {
+  "blind_id": "A011",
+  "question": "BCG 컨설턴트를 대상으로 한 'jagged technological frontier' 실험에서 AI 역량 경계 밖 과제의 성과는 어떻게 되었나?",
+  "reference_answer": "BCG 컨설턴트 700여 명을 대상으로 한 실험에서, 경계 안 과제의 성과는 AI 사용 시 약 40% 올랐습니다. 반면 경계 밖 과제에서는 통제집단보다 평균 약 19%p 떨어졌습니다(GPT-4만 사용 시 13%p, 개요 교육을 함께 받은 경우 24%p).",
+  "key_facts": [
+   "jagged technological frontier",
+   "경계 밖 과제 성과 평균 약 19%p 하락",
+   "경계 안 과제 약 40% 향상"
+  ],
+  "answer": "BCG 컨설턴트 758 명을 대상으로 한 '들쭉날쭉한 경계 (jagged frontier)' 실험에서 AI 능력 범위 밖의 과제를 수행했을 때 정답률은 **19%p 하락**했습니다.\n\n(출처: goldfish-ontology.md)"
+ },
+ {
+  "blind_id": "A010",
+  "question": "BCG 컨설턴트를 대상으로 한 'jagged technological frontier' 실험에서 AI 역량 경계 밖 과제의 성과는 어떻게 되었나?",
+  "reference_answer": "BCG 컨설턴트 700여 명을 대상으로 한 실험에서, 경계 안 과제의 성과는 AI 사용 시 약 40% 올랐습니다. 반면 경계 밖 과제에서는 통제집단보다 평균 약 19%p 떨어졌습니다(GPT-4만 사용 시 13%p, 개요 교육을 함께 받은 경우 24%p).",
+  "key_facts": [
+   "jagged technological frontier",
+   "경계 밖 과제 성과 평균 약 19%p 하락",
+   "경계 안 과제 약 40% 향상"
+  ],
+  "answer": "제공된 문서에서 해당 정보를 찾지 못했습니다.\n\n질문하신 \"jagged technological frontier\" 실험에 대한 구체적인 내용이나 BCG 컨설턴트 대상의 AI 역량 경계 밖 과제 성과 데이터가 현재 검색 근거에 포함되어 있지 않습니다. 관련 문서를 제공해 주시면 다시 분석해 드리겠습니다."
+ },
+ {
+  "blind_id": "A012",
+  "question": "Stephany와 Teutloff의 'What is the Price of a Skill? The Value of Complementarity' 연구는 AI 스킬이 임금을 평균 몇 % 올린다고 추정했고, 스킬의 가치를 무엇으로 설명했나?",
+  "reference_answer": "AI 스킬이 근로자 임금을 평균 약 21% 올린다고 추정했습니다. 스킬의 가치는 상보성(complementarity), 즉 다른 고가치 스킬과 얼마나 다양하게 결합될 수 있는지로 설명했습니다.",
+  "key_facts": [
+   "21%",
+   "상보성(complementarity)"
+  ],
+  "answer": "제공된 문서에서 해당 연구 (Stephany 와 Teutloff 의 'What is the Price of a Skill? The Value of Complementarity') 에 대한 정보를 찾지 못했습니다.\n\n해당 연구의 구체적인 수치나 스킬 가치에 대한 설명을 포함하는 문서를 업로드해 주시면, 해당 내용을 바탕으로 답변해 드리겠습니다."
+ },
+ {
+  "blind_id": "A024",
+  "question": "EU AI Act 제14조의 인간 감독(human oversight)에서 '자동화 편향(automation bias)'을 경계하라는 것과, 무시·번복·중지(stop) 권한을 요구하는 것은 각각 어떤 위험에 대응하나?",
+  "reference_answer": "자동화 편향 경계는 사람이 AI 출력을 과도하게 믿고 그대로 따르는 위험에 대응합니다. 무시·번복·중지 권한은 시스템이 이상하게 동작하거나 틀린 출력을 낼 때 사람이 실제로 개입해 안전한 상태로 멈출 수 있게 합니다. 즉 감독이 형식에 그치지 않고 실효성을 갖게 하려는 요구입니다.",
+  "key_facts": [
+   "automation bias(과의존)",
+   "override/reverse",
+   "stop 버튼·안전한 상태로 중단"
+  ],
+  "answer": "제공된 문서에서 EU AI Act 제14조와 관련된 구체적인 정보를 찾지 못했습니다. 해당 조항의 세부 내용이나 '자동화 편향' 및 '무시·번복·중지 권한'에 대한 설명을 위해서는 관련 법률 문서나 정책 가이드라인을 업로드해 주시면 정확하게 답변해 드리겠습니다."
+ },
+ {
+  "blind_id": "A003",
+  "question": "Brynjolfsson·Chandar·Chen의 'Canaries in the Coal Mine' 연구에서 AI 노출 직종의 고용 감소가 두드러진 연령대는 어디이며, 감소는 주로 어떤 경로로 일어났나?",
+  "reference_answer": "AI 노출 직종의 22~25세 초기 경력 근로자에게서 고용 격차가 나타났고, 경력자에게는 비슷한 격차가 없었습니다. 감소는 해고·이직 증가보다 신규 채용 감소를 통해 주로 일어났고, AI가 업무를 대체하는 직종에 집중되었습니다.",
+  "key_facts": [
+   "22~25세",
+   "채용 감소(reduced hiring)",
+   "AI가 대체하는 직종에 집중"
+  ],
+  "answer": "Brynjolfsson, Chandar, Chen 의 'Canaries in the Coal Mine' 연구에 따르면, AI 노출 직종에서 고용 감소가 두드러진 연령대는 **22~25 세**입니다.\n\n이 연령대의 고용 감소는 주로 **채용 감소 (신규 채용 축소)** 경로를 통해 일어났으며, 해고보다는 채용 자체가 줄어든 것이 주된 요인으로 나타났습니다. (출처: goldfish-ontology.md)"
+ },
+ {
+  "blind_id": "A019",
+  "question": "노나카의 SECI 모델에서 표출화(Externalization)와 연결화(Combination)는 어떻게 다른가?",
+  "reference_answer": "표출화는 암묵지를 형식지로 바꾸는 과정입니다. 연결화는 이미 있는 형식지끼리 결합·정리해 새 형식지를 만드는 과정입니다. SECI의 네 모드는 공동화(Socialization), 표출화, 연결화, 내면화(Internalization)이며, Nonaka & Takeuchi의 『The Knowledge-Creating Company』(1995)에서 정리되었습니다.",
+  "key_facts": [
+   "표출화: 암묵지→형식지",
+   "연결화: 형식지→형식지"
+  ],
+  "answer": "제공된 문서에 따르면 노나카의 SECI 지식 창조 나선 모델은 사회화, 외부화, 결합, 내면화의 4단계로 구성되며, 이 과정을 통해 암묵지와 형식지가 대화하며 조직 지식이 생성됩니다.\n\n하지만 제공된 검색 근거에는 **외부화 (Externalization)** 와 **결합 (Combination)** 의 구체적인 정의나 두 단계 간의 차이점에 대한 상세 설명은 포함되어 있지 않습니다. 따라서 제공된 문서만으로는 두 단계가 어떻게 다른지 설명해 드릴 수 없습니다.\n\n해당 정보를 찾으실 수 있는 문서를 추가해 주시면 다시 답변해 드리겠습니다. (출처: goldfish-ontology.md)"
+ },
+ {
+  "blind_id": "A000",
+  "question": "Brynjolfsson, Li, Raymond의 'Generative AI at Work' 연구에서 생성형 AI 어시스턴트는 고객지원 상담원의 생산성을 평균 몇 % 올렸고, 초보·저숙련 상담원에게는 효과가 얼마였나?",
+  "reference_answer": "상담원 5,179명을 분석한 결과, 시간당 해결 건수 기준 생산성이 평균 약 14% 올랐습니다. 초보·저숙련 상담원은 약 34% 올랐고, 숙련 상담원에게는 효과가 거의 없었습니다.",
+  "key_facts": [
+   "14%",
+   "34%",
+   "초보·저숙련 상담원에게 효과 집중"
+  ],
+  "answer": "제공된 문서에서 해당 정보를 찾지 못했습니다. Brynjolfsson, Li, Raymond 의 'Generative AI at Work' 연구에 대한 구체적인 수치나 분석 결과가 검색 근거에 포함되어 있지 않습니다.\n\n해당 연구 내용을 포함하는 문서를 업로드해 주시면 정확한 답변을 드리겠습니다."
+ },
+ {
+  "blind_id": "A008",
+  "question": "Si, Yang, Hashimoto의 대규모 인간 평가 연구('Can LLMs Generate Novel Research Ideas?')에서 LLM이 만든 연구 아이디어는 인간 전문가 아이디어와 비교해 어떻게 평가되었나?",
+  "reference_answer": "NLP 연구자 100명 이상이 평가한 결과, LLM 아이디어가 인간 전문가 아이디어보다 더 참신하다고 평가되었습니다(p<0.05). 대신 실현 가능성은 약간 낮았고, LLM의 자기평가 실패와 아이디어 다양성 부족도 한계로 지적되었습니다.",
+  "key_facts": [
+   "더 참신함(p<0.05)",
+   "실현 가능성은 약간 낮음",
+   "100명 이상의 NLP 연구자"
+  ],
+  "answer": "제공된 문서에서 해당 정보를 찾지 못했습니다. 'Can LLMs Generate Novel Research Ideas?'라는 제목의 연구나 Si, Yang, Hashimoto에 대한 구체적인 평가 결과가 검색 근거에 포함되어 있지 않습니다.\n\n해당 연구의 상세 내용이나 평가 결과가 포함된 문서를 제공해 주시면, 그 내용을 바탕으로 답변해 드릴 수 있습니다."
+ },
+ {
+  "blind_id": "A022",
+  "question": "LLM이 원시 테이블에 직접 text-to-SQL을 하는 방식과, 시맨틱 레이어(예: dbt Semantic Layer)를 거쳐 질의하는 방식은 무엇이 다르며, 후자는 왜 유리한가?",
+  "reference_answer": "시맨틱 레이어는 매출 같은 지표의 정의와 조인 로직을 모델링 계층에 한 번 정의해 중앙에서 관리합니다. 그래서 LLM이 매번 테이블 구조를 추론해 SQL을 새로 쓰지 않고, 거버넌스가 적용된 일관된 지표 정의로 답할 수 있습니다. 정의가 바뀌면 사용처 전체에 반영되고 접근 권한도 함께 관리됩니다.",
+  "key_facts": [
+   "지표 정의 중앙화",
+   "일관성·거버넌스",
+   "MetricFlow"
+  ],
+  "answer": "제공된 검색 근거와 사용자 기억에 해당 질문에 대한 구체적인 정보가 포함되어 있지 않습니다. 따라서 Baryon AX의 내부 정책이나 특정 기술 스택에 대한 공식적인 입장을 알 수 없습니다.\n\n일반적인 데이터 엔지니어링 관점에서 두 방식의 차이와 시맨틱 레이어의 장점을 설명해 드리겠습니다.\n\n**1. 원시 테이블 직접 접근 (Text-to-SQL)**\n*   **방식:** LLM이 데이터베이스 스키마 (테이블명, 컬럼명, 데이터 타입) 를 직접 이해하여 SQL 쿼리를 생성합니다.\n*   **단점:**\n    *   **비즈니스 로직의 부재:** LLM은 컬럼명만 알 뿐, 해당 데이터가 어떻게 계산되어야 하는지 (예: '매출'은 '가격 * 수량'인지, 할인 적용 여부 등) 를 모릅니다.\n    *   **일관성 부족:** 같은 지표라도 다른 쿼리에서 다른 계산 로직이 적용될 수 있어 데이터 불일치가 발생합니다.\n    *   **유지보수 어려움:** 스키마가 변경되면 LLM의 프롬프트나 학습 데이터를 모두 업데이트해야 합니다.\n\n**2. 시맨틱 레이어를 거친 방식 (예: dbt Semantic Layer)**\n*   **방식:** LLM은 원시 테이블이 아니라, 비즈니스 로직 (계산식, 필터링, 조인 규칙) 이 정의된 시맨틱 레이어의 개념 (Metrics, Dimensions) 을 참조하여 질의합니다.\n*   **장점 (왜 유리한가?):**\n    *   **단일 진실 공급원 (Single Source of Truth):** 모든 사용자가 동일한 비즈니스 정의 (예: '순이익'의 계산식) 를 공유하므로 지표 간 일관성이 보장됩니다.\n    *   **정확도 향상:** LLM은 복잡한 SQL 조인이나 계산 로직을 직접 작성할 필요 없이, 이미 검증된 메트릭을 조합하는 데 집중할 수 있어 오류가 줄어듭니다.\n    *   **유연성과 유지보수:** 비즈니스 로직이 변경되면 시맨틱 레이어만 수정하면 되며, 이를 사용하는 모든 LLM 질의가 자동으로 최신 로직을 반영합니다.\n    *   **보안:** 원시 데이터 접근 권한을 제한하고, 승인된 메트릭만 노출할 수 있습니다.\n\n이 정보는 제공된 문서가 아닌 일반적인 기술 지식을 바탕으로 답변한 것입니다. Baryon AX의 구체적인 구현 방식이나 정책에 대해 알고 싶으시다면 관련 문서를 업로드해 주시면 확인해 드리겠습니다."
+ },
+ {
+  "blind_id": "A002",
+  "question": "Brynjolfsson·Chandar·Chen의 'Canaries in the Coal Mine' 연구에서 AI 노출 직종의 고용 감소가 두드러진 연령대는 어디이며, 감소는 주로 어떤 경로로 일어났나?",
+  "reference_answer": "AI 노출 직종의 22~25세 초기 경력 근로자에게서 고용 격차가 나타났고, 경력자에게는 비슷한 격차가 없었습니다. 감소는 해고·이직 증가보다 신규 채용 감소를 통해 주로 일어났고, AI가 업무를 대체하는 직종에 집중되었습니다.",
+  "key_facts": [
+   "22~25세",
+   "채용 감소(reduced hiring)",
+   "AI가 대체하는 직종에 집중"
+  ],
+  "answer": "제공된 문서에서 해당 정보를 찾지 못했습니다. Brynjolfsson, Chandar, Chen 의 'Canaries in the Coal Mine' 연구에 대한 구체적인 내용 (고용 감소가 두드러진 연령대나 감소 경로) 은 현재 검색 근거에 포함되어 있지 않습니다.\n\n해당 연구의 내용을 담은 문서를 제공해 주시면 정확한 정보를 안내해 드리겠습니다."
+ },
+ {
+  "blind_id": "A004",
+  "question": "Feng, McDonald, Zhang의 'Levels of Autonomy for AI Agents'는 AI 에이전트의 자율성 수준을 몇 단계로 나누며, 각 단계를 무엇으로 정의하나?",
+  "reference_answer": "5단계로 나눕니다. 각 단계는 사용자가 에이전트와 상호작용할 때 맡는 역할로 정의되며, operator, collaborator, consultant, approver, observer 순입니다.",
+  "key_facts": [
+   "5단계",
+   "사용자 역할로 정의",
+   "operator·collaborator·consultant·approver·observer"
+  ],
+  "answer": "제공된 문서에서 해당 정보를 찾지 못했습니다. Feng, McDonald, Zhang의 'Levels of Autonomy for AI Agents' 논문 내용이나 AI 에이전트의 자율성 수준에 대한 정의는 현재 검색 근거에 포함되어 있지 않습니다.\n\n해당 논문의 요약본이나 관련 문서를 제공해 주시면 내용을 확인해 드리겠습니다."
+ },
+ {
+  "blind_id": "A007",
+  "question": "LLMs4OL(Babaei Giglou, D'Souza, Auer, 2023)은 LLM 기반 온톨로지 학습을 평가하려고 어떤 세 가지 과제를 썼나?",
+  "reference_answer": "용어에 유형을 부여하는 term typing, 분류 계층을 찾는 taxonomy discovery, 비분류적 관계 추출(non-taxonomic relation extraction)의 세 과제입니다.",
+  "key_facts": [
+   "term typing",
+   "taxonomy discovery",
+   "non-taxonomic relation extraction"
+  ],
+  "answer": "제공된 문서에 따르면, LLMs4OL 2025(온톨로지 자동 구축 평가) 챌린지에서 다룬 주요 과제는 다음과 같습니다.\n\n1.  **Text2Onto**: 텍스트를 온톨로지로 변환하는 작업\n2.  **용어 유형 분류 (term typing)**: 용어의 유형을 분류하는 작업\n3.  **분류체계 발견 (taxonomy discovery)**: 분류체계를 발견하는 작업\n4.  **비분류 관계 추출**: 분류 관계가 아닌 다른 관계를 추출하는 작업\n\n(참고: 제공된 근거는 2025년 ISWC 챌린지 관련 정보를 담고 있으며, 질문하신 2023년 Babaei Giglou 외 연구의 구체적인 세 가지 과제와는 명칭이나 연도가 다를 수 있습니다. 제공된 문서에는 2023년 연구에 대한 명시적 정보가 포함되어 있지 않습니다.)\n\n(출처: goldfish-ontology.md)"
+ },
+ {
+  "blind_id": "A001",
+  "question": "Brynjolfsson, Li, Raymond의 'Generative AI at Work' 연구에서 생성형 AI 어시스턴트는 고객지원 상담원의 생산성을 평균 몇 % 올렸고, 초보·저숙련 상담원에게는 효과가 얼마였나?",
+  "reference_answer": "상담원 5,179명을 분석한 결과, 시간당 해결 건수 기준 생산성이 평균 약 14% 올랐습니다. 초보·저숙련 상담원은 약 34% 올랐고, 숙련 상담원에게는 효과가 거의 없었습니다.",
+  "key_facts": [
+   "14%",
+   "34%",
+   "초보·저숙련 상담원에게 효과 집중"
+  ],
+  "answer": "제공된 검색 근거에 따르면, Brynjolfsson, Li, Raymond 등의 연구(출처: MIT Sloan)에서는 생성형 AI 어시스턴트가 고객지원 상담원(5,172 명 대상) 의 생산성을 **평균 15%** 향상시킨 것으로 나타났습니다.\n\n이 연구는 특히 **초보자 (저숙련 상담원)**가 AI 보조로 인해 **가장 큰 이득**을 보였음을 강조하고 있습니다. 다만, 제공된 문서에는 초보·저숙련 상담원에 대한 구체적인 수치 (예: 평균 대비 몇 % 더 향상되었는지) 는 명시되어 있지 않습니다.\n\n(출처: goldfish-ontology.md)"
+ },
+ {
+  "blind_id": "A020",
+  "question": "해리 콜린스(Harry Collins)는 암묵지를 어떤 세 종류로 나누며, 그중 집단적 암묵지가 왜 가장 형식화하기 어려운가?",
+  "reference_answer": "관계적(relational), 신체적(somatic), 집단적(collective) 암묵지로 나눕니다. 집단적 암묵지는 개인이 아니라 사회 속에 자리한 지식(예: 언어 사용 규칙)이라, 개인을 관찰하거나 규칙으로 적어내는 것만으로는 다 포착하기 어렵습니다.",
+  "key_facts": [
+   "relational·somatic·collective",
+   "집단적 암묵지는 사회에 자리함"
+  ],
+  "answer": "제공된 문서에서 해당 정보를 찾지 못했습니다. 해리 콜린스 (Harry Collins) 의 암묵지 분류 및 집단적 암묵지에 관한 구체적인 내용은 현재 연결된 검색 근거에 포함되어 있지 않습니다. 관련 문서를 제공해 주시면 정확한 답변을 드릴 수 있습니다."
+ },
+ {
+  "blind_id": "A015",
+  "question": "Text-to-SQL 벤치마크 BIRD는 몇 개의 데이터베이스와 몇 개의 질문-SQL 쌍으로 구성되며, 최고 모델과 인간의 실행 정확도는 각각 얼마였나?",
+  "reference_answer": "BIRD는 95개 데이터베이스(총 33.4GB)와 12,751개의 질문-SQL 쌍으로 구성됩니다. 발표 당시 최고 모델인 ChatGPT의 실행 정확도는 40.08%, 인간은 92.96%였습니다.",
+  "key_facts": [
+   "95개 데이터베이스",
+   "12,751쌍",
+   "40.08% 대 92.96%"
+  ],
+  "answer": "제공된 검색 근거와 사용자 기억에 BIRD 벤치마크에 대한 데이터베이스 개수, 질문-SQL 쌍의 수, 최고 모델과 인간의 실행 정확도에 대한 정보가 포함되어 있지 않습니다.\n\n따라서 \"제공된 문서에서 해당 정보를 찾지 못했습니다.\"라고 답변드리며, BIRD 벤치마크에 대한 상세 정보가 포함된 문서를 제공해 주시면 확인해 드리겠습니다.\n\n(참고: 제공된 근거 [1], [2] 에는 dbt 벤치마크(11 문항) 와 Sonnet 4.6, GPT-5.3-Codex 모델의 성능 데이터는 있으나, BIRD 벤치마크에 대한 내용은 없습니다.)"
+ },
+ {
+  "blind_id": "A021",
+  "question": "해리 콜린스(Harry Collins)는 암묵지를 어떤 세 종류로 나누며, 그중 집단적 암묵지가 왜 가장 형식화하기 어려운가?",
+  "reference_answer": "관계적(relational), 신체적(somatic), 집단적(collective) 암묵지로 나눕니다. 집단적 암묵지는 개인이 아니라 사회 속에 자리한 지식(예: 언어 사용 규칙)이라, 개인을 관찰하거나 규칙으로 적어내는 것만으로는 다 포착하기 어렵습니다.",
+  "key_facts": [
+   "relational·somatic·collective",
+   "집단적 암묵지는 사회에 자리함"
+  ],
+  "answer": "해리 콜린스 (Harry Collins) 는 2010 년 논문에서 암묵지를 다음 세 가지로 분류합니다.\n\n1.  **관계적 암묵지 (Relational Tacit Knowledge)**: 노력이 있다면 명시화 (형식화) 가 가능한 지식입니다.\n2.  **신체적 암묵지 (Somatic Tacit Knowledge)**: 기계가 재현할 수 있는 신체에 기반한 지식입니다.\n3.  **집단적 암묵지 (Collective Tacit Knowledge)**: 사회 전체가 보유하며, 완전히 명시화할 수 없는 지식입니다.\n\n이중 **집단적 암묵지**가 가장 형식화하기 어려운 이유는 **사회 전체가 공유하는 지식이기 때문에 개인이나 기계가 이를 완전히 명시화하거나 언어로 옮길 수 없기 때문**입니다. 검색 근거에 따르면, 공백 루프 (공백을 메우는 과정) 를 통해 이동 가능한 것은 관계적 암묵지와 신체적 암묵지뿐이며, 집단적 암묵지는 오토 온톨로지 (자동화된 온톨로지) 의 한계를 규정하는 요소로 작용합니다.\n\n(출처: goldfish-ontology.md)"
+ },
+ {
+  "blind_id": "A005",
+  "question": "Feng, McDonald, Zhang의 'Levels of Autonomy for AI Agents'는 AI 에이전트의 자율성 수준을 몇 단계로 나누며, 각 단계를 무엇으로 정의하나?",
+  "reference_answer": "5단계로 나눕니다. 각 단계는 사용자가 에이전트와 상호작용할 때 맡는 역할로 정의되며, operator, collaborator, consultant, approver, observer 순입니다.",
+  "key_facts": [
+   "5단계",
+   "사용자 역할로 정의",
+   "operator·collaborator·consultant·approver·observer"
+  ],
+  "answer": "제공된 검색 근거에 따르면, Feng, McDonald, Zhang 등의 연구는 AI 에이전트의 자율성 수준을 **사용자 역할 (operator→observer) 의 변화**를 기준으로 정의하며, 이를 **5 단계**로 구분한다고 명시되어 있습니다.\n\n다만, 제공된 문서에는 각 단계의 구체적인 정의 내용 (1 단계~5 단계 각각이 무엇을 의미하는지) 이 포함되어 있지 않습니다. 문서에서는 단순히 \"사용자 역할 1 축 5 단계\"라는 구조와 \"능력과 자율성을 분리한 설계 선택\"이라는 핵심 개념만 언급되어 있습니다.\n\n따라서 각 단계의 상세 정의는 현재 제공된 정보만으로는 답변할 수 없습니다. (출처: goldfish-ontology.md)"
+ },
+ {
+  "blind_id": "A006",
+  "question": "LLMs4OL(Babaei Giglou, D'Souza, Auer, 2023)은 LLM 기반 온톨로지 학습을 평가하려고 어떤 세 가지 과제를 썼나?",
+  "reference_answer": "용어에 유형을 부여하는 term typing, 분류 계층을 찾는 taxonomy discovery, 비분류적 관계 추출(non-taxonomic relation extraction)의 세 과제입니다.",
+  "key_facts": [
+   "term typing",
+   "taxonomy discovery",
+   "non-taxonomic relation extraction"
+  ],
+  "answer": "제공된 문서에서 해당 정보를 찾지 못했습니다. \"LLMs4OL(Babaei Giglou, D'Souza, Auer, 2023)\" 논문이나 LLM 기반 온톨로지 학습 평가 과제에 대한 내용이 현재 시스템에 저장되어 있지 않습니다.\n\n해당 논문의 내용을 포함하는 문서를 업로드하거나 제공해 주시면, 이를 바탕으로 답변을 드리겠습니다."
+ },
+ {
+  "blind_id": "A018",
+  "question": "노나카의 SECI 모델에서 표출화(Externalization)와 연결화(Combination)는 어떻게 다른가?",
+  "reference_answer": "표출화는 암묵지를 형식지로 바꾸는 과정입니다. 연결화는 이미 있는 형식지끼리 결합·정리해 새 형식지를 만드는 과정입니다. SECI의 네 모드는 공동화(Socialization), 표출화, 연결화, 내면화(Internalization)이며, Nonaka & Takeuchi의 『The Knowledge-Creating Company』(1995)에서 정리되었습니다.",
+  "key_facts": [
+   "표출화: 암묵지→형식지",
+   "연결화: 형식지→형식지"
+  ],
+  "answer": "제공된 검색 근거와 사용자 기억에 노나카의 SECI 모델에 대한 정보가 포함되어 있지 않습니다. 따라서 해당 질문에 대한 정확한 답변을 드릴 수 없습니다.\n\n관련된 문서나 참고 자료를 제공해 주시면, 그 내용을 바탕으로 표출화 (Externalization) 와 연결화 (Combination) 의 차이점을 설명해 드리겠습니다."
+ },
+ {
+  "blind_id": "A016",
+  "question": "폴라니(Polanyi)가 말한 암묵지(tacit knowledge)는 형식지(explicit knowledge)와 어떻게 다른가?",
+  "reference_answer": "형식지는 말이나 문서로 표현하고 전달할 수 있는 지식입니다. 암묵지는 'we can know more than we can tell'(1966, The Tacit Dimension)이라는 말처럼, 알고 있지만 온전히 말로 표현하기 어려운 지식입니다.",
+  "key_facts": [
+   "We can know more than we can tell",
+   "The Tacit Dimension (1966)",
+   "말로 다 표현할 수 없음"
+  ],
+  "answer": "제공된 문서에서 해당 정보를 찾지 못했습니다. 폴라니의 암묵지와 형식지에 대한 구체적인 비교 내용은 현재 검색 가능한 문서에 포함되어 있지 않습니다. 관련 문서를 제공해 주시면 정확한 답변을 드릴 수 있습니다."
+ },
+ {
+  "blind_id": "A023",
+  "question": "LLM이 원시 테이블에 직접 text-to-SQL을 하는 방식과, 시맨틱 레이어(예: dbt Semantic Layer)를 거쳐 질의하는 방식은 무엇이 다르며, 후자는 왜 유리한가?",
+  "reference_answer": "시맨틱 레이어는 매출 같은 지표의 정의와 조인 로직을 모델링 계층에 한 번 정의해 중앙에서 관리합니다. 그래서 LLM이 매번 테이블 구조를 추론해 SQL을 새로 쓰지 않고, 거버넌스가 적용된 일관된 지표 정의로 답할 수 있습니다. 정의가 바뀌면 사용처 전체에 반영되고 접근 권한도 함께 관리됩니다.",
+  "key_facts": [
+   "지표 정의 중앙화",
+   "일관성·거버넌스",
+   "MetricFlow"
+  ],
+  "answer": "두 방식의 차이와 시맨틱 레이어의 장점은 다음과 같습니다.\n\n**1. 방식의 차이**\n*   **원시 테이블 직접 질의 (Text-to-SQL):** LLM이 데이터베이스의 원시 테이블 구조와 컬명만 보고 직접 SQL 쿼리를 생성합니다. 이때 비즈니스 로직이나 데이터 정의에 대한 명시적인 지식이 부족할 수 있습니다.\n*   **시맨틱 레이어를 통한 질의:** 원시 테이블 대신 **비즈니스 정의**로 구성된 중간 지식층 (Semantic Layer) 을 경유하여 질의합니다. 이 레이어는 원시 데이터를 비즈니스 관점에서 재정의하여 LLM 이 이해하기 쉬운 형태로 제공합니다. (출처: goldfish-ontology.md)\n\n**2. 시맨틱 레이어가 유리한 이유**\n*   **정확도 향상:** 벤치마크 결과에 따르면, 시맨틱 레이어를 도입하면 LLM 의 SQL 생성 정확도가 크게 개선됩니다. 예를 들어 Sonnet 4.6 모델의 경우 90.0% 에서 98.2% 로, GPT-5.3-Codex 의 경우 84.1% 에서 100% 로 정확도가 상승했습니다. (출처: goldfish-ontology.md)\n*   **실패 양상의 변화 (안전성):** 시맨틱 레이어를 사용할 경우 실패가 발생하더라도 LLM 이 \"답할 수 없음\"이라고 **거절**하는 경향이 강해집니다. 반면, 원시 테이블 방식에서는 자신 있게 틀린 숫자나 결과를 내놓는 **확신형 오답**이 발생할 위험이 높습니다. 이는 잘못된 데이터 분석으로 인한 리스크를 줄여줍니다. (출처: goldfish-ontology.md)"
+ },
+ {
+  "blind_id": "A025",
+  "question": "EU AI Act 제14조의 인간 감독(human oversight)에서 '자동화 편향(automation bias)'을 경계하라는 것과, 무시·번복·중지(stop) 권한을 요구하는 것은 각각 어떤 위험에 대응하나?",
+  "reference_answer": "자동화 편향 경계는 사람이 AI 출력을 과도하게 믿고 그대로 따르는 위험에 대응합니다. 무시·번복·중지 권한은 시스템이 이상하게 동작하거나 틀린 출력을 낼 때 사람이 실제로 개입해 안전한 상태로 멈출 수 있게 합니다. 즉 감독이 형식에 그치지 않고 실효성을 갖게 하려는 요구입니다.",
+  "key_facts": [
+   "automation bias(과의존)",
+   "override/reverse",
+   "stop 버튼·안전한 상태로 중단"
+  ],
+  "answer": "제공된 문서에서 EU AI Act 제14조, 자동화 편향 (automation bias), 또는 무시·번복·중지 (stop) 권한과 관련된 구체적인 정보를 찾지 못했습니다.\n\n제공된 [검색 근거]에는 'Human-in-the-loop' 개념과 '인증 (Certify)'의 필요성, '자율성'의 경계, '거절형 실패 vs 확신형 오답' 등의 내용이 언급되어 있으나, EU AI Act의 특정 조항이나 해당 조항이 요구하는 구체적인 위험 대응 사항에 대한 설명은 포함되어 있지 않습니다.\n\n해당 질문을 답변하기 위해서는 EU AI Act 관련 문서나 해당 조항에 대한 추가 정보가 필요합니다."
+ },
+ {
+  "blind_id": "A017",
+  "question": "폴라니(Polanyi)가 말한 암묵지(tacit knowledge)는 형식지(explicit knowledge)와 어떻게 다른가?",
+  "reference_answer": "형식지는 말이나 문서로 표현하고 전달할 수 있는 지식입니다. 암묵지는 'we can know more than we can tell'(1966, The Tacit Dimension)이라는 말처럼, 알고 있지만 온전히 말로 표현하기 어려운 지식입니다.",
+  "key_facts": [
+   "We can know more than we can tell",
+   "The Tacit Dimension (1966)",
+   "말로 다 표현할 수 없음"
+  ],
+  "answer": "마이클 폴라니(Michael Polanyi)가 말한 **암묵지(tacit knowledge)** 는 언어, 수식, 도표 등으로 명확하게 표현하고 전달할 수 없는 지식으로, \"우리는 말할 수 있는 것보다 더 많이 안다\"는 명제로 잘 알려져 있습니다. 이는 개인의 경험, 직관, 신체적 감각, 그리고 습관에 깊이 뿌리박혀 있어 완전히 명시화하기 어렵거나 불가능한 특징을 가집니다.\n\n반면, **형식지(explicit knowledge)** 는 문서화, 코딩, 규칙화 등을 통해 체계적으로 정리되고 공유할 수 있는 지식을 말합니다. 암묵지는 개인의 내면화된 경험과 직관에 의존하는 반면, 형식지는 객관적이고 표준화된 형태로 존재하여 조직 내에서 쉽게 전달되고 축적될 수 있습니다.\n\n즉, 암묵지는 '알지만 말하기 어려운 지식'이고, 형식지는 '말하고 기록할 수 있는 지식'이라는 점에서 근본적인 차이가 있습니다. (출처: goldfish-ontology.md)"
+ },
+ {
+  "blind_id": "A014",
+  "question": "Text-to-SQL 벤치마크 BIRD는 몇 개의 데이터베이스와 몇 개의 질문-SQL 쌍으로 구성되며, 최고 모델과 인간의 실행 정확도는 각각 얼마였나?",
+  "reference_answer": "BIRD는 95개 데이터베이스(총 33.4GB)와 12,751개의 질문-SQL 쌍으로 구성됩니다. 발표 당시 최고 모델인 ChatGPT의 실행 정확도는 40.08%, 인간은 92.96%였습니다.",
+  "key_facts": [
+   "95개 데이터베이스",
+   "12,751쌍",
+   "40.08% 대 92.96%"
+  ],
+  "answer": "제공된 문서에서 해당 정보를 찾지 못했습니다. BIRD 벤치마크의 데이터베이스 개수, 질문-SQL 쌍의 수, 그리고 최고 모델과 인간의 실행 정확도에 대한 구체적인 수치는 현재 검색 근거에 포함되어 있지 않습니다.\n\n해당 정보를 포함하는 문서를 제공해 주시면 정확한 답변을 드릴 수 있습니다."
+ },
+ {
+  "blind_id": "R012",
+  "question": "EU AI Act 제14조의 인간 감독(human oversight)에서 '자동화 편향(automation bias)'을 경계하라는 것과, 무시·번복·중지(stop) 권한을 요구하는 것은 각각 어떤 위험에 대응하나?",
+  "reference_answer": "자동화 편향 경계는 사람이 AI 출력을 과도하게 믿고 그대로 따르는 위험에 대응합니다. 무시·번복·중지 권한은 시스템이 이상하게 동작하거나 틀린 출력을 낼 때 사람이 실제로 개입해 안전한 상태로 멈출 수 있게 합니다. 즉 감독이 형식에 그치지 않고 실효성을 갖게 하려는 요구입니다.",
+  "key_facts": [
+   "automation bias(과의존)",
+   "override/reverse",
+   "stop 버튼·안전한 상태로 중단"
+  ],
+  "answer": "제공된 문서에서 EU AI Act 제14조, 인간 감독, 자동화 편향, 또는 무시·번복·중지 권한에 관한 정보를 찾지 못했습니다. 해당 내용을 확인하시려면 관련 법령이나 가이드 문서를 추가로 제공해 주시면 답변해 드리겠습니다."
+ },
+ {
+  "blind_id": "R011",
+  "question": "LLM이 원시 테이블에 직접 text-to-SQL을 하는 방식과, 시맨틱 레이어(예: dbt Semantic Layer)를 거쳐 질의하는 방식은 무엇이 다르며, 후자는 왜 유리한가?",
+  "reference_answer": "시맨틱 레이어는 매출 같은 지표의 정의와 조인 로직을 모델링 계층에 한 번 정의해 중앙에서 관리합니다. 그래서 LLM이 매번 테이블 구조를 추론해 SQL을 새로 쓰지 않고, 거버넌스가 적용된 일관된 지표 정의로 답할 수 있습니다. 정의가 바뀌면 사용처 전체에 반영되고 접근 권한도 함께 관리됩니다.",
+  "key_facts": [
+   "지표 정의 중앙화",
+   "일관성·거버넌스",
+   "MetricFlow"
+  ],
+  "answer": "제공된 문서에 따르면 두 방식의 차이와 시맨틱 레이어의 장점은 다음과 같습니다.\n\n**1. 방식의 차이**\n*   **Text-to-SQL:** LLM 에 스키마 정보 (테이블명, 열명, 관계 등) 를 제공하고 자연어 질문에 대한 SQL 쿼리를 직접 생성하게 하는 방식입니다. LLM 이 구조적 단서로부터 데이터의 의미를 추론하여 매번 쿼리를 처음부터 작성하므로 유연하지만, 테이블 조인 오류나 열 의미 오해석 등 취약점이 있을 수 있습니다. 질문과 생성된 SQL 사이에 안전장치 (guardrail) 가 없습니다.\n*   **시맨틱 레이어 (Ontology-driven):** dbt Semantic Layer 와 같이 구조화된 온톨로지를 통해 질의하는 방식입니다.\n\n**2. 시맨틱 레이어가 유리한 이유**\n*   **높은 정확도:** 벤치마크 결과, 시맨틱 레이어를 사용할 때 Text-to-SQL 보다 정확도가 현저히 높았습니다. (예: GPT-5.3 Codex 기준 Text-to-SQL 84.1% 대비 시맨틱 레이어 100.0%, Claude Sonnet 4.6 기준 90.0% 대비 98.2%)\n*   **복잡한 데이터 처리:** 데이터셋이 크고 복잡하거나 정리되지 않은 (messy) 기업 환경에서 정확도가 중요합니다. 특히 원본 스키마가 정규화되어 있어 엔티티 간 연결이 많은 경우, 시맨틱 레이어를 사용하면 적은 수의 모델 추가 (예: 3 개의 모델) 만으로도 모든 질문에 답할 수 있는 반면, Text-to-SQL 은 컨텍스트로 전체 스키마를 로드해야 하는 비현실적인 제한이 있을 수 있습니다.\n*   **모델링의 효과:** 시맨틱 레이어를 위한 모델링을 수행하면 Text-to-SQL 의 정확도도 함께 향상되는 것을 확인했습니다.\n\n(출처: Semantic Layer vs. Text-to-SQL: 2026 Benchmark Update)"
+ },
+ {
+  "blind_id": "R001",
+  "question": "Brynjolfsson·Chandar·Chen의 'Canaries in the Coal Mine' 연구에서 AI 노출 직종의 고용 감소가 두드러진 연령대는 어디이며, 감소는 주로 어떤 경로로 일어났나?",
+  "reference_answer": "AI 노출 직종의 22~25세 초기 경력 근로자에게서 고용 격차가 나타났고, 경력자에게는 비슷한 격차가 없었습니다. 감소는 해고·이직 증가보다 신규 채용 감소를 통해 주로 일어났고, AI가 업무를 대체하는 직종에 집중되었습니다.",
+  "key_facts": [
+   "22~25세",
+   "채용 감소(reduced hiring)",
+   "AI가 대체하는 직종에 집중"
+  ],
+  "answer": "제공된 검색 근거에는 \"Canaries in the Coal Mine\" 연구에서 AI 노출 직종의 고용 감소가 두드러진 연령대나 감소가 일어난 구체적인 경로에 대한 명시적인 정보가 포함되어 있지 않습니다.\n\n문서에는 2026 년 8 월 개정판에서 \"젊은 근로자 (young workers) 에 대한 AI 고용 격차가 19% 로 확대되었다\"는 사실과, 이 패턴이 교육 수준을 통제할 때 약화되며, 이자율 상승과 원격 근무를 통제했을 때 나타나는 등의 맥락만 언급되어 있을 뿐입니다. 구체적인 연령대 수치나 고용 감소의 주요 경로 (예: 채용 감소, 해고 증가 등) 에 대한 설명은 제공된 문서에서 찾을 수 없습니다.\n\n(출처: rag_src07.md)"
+ },
+ {
+  "blind_id": "R006",
+  "question": "Stephany와 Teutloff의 'What is the Price of a Skill? The Value of Complementarity' 연구는 AI 스킬이 임금을 평균 몇 % 올린다고 추정했고, 스킬의 가치를 무엇으로 설명했나?",
+  "reference_answer": "AI 스킬이 근로자 임금을 평균 약 21% 올린다고 추정했습니다. 스킬의 가치는 상보성(complementarity), 즉 다른 고가치 스킬과 얼마나 다양하게 결합될 수 있는지로 설명했습니다.",
+  "key_facts": [
+   "21%",
+   "상보성(complementarity)"
+  ],
+  "answer": "제공된 검색 근거와 사용자 기억에는 Stephany 와 Teutloff 의 연구인 'What is the Price of a Skill? The Value of Complementarity'에 대한 정보, AI 스킬이 임금을 올린 구체적인 비율, 또는 스킬 가치에 대한 설명이 포함되어 있지 않습니다.\n\n따라서 해당 질문에 답변할 수 없습니다. 관련 문서를 제공해 주시면 다시 답변해 드리겠습니다."
+ },
+ {
+  "blind_id": "R000",
+  "question": "Brynjolfsson, Li, Raymond의 'Generative AI at Work' 연구에서 생성형 AI 어시스턴트는 고객지원 상담원의 생산성을 평균 몇 % 올렸고, 초보·저숙련 상담원에게는 효과가 얼마였나?",
+  "reference_answer": "상담원 5,179명을 분석한 결과, 시간당 해결 건수 기준 생산성이 평균 약 14% 올랐습니다. 초보·저숙련 상담원은 약 34% 올랐고, 숙련 상담원에게는 효과가 거의 없었습니다.",
+  "key_facts": [
+   "14%",
+   "34%",
+   "초보·저숙련 상담원에게 효과 집중"
+  ],
+  "answer": "Brynjolfsson, Li, Raymond의 연구에 따르면 생성형 AI 어시스턴스를 접한 고객지원 상담원의 생산성은 평균 **14%** 향상되었습니다.\n\n이 연구는 생산성 향상 효과가 특히 **초보 또는 저숙련 근로자 (new or low-skilled workers)**에게 가장 크게 나타났음을 밝혔습니다. 즉, AI 도구는 숙련된 근로자보다는 경험이 부족한 근로자의 역량을 더 크게 향상시켜 생산성 격차를 줄이는 역할을 했습니다.\n\n(출처: rag_src12.md)"
+ },
+ {
+  "blind_id": "R004",
+  "question": "Si, Yang, Hashimoto의 대규모 인간 평가 연구('Can LLMs Generate Novel Research Ideas?')에서 LLM이 만든 연구 아이디어는 인간 전문가 아이디어와 비교해 어떻게 평가되었나?",
+  "reference_answer": "NLP 연구자 100명 이상이 평가한 결과, LLM 아이디어가 인간 전문가 아이디어보다 더 참신하다고 평가되었습니다(p<0.05). 대신 실현 가능성은 약간 낮았고, LLM의 자기평가 실패와 아이디어 다양성 부족도 한계로 지적되었습니다.",
+  "key_facts": [
+   "더 참신함(p<0.05)",
+   "실현 가능성은 약간 낮음",
+   "100명 이상의 NLP 연구자"
+  ],
+  "answer": "제공된 검색 근거 및 사용자 기억에는 Si, Yang, Hashimoto의 연구('Can LLMs Generate Novel Research Ideas?')에 대한 구체적인 내용이나 평가 결과가 포함되어 있지 않습니다.\n\n따라서 제공된 문서에서 해당 정보를 찾지 못했습니다. 해당 연구에 대한 문서를 추가로 제공해 주시면 답변해 드리겠습니다."
+ },
+ {
+  "blind_id": "R010",
+  "question": "해리 콜린스(Harry Collins)는 암묵지를 어떤 세 종류로 나누며, 그중 집단적 암묵지가 왜 가장 형식화하기 어려운가?",
+  "reference_answer": "관계적(relational), 신체적(somatic), 집단적(collective) 암묵지로 나눕니다. 집단적 암묵지는 개인이 아니라 사회 속에 자리한 지식(예: 언어 사용 규칙)이라, 개인을 관찰하거나 규칙으로 적어내는 것만으로는 다 포착하기 어렵습니다.",
+  "key_facts": [
+   "relational·somatic·collective",
+   "집단적 암묵지는 사회에 자리함"
+  ],
+  "answer": "제공된 문서에서 해리 콜린스 (Harry Collins) 가 암묵지를 세 가지로 어떻게 나누었는지, 그리고 집단적 암묵지가 왜 가장 형식화하기 어려운지에 대한 구체적인 내용은 찾지 못했습니다.\n\n문서에는 해리 콜린스가 2010 년 저서 *Tacit and Explicit Knowledge* 에서 암묵지 개념을 세 가지 다른 의미로 분리해 분석한다는 언급과, 폴라니 (Michael Polanyi) 의 기존 해석에서 벗어나 개념을 분류한다는 내용만 포함되어 있을 뿐, 구체적인 세 가지 분류와 그 이유에 대한 설명은 없습니다.\n\n해당 정보를 포함한 다른 문서를 제공해 주시면 다시 답변해 드리겠습니다. (출처: rag_src14.md)"
+ },
+ {
+  "blind_id": "R007",
+  "question": "Text-to-SQL 벤치마크 BIRD는 몇 개의 데이터베이스와 몇 개의 질문-SQL 쌍으로 구성되며, 최고 모델과 인간의 실행 정확도는 각각 얼마였나?",
+  "reference_answer": "BIRD는 95개 데이터베이스(총 33.4GB)와 12,751개의 질문-SQL 쌍으로 구성됩니다. 발표 당시 최고 모델인 ChatGPT의 실행 정확도는 40.08%, 인간은 92.96%였습니다.",
+  "key_facts": [
+   "95개 데이터베이스",
+   "12,751쌍",
+   "40.08% 대 92.96%"
+  ],
+  "answer": "제공된 문서에서 BIRD 벤치마크의 데이터베이스 개수, 질문-SQL 쌍의 수, 최고 모델과 인간의 실행 정확도에 대한 구체적인 수치는 찾지 못했습니다.\n\n문서에는 NVIDIA Auto Ontology가 \"BIRD-Interact 리더보드에서 2 위\"를 기록했다는 사실과 관련 링크만 언급되어 있으며, 벤치마크의 상세 구성이나 성능 지표는 포함되어 있지 않습니다."
+ },
+ {
+  "blind_id": "R005",
+  "question": "BCG 컨설턴트를 대상으로 한 'jagged technological frontier' 실험에서 AI 역량 경계 밖 과제의 성과는 어떻게 되었나?",
+  "reference_answer": "BCG 컨설턴트 700여 명을 대상으로 한 실험에서, 경계 안 과제의 성과는 AI 사용 시 약 40% 올랐습니다. 반면 경계 밖 과제에서는 통제집단보다 평균 약 19%p 떨어졌습니다(GPT-4만 사용 시 13%p, 개요 교육을 함께 받은 경우 24%p).",
+  "key_facts": [
+   "jagged technological frontier",
+   "경계 밖 과제 성과 평균 약 19%p 하락",
+   "경계 안 과제 약 40% 향상"
+  ],
+  "answer": "BCG 컨설턴트를 대상으로 한 실험에서 AI 역량 경계 (jagged technological frontier) 밖의 과제는 AI 출력 결과가 부정확하고 덜 유용하여 **인간 성과가 저하 (degrade)**되었습니다.\n\n즉, AI 가 현재 해결할 수 없는 영역의 업무를 수행할 때 AI 를 사용하면 오히려 성과가 떨어지는 것으로 나타났습니다. (출처: rag_src13.md)"
+ },
+ {
+  "blind_id": "R002",
+  "question": "Feng, McDonald, Zhang의 'Levels of Autonomy for AI Agents'는 AI 에이전트의 자율성 수준을 몇 단계로 나누며, 각 단계를 무엇으로 정의하나?",
+  "reference_answer": "5단계로 나눕니다. 각 단계는 사용자가 에이전트와 상호작용할 때 맡는 역할로 정의되며, operator, collaborator, consultant, approver, observer 순입니다.",
+  "key_facts": [
+   "5단계",
+   "사용자 역할로 정의",
+   "operator·collaborator·consultant·approver·observer"
+  ],
+  "answer": "Feng, McDonald, Zhang의 논문 'Levels of Autonomy for AI Agents'는 AI 에이전트의 자율성 수준을 **5 단계**로 나누며, 각 단계는 **에이전트와 상호작용할 때 사용자가 맡을 수 있는 역할**로 정의됩니다.\n\n구체적인 5 단계의 역할은 다음과 같습니다:\n1.  **Operator (운영자)**\n2.  **Collaborator (협력자)**\n3.  **Consultant (자문가)**\n4.  **Approver (승인자)**\n5.  **Observer (관찰자)**\n\n이 프레임워크는 에이전트의 자율성 수준을 능력이나 운영 환경과 별개로 의도적인 설계 결정으로 다루며, 각 단계 내에서 사용자가 에이전트를 통제하는 방식을 설명합니다. (출처: Levels of Autonomy for AI Agents)"
+ },
+ {
+  "blind_id": "R008",
+  "question": "폴라니(Polanyi)가 말한 암묵지(tacit knowledge)는 형식지(explicit knowledge)와 어떻게 다른가?",
+  "reference_answer": "형식지는 말이나 문서로 표현하고 전달할 수 있는 지식입니다. 암묵지는 'we can know more than we can tell'(1966, The Tacit Dimension)이라는 말처럼, 알고 있지만 온전히 말로 표현하기 어려운 지식입니다.",
+  "key_facts": [
+   "We can know more than we can tell",
+   "The Tacit Dimension (1966)",
+   "말로 다 표현할 수 없음"
+  ],
+  "answer": "제공된 문서에 따르면, 마이클 폴라니 (Michael Polanyi) 가 말한 **암묵지 **(tacit knowledge) 는 우리가 말로 설명할 수 없지만 알고 있거나, 행할 수는 있지만 그 과정을 기술할 수 없는 지식입니다. 예를 들어, 자전거를 타는 법은 어떻게 타는지 설명할 수는 없지만 실제로는 타는 능력에 해당합니다.\n\n반면 **형식지 **(explicit knowledge) 는 문서나 언어로 명확하게 표현하고 전달할 수 있는 지식으로, 암묵지와는 대비되는 개념입니다.\n\n해리 콜린스 (Harry Collins) 는 폴라니의 개념을 더 세분화하여 관계적 암묵지, 체성적 암묵지, 집단적 암묵지로 분류하기도 하지만, 폴라니의 핵심 정의는 \"말할 수 없는 지식\"과 \"기술할 수 없는 행동\"에 있습니다.\n\n(출처: Harry Collins: Tacit and Explicit Knowledge (2010) — Monoskop Log)"
+ },
+ {
+  "blind_id": "R009",
+  "question": "노나카의 SECI 모델에서 표출화(Externalization)와 연결화(Combination)는 어떻게 다른가?",
+  "reference_answer": "표출화는 암묵지를 형식지로 바꾸는 과정입니다. 연결화는 이미 있는 형식지끼리 결합·정리해 새 형식지를 만드는 과정입니다. SECI의 네 모드는 공동화(Socialization), 표출화, 연결화, 내면화(Internalization)이며, Nonaka & Takeuchi의 『The Knowledge-Creating Company』(1995)에서 정리되었습니다.",
+  "key_facts": [
+   "표출화: 암묵지→형식지",
+   "연결화: 형식지→형식지"
+  ],
+  "answer": "제공된 문서에서 노나카의 SECI 모델에 대한 내용이나 표출화 (Externalization), 연결화 (Combination) 에 대한 설명을 찾지 못했습니다. 해당 정보를 확인하시려면 관련 문서를 추가로 제공해 주시면 감사하겠습니다."
+ },
+ {
+  "blind_id": "R003",
+  "question": "LLMs4OL(Babaei Giglou, D'Souza, Auer, 2023)은 LLM 기반 온톨로지 학습을 평가하려고 어떤 세 가지 과제를 썼나?",
+  "reference_answer": "용어에 유형을 부여하는 term typing, 분류 계층을 찾는 taxonomy discovery, 비분류적 관계 추출(non-taxonomic relation extraction)의 세 과제입니다.",
+  "key_facts": [
+   "term typing",
+   "taxonomy discovery",
+   "non-taxonomic relation extraction"
+  ],
+  "answer": "제공된 문서에서는 LLMs4OL 2023 과제의 구체적인 세 가지 과제 (Task A, B, C 등) 의 내용을 명시적으로 설명하지 않고 있습니다.\n\n문서에는 LLMs4OL 2023 에 대한 참고문헌 (H. Babaei Giglou, J. D’Souza, and S. Auer, \"Llms4ol: Large language models for ontology learning,\" 2023) 이 언급되어 있고, 2024 년과 2025 년 과제 (예: 2024 Task A, 2025 Task A, B, C) 에 대한 일부 정보만 포함되어 있습니다.\n\n따라서 2023 년에 사용된 세 가지 과제의 정확한 내용은 제공된 정보만으로는 답변할 수 없습니다. 해당 정보에 대한 문서를 추가로 제공해 주시면 확인해 드리겠습니다."
+ },
+ {
+  "blind_id": "S002",
+  "question": "Feng, McDonald, Zhang의 'Levels of Autonomy for AI Agents'는 AI 에이전트의 자율성 수준을 몇 단계로 나누며, 각 단계를 무엇으로 정의하나?",
+  "reference_answer": "5단계로 나눕니다. 각 단계는 사용자가 에이전트와 상호작용할 때 맡는 역할로 정의되며, operator, collaborator, consultant, approver, observer 순입니다.",
+  "key_facts": [
+   "5단계",
+   "사용자 역할로 정의",
+   "operator·collaborator·consultant·approver·observer"
+  ],
+  "answer": "제공된 문서에서는 K. J. Kevin Feng, David W. McDonald, Amy X. Zhang 가 저술한 \"Levels of Autonomy for AI Agents\"라는 제목의 논문 존재와 초록의 일부(\"자율성은 AI 에이전트에 대해 양날의 검입니다...\")만 확인할 수 있습니다.\n\n그러나 해당 논문이 AI 에이전트의 자율성 수준을 구체적으로 몇 단계로 나누는지, 그리고 각 단계를 무엇으로 정의하는지에 대한 상세 내용은 제공된 검색 근거에 포함되어 있지 않습니다.\n\n따라서 제공된 문서만으로는 질문하신 내용에 대해 답변할 수 없습니다. 해당 논문의 전체 내용이나 관련 상세 문서를 추가로 제공해 주시면 정확한 정보를 찾아드리겠습니다."
+ },
+ {
+  "blind_id": "S003",
+  "question": "LLMs4OL(Babaei Giglou, D'Souza, Auer, 2023)은 LLM 기반 온톨로지 학습을 평가하려고 어떤 세 가지 과제를 썼나?",
+  "reference_answer": "용어에 유형을 부여하는 term typing, 분류 계층을 찾는 taxonomy discovery, 비분류적 관계 추출(non-taxonomic relation extraction)의 세 과제입니다.",
+  "key_facts": [
+   "term typing",
+   "taxonomy discovery",
+   "non-taxonomic relation extraction"
+  ],
+  "answer": "제공된 문서에서 LLMs4OL 2023(Babaei Giglou, D'Souza, Auer)이 사용한 구체적인 세 가지 과제 (task) 에 대한 정보는 찾을 수 없습니다.\n\n제공된 근거에는 해당 연구의 제목, 저자, 출판 연도 (2023, 2024, 2025) 및 DOI 등 참고 문헌 정보만 포함되어 있으며, 구체적인 평가 과제 내용은 언급되어 있지 않습니다.\n\n더 자세한 정보를 원하시면 해당 과제 내용을 포함한 문서를 추가로 제공해 주시면 확인해 드리겠습니다.\n\n(출처: rags_src24.md)"
+ },
+ {
+  "blind_id": "S011",
+  "question": "LLM이 원시 테이블에 직접 text-to-SQL을 하는 방식과, 시맨틱 레이어(예: dbt Semantic Layer)를 거쳐 질의하는 방식은 무엇이 다르며, 후자는 왜 유리한가?",
+  "reference_answer": "시맨틱 레이어는 매출 같은 지표의 정의와 조인 로직을 모델링 계층에 한 번 정의해 중앙에서 관리합니다. 그래서 LLM이 매번 테이블 구조를 추론해 SQL을 새로 쓰지 않고, 거버넌스가 적용된 일관된 지표 정의로 답할 수 있습니다. 정의가 바뀌면 사용처 전체에 반영되고 접근 권한도 함께 관리됩니다.",
+  "key_facts": [
+   "지표 정의 중앙화",
+   "일관성·거버넌스",
+   "MetricFlow"
+  ],
+  "answer": "제공된 문서에 따르면 두 방식의 차이점과 시맨틱 레이어의 장점은 다음과 같습니다.\n\n**1. 방식의 차이**\n*   **Text-to-SQL:** 에이전트가 스키마 정보를 제공받아 원시 (고도로 정규화된) 테이블을 기반으로 SQL 쿼리를 처음부터 직접 작성하는 방식입니다.\n*   **시맨틱 레이어 (Semantic Layer):** 원시 테이블 위에 dbt 프로젝트 등을 통해 구축된 레이어를 경유하여 질의하는 방식입니다. 이는 'Minimal Semantic Layer'(가벼운 적용) 또는 'Modeled Semantic Layer'(적절한 모델링을 적용한 재설계) 형태로 구현될 수 있습니다.\n\n**2. 시맨틱 레이어가 유리한 이유**\n*   **정확도 향상:** 최신 LLM 모델 (claude-sonnet-4-6) 을 사용한 2026 년 벤치마크 결과, Text-to-SQL 방식의 정확도가 90.0% 인 반면, 시맨틱 레이어를 사용한 방식은 98.2% 로 더 높은 정확도를 기록했습니다.\n*   **데이터 모델링의 이점:** 원시 테이블은 고도로 정규화되어 있어 복잡한 쿼리 작성에 어려움이 있을 수 있으나, 시맨틱 레이어는 이를 적절히 모델링하여 LLM 이 이해하고 작성하기 쉬운 구조로 제공함으로써 성능 격차를 줄여줍니다.\n\n(출처: Semantic Layer vs. Text-to-SQL: 2026 Benchmark Update)"
+ },
+ {
+  "blind_id": "S010",
+  "question": "해리 콜린스(Harry Collins)는 암묵지를 어떤 세 종류로 나누며, 그중 집단적 암묵지가 왜 가장 형식화하기 어려운가?",
+  "reference_answer": "관계적(relational), 신체적(somatic), 집단적(collective) 암묵지로 나눕니다. 집단적 암묵지는 개인이 아니라 사회 속에 자리한 지식(예: 언어 사용 규칙)이라, 개인을 관찰하거나 규칙으로 적어내는 것만으로는 다 포착하기 어렵습니다.",
+  "key_facts": [
+   "relational·somatic·collective",
+   "집단적 암묵지는 사회에 자리함"
+  ],
+  "answer": "제공된 문서에서 해리 콜린스(Harry Collins)가 암묵지를 세 가지 종류로 나누는 구체적인 내용이나, 그중 집단적 암묵지가 왜 가장 형식화하기 어려운지에 대한 설명을 찾지 못했습니다.\n\n제공된 문서에는 해리 콜린스가 마이클 폴라니의 '암묵지' 개념을 분석하고 있으며, 관련 논문과 논평이 존재한다는 사실만 언급되어 있을 뿐, 질문하신 세부 분류와 그 이유는 포함되어 있지 않습니다. 해당 정보를 포함하는 추가 문서를 제공해 주시면 답변해 드리겠습니다."
+ },
+ {
+  "blind_id": "S012",
+  "question": "EU AI Act 제14조의 인간 감독(human oversight)에서 '자동화 편향(automation bias)'을 경계하라는 것과, 무시·번복·중지(stop) 권한을 요구하는 것은 각각 어떤 위험에 대응하나?",
+  "reference_answer": "자동화 편향 경계는 사람이 AI 출력을 과도하게 믿고 그대로 따르는 위험에 대응합니다. 무시·번복·중지 권한은 시스템이 이상하게 동작하거나 틀린 출력을 낼 때 사람이 실제로 개입해 안전한 상태로 멈출 수 있게 합니다. 즉 감독이 형식에 그치지 않고 실효성을 갖게 하려는 요구입니다.",
+  "key_facts": [
+   "automation bias(과의존)",
+   "override/reverse",
+   "stop 버튼·안전한 상태로 중단"
+  ],
+  "answer": "제공된 검색 근거와 사용자 기억에는 EU AI Act 제14조, 인간 감독, 자동화 편향(automation bias), 또는 무시·번복·중지 권한에 대한 정보가 포함되어 있지 않습니다.\n\n따라서 해당 질문에 답변할 수 없습니다. 관련 내용이 포함된 문서를 제공해 주시면 확인해 드리겠습니다."
+ },
+ {
+  "blind_id": "S001",
+  "question": "Brynjolfsson·Chandar·Chen의 'Canaries in the Coal Mine' 연구에서 AI 노출 직종의 고용 감소가 두드러진 연령대는 어디이며, 감소는 주로 어떤 경로로 일어났나?",
+  "reference_answer": "AI 노출 직종의 22~25세 초기 경력 근로자에게서 고용 격차가 나타났고, 경력자에게는 비슷한 격차가 없었습니다. 감소는 해고·이직 증가보다 신규 채용 감소를 통해 주로 일어났고, AI가 업무를 대체하는 직종에 집중되었습니다.",
+  "key_facts": [
+   "22~25세",
+   "채용 감소(reduced hiring)",
+   "AI가 대체하는 직종에 집중"
+  ],
+  "answer": "제공된 문서에서 해당 연구의 구체적인 내용 (AI 노출 직종의 고용 감소가 두드러진 연령대 및 감소 경로) 을 찾지 못했습니다. 제공된 근거는 연구의 제목, 저자, 발행 기관 및 날짜 등 메타데이터만 포함하고 있습니다.\n\n해당 정보를 확인하시려면 연구의 본문 내용이나 상세 요약이 포함된 문서를 추가해 주세요."
+ },
+ {
+  "blind_id": "S006",
+  "question": "Stephany와 Teutloff의 'What is the Price of a Skill? The Value of Complementarity' 연구는 AI 스킬이 임금을 평균 몇 % 올린다고 추정했고, 스킬의 가치를 무엇으로 설명했나?",
+  "reference_answer": "AI 스킬이 근로자 임금을 평균 약 21% 올린다고 추정했습니다. 스킬의 가치는 상보성(complementarity), 즉 다른 고가치 스킬과 얼마나 다양하게 결합될 수 있는지로 설명했습니다.",
+  "key_facts": [
+   "21%",
+   "상보성(complementarity)"
+  ],
+  "answer": "제공된 검색 근거에는 Stephany와 Teutloff의 'What is the Price of a Skill? The Value of Complementarity' 연구에 대한 구체적인 내용 (임금 상승률 추정치, 스킬 가치 설명 등) 이 포함되어 있지 않습니다.\n\n따라서 해당 질문에 답변할 수 없습니다. 관련 문서를 추가로 제공해 주시면 정확한 정보를 확인해 드리겠습니다."
+ },
+ {
+  "blind_id": "S007",
+  "question": "Text-to-SQL 벤치마크 BIRD는 몇 개의 데이터베이스와 몇 개의 질문-SQL 쌍으로 구성되며, 최고 모델과 인간의 실행 정확도는 각각 얼마였나?",
+  "reference_answer": "BIRD는 95개 데이터베이스(총 33.4GB)와 12,751개의 질문-SQL 쌍으로 구성됩니다. 발표 당시 최고 모델인 ChatGPT의 실행 정확도는 40.08%, 인간은 92.96%였습니다.",
+  "key_facts": [
+   "95개 데이터베이스",
+   "12,751쌍",
+   "40.08% 대 92.96%"
+  ],
+  "answer": "제공된 문서에서 BIRD 벤치마크의 데이터베이스 수, 질문-SQL 쌍의 수, 최고 모델과 인간의 실행 정확도에 대한 구체적인 수치는 찾지 못했습니다. 해당 정보를 포함하는 문서를 요청해 주시면 답변해 드리겠습니다."
+ },
+ {
+  "blind_id": "S000",
+  "question": "Brynjolfsson, Li, Raymond의 'Generative AI at Work' 연구에서 생성형 AI 어시스턴트는 고객지원 상담원의 생산성을 평균 몇 % 올렸고, 초보·저숙련 상담원에게는 효과가 얼마였나?",
+  "reference_answer": "상담원 5,179명을 분석한 결과, 시간당 해결 건수 기준 생산성이 평균 약 14% 올랐습니다. 초보·저숙련 상담원은 약 34% 올랐고, 숙련 상담원에게는 효과가 거의 없었습니다.",
+  "key_facts": [
+   "14%",
+   "34%",
+   "초보·저숙련 상담원에게 효과 집중"
+  ],
+  "answer": "제공된 검색 근거에는 Danielle Li, Lindsey Raymond, Erik Brynjolfsson이 공동 저자로 참여한 연구에 대한 언급이 있으나, 구체적인 연구 제목이 'Generative AI at Work'인지 확인되지 않으며, 고객지원 상담원의 생산성 향상 수치(평균 % 및 초보·저숙련 상담원별 효과)에 대한 구체적인 데이터는 포함되어 있지 않습니다.\n\n따라서 제공된 문서에서 해당 정보를 찾지 못했습니다. 정확한 수치가 포함된 문서를 제공해 주시면 다시 답변해 드리겠습니다.\n\n(출처: rags_src12.md)"
+ },
+ {
+  "blind_id": "S008",
+  "question": "폴라니(Polanyi)가 말한 암묵지(tacit knowledge)는 형식지(explicit knowledge)와 어떻게 다른가?",
+  "reference_answer": "형식지는 말이나 문서로 표현하고 전달할 수 있는 지식입니다. 암묵지는 'we can know more than we can tell'(1966, The Tacit Dimension)이라는 말처럼, 알고 있지만 온전히 말로 표현하기 어려운 지식입니다.",
+  "key_facts": [
+   "We can know more than we can tell",
+   "The Tacit Dimension (1966)",
+   "말로 다 표현할 수 없음"
+  ],
+  "answer": "제공된 검색 근거에 따르면, 폴라니(Polanyi)의 암묵지(tacit knowledge)와 형식지(explicit knowledge)의 구체적인 정의나 차이점에 대한 설명은 포함되어 있지 않습니다.\n\n다만, 근거 자료에서는 해리 콜린스(Harry Collins)가 폴라니의 주장을 바탕으로 암묵지와 형식지 간의 개념적 언어를 정립하고, 조직 내 지식 창출이 이 두 지식 간의 연속적인 대화(dialogue)를 통해 이루어진다고 언급하고 있습니다. 또한, 새로운 지식은 개인에 의해 개발되지만 조직이 이를 명확히 표현하고 증폭하는 역할을 한다는 내용이 있습니다.\n\n따라서 제공된 문서만으로는 두 지식의 구체적인 차이점을 설명하기 어렵습니다. 더 자세한 정보가 필요하시면 관련 문서를 추가로 제공해 주시거나, 다른 질문을 해주세요.\n\n(출처: rags_src14.md, rags_src10.md)"
+ },
+ {
+  "blind_id": "S005",
+  "question": "BCG 컨설턴트를 대상으로 한 'jagged technological frontier' 실험에서 AI 역량 경계 밖 과제의 성과는 어떻게 되었나?",
+  "reference_answer": "BCG 컨설턴트 700여 명을 대상으로 한 실험에서, 경계 안 과제의 성과는 AI 사용 시 약 40% 올랐습니다. 반면 경계 밖 과제에서는 통제집단보다 평균 약 19%p 떨어졌습니다(GPT-4만 사용 시 13%p, 개요 교육을 함께 받은 경우 24%p).",
+  "key_facts": [
+   "jagged technological frontier",
+   "경계 밖 과제 성과 평균 약 19%p 하락",
+   "경계 안 과제 약 40% 향상"
+  ],
+  "answer": "제공된 문서에서는 'jagged technological frontier'(불규칙한 기술적 전선) 개념이 AI의 능력이 일부 과제는 쉽게 수행할 수 있게 하지만, 다른 과제는 그렇지 않다는 맥락에서 언급되고 있습니다. 또한 실험 조건으로 AI 접근 없음, GPT-4 AI 접근, 프롬프트 엔지니어링 개요가 포함된 GPT-4 AI 접근 등 세 가지가 설정되었음을 알 수 있습니다.\n\n하지만 제공된 근거에는 **BCG 컨설턴트를 대상으로 한 실험에서 AI 역량 경계 밖 과제의 구체적인 성과 수치나 결과에 대한 정보는 포함되어 있지 않습니다.**\n\n따라서 해당 질문에 대한 구체적인 답변은 현재 제공된 문서에서 찾지 못했습니다."
+ },
+ {
+  "blind_id": "S004",
+  "question": "Si, Yang, Hashimoto의 대규모 인간 평가 연구('Can LLMs Generate Novel Research Ideas?')에서 LLM이 만든 연구 아이디어는 인간 전문가 아이디어와 비교해 어떻게 평가되었나?",
+  "reference_answer": "NLP 연구자 100명 이상이 평가한 결과, LLM 아이디어가 인간 전문가 아이디어보다 더 참신하다고 평가되었습니다(p<0.05). 대신 실현 가능성은 약간 낮았고, LLM의 자기평가 실패와 아이디어 다양성 부족도 한계로 지적되었습니다.",
+  "key_facts": [
+   "더 참신함(p<0.05)",
+   "실현 가능성은 약간 낮음",
+   "100명 이상의 NLP 연구자"
+  ],
+  "answer": "제공된 문서에서 해당 연구(Si, Yang, Hashimoto의 'Can LLMs Generate Novel Research Ideas?')에 대한 구체적인 평가 결과나 LLM이 생성한 아이디어와 인간 전문가 아이디어의 비교 수치는 찾을 수 없습니다.\n\n제공된 검색 근거에는 LLM의 데이터 작업 능력 향상, AI의 생산성 경계(frontier)에 대한 일반론, 그리고 논문 분석 도구 소개 등만 포함되어 있을 뿐, 질문하신 특정 연구의 결과는 포함되어 있지 않습니다.\n\n해당 정보를 찾으실 수 있는 문서를 추가로 제공해 주시면 답변해 드리겠습니다."
+ },
+ {
+  "blind_id": "S009",
+  "question": "노나카의 SECI 모델에서 표출화(Externalization)와 연결화(Combination)는 어떻게 다른가?",
+  "reference_answer": "표출화는 암묵지를 형식지로 바꾸는 과정입니다. 연결화는 이미 있는 형식지끼리 결합·정리해 새 형식지를 만드는 과정입니다. SECI의 네 모드는 공동화(Socialization), 표출화, 연결화, 내면화(Internalization)이며, Nonaka & Takeuchi의 『The Knowledge-Creating Company』(1995)에서 정리되었습니다.",
+  "key_facts": [
+   "표출화: 암묵지→형식지",
+   "연결화: 형식지→형식지"
+  ],
+  "answer": "제공된 검색 근거 및 사용자 기억에 노나카의 SECI 모델에서 표출화(Externalization)와 연결화(Combination)에 대한 설명이 포함되어 있지 않습니다.\n\n따라서 해당 정보를 제공된 문서에서 찾지 못했습니다. 관련 문서를 추가로 업로드해 주시면 답변해 드리겠습니다."
+ }
+]

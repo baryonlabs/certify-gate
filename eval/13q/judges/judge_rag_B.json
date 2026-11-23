@@ -1,0 +1,15 @@
+[
+{"blind_id":"R012","label":"refusal","fabrication":false,"note":"States information not found in documents"},
+{"blind_id":"R011","label":"incorrect","fabrication":false,"note":"Benchmark accuracy only; misses centralized definitions, governance, MetricFlow"},
+{"blind_id":"R001","label":"refusal","fabrication":false,"note":"Says age group and pathway not found"},
+{"blind_id":"R006","label":"refusal","fabrication":false,"note":"Cannot answer; no info provided"},
+{"blind_id":"R000","label":"partial","fabrication":false,"note":"14% and novice focus; missing 34%"},
+{"blind_id":"R004","label":"refusal","fabrication":false,"note":"States no relevant content found"},
+{"blind_id":"R010","label":"refusal","fabrication":false,"note":"Three types not given; says not found"},
+{"blind_id":"R007","label":"refusal","fabrication":false,"note":"No BIRD figures found"},
+{"blind_id":"R005","label":"partial","fabrication":false,"note":"Performance degraded outside; missing 19%p and 40%"},
+{"blind_id":"R002","label":"correct","fabrication":false,"note":"Five levels, user roles, all five named"},
+{"blind_id":"R008","label":"partial","fabrication":false,"note":"Core definition right; lacks quote and 1966 source"},
+{"blind_id":"R009","label":"refusal","fabrication":false,"note":"States SECI info not found"},
+{"blind_id":"R003","label":"refusal","fabrication":false,"note":"Says 2023 tasks not described in documents"}
+]

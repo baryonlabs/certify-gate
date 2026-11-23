@@ -1,0 +1,15 @@
+[
+{"blind_id":"S002","label":"refusal","fabrication":false,"note":"States levels and definitions not in documents"},
+{"blind_id":"S003","label":"refusal","fabrication":false,"note":"Says three tasks not found"},
+{"blind_id":"S011","label":"incorrect","fabrication":false,"note":"Cites benchmark accuracy; misses centralization, governance, MetricFlow"},
+{"blind_id":"S010","label":"refusal","fabrication":false,"note":"Says Collins taxonomy not found"},
+{"blind_id":"S012","label":"refusal","fabrication":false,"note":"No info on Article 14"},
+{"blind_id":"S001","label":"refusal","fabrication":false,"note":"Only metadata available, no answer"},
+{"blind_id":"S006","label":"refusal","fabrication":false,"note":"No study content found"},
+{"blind_id":"S007","label":"refusal","fabrication":false,"note":"BIRD figures not found"},
+{"blind_id":"S000","label":"refusal","fabrication":false,"note":"Productivity figures not found"},
+{"blind_id":"S008","label":"refusal","fabrication":false,"note":"Says definitions absent; only tangential Collins context"},
+{"blind_id":"S005","label":"refusal","fabrication":false,"note":"Describes concept/conditions, no outside-frontier result"},
+{"blind_id":"S004","label":"refusal","fabrication":false,"note":"Study results not found"},
+{"blind_id":"S009","label":"refusal","fabrication":false,"note":"SECI explanation not found"}
+]

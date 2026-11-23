@@ -1,0 +1,103 @@
+{
+ "label": "13문항 제3자 평가(LLM 채점, 소규모)",
+ "judge_agreement": {
+  "claudeA_vs_claudeB": {
+   "kappa": 1.0,
+   "agree": 1.0
+  },
+  "claudeA_vs_gptC": {
+   "kappa": 0.8326629123089301,
+   "agree": 0.9230769230769231
+  },
+  "claudeB_vs_gptC": {
+   "kappa": 0.8326629123089301,
+   "agree": 0.9230769230769231
+  },
+  "A_B_disagreements": [],
+  "A_C_disagreements": [
+   [
+    "A019",
+    "Q10",
+    "loop",
+    "refusal",
+    "partial"
+   ],
+   [
+    "A022",
+    "Q12",
+    "baseline",
+    "partial",
+    "correct"
+   ],
+   [
+    "R011",
+    "Q12",
+    "rag",
+    "incorrect",
+    "partial"
+   ],
+   [
+    "S011",
+    "Q12",
+    "rag_small",
+    "incorrect",
+    "partial"
+   ]
+  ]
+ },
+ "initial": {
+  "substantive_counts": {
+   "baseline": 1,
+   "rag": 4,
+   "rag_small": 0,
+   "loop": 7
+  },
+  "mcnemar_loop_vs_rag": {
+   "only_loop": 4,
+   "only_rag": 1,
+   "p_exact_two_sided": 0.375
+  },
+  "fabrication": {
+   "baseline": 0,
+   "rag": 0,
+   "rag_small": 0,
+   "loop": 1
+  }
+ },
+ "rejudged": {
+  "substantive_counts": {
+   "baseline": 1,
+   "rag": 4,
+   "rag_small": 0,
+   "loop": 8
+  },
+  "mcnemar_loop_vs_rag": {
+   "only_loop": 4,
+   "only_rag": 0,
+   "p_exact_two_sided": 0.125
+  },
+  "fabrication": {
+   "baseline": 0,
+   "rag": 0,
+   "rag_small": 0,
+   "loop": 0
+  }
+ },
+ "overrides": [
+  {
+   "blind_id": "A001",
+   "question": "Q01",
+   "cond": "loop",
+   "from": {
+    "label": "incorrect",
+    "fabrication": true
+   },
+   "to": {
+    "label": "partial",
+    "fabrication": false
+   },
+   "date": "2026-11-23",
+   "reason": "참조 답(questions.json Q01)은 NBER 워킹페이퍼 w31161 판본(상담원 5,179명, 평균 14%, 초보·저숙련 34%)이었다. 루프 답의 '평균 15%, 상담원 5,172명'은 QJE 2025 출판본(140(2)) 수치와 일치하므로 지어낸 답(오답)이 아니다. 다만 초보·저숙련 34% 수치를 빠뜨렸고, 출처로 워킹페이퍼 수치(14%)를 보도한 MIT Sloan 기사를 달아 판본이 어긋나므로 부분 정답으로 고쳤다. 채점자 3명(Claude 계열 2, GPT 계열 1)은 모두 워킹페이퍼 기준 참조 답에 따라 오답·지어냄으로 판정했었다."
+  }
+ ]
+}

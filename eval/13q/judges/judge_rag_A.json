@@ -1,0 +1,15 @@
+[
+{"blind_id":"R012","label":"refusal","fabrication":false,"note":"States no information found in documents."},
+{"blind_id":"R011","label":"incorrect","fabrication":false,"note":"Benchmark accuracy focus; misses centralized metrics, governance, MetricFlow."},
+{"blind_id":"R001","label":"refusal","fabrication":false,"note":"Says age group and pathway not found."},
+{"blind_id":"R006","label":"refusal","fabrication":false,"note":"Cannot answer; no study info."},
+{"blind_id":"R000","label":"partial","fabrication":false,"note":"14% and novice focus correct; missing 34% figure."},
+{"blind_id":"R004","label":"refusal","fabrication":false,"note":"No info found on study."},
+{"blind_id":"R010","label":"refusal","fabrication":false,"note":"Says three categories not found in documents."},
+{"blind_id":"R007","label":"refusal","fabrication":false,"note":"No BIRD figures found."},
+{"blind_id":"R005","label":"partial","fabrication":false,"note":"Outside-frontier degradation noted; missing 19pp and 40%."},
+{"blind_id":"R002","label":"correct","fabrication":false,"note":"Five levels, user roles, all five named."},
+{"blind_id":"R008","label":"partial","fabrication":false,"note":"Core distinction right; lacks quote and 1966 book."},
+{"blind_id":"R009","label":"refusal","fabrication":false,"note":"No SECI information found."},
+{"blind_id":"R003","label":"refusal","fabrication":false,"note":"Says 2023 tasks not specified in documents."}
+]

@@ -1,0 +1,36 @@
+{
+ "label": "저자 1인 파일럿(탐색적, 본인 평정) — 일반화 불가",
+ "n_items": {
+  "A": 8,
+  "B": 8,
+  "defined": 16
+ },
+ "time_sec": {
+  "A": {
+   "median": 15.997499999999999,
+   "mean": 19.58225
+  },
+  "B": {
+   "median": 39.727000000000004,
+   "mean": 43.274
+  },
+  "ratio_of_medians_B_over_A": 2.48332551961244,
+  "ratio_ci95_bootstrap": [
+   1.1347359348064567,
+   3.5409707979294853
+  ],
+  "mann_whitney_exact": {
+   "U_x_less_y": 57,
+   "pairs": 64,
+   "p_two_sided": 0.006993006993006993,
+   "rank_biserial": 0.78125
+  }
+ },
+ "self_rated_fidelity_1to5": {
+  "A": 4.625,
+  "B": 4.5
+ },
+ "A_picks_per_item": 1.875,
+ "A_supplemented_items": 2,
+ "A_none_correct": 0
+}

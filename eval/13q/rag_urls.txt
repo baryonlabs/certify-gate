@@ -1,0 +1,29 @@
+# 조건 (나) '원문 검색'에 쓴 1차 출처 URL 목록(루프가 참조한 원문).
+# 저작권 문제를 피하려고 수집한 원문 텍스트(rag_src/)는 공개하지 않는다. chars=수집 당시 추출한 본문 글자 수(바이트).
+# URL 25개 중 본문을 실제로 확보한 것은 18건(chars >= 1000)이고, 나머지 7건은 수집 실패·봇 차단 페이지·빈 본문이었다(논문의 "원문 18건").
+# 형식: srcNN<TAB>chars<TAB>url
+src01	54244	https://Www.Wikipedia.org/wiki/Ronald_Coase
+src02	4544	https://arxiv.org/abs/2506.12469
+src03	45943	https://arxiv.org/html/2510.24990v1
+src04	254640	https://arxiv.org/pdf/2601.09966
+src05	224218	https://arxiv.org/pdf/2604.25149
+src06	124	https://blogs.bath.ac.uk/iprblog/?p=2886
+src07	7843	https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine/
+src08	13581	https://docs.getdbt.com/blog/semantic-layer-vs-text-to-sql-2026
+src09	7907	https://fortune.com/2026/03/30/this-company-is-giving-workers-a-raise-for-using-ai-heres-what-they-have-to-do-to-earn-it/
+src10	5073	https://ideas.repec.org/a/inm/ororsc/v5y1994i1p14-37.html
+src11	308	https://link.springer.com/article/10.1007/s11187-008-9157-3
+src12	10527	https://mitsloan.mit.edu/ideas-made-to-matter/workers-less-experience-gain-most-generative-ai
+src13	35204	https://mitsloan.mit.edu/sites/default/files/2023-10/SSRN-id4573321.pdf
+src14	5884	https://monoskop.org/log/?p=6430
+src15	304	https://pwc.com/gx/en/news-room/press-releases/2025/ai-linked-to-a-fourfold-increase-in-productivity-growth.html
+src16	22510	https://raw.githubusercontent.com/NVIDIA/auto-ontology/HEAD/README.md
+src17	3916	https://tomgruber.org/writing/ontolingua-kaj-1993/
+src18	3988	https://www.alphaxiv.org/abs/2607.23438
+src19	1	https://www.cambridge.org/core/books/gettier-problem/bibliography/165046A5857C16F28D090851454D0519
+src20	15458	https://www.darden.virginia.edu/effectuation/publications
+src21	1	https://www.mckinsey.com/capabilities/people-and-organization/our-insights/building-expertise-in-the-age-of-AI-who-trains-the-next-generation
+src22	6064	https://www.nature.com/articles/d41586-024-00639-y.pdf
+src23	264	https://www.pwc.com/gx/en/services/workforce/ai-future-entry-level-work.html
+src24	12665	https://www.tib-op.org/ojs/index.php/ocp/article/view/2913
+src25	0	https://www.weforum.org/stories/2026/06/ai-decimate-entry-level-jobs-expert-insights/

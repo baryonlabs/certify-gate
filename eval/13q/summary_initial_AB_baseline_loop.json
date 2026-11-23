@@ -1,0 +1,38 @@
+{
+ "kappa": 1.0,
+ "agreement": 1.0,
+ "by": {
+  "baseline_A": {
+   "labels": {
+    "refusal": 12,
+    "partial": 1
+   },
+   "fabrication": 0
+  },
+  "baseline_B": {
+   "labels": {
+    "refusal": 12,
+    "partial": 1
+   },
+   "fabrication": 0
+  },
+  "loop_A": {
+   "labels": {
+    "incorrect": 1,
+    "partial": 6,
+    "refusal": 5,
+    "correct": 1
+   },
+   "fabrication": 1
+  },
+  "loop_B": {
+   "labels": {
+    "incorrect": 1,
+    "partial": 6,
+    "refusal": 5,
+    "correct": 1
+   },
+   "fabrication": 1
+  }
+ }
+}

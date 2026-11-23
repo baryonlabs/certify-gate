@@ -1,0 +1,15 @@
+[
+{"blind_id":"S002","label":"refusal","fabrication":false,"note":"States details not in documents; no levels given."},
+{"blind_id":"S003","label":"refusal","fabrication":false,"note":"Cannot find the three tasks."},
+{"blind_id":"S011","label":"incorrect","fabrication":false,"note":"Cites accuracy benchmark; misses centralization, governance, MetricFlow."},
+{"blind_id":"S010","label":"refusal","fabrication":false,"note":"Cannot find Collins' three types."},
+{"blind_id":"S012","label":"refusal","fabrication":false,"note":"No info on Article 14; declines."},
+{"blind_id":"S001","label":"refusal","fabrication":false,"note":"Only metadata found; no age group or mechanism."},
+{"blind_id":"S006","label":"refusal","fabrication":false,"note":"Declines; no 21% or complementarity."},
+{"blind_id":"S007","label":"refusal","fabrication":false,"note":"No BIRD figures given."},
+{"blind_id":"S000","label":"refusal","fabrication":false,"note":"No productivity figures found."},
+{"blind_id":"S008","label":"refusal","fabrication":false,"note":"Declines distinction; tangential Collins/organization remarks only."},
+{"blind_id":"S005","label":"refusal","fabrication":false,"note":"Describes conditions but no outside-frontier result."},
+{"blind_id":"S004","label":"refusal","fabrication":false,"note":"Cannot find study results."},
+{"blind_id":"S009","label":"refusal","fabrication":false,"note":"No SECI explanation provided."}
+]
