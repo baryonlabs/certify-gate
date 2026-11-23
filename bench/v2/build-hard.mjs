@@ -209,12 +209,19 @@ fill('correct', N_TRAP, { trap: true });
 fill('correct', N_CORRECT_EDITION, { correctEdition: true });
 fill('correct', N_CORRECT - N_TRAP - N_CORRECT_EDITION - 1); // 1개는 ontology 정상 항목
 
-// ── ontology 실제 사례: 15%(확인됨) vs 출판본 14% + 정상 1개 ─────────────
+// ── ontology 실제 사례: 초안 14%(워킹페이퍼 w31161 수치로 확인됨) vs 최종 출판본(QJE 2025) 15% + 정상 1개 ──
+// 2026-11-23 정정: 이전 판은 두 판본 수치가 뒤바뀌어 있었다(초안 15% vs 출판본 14%). 문장·발췌는 정정된 시드(data/seed)에서 가져온다.
 const v1 = JSON.parse(fs.readFileSync(path.join(ROOT, 'bench', 'tasks.json'), 'utf8')).items;
 const v1truth = JSON.parse(fs.readFileSync(path.join(ROOT, 'bench', 'truth.json'), 'utf8'));
+const seedSrc = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'seed', 'sources.json'), 'utf8')).sources;
 const fromV1 = (origin) => v1.find((x) => v1truth[x.id].source_origin === origin);
 const sc = fromV1('ontology:skill_compression');
-items.push({ sentences: sc.sentences, sources: sc.sources.map((s) => ({ ...s, edition: s.edition.includes('QJE') ? '최종 출판본(QJE 2025)' : '워킹페이퍼(이전 판본)' })), truth: { label: 'error', error_type: 'edition', mutated_idx: 0, from: '15', to: '14', keys: ['14', '15', '출판', 'QJE', '판본'], real_case: true }, label: sc.label, origin: 'ontology:skill_compression' });
+items.push({
+  sentences: sc.sentences.map((t, i) => (i === 0 ? t.replace('평균 15% 향상', '평균 14% 향상') : t)),
+  sources: sc.sources.map((s) => ({ ...s, label: seedSrc[s.key]?.label ?? s.label, text: seedSrc[s.key]?.text ?? s.text, edition: s.key === 'qje-2025-140-2' ? '최종 출판본(QJE 2025)' : '워킹페이퍼(이전 판본)' })),
+  truth: { label: 'error', error_type: 'edition', mutated_idx: 0, from: '14', to: '15', keys: ['14', '15', '출판', 'QJE', '판본'], real_case: true },
+  label: sc.label, origin: 'ontology:skill_compression',
+});
 const jf = fromV1('ontology:jagged_frontier');
 items.push({ sentences: jf.sentences, sources: jf.sources, truth: { label: 'correct', error_type: null, keys: [] }, label: jf.label, origin: 'ontology:jagged_frontier' });
 

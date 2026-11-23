@@ -1,4 +1,4 @@
-// 난이도 파일럿(사전 등록 규칙): 평가에 쓰지 않는 모델(claude-sonnet)이 화면 없이 초안+원문 전문을 보고 2회 판정.
+// 난이도 파일럿(실행 전 커밋한 분석 계획의 규칙, 커밋 2307a01): 평가에 쓰지 않는 모델(claude-sonnet)이 화면 없이 초안+원문 전문을 보고 2회 판정.
 // 2회 모두 정답과 다르면 '바닥(라벨 의심)' → bench/v2/pilot-exclude.json 에 문서 ID 추가 → build-hard 재생성.
 // 사용: node bench/v2/pilot-difficulty.mjs [--round 1]
 import fs from 'node:fs';

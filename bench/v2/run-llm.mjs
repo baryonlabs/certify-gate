@@ -1,4 +1,4 @@
-// 실험 3: 주의가 제한된 LLM 인증자 (사전 등록: docs/PREREG_v2.md)
+// 실험 3: 주의가 제한된 LLM 인증자 (실행 전 커밋한 분석 계획: docs/PREREG_v2.md, 커밋 2307a01)
 // 사용: node bench/v2/run-llm.mjs --models claude-haiku,codex --variants normal,rushed --conds A,B --tag v2-exp3 [--limit N] [--budget 700] [--rounds 3]
 import fs from 'node:fs';
 import path from 'node:path';

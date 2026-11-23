@@ -86,18 +86,18 @@
    "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
   },
   "nber-w31161-wp": {
-   "label": "Brynjolfsson, Li & Raymond, Generative AI at Work, NBER Working Paper 31161",
-   "edition": "워킹페이퍼 개정판",
+   "label": "Brynjolfsson, Li & Raymond (2023). Generative AI at Work. NBER Working Paper 31161",
+   "edition": "NBER 워킹페이퍼(2023, 이전 판본)",
    "url": "https://www.nber.org/papers/w31161",
-   "text": "We study the staggered introduction of a generative AI-based conversational assistant using data from customer support agents. Access to AI assistance increases worker productivity, as measured by issues resolved per hour, by 15% on average, with substantial heterogeneity across workers. Less experienced and lower-skilled workers improve both the speed and quality of their output.",
+   "text": "We study the staggered introduction of a generative AI-based conversational assistant using data from 5,179 customer support agents. Access to the tool increases productivity, as measured by issues resolved per hour, by 14% on average, with the greatest impact on novice and low-skilled workers (a 34% improvement), and minimal impact on experienced and highly skilled workers.",
    "kind": "reconstructed",
    "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
   },
   "qje-2025-140-2": {
    "label": "Brynjolfsson, Li & Raymond (2025). Generative AI at Work. Quarterly Journal of Economics 140(2)",
-   "edition": "QJE 2025 출판본",
+   "edition": "QJE 2025 출판본(최종)",
    "url": "https://doi.org/10.1093/qje/qjae044",
-   "text": "We study the staggered introduction of a generative AI-based conversational assistant using data from customer support agents. Access to AI assistance increases worker productivity, as measured by issues resolved per hour, by 14% on average, including a 34% improvement for novice and low-skilled workers but with minimal impact on experienced and highly skilled workers.",
+   "text": "We study the staggered introduction of a generative AI-based conversational assistant using data from 5,172 customer-support agents. Access to AI assistance increases worker productivity, as measured by issues resolved per hour, by 15% on average, with substantial heterogeneity across workers. Less experienced and lower-skilled workers improve both the speed and quality of their output, while the most experienced and highest-skilled workers see small gains in speed and small declines in quality.",
    "kind": "reconstructed",
    "note": "저자가 서지 정보와 공개 초록을 바탕으로 재구성한 발췌. 원문 직접 인용이 아니므로 실제 인증 시 원문 링크를 확인할 것."
   },

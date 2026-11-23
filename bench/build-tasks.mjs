@@ -1,4 +1,4 @@
-// 벤치마크 과제 세트 생성: SciFact 27 + ontology.json 실제 항목 16 (15%/14% 판본 사례 포함) = 43
+// 벤치마크 과제 세트 생성: SciFact 27 + ontology.json 실제 항목 16 (판본 사례 포함: 초안 14%=워킹페이퍼 vs 출판본 15%) = 43
 // 출력: bench/tasks.json (서버가 읽는 항목, 정답 없음), bench/truth.json (정답·오류 유형, 서버는 읽지 않음)
 import fs from 'node:fs';
 import { termToItem } from '../src/ontology.js';
@@ -33,7 +33,7 @@ const ON_CORRECT = ['gettier_problem', 'ontology_spec', 'knowledge_spillover', '
 const ON_ERRORS = {
   seci: { type: 'unsupported', native: true, keys: ['Ba', '장', '출처에 없', '근거 없', '언급'] },
   collective_tacit: { type: 'unsupported', native: true, keys: ['Collins', 'Polanyi', '출처에 없', '근거 없', '다른 출처'] },
-  skill_compression: { type: 'edition', native: true, keys: ['14', '출판', '판본', 'QJE'] },
+  skill_compression: { type: 'edition', native: true, keys: ['15', '14', '출판', '판본', 'QJE'] }, // 2026-11-23 정정: 초안 14%(워킹페이퍼), 출판본 15%
   transaction_cost: { type: 'year', from: '1937', to: '1973', keys: ['1973', '1937'] },
   tacit_knowledge: { type: 'year', from: '1958', to: '1962', keys: ['1962', '1958'] },
   certification_premium: { type: 'number', from: '56%', to: '65%', keys: ['65', '56'] },

@@ -51,10 +51,10 @@ test('쟁점 항목: 대조 전 서명 비활성 → 대조·쟁점 처리 후 �
   expect(exp.terms.find((t) => t.id === 'autonomy').status).toBe('certified');
 });
 
-test('15% 초안 vs 14% 출판본: 불일치 강조, 사유 없는 보류 거부, 보류 시 초안 복귀', async ({ page, request }) => {
+test('14% 초안(워킹페이퍼) vs 15% 출판본: 불일치 강조, 사유 없는 보류 거부, 보류 시 초안 복귀', async ({ page, request }) => {
   await page.goto('/certify.html?id=skill_compression');
   await expect(page.locator('body[data-ready="1"]')).toBeAttached();
-  await expect(page.locator('[data-sentence="0"] [data-flag=edition]')).toContainText('15');
+  await expect(page.locator('[data-sentence="0"] [data-flag=edition]')).toContainText('14');
   await expect(page.locator('[data-sentence="0"]')).toHaveClass(/flagged/);
   await page.click('[data-act=view-0]');
   await expect(page.locator('.ss.on')).toHaveCount(1);
@@ -62,7 +62,7 @@ test('15% 초안 vs 14% 출판본: 불일치 강조, 사유 없는 보류 거부
   await shot(page, '05-edition-mismatch');
   await page.click('[data-act=hold]');
   await expect(page.locator('[data-region=error]')).toContainText('사유');
-  await page.fill('[data-act=reason]', 'QJE 2025 출판본 원문은 14%. 초안 15%는 워킹페이퍼 판본 수치');
+  await page.fill('[data-act=reason]', 'QJE 2025 출판본 원문은 15%. 초안 14%는 워킹페이퍼 판본 수치');
   await page.click('[data-act=hold]');
   await expect(page.locator('[data-region=done] [data-status=draft]')).toBeVisible();
   await shot(page, '06-hold-to-draft');

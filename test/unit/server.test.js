@@ -82,10 +82,10 @@ test('사람이 대조 완료 후 승인 → certified, 로그·내보내기·�
   assert.equal(JSON.parse(fs.readFileSync(path.join(dataDir, 'ontology.json'), 'utf8')).terms.find((x) => x.id === 'gettier_problem').status, 'certified');
 });
 
-test('보류 → draft 복귀(사유 필수), 15% 사례', async () => {
+test('보류 → draft 복귀(사유 필수), 14%/15% 판본 사례', async () => {
   const { body: { session_id } } = await call('POST', '/api/sessions', { item_id: 'skill_compression' });
   assert.equal((await call('POST', `/api/sessions/${session_id}/decision`, { decision: 'hold', reason: '' })).status, 400);
-  const r = await call('POST', `/api/sessions/${session_id}/decision`, { decision: 'hold', reason: 'QJE 출판본은 14%, 초안 15%는 워킹페이퍼 판본' });
+  const r = await call('POST', `/api/sessions/${session_id}/decision`, { decision: 'hold', reason: 'QJE 출판본은 15%, 초안 14%는 워킹페이퍼 판본' });
   assert.equal(r.body.to_status, 'draft');
   assert.equal((await call('GET', '/api/items/skill_compression')).body.status, 'draft');
 });

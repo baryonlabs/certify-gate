@@ -1,4 +1,4 @@
-// 인증 화면(그림 5): 초안 ↔ 1차 출처 나란히, 불일치 강조, 대조 체크·쟁점 검토 게이트
+// 인증 화면(논문 그림 4): 초안 ↔ 1차 출처 나란히, 불일치 강조, 대조 체크·쟁점 검토 게이트
 import { api, header, statusBadge, esc, icon, qs, sourceHtml, sourceSentences } from '/common.js';
 
 const $ = (id) => document.getElementById(id);

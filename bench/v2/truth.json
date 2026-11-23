@@ -360,8 +360,8 @@
   "label": "error",
   "error_type": "edition",
   "mutated_idx": 0,
-  "from": "15",
-  "to": "14",
+  "from": "14",
+  "to": "15",
   "keys": [
    "14",
    "15",
@@ -372,7 +372,8 @@
   "real_case": true,
   "origin": "ontology:skill_compression",
   "n_sentences": 2,
-  "source_chars": 754
+  "source_chars": 877,
+  "note": "2026-11-23 정정: 초안=워킹페이퍼 수치(14%), 정답=출판본(QJE 2025) 15%. 이전 판은 두 판본 수치가 뒤바뀌어 있었음(BENCHMARK_v2.md 정정 절)"
  },
  "H030": {
   "label": "correct",

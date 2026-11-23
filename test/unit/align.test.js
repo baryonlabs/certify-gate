@@ -7,16 +7,16 @@ test('숫자 추출: 식별자 속 숫자는 무시, 쉼표·가운뎃점 정규
   assert.deepEqual(numbersIn('CX3CR1 and Kir7.1 in 5,179 agents, 11·9 million'), ['5179', '11.9']);
 });
 
-test('15% 초안 vs 14% 출판본: 판본 불일치 강조', () => {
+test('14% 초안(워킹페이퍼) vs 15% 출판본: 판본 불일치 강조', () => {
   const it = {
-    sentences: ['생산성이 평균 15% 향상.'],
+    sentences: ['생산성이 평균 14% 향상.'],
     sources: [
-      { edition: '워킹페이퍼', text: 'productivity by 15% on average.' },
-      { edition: '출판본', text: 'productivity by 14% on average.' },
+      { edition: '워킹페이퍼', text: 'productivity by 14% on average.' },
+      { edition: '출판본', text: 'productivity by 15% on average.' },
     ],
   };
   const f = analyze(it)[0].flags;
-  assert.ok(f.some((x) => x.type === 'edition' && x.token === '15'));
+  assert.ok(f.some((x) => x.type === 'edition' && x.token === '14'));
 });
 
 test('원문에 없는 연도는 year 플래그', () => {
@@ -25,7 +25,7 @@ test('원문에 없는 연도는 year 플래그', () => {
 });
 
 test('쟁점 정의를 두 해석으로 분리', () => {
-  assert.equal(parseInterpretations('[쟁점] 14%(출판본) vs 15%(이전 판본)').length, 2);
+  assert.equal(parseInterpretations('[쟁점] 15%(출판본) vs 14%(워킹페이퍼)').length, 2);
   assert.equal(parseInterpretations('일반 정의'), null);
 });
 

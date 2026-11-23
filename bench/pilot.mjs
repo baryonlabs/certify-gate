@@ -16,7 +16,7 @@ const truth = JSON.parse(fs.readFileSync(path.join(ROOT, 'bench', 'truth.json'),
 let s = SEED;
 const rnd = () => ((s = (s * 1103515245 + 12345) % 2 ** 31) / 2 ** 31);
 const shuf = (x) => { for (let i = x.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [x[i], x[j]] = [x[j], x[i]]; } return x; };
-// 층화 추출: 오류 ≈ 45%, 쟁점 1개, 나머지 정상. 15%/14% 사례(skill_compression)는 항상 포함
+// 층화 추출: 오류 ≈ 45%, 쟁점 1개, 나머지 정상. 14%(워킹페이퍼)/15%(출판본) 판본 사례(skill_compression)는 항상 포함
 const by = (l) => shuf(tasks.filter((t) => truth[t.id].label === l).map((t) => t.id));
 const must = tasks.find((t) => truth[t.id].source_origin === 'ontology:skill_compression').id;
 const nErr = Math.round(N * 0.45), nCt = 1;

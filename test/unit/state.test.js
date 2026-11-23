@@ -29,7 +29,7 @@ test('보류/거부는 사유 필수이며 draft로 복귀', () => {
   for (const d of ['hold', 'reject']) {
     assert.equal(code(() => decide(item(), human, { decision: d, reason: '' })), 'reason_required');
     assert.equal(code(() => decide(item(), human, { decision: d, reason: '짧음' })), 'reason_required');
-    const n = decide(item(), human, { decision: d, reason: '출판본은 14%임' });
+    const n = decide(item(), human, { decision: d, reason: '출판본은 15%임' });
     assert.equal(n.status, 'draft');
     assert.equal(n.last_decision.decision, d);
   }
