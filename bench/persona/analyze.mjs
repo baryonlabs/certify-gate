@@ -127,6 +127,26 @@ const accByHit = {};
 for (const v of variants) for (const h of [true, false]) { const xs = A.filter((r) => r.variant === v && r.hit_loose === h); accByHit[`${v}|hit=${h}`] = { n: xs.length, mean_score: mean(xs.map((r) => r.score)) }; }
 for (const v of variants) { const xs = recs.filter((r) => r.cond === 'B' && r.variant === v); accByHit[`${v}|B`] = { n: xs.length, mean_score: mean(xs.map((r) => r.score)) }; }
 
+// 응답 방식별 정확도(사후 분석, 논문 표 5): A를 '선택만 / 선택+교정 / 모두 틀림(+교정)'으로 나눔. 적중은 엄격 기준(hit_strict).
+const modeOf = (r) => (r.none_correct ? 'none_correct' : r.picks > 0 && r.corrected ? 'pick_corrected' : r.picks > 0 ? 'pick_only' : 'other');
+const MODES = ['pick_only', 'pick_corrected', 'none_correct'];
+const MODE_KO = { pick_only: '예상 답 선택만', pick_corrected: '선택 후 교정 입력', none_correct: "'모두 틀림'+직접 입력", other: '기타(선택·모두 틀림 없음)' };
+const ms = (xs) => ({ n: xs.length, mean_score: xs.length ? mean(xs.map((r) => r.score)) : null });
+const byMode = {};
+for (const v of [...variants, 'all']) {
+  const Av = A.filter((r) => v === 'all' || r.variant === v);
+  const Bv = recs.filter((r) => r.cond === 'B' && (v === 'all' || r.variant === v));
+  const row = { A_total: Av.length };
+  for (const m of [...MODES, 'other']) row[m] = { ...ms(Av.filter((r) => modeOf(r) === m)), share_of_A: Av.length ? Av.filter((r) => modeOf(r) === m).length / Av.length : null };
+  const po = Av.filter((r) => modeOf(r) === 'pick_only');
+  row.pick_only_hit_strict = ms(po.filter((r) => r.hit_strict));
+  row.pick_only_miss_strict = ms(po.filter((r) => !r.hit_strict));
+  row.A_hit_strict = ms(Av.filter((r) => r.hit_strict));
+  row.A_miss_strict = ms(Av.filter((r) => !r.hit_strict));
+  row.B = ms(Bv);
+  byMode[v] = row;
+}
+
 // 채점자 일치
 const agreement = { score_weighted_kappa: wkappa(recs.map((r) => r.s1), recs.map((r) => r.s2)), score_exact_agree: mean(recs.map((r) => (r.s1 === r.s2 ? 1 : 0))), rules_mean_abs_diff: mean(recs.map((r) => Math.abs(r.r1 - r.r2))), hits_kappa: kappa2(hitRows.flatMap((h) => h.m[0]), hitRows.flatMap((h) => h.m[1])), hits_agree: mean(hitRows.flatMap((h) => h.m[0].map((x, k) => (x === h.m[1][k] ? 1 : 0)))) };
 // 채점자별 주 비교(자기 계열 편향 점검)
@@ -134,7 +154,7 @@ const byJudge = {};
 for (const [j, key] of [[J[0], 's1'], [J[1], 's2']]) for (const v of variants) byJudge[`${j}|${v}`] = compare(`accuracy by ${j}`, v, (r) => r[key]);
 
 const status = JSON.parse(fs.readFileSync(path.join(DIR, 'run-status.json'), 'utf8'));
-const summary = { tag: TAG, label: 'LLM 시뮬레이션 — 사람 증거 아님', personas_complete: pids.length, records: recs.length, run_status: status, M1_hit_rate: M1, M2_anchoring: M2, H_anchor: Hanchor, exploratory_wrong_pick_rushed: WrongPickRushed, H_acc: { normal: { ...accN, equivalent_within_0_3: eq(accN) }, rushed: { ...accR, equivalent_within_0_3: eq(accR) } }, comparisons: comps, accuracy_by_hit: accByHit, judge_agreement: agreement, accuracy_by_judge: byJudge };
+const summary = { tag: TAG, label: 'LLM 시뮬레이션 — 사람 증거 아님', personas_complete: pids.length, records: recs.length, run_status: status, M1_hit_rate: M1, M2_anchoring: M2, H_anchor: Hanchor, exploratory_wrong_pick_rushed: WrongPickRushed, H_acc: { normal: { ...accN, equivalent_within_0_3: eq(accN) }, rushed: { ...accR, equivalent_within_0_3: eq(accR) } }, comparisons: comps, accuracy_by_hit: accByHit, judge_agreement: agreement, accuracy_by_judge: byJudge, accuracy_by_response_mode: byMode };
 fs.mkdirSync(path.join(HERE, 'results'), { recursive: true });
 fs.writeFileSync(path.join(HERE, 'results', `summary-${TAG}.json`), JSON.stringify(summary, null, 1));
 fs.writeFileSync(path.join(HERE, 'results', `records-${TAG}.json`), JSON.stringify(recs, null, 1));
@@ -154,6 +174,16 @@ for (const c of comps) md += `| ${c.name} | ${c.variant} | ${c.arm} | ${c.n_pers
 md += `\nH-acc(동등성 여유 ±0.3): normal ${eq(accN) ? '비슷함(CI가 ±0.3 안)' : '비슷하다고 할 수 없음'}, rushed ${eq(accR) ? '비슷함' : '비슷하다고 할 수 없음'}\n`;
 md += `\n### 적중 여부별 A 정확도(평균 0–2)\n\n| 변형 | A 적중 있음 | A 적중 없음 | B |\n|---|---|---|---|\n`;
 for (const v of variants) md += `| ${v} | ${f(accByHit[`${v}|hit=true`].mean_score)} (n=${accByHit[`${v}|hit=true`].n}) | ${f(accByHit[`${v}|hit=false`].mean_score)} (n=${accByHit[`${v}|hit=false`].n}) | ${f(accByHit[`${v}|B`].mean_score)} (n=${accByHit[`${v}|B`].n}) |\n`;
+const VK = { normal: '보통', rushed: '바쁨', all: '합산' };
+md += `\n### 응답 방식별 정확도(사후 분석, 평균 0–2, 괄호는 건수; 적중은 엄격 기준)\n\n| 응답 방식 | ${['normal', 'rushed', 'all'].map((v) => VK[v]).join(' | ')} | A 중 비율(합산) |\n|---|---|---|---|---|\n`;
+const cell = (x) => `${f(x.mean_score)} (${x.n})`;
+for (const m of MODES) md += `| ${MODE_KO[m]} | ${['normal', 'rushed', 'all'].map((v) => cell(byMode[v][m])).join(' | ')} | ${f(100 * byMode.all[m].share_of_A, 0)}% |\n`;
+if (byMode.all.other.n) md += `| ${MODE_KO.other} | ${['normal', 'rushed', 'all'].map((v) => cell(byMode[v].other)).join(' | ')} | ${f(100 * byMode.all.other.share_of_A, 0)}% |\n`;
+md += `| ↳ 선택만 중 적중 | ${['normal', 'rushed', 'all'].map((v) => cell(byMode[v].pick_only_hit_strict)).join(' | ')} | – |\n`;
+md += `| ↳ 선택만 중 비적중 | ${['normal', 'rushed', 'all'].map((v) => cell(byMode[v].pick_only_miss_strict)).join(' | ')} | – |\n`;
+md += `| A 전체 중 적중 | ${['normal', 'rushed', 'all'].map((v) => cell(byMode[v].A_hit_strict)).join(' | ')} | – |\n`;
+md += `| A 전체 중 비적중 | ${['normal', 'rushed', 'all'].map((v) => cell(byMode[v].A_miss_strict)).join(' | ')} | – |\n`;
+md += `| (B) 직접 서술 | ${['normal', 'rushed', 'all'].map((v) => cell(byMode[v].B)).join(' | ')} | – |\n`;
 md += `\n### 채점자 일치·채점자별 결과\n\n- 정확도 점수: 가중 κ ${f(agreement.score_weighted_kappa)}, 완전 일치 ${f(100 * agreement.score_exact_agree, 0)}%; 규칙 수 평균 절대차 ${f(agreement.rules_mean_abs_diff)}\n- 예상 이유 적중: κ ${f(agreement.hits_kappa)}, 일치 ${f(100 * agreement.hits_agree, 0)}%\n`;
 for (const [k, c] of Object.entries(byJudge)) md += `- ${k}: A ${f(c.mean_A)} vs B ${f(c.mean_B)}, 차이 ${f(c.diff)} [${f(c.ci95[0])}, ${f(c.ci95[1])}], 윌콕슨 p=${pv(c.wilcoxon.p)}\n`;
 fs.writeFileSync(path.join(HERE, 'results', `tables-${TAG}.md`), md);
